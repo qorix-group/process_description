@@ -150,4 +150,5 @@ S-CORE Roles list
    results = []
 
    for need in needs.filter_types(["role"]):
+         if need['is_external'] == False:
                 results.append(need)

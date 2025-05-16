@@ -90,7 +90,7 @@ How To Contribute
 
 How to contribute to the S-CORE project (e.g. naming convention, folder structure, IDE setup) can be found here:
 
-:ref:`contribute`
+:ref:`SCORE_contribute`
 
 Standards
 ---------

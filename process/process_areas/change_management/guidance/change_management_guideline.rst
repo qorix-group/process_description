@@ -25,7 +25,7 @@ This document describes the general guidances for Change Management based on the
 General Hints
 =============
 
-The detailed implementation of the Change Management for **S-CORE** is described in the :need:`[[title]]<doc__platform_change_management_plan>`.
+The detailed implementation of the Change Management for **S-CORE** is described in the :need:`[[title]]<SCORE_doc__platform_change_management_plan>`.
 
 Templates
 ---------
@@ -55,7 +55,7 @@ For all Change Requests following mandatory attributes need to be defined:
 
 .. needtable:: Overview of mandatory change request attributes
    :tags: change_management
-   :filter: "mandatory" in tags and "attribute" in tags and "chm" in tags
+   :filter: "mandatory" in tags and "attribute" in tags and "chm" in tags and is_external == False
    :style: table
    :columns: title
    :colwidths: 30
@@ -80,7 +80,7 @@ Split may required, if
 
 | 2. Affected work products are in different locations.
 
-Refer to the :need:`Change Management Plan <doc__platform_change_management_plan>` for examples
+Refer to the :need:`Change Management Plan <SCORE_doc__platform_change_management_plan>` for examples
 how to create simple or more complex Change Requests.
 
 .. list-table:: Activities for Change Request

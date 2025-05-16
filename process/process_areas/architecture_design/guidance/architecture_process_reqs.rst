@@ -105,7 +105,7 @@ Attributes of Architectural Elements
       * last part of the feature tree
       * keyword describing the content of the requirement.
 
-   The naming convention is defined here: :ref:`naming_convention_needs`
+   The naming convention is defined here: :ref:`SCORE_naming_convention_needs`
 
 .. gd_req:: Architecture attribute: security
    :id: gd_req__arch_attr_security
@@ -179,7 +179,7 @@ Checks for Architectural Design
    It shall be checked if all mandatory attributes for each architectural element is provided by the user. For all elements following attributes shall be mandatory:
 
    .. needtable:: Overview mandatory requirement attributes
-      :filter: "mandatory" in tags and "attribute" in tags and "architecture_design" in tags and type == "gd_req"
+      :filter: "mandatory" in tags and "attribute" in tags and "architecture_design" in tags and type == "gd_req" and is_external == False
       :style: table
       :columns: title
       :colwidths: 30

@@ -107,7 +107,7 @@ This document implements <add "need" link>
           - <automated>
 
         * - :need:`wp__module_sw_build_config`
-          - :ref:`sw_development`
+          - :need:`SW Development Plan <SCORE_doc__software_development_plan>`
           - <automated>
           - <Link to issue>
           - <Link to WP>

@@ -18,5 +18,5 @@
 
    aspice
 
-.. needextend:: "standards/aspice_40" in docname
+.. needextend:: docname is not None and "process/standards/aspice_40" in docname
    :+tags: aspice_40

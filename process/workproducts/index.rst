@@ -196,4 +196,5 @@ S-CORE Work product list
    results = []
 
    for need in needs.filter_types(["workproduct"]):
+      if need['is_external'] == False:
                 results.append(need)

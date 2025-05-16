@@ -62,5 +62,5 @@ Work Products Change Management
    | which changes the scope of the component.
    | Software Modules are also Components (top-level component).
 
-.. needextend:: "docs/process/change_management" in docname
+.. needextend:: docname is not None and "process_areas/change_management" in docname
    :+tags: change_management

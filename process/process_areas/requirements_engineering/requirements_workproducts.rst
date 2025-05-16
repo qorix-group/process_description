@@ -60,5 +60,5 @@ Workproducts Requirements Engineering
    |
    | Compare also `Gitub documentationt <https://docs.github.com/en>`_
 
-.. needextend:: "docs/process/requirements_engineering" in docname
+.. needextend:: docname is not None and "process_areas/requirements_engineering" in docname
    :+tags: requirements_engineering
