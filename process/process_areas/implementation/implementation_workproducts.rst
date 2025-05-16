@@ -46,5 +46,5 @@ Workproducts Implementation
    - Method selection (e.g. for Architecture Verification)
    - development tools
 
-.. needextend:: "docs/process/implementation" in docname
+.. needextend:: docname is not None and "process_areas/implementation" in docname
    :+tags: implementation

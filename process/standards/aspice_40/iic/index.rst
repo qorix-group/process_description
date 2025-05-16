@@ -52,4 +52,4 @@ Appendix
 .. needtable:: General Practices
    :style: datatables
    :columns: id;title;status;content
-   :filter: id.startswith("std_req__aspice_40__iic")
+   :filter: id.startswith("std_req__aspice_40__iic") and is_external == False

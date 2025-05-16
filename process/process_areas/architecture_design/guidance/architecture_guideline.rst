@@ -33,7 +33,7 @@ Attributes
 For all architectural need elements following mandatory attributes are defined:
 
 .. needtable:: Overview of mandatory attributes
-   :filter: "mandatory" in tags and "attribute" in tags and "architecture_design" in tags and type == "gd_req"
+   :filter: "mandatory" in tags and "attribute" in tags and "architecture_design" in tags and type == "gd_req" and is_external == False
    :style: table
    :columns: title; id
    :colwidths: 30,70
@@ -45,7 +45,7 @@ Checks
 For architectural elements following checks are defined:
 
 .. needtable:: Overview of checks on architectural elements
-   :filter: "check" in tags and "attribute" in tags and "architecture_design" in tags and type == "gd_req"
+   :filter: "check" in tags and "attribute" in tags and "architecture_design" in tags and type == "gd_req" and is_external == False
    :style: table
    :columns: title; id
    :colwidths: 30,70
@@ -106,8 +106,8 @@ Based on this template the feature architecture shall describe the concept of th
 
 For this step following guidances are available:
 
-* :ref:`Branch Naming Conventions <branch_naming>`
-* :ref:`Git Guidelines <git_guidelines>`
+* :ref:`Branch Naming Conventions <SCORE_branch_naming>`
+* :ref:`Git Guidelines <SCORE_git_guidelines>`
 * :need:`[[title]] Feature Architecture <gd_temp__arch__feature>`
 
 .. _model_feature_architecture:
@@ -178,8 +178,8 @@ Based on the *feature architecture* the concept for the *component architecture*
 
 For this step following guidances are available:
 
-* :ref:`Branch Naming Conventions <branch_naming>`
-* :ref:`Git Guidelines <git_guidelines>`
+* :ref:`Branch Naming Conventions <SCORE_branch_naming>`
+* :ref:`Git Guidelines <SCORE_git_guidelines>`
 * :need:`[[title]] <gd_temp__arch__comp>`
 
 .. _allocate_component_requirements:

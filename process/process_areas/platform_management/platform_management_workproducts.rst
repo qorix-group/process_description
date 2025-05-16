@@ -47,5 +47,5 @@ Work Products Platform Management
 
    Defines escalation path.
 
-.. needextend:: "docs/process/platform_management" in docname
+.. needextend:: docname is not None and "process_areas/platform_management" in docname
    :+tags: platform_management

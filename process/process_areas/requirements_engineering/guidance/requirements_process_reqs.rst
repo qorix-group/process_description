@@ -52,7 +52,7 @@ Process Requirement Attributes
       * last part of the feature tree
       * keyword describing the content of the requirement.
 
-   The naming convention is defined here: :ref:`naming_convention_needs`
+   The naming convention is defined here: :ref:`SCORE_naming_convention_needs`
 
 .. gd_req:: Requirement attribute: title
    :id: gd_req__requirements_attr_title
@@ -224,7 +224,7 @@ Process Requirements Checks
    It shall be checked if all mandatory attributes for each requirement is provided by the user. For all requirements following attributes shall be mandatory:
 
    .. needtable:: Overview mandatory requirement attributes
-      :filter: "mandatory" in tags and "attribute" in tags and "requirements_engineering" in tags and type == "gd_req"
+      :filter: "mandatory" in tags and "attribute" in tags and "requirements_engineering" in tags and type == "gd_req" and is_external == False
       :style: table
       :columns: title
       :colwidths: 30
@@ -271,5 +271,5 @@ Process Requirements Checks
 
    It shall be checked that safety requirements (Safety != QM) can only be linked against safety requirements.
 
-.. needextend:: "process_areas/requirements_engineering" in docname
+.. needextend:: docname is not None and "process_areas/requirements_engineering" in docname
    :+tags: requirements_engineering

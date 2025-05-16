@@ -33,5 +33,5 @@ Process Requirements
 
    The dynamic diagram represents the unit and their relationships using UML 2.0 notations by using PlantUML.
 
-.. needextend:: "process_areas/implementation" in docname
+.. needextend:: docname is not None and "process_areas/implementation" in docname
    :+tags: implementation

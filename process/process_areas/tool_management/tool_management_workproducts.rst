@@ -35,5 +35,5 @@ Work Products Tool Management
    the method **validation of software tool** must be used.
 
 
-.. needextend:: "docs/process/tool_management" in docname
+.. needextend:: docname is not None and "docs/process/tool_management" in docname
    :+tags: tool_management

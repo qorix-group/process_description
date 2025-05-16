@@ -25,7 +25,7 @@ This document describes the general guidances for Problem Resolution based on th
 General Hints
 =============
 
-The detailed implementation of the Problem Resolution for **S-CORE** is described in the :need:`[[title]]<doc__platform_problem_resolution_plan>`.
+The detailed implementation of the Problem Resolution for **S-CORE** is described in the :need:`[[title]]<SCORE_doc__platform_problem_resolution_plan>`.
 
 Templates
 ---------
@@ -39,7 +39,7 @@ For all Problems following mandatory attributes need to be defined:
 
 .. needtable:: Overview of mandatory problem resolution attributes
    :tags: problem_resolution
-   :filter: "mandatory" in tags and "attribute" and "problem_resolution" in tags
+   :filter: "mandatory" in tags and "attribute" and "problem_resolution" in tags and is_external == False
    :style: table
    :columns: title
    :colwidths: 30
@@ -54,7 +54,7 @@ Activities for Problem Resolution
 
 This section describes in detail which steps need to be performed for a Problem resolution.
 
-Refer to the :need:`Problem Resolution Plan <doc__platform_problem_resolution_plan>` for examples
+Refer to the :need:`Problem Resolution Plan <SCORE_doc__platform_problem_resolution_plan>` for examples
 how to create problem reports.
 
 .. list-table:: Activities for Problem Resolution

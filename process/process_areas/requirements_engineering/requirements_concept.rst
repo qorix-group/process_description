@@ -226,7 +226,7 @@ For each requirement a hash shall be calculated and stored in its dedicated own 
 .. _requirement_mandatory_attributes:
 
 .. needtable:: Overview mandatory requirement attributes
-   :filter: "mandatory" in tags and "attribute" in tags and "requirements_engineering" in tags and type == "gd_req"
+   :filter: "mandatory" in tags and "attribute" in tags and "requirements_engineering" in tags and type == "gd_req" and is_external == False
    :style: table
    :columns: title;id
    :colwidths: 60,40

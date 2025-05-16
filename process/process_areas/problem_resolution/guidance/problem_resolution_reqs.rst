@@ -174,7 +174,7 @@ Problem Resolution Checks
    is provided by the user. For all requirements following attributes shall be mandatory:
 
    .. needtable:: Overview mandatory problem attributes
-      :filter: "mandatory" in tags and "attribute" and "problem_resolution" in tags
+      :filter: "mandatory" in tags and "attribute" and "problem_resolution" in tags and is_external == False
       :style: table
       :columns: title
       :colwidths: 30

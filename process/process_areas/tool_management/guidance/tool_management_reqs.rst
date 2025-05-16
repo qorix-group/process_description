@@ -85,7 +85,7 @@ Tool Verification Report Checks
    is provided by the user. For all requirements following attributes shall be mandatory:
 
    .. needtable:: Overview mandatory problem attributes
-      :filter: "mandatory" in tags and "attribute" and "tool_management" in tags
+      :filter: "mandatory" in tags and "attribute" and "tool_management" in tags and is_external == False
       :style: table
       :columns: title
       :colwidths: 30

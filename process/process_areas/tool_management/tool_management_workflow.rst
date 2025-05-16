@@ -39,7 +39,7 @@ Workflow Tool Management
    For creating the Tool Verification Report the content of the linked template be used.
 
 
-.. needextend:: "process_areas/tool_management" in docname
+.. needextend:: docname is not None and "process_areas/tool_management" in docname
    :+tags: tool_management
 
 RAS(IC) for Tool Management:
@@ -47,7 +47,7 @@ RAS(IC) for Tool Management:
 
 .. needtable:: RASIC Overview for Tool Management
    :tags: tool_management
-   :filter: "tool_management" in tags and type == "workflow"
+   :filter: "tool_management" in tags and type == "workflow" and is_external == False
    :style: table
    :sort: status
    :columns: id as "Activity";responsible as "Responsible";approved_by as "Approver";supported_by as "Supporter"

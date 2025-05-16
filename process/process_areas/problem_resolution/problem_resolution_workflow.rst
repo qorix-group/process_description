@@ -96,7 +96,7 @@ Workflow Problem Resolution
 
    Otherwise the :need:`Committer <rl__committer>` keeps the status "in implementation".
 
-.. needextend:: "process_areas/problem_resolution" in docname
+.. needextend:: docname is not None and "process_areas/problem_resolution" in docname
    :+tags: problem_resolution
 
 RAS(IC) for Problem Resolution:
@@ -104,7 +104,7 @@ RAS(IC) for Problem Resolution:
 
 .. needtable:: RASIC Overview for Problem Resolution
    :tags: problem_resolution
-   :filter: "problem_resolution" in tags and type == "workflow"
+   :filter: "problem_resolution" in tags and type == "workflow" and is_external == False
    :style: table
    :sort: status
    :columns: id as "Activity";responsible as "Responsible";approved_by as "Approver";supported_by as "Supporter"

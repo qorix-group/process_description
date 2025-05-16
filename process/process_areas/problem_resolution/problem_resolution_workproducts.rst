@@ -23,5 +23,5 @@ Work Products Problem Resolution
 
    Problem Resolution Plan (Part of the Platform Management Plan)
 
-.. needextend:: "docs/process/problem_resolution" in docname
+.. needextend:: docname is not None and "process_areas/problem_resolution" in docname
    :+tags: problem_resolution

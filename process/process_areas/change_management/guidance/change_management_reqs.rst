@@ -138,7 +138,7 @@ Change Request Checks
    is provided by the user. For all requirements following attributes shall be mandatory:
 
    .. needtable:: Overview mandatory change request attributes
-      :filter: "mandatory" in tags and "attribute" in tags and "chm" in tags
+      :filter: "mandatory" in tags and "attribute" in tags and "chm" in tags  and is_external == False
       :style: table
       :columns: title
       :colwidths: 30
@@ -159,5 +159,5 @@ Change Request Traceability Impact Analysis Tool
    It shall be reported, which work products and elements are affected by adding a new
    feature or component or by a modification of an existing feature or component.
 
-.. needextend:: "process_areas/change_management" in docname
+.. needextend:: docname is not None and "process_areas/change_management" in docname
    :+tags: change_management

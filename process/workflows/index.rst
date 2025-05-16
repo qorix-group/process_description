@@ -36,4 +36,5 @@ S-CORE Workflow list
    results = []
 
    for need in needs.filter_types(["workflow"]):
+         if need['is_external'] == False:
                 results.append(need)
