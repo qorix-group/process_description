@@ -71,7 +71,7 @@ Additionally tooling is provided to assist the :need:`[[title]] <rl__contributor
    :filter: "ide" in tags and type == "tool_req" and is_external == False
    :colwidths: 70,30
 
-A *HowTo* which describes the setup of the development environment for Sphinx Needs is available :ref:`here <SCORE_setting_up_dev_env>`.
+A *HowTo* which describes the setup of the development environment for Sphinx Needs is available :need:`here <SCORE_doc__develop_environment>`.
 
 For all RST files also a linter is configured, it will be automatically run in the CI upon check-in.
 Locally it can be run via
