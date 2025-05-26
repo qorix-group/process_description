@@ -16,6 +16,24 @@
 Safety Analysis : FMEA
 ======================
 
+.. document:: [Your Feature Name] FMEA
+   :id: doc__feature_name_fmea
+   :status: draft
+   :safety: ASIL_D
+   :realizes: wp__sw_feature_safety_analysis
+   :tags: template
+
+.. attention::
+    The above directive must be updated according to your Feature.
+
+    - Modify ``Your Feature Name`` to be your Feature Name
+    - Modify ``id`` to be your Feature Name in upper snake case preceded by ``doc__`` and succeeded by ``_fmea``
+    - Adjust ``status`` to be ``valid``
+    - Adjust ``safety`` and ``tags`` according to your needs
+
+Failure Mode List
+-----------------
+
 .. code-block:: rst
 
    .. feat_saf_fmea:: <Element descriptor>

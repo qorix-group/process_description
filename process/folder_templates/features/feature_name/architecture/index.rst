@@ -17,6 +17,21 @@
 Feature Architecture
 ====================
 
+.. document:: [Your Feature Name] Architecture
+   :id: doc__feature_name_architecture
+   :status: draft
+   :safety: ASIL_D
+   :realizes: wp__feature_arch
+   :tags: template
+
+.. attention::
+    The above directive must be updated according to your Feature.
+
+    - Modify ``Your Feature Name`` to be your Feature Name
+    - Modify ``id`` to be your Feature Name in upper snake case preceded by ``doc__`` and followed by ``_architecture``
+    - Adjust ``status`` to be ``valid``
+    - Adjust ``safety`` and ``tags`` according to your needs
+
 Overview
 --------
 Brief summary
@@ -106,8 +121,8 @@ The following modules are needed to be defined to be able to draw the static fea
 They will be replaced by linking the proper module definitions in the used module's repositories as soon as those exist.
 
 .. mod_view_sta:: Module Name
-   :id: mod_view_sta__feature_name_module_name
-   :includes: comp_arc_sta__feature_name_component_name
+   :id: mod_view_sta__feature_name__module_name
+   :includes: comp_arc_sta__feature_name__component_name
 
    .. needarch::
       :scale: 50
@@ -122,7 +137,7 @@ The following components are needed to be defined to be able to draw the static 
 They will be replaced by linking the proper SW component definitions in the used module's repositories as soon as those exist.
 
 .. comp_arc_sta:: Component Name
-   :id: comp_arc_sta__feature_name_component_name
+   :id: comp_arc_sta__feature_name__component_name
    :safety: ASIL_D
    :security: YES
    :status: invalid
@@ -133,5 +148,8 @@ They will be replaced by linking the proper SW component definitions in the used
    which can be shown without actual c++/rust interfaces and data types
    and there will be link to lower level architecture till code to get actual api descriptions.
 
-.. needextend:: "feature_name/architecture" in docname
-   :+tags: feature_name
+.. attention::
+    The above directives must be updated according to your feature architecture.
+
+    - Replace the example content by the real content (according to :need:`gd_guidl__arch__design`)
+    - Set the status to valid and start the review/merge process

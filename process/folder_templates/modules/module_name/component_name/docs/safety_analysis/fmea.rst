@@ -16,6 +16,24 @@
 Safety Analysis : FMEA
 ======================
 
+.. document:: [Your Component Name] FMEA
+   :id: doc__component_name_fmea
+   :status: draft
+   :safety: ASIL_D
+   :realizes: wp__sw_component_safety_analysis
+   :tags: template
+
+.. attention::
+    The above directive must be updated according to your Component.
+
+    - Modify ``Your Component Name`` to be your Component Name
+    - Modify ``id`` to be your Component Name in upper snake case preceded by ``doc__`` and succeeded by ``_fmea``
+    - Adjust ``status`` to be ``valid``
+    - Adjust ``safety`` and ``tags`` according to your needs
+
+Failure Mode List
+-----------------
+
 .. code-block:: rst
 
    .. comp_saf_fmea:: <Element descriptor>

@@ -20,7 +20,7 @@ Safety Manual
 .. document:: [Your Module Name] Safety Manual
    :id: doc__module_name_safety_manual
    :status: draft
-   :safety: ASIL_B
+   :safety: ASIL_D
    :realizes: wp__module_safety_manual
    :tags: template
 
@@ -28,7 +28,7 @@ Safety Manual
     The above directive must be updated according to your Module.
 
     - Modify ``Your Module Name`` to be your Module Name
-    - Modify ``id`` to be your Module Name in upper snake case preceded by ``doc_`` and succeeded by ``safety_manual``
+    - Modify ``id`` to be your Module Name in upper snake case preceded by ``doc__`` and succeeded by ``safety_manual``
     - Adjust ``status`` to be ``valid``
     - Adjust ``safety`` and ``tags`` according to your needs
 

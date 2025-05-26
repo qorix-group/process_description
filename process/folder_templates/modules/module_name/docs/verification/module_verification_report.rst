@@ -20,7 +20,7 @@ Verification Report
 .. document:: [Your Module Name] Verification Report
    :id: doc__module_name_verification_report
    :status: draft
-   :safety: ASIL_B
+   :safety: ASIL_D
    :realizes: wp__verification__module_ver_report
    :tags: template
 
@@ -33,7 +33,7 @@ Verification Report
     - Adjust ``safety`` and ``tags`` according to your needs
 
 
-This verification report is based on the :need:`doc__verification_plan`.
+This verification report is based on the :need:`SCORE_doc__verification_plan`.
 It covers all the components of the above stated module.
 
 Verification Report contains:

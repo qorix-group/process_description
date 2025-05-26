@@ -20,7 +20,7 @@ Module Safety Plan
 .. document:: [Your Module Name] Safety Plan
    :id: doc__module_name_safety_plan
    :status: draft
-   :safety: ASIL_B
+   :safety: ASIL_D
    :realizes: wp__module_safety_plan
    :tags: template
 
@@ -122,8 +122,8 @@ Module Workproducts List
           - <WP status (manual)>
 
         * - :need:`wp__module_sw_build_config`
-          - :need:`doc__software_development_plan`
-          - :ndf:`copy('status', need_id='doc__software_development_plan')`
+          - :need:`SCORE_doc__software_development_plan`
+          - :ndf:`copy('status', need_id='SCORE_doc__software_development_plan')`
           - <Link to issue>
           - <Link to WP>
           - <automated>
@@ -160,21 +160,21 @@ Component <name> Workproducts List
           - Process status
           - Link to issue
           - Link to WP
-          - WP status
+          - WP/doc status
 
         * - :need:`wp__requirements__comp`
           - :need:`gd_temp__req__comp_req`
           - :ndf:`copy('status', need_id='gd_temp__req__comp_req')`
           - <Link to issue>
-          - :doc:`../../component_name/docs/requirements/index`
-          - see below
+          - :need:`doc__component_name_requirements`
+          - doc :ndf:`copy('status', need_id='doc__component_name_requirements')` & WP below
 
         * - :need:`wp__requirements__comp_aou`
           - :need:`gd_temp__req__aou_req`
           - :ndf:`copy('status', need_id='gd_temp__req__aou_req')`
           - <Link to issue>
-          - :doc:`../../component_name/docs/requirements/index`
-          - see below
+          - :need:`doc__component_name_requirements`
+          - doc :ndf:`copy('status', need_id='doc__component_name_requirements')` & WP below
 
         * - :need:`wp__hsi`
           - <Link to process>
@@ -194,8 +194,8 @@ Component <name> Workproducts List
           - :need:`gd_temp__arch__comp`
           - :ndf:`copy('status', need_id='gd_temp__arch__comp')`
           - <Link to issue>
-          - :doc:`../../component_name/docs/architecture/index`
-          - see below
+          - :need:`doc__component_name_architecture`
+          - doc :ndf:`copy('status', need_id='doc__component_name_architecture')` & WP below
 
         * - :need:`wp__sw_arch_verification`
           - :need:`gd_chklst__arch__inspection_checklist`
@@ -208,15 +208,15 @@ Component <name> Workproducts List
           - <Link to process>
           - <automated>
           - <Link to issue>
-          - :doc:`../../component_name/docs/safety_analysis/fmea`
-          - <automated>
+          - :need:`doc__component_name_fmea`
+          - doc :ndf:`copy('status', need_id='doc__component_name_fmea')` & WP below
 
         * - :need:`wp__sw_component_dfa`
           - <Link to process>
           - <automated>
           - <Link to issue>
-          - :doc:`../../component_name/docs/safety_analysis/dfa`
-          - <automated>
+          - :need:`doc__component_name_dfa`
+          - doc :ndf:`copy('status', need_id='doc__component_name_dfa')` & WP below
 
         * - :need:`wp__sw_implementation`
           - :need:`gd_guidl__implementation`

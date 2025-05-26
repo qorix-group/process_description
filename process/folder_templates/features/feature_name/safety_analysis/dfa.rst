@@ -16,6 +16,24 @@
 Dependent Failure Analysis
 ==========================
 
+.. document:: [Your Feature Name] DFA
+   :id: doc__feature_name_dfa
+   :status: draft
+   :safety: ASIL_D
+   :realizes: wp__sw_feature_dfa
+   :tags: template
+
+.. attention::
+    The above directive must be updated according to your Feature.
+
+    - Modify ``Your Feature Name`` to be your Feature Name
+    - Modify ``id`` to be your Feature Name in upper snake case preceded by ``doc__`` and succeeded by ``_dfa``
+    - Adjust ``status`` to be ``valid``
+    - Adjust ``safety`` and ``tags`` according to your needs
+
+Dependent Failure Intitiators
+-----------------------------
+
 .. code-block:: rst
 
    .. feat_saf_dfa:: <Element descriptor>

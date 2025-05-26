@@ -20,13 +20,14 @@ Component Classification
 .. document:: [Your Component Name] Component Classification
    :id: doc__component_name_comp_class
    :status: draft
-   :safety: ASIL_B
+   :safety: ASIL_D
+   :realizes: wp__sw_component_class
    :tags: template
 
 .. attention::
     The above directive must be updated according to your Component.
 
-    - Modify ``document`` to be your Component Name
+    - Modify ``Your Component Name`` to be your Component Name
     - Modify ``id`` to be your Component Name in upper snake case preceded by ``doc__``
     - Adjust ``status`` to be ``valid``
     - Adjust ``safety`` and ``tags`` according to your needs
