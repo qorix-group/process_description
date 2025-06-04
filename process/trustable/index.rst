@@ -1,0 +1,99 @@
+..
+   # *******************************************************************************
+   # Copyright (c) 2025 Contributors to the Eclipse Foundation
+   #
+   # See the NOTICE file(s) distributed with this work for additional
+   # information regarding copyright ownership.
+   #
+   # This program and the accompanying materials are made available under the
+   # terms of the Apache License Version 2.0 which is available at
+   # https://www.apache.org/licenses/LICENSE-2.0
+   #
+   # SPDX-License-Identifier: Apache-2.0
+   # *******************************************************************************
+.. _external_tsf:
+
+Trustable
+=========
+
+
+*The* `Trustable Software Framework (TSF) <https://codethinklabs.gitlab.io/trustable/trustable/index.html>`_
+*approach is designed for consideration of software where factors such as safety, security,
+performance, availability and reliability are considered critical. Broadly we assert that any
+consideration of trust must be based on evidence.*
+
+You can use these tenets and assertion defined here to measure your OSS project trust score.
+Link your evidences to the Trustable Assertions (TA).
+
+
+.. figure:: _assets/tsf_overview.drawio.svg
+  :width: 100%
+  :align: center
+  :alt: TSF Overview
+
+  TSF Overview
+
+.. toctree::
+   :maxdepth: 1
+   :caption: Contents:
+
+   tenets/tenets
+   assertions/assertions
+
+.. tsf:: TRUSTABLE SOFTWARE
+   :id: tsf__trust__trustable-software
+   :status: valid
+   :links: tenet__trust__tt-provenance, tenet__trust__tt-construction, tenet__trust__tt-changes, tenet__trust__tt-expectations, tenet__trust__tt-results, tenet__trust__tt-confidence
+
+    This release of XYZ is Trustable.
+
+    Trustability of the release is based on aggregation of the evidence from all
+    of the Trustable Tenets and Trustable Assertions.
+    The algorithm for aggregation may involve weighting of specific Tenets or
+    Assertions based on project priorities or experience.
+
+
+XYZ trustable overview
+----------------------
+
+Trustable Software Framework
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+.. needtable::
+   :style: table
+   :columns: title;id;status;links
+   :colwidths: 25,25,25,25
+   :sort: title
+
+   results = []
+
+   for need in needs.filter_types(["tsf"]):
+                results.append(need)
+
+Trustable Tenets Overview
+~~~~~~~~~~~~~~~~~~~~~~~~~
+
+.. needtable::
+   :style: table
+   :columns: title;id;status;links
+   :colwidths: 25,25,25,25
+   :sort: title
+
+   results = []
+
+   for need in needs.filter_types(["tenet"]):
+                results.append(need)
+
+Trustable Assertions Overview
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+.. needtable::
+   :style: table
+   :columns: title;id;status;links
+   :colwidths: 25,25,25,25
+   :sort: title
+
+   results = []
+
+   for need in needs.filter_types(["assertion"]):
+                results.append(need)
