@@ -52,7 +52,7 @@ Process Requirement Attributes
    Each requirement shall have a unique ID. It shall consist of three parts:
 
       * type of requirement
-      * last part of the feature tree
+      * structural element (e.g. some part of the feature tree, component acronym)
       * keyword describing the content of the requirement.
 
    Consider the project's naming convention.
@@ -66,7 +66,7 @@ Process Requirement Attributes
 
    The title of the requirement shall provide a short summary of the description, but is not an "additional" requirement.
 
-   This means that the word "shall" must not be used in the title for all requirements.
+   This means for example that the word "shall" is not allowed in the title for all requirements.
 
 .. gd_req:: Requirement attribute: description
    :id: gd_req__requirements_attr_description
@@ -139,7 +139,7 @@ Process Requirement Attributes
    :tags: attribute, mandatory
    :satisfies: wf__req__stkh_req
 
-   Each stakeholder requirement shall provide an attribute rationale.
+   Each stakeholder requirement shall provide an attribute called rationale.
    The rationale shall contain the reason why the requirement is needed.
 
 .. _process_requirement_linkage:
@@ -168,7 +168,7 @@ Process Requirement Linkage
    :complies: std_req__iso26262__support_6432
    :satisfies: wf__req__stkh_req, wf__req__feat_req, wf__req__comp_req
 
-   Bi-directional traceability shall be provided by adding a "back-link" via attribute satisfied by.
+   Bi-directional traceability shall be provided by adding a "back-link" via attribute satisfied by (i.e. make a <-> out of the <- in :need:`gd_req__req__linkage`).
 
 .. gd_req:: Requirement attribute: requirement covered
    :id: gd_req__req__attr_req_cov
@@ -218,7 +218,7 @@ Process Requirement Linkage
    :satisfies: wf__req__stkh_req, wf__req__feat_req, wf__req__comp_req
    :complies: std_req__iso26262__support_6425, std_req__iso26262__support_6434
 
-   It shall be possible to provide a versioning for requirements. For this all mandatory attributes shall be taken into account: :need:`gd_req__req__attr_mandatory`
+   A versioning for requirements shall be provided. For this all mandatory attributes shall be taken into account: :need:`gd_req__req__attr_mandatory`
 
 .. _process_requirement_checks:
 

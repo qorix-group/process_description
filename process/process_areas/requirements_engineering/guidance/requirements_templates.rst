@@ -99,11 +99,11 @@ Templates
 
       .. tool_req:: <Title>
          :id: tool_req__<tool>__<Title>
-         :reqtype: Non-Functional
          :security: <YES|NO>
          :safety: <QM|ASIL_B|ASIL_D>
          :satisfies: <link to process req id>
          :status: <valid|invalid>
+         :implemented: <YES|PARTIAL|NO>
 
 .. gd_temp:: Requirement Formulation Template
    :id: gd_temp__req__formulation
