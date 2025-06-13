@@ -35,11 +35,14 @@ use_format_targets()
 
 copyright_checker(
     name = "copyright",
-    srcs = glob([
-        "process/**",
-        "BUILD",
-        "MODULE.bazel",
-    ], exclude = ["process/trustable/**"]),
+    srcs = glob(
+        [
+            "process/**",
+            "BUILD",
+            "MODULE.bazel",
+        ],
+        exclude = ["process/trustable/**"],
+    ),
     config = "@score_cr_checker//resources:config",
     template = "@score_cr_checker//resources:templates",
     visibility = ["//visibility:public"],
