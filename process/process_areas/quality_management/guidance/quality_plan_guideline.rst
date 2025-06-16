@@ -33,7 +33,7 @@ Guideline Quality Management Plan
    |
    | Communication:
    | Cross functional teams are interdisciplinary, so the regular (sprint) planning and review meetings enable communication. The organization of the project is described in the Project Management Plan. Another main communication means are the Pull Request (PR) reviews.
-   | Also the standard Eclipse Foundation communication strategies are used (e.g. mailing lists, Slack channel).
+   | Also the standard Eclipse Foundation communication strategies are used (e.g. mailing lists, messenger).
    |
    | Quality issues, non-conformances and improvements:
    | Feedback from the field, but also during development of change requests to existing features, bug reporting by the Open Source community or integration of existing SW components into new features may lead to the discovery of issues, non-conformances or improvements.
@@ -64,11 +64,11 @@ Guideline Quality Management Plan
    |
    | **Planning integration and verification:**
    | Integration on the target hardware is not done in the scope of the SW platform project, but SW/SW integration up to the feature level is performed and its test results are part of the :need:`wp__verification__platform_ver_report`.
-   | The integration on the target hardware done by the distributor or OEM is supported by delivering a set of HW/SW integration tests which were already run successfully on a reference HW platform.
+   | The integration on the target hardware, done by the distributor or OEM, is supported by delivering a set of HW/SW feature integration and platform tests which were already run successfully on a reference HW platform.
    | This is planned by the respective workproducts:
    | * :need:`wp__verification__feat_int_test`
-   | * Platform verification integration test
+   | * :need:`wp__verification__platform_test`
    | Verification planning is documented in :need:`wp__verification__plan`
    |
    | **Scheduling of audits, conformance checks, work product reviews, release verification and approval:**
-   | Scheduling is done in the same way as for all work products definition by issues. The respective work products are listed :need:`doc_concept__wp_inspections` here.
+   | Scheduling is done in the same way as for all work products definition by issues. The respective work products are listed in :need:`doc_concept__wp_inspections`.

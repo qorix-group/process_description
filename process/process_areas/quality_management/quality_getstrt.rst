@@ -30,9 +30,9 @@ General Workflow
 
 One goal of the Quality Management Process is to ensure that the project is following the defined processes and
 that the quality of the deliverables is according to the requirements. The Quality Management process follows an
-continous approach.
+continuous approach.
 
-The workflows are defined in the :ref:`quality_workflows` section. The following workflows shall be executed continously:
+The workflows are defined in the :ref:`quality_workflows` section. The following workflows shall be executed continuously:
 
 * Consult and Execute Quality Trainings
 * Monitor/Improve Quality Activities

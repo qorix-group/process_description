@@ -19,7 +19,7 @@ Roles
    :id: rl__quality_manager
    :status: valid
 
-   The quality managers shall be responsible for the planning and coordination of the quality activities, i.e. the quality management. He/She shall lead and monitor the quality relevant activities of the project.
+   The quality managers shall be responsible for the planning and coordination of the quality activities, i.e. the quality management. They shall lead and monitor the quality relevant activities of the project.
 
 
    Required skills
