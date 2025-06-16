@@ -46,7 +46,7 @@ Process Safety Analysis Attributes
    Each Safety Analysis shall have a unique ID. It shall be in a format which is also human readable and consists of
 
       * type of Safety Analysis
-      * keyword describing the level of analysis
+      * keyword describing the feature
       * keyword describing the content of the Safety Analysis
 
    The naming convention shall be defined in the project and shall be used consistently.
@@ -63,22 +63,20 @@ Process Safety Analysis Attributes
 .. gd_req:: Safety Analysis attribute: mitigation
    :id: gd_req__saf_attr_mitigation
    :status: valid
-   :tags: attribute, mandatory
+   :tags: attribute, optional
    :satisfies: wf__analyse_featarch, wf__analyse_comparch
    :complies: std_req__iso26262__analysis_844, std_req__iso26262__analysis_746, std_req__iso26262__analysis_747
 
-   Each violation shall have an associated mitigation. The mitigation may be a requirement or a brief description of the mitigation. 
-   Use "None" if a mitigation has not yet been implemented, and update it once completed.
+   If a mitigation is needed, link to the mitigation requirement or to the AoU.
 
 .. gd_req:: Safety Analysis attribute: mitigation issue
    :id: gd_req__saf_attr_mitigation_issue
    :status: valid
-   :tags: attribute, mandatory
+   :tags: attribute, optional
    :satisfies: wf__analyse_featarch, wf__analyse_comparch
    :complies: std_req__iso26262__analysis_844, std_req__iso26262__analysis_746, std_req__iso26262__analysis_747
 
-   For every mitigation that is needed a issue shall be created. If a mitigation is already implemented without
-   an issue, please remark it so this can be reconstructed.
+   If a new mitigation is needed link to the issue and keep status invalid until mitigation is suffienct.
 
 .. gd_req:: Safety Analysis attribute: sufficient
    :id: gd_req__saf__attr_sufficient
@@ -87,7 +85,7 @@ Process Safety Analysis Attributes
    :satisfies: wf__analyse_featarch, wf__analyse_comparch
    :complies: std_req__iso26262__analysis_848, std_req__iso26262__analysis_749, std_req__isopas8926__44431, std_req__isopas8926__44432
 
-   Each mitigation shall have a statement if it's sufficient.
+   Each mitigation shall be rated as sufficient with <yes> or <no>.
 
 .. gd_req:: Safety Analysis attribute: argument
    :id: gd_req__saf__attr_argument
@@ -187,16 +185,6 @@ Process Requirements Checks
       :style: table
       :columns: title
       :colwidths: 30
-
-.. gd_req:: Safety Analysis linkage level
-   :id: gd_req__saf__linkage_fulfill
-   :status: valid
-   :tags: attribute, check
-   :satisfies: wf__analyse_featarch, wf__analyse_comparch
-   :complies: std_req__iso26262__analysis_848, std_req__iso26262__analysis_749
-
-   Every Safety Analysis shall be linked to at least one parent architecture.
-
 
 .. gd_req:: Safety Analysis linkage safety
    :id: gd_req__saf__linkage_safety
