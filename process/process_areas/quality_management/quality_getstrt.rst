@@ -23,7 +23,7 @@ Getting started
 This document describes the steps which need to be done to ensure Quality according to ASPICE 4.0 as used
 standard in the project.
 
-Therefore guideslines :need:`gd_guidl__qlm_plan_definitions`, :need:`gd_guidl__wp_review` and a :need:`doc_concept__quality__process` are available.
+Therefore guidelines :need:`gd_guidl__qlm_plan_definitions`, :need:`gd_guidl__wp_review` and a :need:`doc_concept__quality__process` are available.
 
 General Workflow
 ****************
@@ -42,8 +42,8 @@ For every release, the following workflows are executed:
 * Create/Maintain Quality Management Plan
 * Verify/Approve Platform Release
 * Execute Platform Process Audit
-* Execute Feature Process Conformance Checks
+* Execute Execute Feature Contribution Conformance Checks
 * Execute Feature Work Product Reviews
 
-For open issues the issue traking system is used to track the issues and to ensure that they are resolved in time.
+For open issues the issue tracking system is used to track the issues and to ensure that they are resolved in time.
 The issue tracking system is defined in the :need:`wp__issue_track_system`.

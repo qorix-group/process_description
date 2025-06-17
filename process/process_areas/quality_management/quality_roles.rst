@@ -47,7 +47,7 @@ Roles
    * Creating/maintain Quality Management Plan
    * Verify/approve Platform release
    * Execute Platform Process Audit
-   * Execute Feature Process conformance checks
+   * Execute Feature Contribution Conformance Checks
    * Execute Feature Work Product Reviews
    * Consult and execute Quality Trainings
    * Monitoring/improving of Quality activities
