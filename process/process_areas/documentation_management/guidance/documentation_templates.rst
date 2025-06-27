@@ -12,13 +12,19 @@
    # SPDX-License-Identifier: Apache-2.0
    # *******************************************************************************
 
-Guidance
-########
+.. _documentation_templates:
 
-.. toctree::
-   :maxdepth: 1
+Documentation Templates
+=======================
 
-   documentation_guideline
-   documentation_checklist
-   documentation_templates
-   documentation_process_reqs
+.. gd_temp:: Documentation Template
+   :id: gd_temp__documentation
+   :status: valid
+   :complies: std_req__iso26262__support_1045
+
+   | .. document:: <Document Name>
+   |    :id: doc__<Document Name>
+   |    :status: <valid|invalid>
+   |    :security: <YES|NO>
+   |    :safety: <QM|ASIL_B|ASIL_D>
+   |    :realizes: wp__<name of wp in process description>
