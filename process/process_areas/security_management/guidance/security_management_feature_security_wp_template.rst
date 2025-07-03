@@ -12,25 +12,13 @@
    # SPDX-License-Identifier: Apache-2.0
    # *******************************************************************************
 
-Process Areas
-#############
+Feature Security Work Products Template
+=======================================
 
-.. toctree::
-   :maxdepth: 1
-   :glob:
+.. gd_temp:: Feature Security Work Products Template
+   :id: gd_temp__feature_security_wp
+   :status: valid
+   :complies:
 
-   architecture_design/index.rst
-   change_management/index.rst
-   configuration_management/index.rst
-   documentation_management/index.rst
-   implementation/index.rst
-   platform_management/index.rst
-   problem_resolution/index.rst
-   quality_management/index.rst
-   release_management/index.rst
-   requirements_engineering/index.rst
-   safety_analysis/index.rst
-   safety_management/index.rst
-   security_management/index.rst
-   tool_management/index.rst
-   verification/index.rst
+   For the content see here: (tbd https://github.com/eclipse-score/process_description/issues/109)
+   ref:`feature_security_wp_template`
