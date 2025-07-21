@@ -26,15 +26,6 @@ bazel run //process:incremental_latest
 bazel build //process:docs_latest
 ```
 
-#### Integrate latest score release
-
-This should also work with proxy configuration if latest is not working.
-
-```bash
-bazel run //process:incremental_release
-bazel build //process:docs_release
-```
-
 #### Access your documentation at:
 
 - `_build/` for incremental
@@ -45,8 +36,16 @@ bazel build //process:docs_release
 Create the virtual environment via `bazel run //process:ide_support`.\
 If your IDE does not automatically ask you to activate the newly created environment you can activate it.
 
-- In VSCode via `ctrl+p` => `Select Python Interpreter` then select `.venv/bin/python`
-- In the terminal via `source .venv/bin/activate`
+- In VSCode via `ctrl+p` => `Select Python Interpreter` then select `.venv_docs/bin/python` OR
+- Click in the top level search bar, open `Show and Run Commands` => `Select Python Interpreter` then select `.venv_docs/bin/python`
+- In the terminal via `source .venv_docs/bin/activate`
+
+Now run the live_preview commands
+
+```bash
+bazel run //process:incremental_latest
+bazel run //process:live_preview_latest
+```
 
 #### Format your documentation with:
 
@@ -55,6 +54,8 @@ bazel test //:format.test
 bazel run //:format.fix
 ```
 
+Now server should be available with a preview on the link that is given (normally 127.0.0.1:8000) and the documentation can be previewed there.
+
 #### Find & fix missing copyright
 
 ```bash
@@ -62,3 +63,5 @@ bazel test //:copyright.test
 bazel run //:copyright.fix
 ```
 
+#### Explore more functions with
+bazel query //...
