@@ -22,7 +22,25 @@ body:
   - type: textarea
     attributes:
       label: Description
-      description: Short Description of the Bug
+      description: |
+        Description of the Bug
+        Root cause / Impact / Notification required?
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Analysis results
+      description: |
+        Documentation of the analysis results
+        Link to Pull Request containing the results
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Solution
+      description: |
+        Documentation of the solution
+        Link to Pull Request containing the solution
     validations:
       required: true
   - type: dropdown
@@ -60,6 +78,7 @@ body:
     attributes:
       label: Affected Version
       options:
+        - pre-0.5
         - 0.5
         - 1.0
       default: 0
@@ -80,3 +99,9 @@ body:
       options:
         - label: Safety Related
         - label: Security Related
+  - type: textarea
+    attributes:
+      label: ASIL classification
+      description: Add ASIL classification, e.g. ASIL_B or ASIL_D
+    validations:
+      required: false
