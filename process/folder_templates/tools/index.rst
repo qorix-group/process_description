@@ -1,6 +1,6 @@
 ..
    # *******************************************************************************
-   # Copyright (c) 2025 Contributors to the Eclipse Foundation
+   # Copyright (c) 2024 Contributors to the Eclipse Foundation
    #
    # See the NOTICE file(s) distributed with this work for additional
    # information regarding copyright ownership.
@@ -12,16 +12,13 @@
    # SPDX-License-Identifier: Apache-2.0
    # *******************************************************************************
 
-.. _folder_templates:
+.. _tools_template:
 
-Folder Templates
-################
+Tools
+=====
 
 .. toctree::
    :maxdepth: 1
    :glob:
-   :titlesonly:
 
-   features/index.rst
-   modules/index.rst
-   tools/index.rst
+   tool_verification_report_template
