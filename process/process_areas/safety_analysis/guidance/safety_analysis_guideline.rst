@@ -99,38 +99,32 @@ For the examples the architectural diagrams :ref:`safety_analysis_feature_exampl
 In the dynamic view of the example the "flow component 1" to the user realizes a safety requirement. If we apply the fault model we may
 find possible failures. Therefore we need a mitigation.
 
-.. feat_saf_fmea:: Component 1 Call message not received
-   :violates: feat_arc_dyn__Mab__dynamic
-   :id: feat_saf_fmea__Mab__Component_1_call_not_received
-   :fault_id: MF_01_01
-   :failure_effect: Message is not received. This leads to a unavailability of a safety related functionality of the feature.
-   :mitigated_by: aou_req__Mab__call_not_received
-   :mitigation_issue:
-   :sufficient: yes
-   :status: valid
+.. code-block:: rst
+   
+   .. feat_saf_fmea:: Component 1 Call message not received
+      :violates: feat_arc_dyn__mab__dynamic
+      :id: feat_saf_fmea__mab__comp1_call_nreceived
+      :fault_id: MF_01_01
+      :failure_effect: Message is not received. This leads to a unavailability of a safety related functionality of the feature.
+      :mitigated_by: aou_req__mab__call_not_received
+      :mitigation_issue:
+      :sufficient: yes
+      :status: valid
 
     If the message is not received by the feature it will be unavailable for the user. This has to be detected by the User because
     the feature can't detect if it's not called. This requirement is addressed by the AoU requirement aou_req__Mab__func_call_not_received.
 
-.. aou_req:: Mab Function Call Not Received
-   :id: aou_req__mab__call_not_received
-   :reqtype: Functional
-   :security: NO
-   :safety: ASIL_B
-   :status: valid
+.. code-block:: rst
 
-    The function call shall be ensured by the user. If the function is not called, but it's intended, the user has to be informed.
-
-
-.. feat_saf_fmea:: Component 1 unintended triggered
-   :violates: feat_arc_dyn__Mab__dynamic
-   :id: feat_saf_fmea__Mab__Component_1
-   :fault_id: MF_01_07
-   :failure_effect: Message is unintended sent. Component 1 will be unintended triggered.
-   :mitigated_by:
-   :mitigation_issue:
-   :sufficient: yes
-   :status: valid
+   .. feat_saf_fmea:: Component 1 unintended triggered
+      :violates: feat_arc_dyn__mab__dynamic
+      :id: feat_saf_fmea__mab__component_1
+      :fault_id: MF_01_07
+      :failure_effect: Message is unintended sent. Component 1 will be unintended triggered.
+      :mitigated_by:
+      :mitigation_issue:
+      :sufficient: yes
+      :status: valid
 
     An unintended return can be neglected as the component is ASIL B developed, non complex and sufficiently tested.
 
@@ -144,36 +138,19 @@ For all fault models that are not applicable, the reason has to be documented in
 
 In the static view of the example could be seen that component 1 uses component 2. If we apply the failure initiators we may find the possible failures.
 
-.. feat_saf_dfa:: Mab data corruption
-   :violates: feat_arc_sta__Mab__static
-   :id: feat_saf_DFA__Mab__data_corruption
-   :failure_id: CO_01_02
-   :failure_effect: Data or message corruption will lead to a corruption of the data or message that could violate a safety functionality.
-   :mitigated_by: feat_req__mab_integritiy_check
-   :mitigation_issue:
-   :sufficient: yes
-   :status: valid
+.. code-block:: rst
+
+   .. feat_saf_dfa:: Mab data corruption
+      :violates: feat_arc_sta__mab__static
+      :id: feat_saf_dfa__mab__data_corruption
+      :failure_id: CO_01_02
+      :failure_effect: Data or message corruption will lead to a corruption of the data or message that could violate a safety functionality.
+      :mitigated_by: feat_req__mab_integritiy_check
+      :mitigation_issue:
+      :sufficient: yes
+      :status: valid
 
     The feature shall detect and report data corruption.
-
-.. feat_req:: Mab Integrity Check
-   :id: feat_req__mab_integritiy_check
-   :reqtype: Functional
-   :security: NO
-   :satisfies: stkh_req__integrity_check
-   :safety: ASIL_B
-   :status: valid
-
-    The feature shall detect and report data corruption. This is done by a integrity check of the data or message.
-
-
-.. stkh_req:: Integrity Check
-   :id: stkh_req__integrity_check
-   :reqtype: Functional
-   :security: NO
-   :safety: ASIL_B
-   :rationale: The integrity check is needed to ensure that the data or message is not corrupted.
-   :status: valid
 
     The shall be possible to detect and report data corruption.
 
@@ -199,49 +176,20 @@ In the dynamic view we see that Component 4 is returning a message to component 
 failure: "message corruption" of "flow component 3" - but we find out that this is a flow which is not contributing to the safety function.
 Additionally in the static view we see Component 4 is a library used by Component 3. Therefore we have to apply the failure initiators again.
 
-.. comp_saf_dfa:: Allocated memory
-   :violates: comp_arc_sta__Mab__static
-   :id: comp_saf_DFA__component4__allocated_memory
-   :failure_id: SR_01_10
-   :failure_effect: Component 4 is using allocated memory of Component 3
-   :mitigated_by: comp_req__memory_management
-   :mitigation_issue:
-   :sufficient: yes
-   :status: valid
 
-    The allocation of the memory of Component 4 is managed by the memory management.
+.. code-block:: rst
 
+   .. comp_saf_dfa:: Allocated memory
+      :violates: comp_arc_sta__mab__static
+      :id: comp_saf_dfa__component4__allocated_memory
+      :failure_id: SR_01_10
+      :failure_effect: Component 4 is using allocated memory of Component 3
+      :mitigated_by: comp_req__memory_management
+      :mitigation_issue:
+      :sufficient: yes
+      :status: valid
 
-.. comp_req:: Memory Management
-   :id: comp_req__memory_management
-   :reqtype: Functional
-   :security: NO
-   :satisfies: feat_req__memory_management
-   :safety: ASIL_B
-   :status: valid
-
-    The memory of the component shall be managed by the memory management. This is needed to ensure that the memory is not corrupted by other components or features.
-
-.. feat_req:: Memory Management
-   :id: feat_req__memory_management
-   :reqtype: Functional
-   :security: NO
-   :satisfies: stkh_req__memory_management
-   :safety: ASIL_B
-   :status: valid
-
-    The memory of the feature shall be managed by the memory management. This is needed to ensure that the memory is not corrupted by other components or features.
-
-
-.. stkh_req:: Memory Management
-   :id: stkh_req__memory_management
-   :reqtype: Functional
-   :security: NO
-   :safety: ASIL_B
-   :rationale: The memory management is needed to ensure that the memory is not corrupted.
-   :status: valid
-
-    The shall be possible to implement a memory management.
+      The allocation of the memory of Component 4 is managed by the memory management.
 
 
 For all failure initiators that are not applicable, the reason has to be documented in the content of the document, so it can be recognized. An example could be that
