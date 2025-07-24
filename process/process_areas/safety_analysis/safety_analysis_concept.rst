@@ -109,10 +109,12 @@ The analysis were applied at static and dynamic architecture diagrams. The follo
 
    Feature Architecture
 
-With the diagrams the dependencies and signal flows are shown. The analysis is done by applying the fault models :need:`gd_guidl__fault_models`
+With the diagrams the dependencies and signal flows are shown. The analysis is done by applying the fault models :need:`gd_guidl__fault_models`In the above example's dynamic view the "flow component 1" to the user realizes a safety requirement. If we apply the fault model we may find the possible failure: "the message is not sent which leads to the user not being able to ..." - this could be mitigated by telling the user in an AoU: "the feature can not guarantee that the message is sent"
+DFA: Here we see in the static view that component 1 uses component 2. If we apply the failure initiators we may find the possible failure: "Component 2 is using up all execution time available to Component 1" which could be avoided by a OS which is reserving time for every component or by running these Components on different processors.
 for FMEA and the failure initiators :need:`gd_guidl__dfa_failure_initiators` for DFA. Some fault models and failure initiators may not be applicable
 for one safety function. In this case the reason shall be documented in the FMEA/DFA documents. So it can be shown that the analysis is completely done.
 
+A step-by-step-approach is described in :need:`gd_guidl__safety_analysis`. There are also examples for FMEA and DFA are given in :ref:`examples_fmea_dfa` to show how to use the templates, failure initiators and fault models.
 
 .. figure:: _assets/safety_analysis_component.drawio.svg
    :align: center
@@ -124,6 +126,8 @@ for one safety function. In this case the reason shall be documented in the FMEA
 At component level you can see inside of the component when the component consists of two or more sub-components. If a component has no sub-components
 there results of the analysis are the same as at feature level. So no additional consideration is needed. This should be also documented in the content of the document.
 In the example the component "Component 1" consists of two sub-components, "Component 3" and "Component 4".
+
+A step-by-step-approach is described in :need:`gd_guidl__safety_analysis`. There are also examples for FMEA and DFA are given in :ref:`examples_fmea_dfa` to show how to use the templates, failure initiators and fault models.
 
 
 How to add new safety mitigations?
@@ -151,9 +155,3 @@ The safety analysis (DFA and FMEA) shall consider the architectural elements on 
 
     | **Example DFA:** Similar to the feature level, but with a focus on the interactions between sub-components within a single component.
     | **Example FMEA:** The FMEA shall used to analyse if the safety requirements of a component can be violated. This might be a unintended sent of a message between two sub-components.
-
-
-How to perform the analysis?
-===============================
-
-A step-by-step-approach is described in :need:`gd_guidl__safety_analysis`. There are also examples for FMEA and DFA are given in :ref:`examples_fmea_dfa` to show how to use the templates, failure initiators and fault models.

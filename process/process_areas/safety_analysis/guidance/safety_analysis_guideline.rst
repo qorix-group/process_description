@@ -96,6 +96,8 @@ For the examples the architectural diagrams :ref:`safety_analysis_feature_exampl
 
 **FMEA:**
 
+In the dynamic view of the example the "flow component 1" to the user realizes a safety requirement. If we apply the fault model we may
+find possible failures. Therefore we need a mitigation.
 
 .. feat_saf_fmea:: Component 1 Call message not received
    :violates: feat_arc_dyn__Mab__dynamic
@@ -135,10 +137,12 @@ For the examples the architectural diagrams :ref:`safety_analysis_feature_exampl
 
 For all fault models that are not applicable, the reason has to be documented in the content of the document, so it can be recognized. An example could be that
 
-* Fault model FX_01_04 "loss of execution" is not applicable, because feature is completely determinisitic. Other failures like HW failures are not considered in this analysis because it's developed as a SEooC.
+* Fault model FX_01_04 "loss of execution" is not applicable, because feature is completely deterministic. Other failures like HW failures are not considered in this analysis because it's developed as a SEooC.
 
 
 **DFA:**
+
+In the static view of the example could be seen that component 1 uses component 2. If we apply the failure initiators we may find the possible failures.
 
 .. feat_saf_dfa:: Mab data corruption
    :violates: feat_arc_sta__Mab__static
@@ -151,7 +155,6 @@ For all fault models that are not applicable, the reason has to be documented in
    :status: valid
 
     The feature shall detect and report data corruption.
-
 
 .. feat_req:: Mab Integrity Check
    :id: feat_req__mab_integritiy_check
@@ -174,30 +177,73 @@ For all fault models that are not applicable, the reason has to be documented in
 
     The shall be possible to detect and report data corruption.
 
+* Failure initiator SR_01_01 "reused software modules" is not applicable, no software modules are reused in the feature.
+* Failure initiator SI_01_03 "constants, or variables, being global to the two software functions" is not applicable, because it's not possible to create constants or variables that being global to the two software functions in Rust.
 
-.. feat_saf_dfa:: Mab allocated memory
-   :violates: feat_arc_sta__Mab__static
-   :id: feat_saf_DFA__mab__allocated_memory
+
+Examples for FMEA and DFA at component level
+============================================
+
+For the examples the architectural diagrams :ref:`safety_analysis_feature_example` are used.
+
+**FMEA:**
+
+There is no need to do a FMEA on component 3 as it offers the same as component 1 (which we already analyzed in the feature analysis). So we can skip this component.
+But please note it in the content of the document.
+
+It has to be considered if a FMEA has to be done on component 4 or if it's covered by the DFA.
+
+**DFA:**
+
+In the dynamic view we see that Component 4 is returning a message to component 3. If we apply the failure initiators we may find the possible
+failure: "message corruption" of "flow component 3" - but we find out that this is a flow which is not contributing to the safety function.
+Additionally in the static view we see Component 4 is a library used by Component 3. Therefore we have to apply the failure initiators again.
+
+.. comp_saf_dfa:: Allocated memory
+   :violates: comp_arc_sta__Mab__static
+   :id: comp_saf_DFA__component4__allocated_memory
    :failure_id: SR_01_10
-   :failure_effect: The allocated memory is not managed by the MMU. This could lead to a violation of the safety functionality.
-   :mitigated_by: aou_req__mab__mmu
+   :failure_effect: Component 4 is using allocated memory of Component 3
+   :mitigated_by: comp_req__memory_management
    :mitigation_issue:
    :sufficient: yes
    :status: valid
 
-    The memory will be managed by the MMU. Therefore the requirement feat_req__Mab__MMU is created.
+    The allocation of the memory of Component 4 is managed by the memory management.
 
-.. aou_req:: Mab MMU
-   :id: aou_req__mab__mmu
+
+.. comp_req:: Memory Management
+   :id: comp_req__memory_management
    :reqtype: Functional
    :security: NO
+   :satisfies: feat_req__memory_management
    :safety: ASIL_B
    :status: valid
 
-    The memory shall be managed by the MMU. This is needed to ensure that the memory is not corrupted by other components or features.
+    The memory of the component shall be managed by the memory management. This is needed to ensure that the memory is not corrupted by other components or features.
+
+.. feat_req:: Memory Management
+   :id: feat_req__memory_management
+   :reqtype: Functional
+   :security: NO
+   :satisfies: stkh_req__memory_management
+   :safety: ASIL_B
+   :status: valid
+
+    The memory of the feature shall be managed by the memory management. This is needed to ensure that the memory is not corrupted by other components or features.
+
+
+.. stkh_req:: Memory Management
+   :id: stkh_req__memory_management
+   :reqtype: Functional
+   :security: NO
+   :safety: ASIL_B
+   :rationale: The memory management is needed to ensure that the memory is not corrupted.
+   :status: valid
+
+    The shall be possible to implement a memory management.
 
 
 For all failure initiators that are not applicable, the reason has to be documented in the content of the document, so it can be recognized. An example could be that
 
-* Failure initiator SR_01_01 "reused software modules" is not applicable, no software modules are reused in the feature.
-* Failure initiator SI_01_03 "constants, or variables, being global to the two software functions" is not applicable, because it's not possible to create constants or variables that being global to the two software functions in Rust.
+* Failure initiator CO_01_02 "Data or message corruption" of "flow component 3" is not applicable, this flow is not contributing to the safety function.
