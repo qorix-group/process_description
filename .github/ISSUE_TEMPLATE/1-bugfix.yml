@@ -32,7 +32,6 @@ body:
       label: Analysis results
       description: |
         Documentation of the analysis results
-        Link to Pull Request containing the results
     validations:
       required: true
   - type: textarea
