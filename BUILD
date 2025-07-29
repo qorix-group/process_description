@@ -11,6 +11,7 @@
 # SPDX-License-Identifier: Apache-2.0
 # *******************************************************************************
 load("@score_cr_checker//:cr_checker.bzl", "copyright_checker")
+load("@score_docs_as_code//:docs.bzl", "docs")
 
 # *******************************************************************************
 # Copyright (c) 2025 Contributors to the Eclipse Foundation
@@ -25,7 +26,6 @@ load("@score_cr_checker//:cr_checker.bzl", "copyright_checker")
 # SPDX-License-Identifier: Apache-2.0
 # *******************************************************************************
 load("@score_format_checker//:macros.bzl", "use_format_targets")
-load("@score_docs_as_code//:docs.bzl", "docs")
 
 package(default_visibility = ["//visibility:public"])
 
@@ -49,6 +49,6 @@ copyright_checker(
     visibility = ["//visibility:public"],
 )
 
-docs (
-    source_dir="process"
+docs(
+    source_dir = "process",
 )
