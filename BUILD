@@ -50,5 +50,5 @@ copyright_checker(
 )
 
 docs (
-    conf_dir="process"
+    source_dir="process"
 )
