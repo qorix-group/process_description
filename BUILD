@@ -25,6 +25,7 @@ load("@score_cr_checker//:cr_checker.bzl", "copyright_checker")
 # SPDX-License-Identifier: Apache-2.0
 # *******************************************************************************
 load("@score_format_checker//:macros.bzl", "use_format_targets")
+load("@score_docs_as_code//:docs.bzl", "docs")
 
 package(default_visibility = ["//visibility:public"])
 
@@ -46,4 +47,8 @@ copyright_checker(
     config = "@score_cr_checker//resources:config",
     template = "@score_cr_checker//resources:templates",
     visibility = ["//visibility:public"],
+)
+
+docs (
+    conf_dir="process"
 )
