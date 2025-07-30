@@ -21,6 +21,8 @@
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#project-information
 
 project = "Process Description"
+project_url = "https://eclipse-score.github.io/process_description/"
+project_prefix = "PROCESS_"
 author = "S-CORE"
 version = "0.1"
 
