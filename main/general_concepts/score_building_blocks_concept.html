@@ -63,6 +63,13 @@
     <script src="../_static/sphinx-needs/libs/html/datatables_loader.js?v=a2cae175"></script>
     <script src="../_static/sphinx-needs/libs/html/sphinx_needs_collapse.js?v=dca66431"></script>
     <script>DOCUMENTATION_OPTIONS.pagename = 'general_concepts/score_building_blocks_concept';</script>
+    <script>
+        DOCUMENTATION_OPTIONS.theme_version = '0.16.1';
+        DOCUMENTATION_OPTIONS.theme_switcher_json_url = 'https://qorix-group.github.io/process_description/versions.json';
+        DOCUMENTATION_OPTIONS.theme_switcher_version_match = '';
+        DOCUMENTATION_OPTIONS.show_version_warning_banner =
+            false;
+        </script>
     <link rel="index" title="Index" href="../genindex.html" />
     <link rel="search" title="Search" href="../search.html" />
     <link rel="next" title="Traceability concept" href="score_traceability_concept.html" />
@@ -260,6 +267,26 @@
         </li>
 </ul></div>
       
+        <div class="navbar-item">
+<div class="version-switcher__container dropdown pst-js-only">
+  <button id="pst-version-switcher-button-2"
+    type="button"
+    class="version-switcher__button btn btn-sm dropdown-toggle"
+    data-bs-toggle="dropdown"
+    aria-haspopup="listbox"
+    aria-controls="pst-version-switcher-list-2"
+    aria-label="Version switcher list"
+  >
+    Choose version  <!-- this text may get changed later by javascript -->
+    <span class="caret"></span>
+  </button>
+  <div id="pst-version-switcher-list-2"
+    class="version-switcher__menu dropdown-menu list-group-flush py-0"
+    role="listbox" aria-labelledby="pst-version-switcher-button-2">
+    <!-- dropdown will be populated by javascript on page load -->
+  </div>
+</div></div>
+      
     </div>
     
   </div>
@@ -402,6 +429,26 @@
         </li>
 </ul></div>
         
+          <div class="navbar-item">
+<div class="version-switcher__container dropdown pst-js-only">
+  <button id="pst-version-switcher-button-3"
+    type="button"
+    class="version-switcher__button btn btn-sm dropdown-toggle"
+    data-bs-toggle="dropdown"
+    aria-haspopup="listbox"
+    aria-controls="pst-version-switcher-list-3"
+    aria-label="Version switcher list"
+  >
+    Choose version  <!-- this text may get changed later by javascript -->
+    <span class="caret"></span>
+  </button>
+  <div id="pst-version-switcher-list-3"
+    class="version-switcher__menu dropdown-menu list-group-flush py-0"
+    role="listbox" aria-labelledby="pst-version-switcher-button-3">
+    <!-- dropdown will be populated by javascript on page load -->
+  </div>
+</div></div>
+        
       </div>
     
   </div>
@@ -500,7 +547,8 @@ also implemented by the <strong>Source Code</strong> (grey box, bottom, 3nd colu
 verified by <strong>Unit Tests</strong> (grey box, middle, 5nd column).</p>
 <p>Components are defined by <strong>Component Requirements</strong> (green box, middle, 3nd column) and the
 <strong>Component Architecture</strong> (green box, middle, 4nd column). A <strong>Component Safety Analysis</strong>
-(green box, middle, 6nd column) is required to verify the Component Architecture. Potential faults
+(green box, middle, 6nd column) is required to verify the Component Architecture, whereby
+violations of safety requirements must be documented. Potential faults
 may mitigated by updating the Component Requirements or by the <strong>Component Assumptions of Use</strong>
 (green box, middle, 8nd column). The latter one must be considered by the user of the Component.
 <strong>Component Tests</strong> (green box, middle, 5nd column) verify the Component requirements, and
@@ -510,7 +558,8 @@ as well as the Integration of multiple Units to a Component.</p>
 Feature of the platform. Features consists of Components and are defined by <strong>Feature Requirements</strong>
 (yellow box, middle, 3nd column) and the <strong>Feature Architecture</strong> (yellow box, middle, 4nd column).
 A <strong>Feature Safety Analysis</strong> (yellow box, middle, 6nd column) is required to verify the Feature
-Architecture. Potential faults may mitigated by updating the Feature Requirements or by the
+Architecture, whereby violations of safety requirements must be documented. Potential
+faults may mitigated by updating the Feature Requirements or by the
 <strong>Feature Assumptions of Use</strong> (yellow box, middle, 8nd column). The latter one must be considered
 by the user of the Feature. <strong>Feature Integration Tests</strong> (yellow box, middle, 5nd column) verify
 the Feature Requirements and the Feature Architecture as well as the Integration of multiple Units
@@ -599,7 +648,7 @@ as safety element out of context (SEooC).</p>
 
   
   <div class="tocsection editthispage">
-    <a href="https://github.com/dummy/dummy/edit/main/docs/general_concepts/score_building_blocks_concept.rst">
+    <a href="https://github.com/qorix-group/process_description/edit/main/docs/general_concepts/score_building_blocks_concept.rst">
       <i class="fa-solid fa-pencil"></i>
       
       
