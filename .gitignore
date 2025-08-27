@@ -21,6 +21,7 @@ styles/
 
 # Python
 .venv
+.venv_docs
 venv/
 __pycache__/
 /.coverage
