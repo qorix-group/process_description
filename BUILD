@@ -1,3 +1,5 @@
+load("@score_docs_as_code//:docs.bzl", "docs")
+
 # *******************************************************************************
 # Copyright (c) 2025 Contributors to the Eclipse Foundation
 #
@@ -11,7 +13,6 @@
 # SPDX-License-Identifier: Apache-2.0
 # *******************************************************************************
 load("@score_tooling//:defs.bzl", "copyright_checker", "use_format_targets")
-load("@score_docs_as_code//:docs.bzl", "docs")
 
 package(default_visibility = ["//visibility:public"])
 
