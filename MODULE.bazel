@@ -41,8 +41,6 @@ python.toolchain(
 )
 use_repo(python)
 
-# Additional Python rules provided by aspect, e.g. an improved version of
-bazel_dep(name = "aspect_rules_py", version = "1.4.0")
 bazel_dep(name = "buildifier_prebuilt", version = "8.2.0.2")
 
 ###############################################################################
@@ -51,5 +49,5 @@ bazel_dep(name = "buildifier_prebuilt", version = "8.2.0.2")
 #
 ###############################################################################
 bazel_dep(name = "aspect_rules_lint", version = "1.5.3")
-bazel_dep(name = "score_tooling", version = "1.0.0")
+bazel_dep(name = "score_tooling", version = "1.0.2")
 bazel_dep(name = "score_docs_as_code", version = "1.1.0")
