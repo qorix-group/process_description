@@ -21,11 +21,9 @@ Getting Started
 
 This document describes how to get started with documentation management in the project.
 
-Therefore guidelines :need:`gd_guidl__documentation`, :need:`gd_guideline__documentation_management` and a
-:need:`doc_concept__documentation_process` are available.
+Therefore a guideline :need:`gd_guidl__documentation` and a concept :need:`doc_concept__documentation_process` are available.
 
 General Workflow
 ****************
 
 The main workflow is to create and maintain the :need:`wp__document_mgt_plan`.
-

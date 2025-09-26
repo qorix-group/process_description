@@ -45,7 +45,7 @@ Checklists
         -
 
       * - 3
-        - Are the optional attributes (safety, security, status) set correctly?
+        - Are the attributes (safety, security, status) set correctly?
         -
 
       * - 4

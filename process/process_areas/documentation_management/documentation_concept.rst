@@ -40,6 +40,9 @@ Stakeholders
 ^^^^^^^^^^^^
 
 #. :need:`Contributor <rl__contributor>`
+
+   * contributing documents
+
 #. :need:`Committer <rl__committer>`
 
    * contributing and approving documents
