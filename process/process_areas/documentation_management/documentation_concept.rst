@@ -76,6 +76,7 @@ For the versioning and version history `github <https://github.com/>`_ is used.
 
 For the automated attributes additional tooling is created (see :doc:`guidance/documentation_process_reqs`)
 
+For the scheduling and tracking of the documentation `GitHub issues <https://github.com/features/issues>`_  will be used.
 
 Guidance
 ^^^^^^^^
