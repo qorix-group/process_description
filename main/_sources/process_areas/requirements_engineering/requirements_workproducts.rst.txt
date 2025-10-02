@@ -50,15 +50,21 @@ Workproducts Requirements Engineering
 
    SW Safety Requirements for the user of the component, exportable requirements for the user to integrate in their req mgt system.
 
+.. workproduct:: Process/Tool Requirements
+   :id: wp__requirements_proc_tool
+   :status: valid
+
+   Process and Tool requirements describe activities needed to be executed in the development process either manually or automated (i.e. tool supported).
+   Tool requirements (if derived from process requirements) are more detailed as those are also the basis for tool (qualification) testing.
+
 .. workproduct:: Requirements Inspection
    :id: wp__requirements_inspect
    :status: draft
    :complies: std_wp__iso26262__software_653
 
-   | Depends on requirements management tooling, expect text based requirements maintained in git.
-   | - github review with integrated inspection checklist, only valid requirements get merged
-   |
-   | Compare also `Gitub documentationt <https://docs.github.com/en>`_
+   Depends on requirements management tooling, expect text based requirements.
+
+   Review done with inspection checklist. This checklist may be integrated in requirements/version management tooling.
 
 .. needextend:: docname is not None and "process_areas/requirements_engineering" in docname
    :+tags: requirements_engineering
