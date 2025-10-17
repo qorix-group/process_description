@@ -67,7 +67,11 @@ Workflows
    :contains: gd_guidl__qlm_plan_definitions, gd_chklst__review_checklist
    :has: doc_concept__quality_process, doc_getstrt__quality_process
 
-   | The conformance of the feature contribution is checked.
+   | The conformance of the feature contribution is checked. The conformance check consists of
+   | * No open issues that are related to quality that are relevant for the feature contribution
+   | * All required work products are provided and fulfill the quality criteria as defined in the quality management plan
+   | * Work product reviews are performed and passed for all required work products as defined in the quality management plan
+   | * Quality management plan is up to date and reflects the current state of the project/platform
 
 .. workflow:: Execute Work Product Reviews
    :id: wf__exe_wp_review
