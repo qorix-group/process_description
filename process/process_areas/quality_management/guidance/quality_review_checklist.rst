@@ -26,8 +26,8 @@ Checklist Quality Work Product Review
 .. note:: A lot of formal checks, defined in the process requirements, are implemented in the CI pipeline. So it's checked for example that all needed attributes of a document are filled out.
           Additional checks are needed and focussed on the content of the work products. Therefore the provided checklists can be used.
 
-|
-**General plan review checklist template**
+General plan review checklist template
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 .. list-table:: General plan review checklist template
         :header-rows: 1
@@ -68,8 +68,9 @@ Checklist Quality Work Product Review
           -
           - Needed for every release.
           -
-|
-**Project Management plan review checklist template**
+
+Project Management plan review checklist template
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 .. list-table:: Project Management plan review checklist template
         :header-rows: 1
@@ -147,8 +148,9 @@ Checklist Quality Work Product Review
           -
           -
 
-|
-**Safety Management plan review checklist template**
+
+Safety Management plan review checklist templates
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 .. list-table:: Safety Management plan review checklist template
         :header-rows: 1
@@ -159,8 +161,9 @@ Checklist Quality Work Product Review
         * - SafMP_00_01
           - :need:`gd_chklst__safety_plan`
 
-|
-**Security Management plan review checklist template**
+
+Security Management plan review checklist template
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 .. list-table:: Security Management plan review checklist template
         :header-rows: 1
@@ -171,8 +174,9 @@ Checklist Quality Work Product Review
         * - SafMP_00_01
           - :need:`gd_chklst__security_plan`
 
-|
-**Quality Management plan review checklist template**
+
+Quality Management plan review checklist template
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 .. list-table:: Quality Management plan review checklist template
         :header-rows: 1
@@ -254,8 +258,9 @@ Checklist Quality Work Product Review
           -
           -
 
-|
-**Configuration Management plan review checklist template**
+
+Configuration Management plan review checklist template
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 .. list-table:: Configuration Management plan review checklist template
         :header-rows: 1
@@ -297,8 +302,9 @@ Checklist Quality Work Product Review
           -
           -
 
-|
-**Tool Management plan review checklist template**
+
+Tool Management plan review checklist template
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 .. list-table:: Tool Management plan review checklist template
         :header-rows: 1
@@ -309,8 +315,9 @@ Checklist Quality Work Product Review
         * - SafMP_00_01
           - :need:`gd_chklst__tool_cr_review`
 
-|
-**Release Management plan review checklist template**
+
+Release Management plan review checklist template
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 .. list-table:: Release Management plan review checklist template
         :header-rows: 1
@@ -327,8 +334,9 @@ Checklist Quality Work Product Review
           -
           -
 
-|
-**Problem Resolution plan review checklist template**
+
+Problem Resolution plan review checklist template
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 .. list-table:: Problem Resolution plan review checklist template
         :header-rows: 1
@@ -339,8 +347,9 @@ Checklist Quality Work Product Review
         * - SafMP_00_01
           - :need:`gd_chklst__problem_cr_review`
 
-|
-**Change Management plan review checklist template**
+
+Change Management plan review checklist template
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 .. list-table:: Release Management plan review checklist template
         :header-rows: 1
@@ -351,8 +360,9 @@ Checklist Quality Work Product Review
         * - SafMP_00_01
           - :need:`gd_chklst__change_cr_review`
 
-|
-**Release Management plan review checklist template**
+
+Release Management plan review checklist template
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 .. list-table:: Software verification review checklist template
         :header-rows: 1
@@ -394,8 +404,9 @@ Checklist Quality Work Product Review
           -
           -
 
-|
-**Documentation Management plan review checklist template**
+
+Documentation Management plan review checklist template
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 .. list-table:: Documentation Management plan review checklist template
         :header-rows: 1
@@ -406,8 +417,9 @@ Checklist Quality Work Product Review
         * - SafMP_00_01
           - :need:`gd_chklst__documentation_review`
 
-|
-**Software Development Plan review checklist template**
+
+Software Development Plan review checklist template
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 .. list-table:: Software Development Plan review checklist template
         :header-rows: 1
