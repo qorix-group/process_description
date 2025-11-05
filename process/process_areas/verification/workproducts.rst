@@ -31,12 +31,12 @@ Platform
    technology maturity or risks.
    This also covers the work product Verification Specification.
 
-.. workproduct:: Platform test
+.. workproduct:: platform integration test
    :id: wp__verification_platform_test
    :status: valid
    :complies: std_wp__iso26262__support_952
 
-   Platform Testing verifies Stakeholder Requirements performed on reference HW.
+   Platform integration testing verifies Stakeholder Requirements performed on reference HW.
    Depending on the nature of the project, respective tailoring (e.g. for reduced requirements
    coverage) has to be reflected in the :need:`wp__verification_plan` and :need:`wp__platform_safety_plan`.
 
