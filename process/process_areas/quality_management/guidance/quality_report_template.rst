@@ -44,10 +44,6 @@ Template Quality Report
     - List of all issues, compared to the :need:`wp__qms_plan`
     - Status of the issues (open / closed)
 
-   **1.5. Quality Trainings**
-    - List of all quality trainings, compared to the :need:`wp__qms_plan`
-    - Status of the quality trainings (planned / completed)
-
    **1.5. Process Improvement**
     - List of all process improvements, compared to the :need:`wp__process_impr_report`
     - Status of the process improvements (open / closed)
