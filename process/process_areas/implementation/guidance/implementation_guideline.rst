@@ -34,7 +34,7 @@ Detailed description which steps are need for implementation.
    separately during the unit testing phase. The detailed design shall be so exact, that test and
    implementation can be run simultaneously.
 #. Implement the source code, by using the coding guidelines `REPLACE_doc__cpp_coding_guidelines` for C++,
-   or <TBD> for Rust.
+   or `REPLACE_doc__rust_coding_guidelines` for Rust.
 #. Create a pull request for your change.
 #. Detail Design and Code Inspection is done to review the code of the software and detect errors in it.
 #. Check the results of the static and dynamic code analysis (this inlcludes compiler warnings).

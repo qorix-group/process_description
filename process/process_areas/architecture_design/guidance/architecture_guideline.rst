@@ -106,9 +106,8 @@ Based on this template the feature architecture shall describe the concept of th
 
 For this step following guidances are available:
 
-* `Branch Naming Conventions <REPLACE_doc__naming_conventions>`
-* `Git Guidelines <REPLACE_doc__git_coding_guidelines>`
 * :need:`[[title]] Feature Architecture <gd_temp__arch_feature>`
+* See also the `Configuration Management <https://eclipse-score.github.io/score/main/platform_management_plan/config_management.html>` for version control handling of the architecture design files.
 
 .. _model_feature_architecture:
 
@@ -178,9 +177,8 @@ Based on the *feature architecture* the concept for the *component architecture*
 
 For this step following guidances are available:
 
-* `Branch Naming Conventions <REPLACE_doc__naming_conventions>`
-* `Git Guidelines <REPLACE_doc__git_coding_guidelines>`
 * :need:`[[title]] <gd_temp__arch_comp>`
+* See also the `Configuration Management <https://eclipse-score.github.io/score/main/platform_management_plan/config_management.html>` for version control handling of the architecture design files.
 
 .. _allocate_component_requirements:
 
