@@ -175,7 +175,7 @@ On the feature level only *logical interfaces* shall be displayed. This means th
 SW Module View
 ==============
 
-A SW Module in S-CORE represents a `Bazel Module <https://bazel.build/external/module>`_. It serves only as a container (or package) which can include components. It is not meant to be an architectural element which includes that no requirements can be allocated to it.
+A SW Module in S-CORE represents a outcome and all belonging parts of CI build tool. It serves only as a container (or package) which can include components. It is not meant to be an architectural element which includes that no requirements can be allocated to it.
 
 On this level also a view shall be defined which is called *Module View*. It represents the allocation of components into modules and displays the dependencies between the single modules. In this view also cyclic dependencies between modules can be identified.
 
@@ -280,7 +280,7 @@ The *static view* shows the *building blocks* of the architecture. It shall be c
      - comp_arc_sta
      - comp_arc_sta_t
 
-To represent the `Bazel Modules <https://bazel.build/external/module>`_ an additional container (or package) is introduced. It can only contain components:
+To represent the CI build tool artifact an additional container (or package) is introduced. It can only contain components:
 
 .. list-table:: Definition of the static module view
    :header-rows: 1
