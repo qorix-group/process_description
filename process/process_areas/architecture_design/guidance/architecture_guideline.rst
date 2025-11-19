@@ -100,14 +100,8 @@ Create feature architecture (Concept)
 ----------------------------------------
 
 The feature architecture (= high level architecture) shall be created in the feature tree of the platform repository.
-As a starting point a :need:`template <gd_temp__arch_feature>` is available.
 
-Based on this template the feature architecture shall describe the concept of the feature including supporting figures and drawings.
-
-For this step following guidances are available:
-
-* :need:`[[title]] Feature Architecture <gd_temp__arch_feature>`
-* See also the `Configuration Management <https://eclipse-score.github.io/score/main/platform_management_plan/config_management.html>` for version control handling of the architecture design files.
+For this step the following guidance is available: :need:`Feature Architecture Template <gd_temp__arch_feature>`. Based on this template the feature architecture shall describe the concept of the feature including supporting figures and drawings. Additionally you should consult your project's specific guidelines, e.g. for using the version management tooling or architecture element naming conventions which should be defined (or linked) in the :need:`Project Management Plan <wp__project_mgt>`.
 
 .. _model_feature_architecture:
 
@@ -175,10 +169,7 @@ Create component architecture (Concept)
 
 Based on the *feature architecture* the concept for the *component architecture* shall be created in the SW module. It shall describe which components need to be created and how they correlate with each other in order to provide the required functionality. As a starting point a :need:`template <gd_temp__arch_comp>` is provided.
 
-For this step following guidances are available:
-
-* :need:`[[title]] <gd_temp__arch_comp>`
-* See also the `Configuration Management <https://eclipse-score.github.io/score/main/platform_management_plan/config_management.html>` for version control handling of the architecture design files.
+For this step the following guidance is available: :need:`Feature Architecture Template <gd_temp__arch_feature>`. Additionally you should consult your project's specific guidelines, e.g. for using the version management tooling or architecture element naming conventions which should be defined (or linked) in the PMP :need:`Project Management Plan <wp__project_mgt>`.
 
 .. _allocate_component_requirements:
 
