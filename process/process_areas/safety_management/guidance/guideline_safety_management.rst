@@ -36,10 +36,10 @@ Safety Management Guideline
    | The :need:`rl__safety_manager` on SW platform level is responsible to define a competence management for the whole platform.
    | Expectation is that the safety competence of the persons nominated for the roles is already given and only has to be checked.
    | The exception from this are the committers, for these no safety competence needs to be enforced.
-   | So the module safety managers shall consult the `module_safety_plan` and perform accordingly in their module project.
+   | So the module safety managers shall consult the :need:`module safety plan <wp__module_safety_plan>` and perform accordingly in their module project.
    |
    | Communication:
-   | Development teams are interdisciplinary, so the regular (sprint) planning and review meetings enable communication (as defined in `doc__platform_mgt_plan`). Another main communication means are the Pull Request reviews.
+   | Development teams are interdisciplinary, so the regular (sprint) planning and review meetings enable communication (as defined in in the project specific :need:`project management plan <wp__project_mgt>`). Another main communication means are the Pull Request reviews.
    | Also the standard Eclipse Foundation communication strategies are used (e.g. mailing lists)
    |
    | Safety anomalies:
