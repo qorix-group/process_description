@@ -1,0 +1,24 @@
+{
+	"folders": [
+		{
+			"name": "score_process_description",
+			"path": "."
+		}
+	],
+	"settings": {
+		"files.insertFinalNewline": true,
+		"files.trimFinalNewlines": true,
+		"files.trimTrailingWhitespace": true,
+		"editor.insertSpaces": true,
+		"editor.tabCompletion": "on",
+		"editor.rulers": [
+			88
+		],
+		"[python]": {
+			"editor.codeActionsOnSave": {
+				"source.sortImports": "explicit"
+			},
+			"editor.defaultFormatter": "charliermarsh.ruff"
+		}
+	}
+}

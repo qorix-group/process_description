@@ -87,6 +87,7 @@ Safety Management Guideline
 
    * :need:`wp__verification_feat_int_test`
    * :need:`wp__verification_platform_int_test`
+
    Verification planning is documented in :need:`wp__verification_plan`
 
    **Scheduling of confirmation reviews, audit and assessment:**
