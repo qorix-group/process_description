@@ -17,7 +17,7 @@
 Safety Analysis Process Requirements
 ====================================
 
-.. note:: Safety analysis is used as a umbrella term for the methods DFA (Dependent Failure Analysis) and FMEA (Failure Mode and Effects Analysis).
+.. note:: Safety Analysis is used as a umbrella term for the methods DFA (Dependent Failure Analysis) and FMEA (Failure Mode and Effects Analysis).
 
 .. gd_req:: Safety Analysis Structure
    :id: gd_req__saf_structure
@@ -48,16 +48,16 @@ Process Safety Analysis Attributes
 
    Each Safety Analysis shall have a unique ID. It shall be in a format which is also human readable and consists of
 
-      * type of Safety Analysis (DFA or FMEA)
-      * name of analysed structural element (e.g. Persistency, FEO, etc.)
-      * element descriptor (e.g. KVS__Open KVS or KVS__GetKeyValue)
+      * Type of Safety Analysis (DFA or FMEA)
+      * Name of analysed structural element (e.g. Persistency, FEO, etc.)
+      * Element descriptor (e.g. KVS__Open KVS or KVS__GetKeyValue)
 
    The naming convention shall be defined in the project and shall be used consistently.
 
 .. gd_req:: Safety Analysis attribute: title
    :id: gd_req__saf_attr_title
    :status: valid
-   :tags: manual_prio_1, attribute, mandatory
+   :tags: done_automation, attribute, mandatory
    :satisfies: wf__analyse_platform_featarch, wf__analyse_featarch, wf__analyse_comparch
    :complies: std_req__iso26262__support_6424
 
@@ -110,7 +110,7 @@ Process Safety Analysis Attributes
    :satisfies: wf__analyse_platform_featarch, wf__analyse_featarch, wf__analyse_comparch
    :complies: std_req__iso26262__analysis_848, std_req__iso26262__analysis_749, std_req__isopas8926__44431, std_req__isopas8926__44432
 
-   Each safety analysis shall have the status invalid until the analysis is finished. The status shall be set to valid if the analysis is finished and all issues are closed.
+   Each Safety Analysis shall have the status invalid until the analysis is finished. The status shall be set to valid if the analysis is finished and all issues are closed.
 
 .. gd_req:: Safety Analysis attribute: failure effect
    :id: gd_req__saf_attr_feffect
@@ -187,7 +187,7 @@ Safety Analysis Linkage
    :satisfies: wf__analyse_platform_featarch, wf__analyse_featarch, wf__analyse_comparch
    :complies: std_req__iso26262__analysis_842, std_req__iso26262__software_7410, std_req__iso26262__software_7411
 
-   It shall be checked that safety analysis can only be linked against valid safety elements (architecture view, requirement, AoU). A valid safety element has the attribute 'status == valid' and safety != QM.
+   It shall be checked that Safety Analysis can only be linked against valid safety elements (architecture view, requirement, AoU). A valid safety element has the attribute 'status == valid' and safety != QM.
 
 .. _process_requirements_safety_analysis_checks:
 
