@@ -54,24 +54,19 @@ The goal is to ensure that the decomposition supports **reusability** , **mainta
 The detailed design and implementation should follow an **iterative approach**, allowing for
 continuous improvements in quality through multiple cycles of refinement.
 
-Defintion of a Unit
--------------------
+Specification of Detailed Design
+--------------------------------
 
 A **unit** is a **granular, independent entity** of a component that can be **tested separately**
 during the unit testing phase. Each unit represents a **self-contained functionality** and is
 derived from the decomposition of a component.
 
-**Characteristics of a Unit**
+**Draft: Characteristics of a Unit**
 
 - **Independent** – Can be tested in isolation.
 - **Granular** – Represents a small, well-defined part of the system.
 - **Relational** – Has associations with other units, defined using **UML 2.0 notations** such as
   aggregation, composition, and generalization.
-
-**Examples**
-The dfinition of a unit depends of used the programming language. Examples are
-a source file, a definition file (e.g. c++ header), classes, structs, and functions.
-This list is not complete or exclusive.
 
 **Units in UML Diagrams**
 
