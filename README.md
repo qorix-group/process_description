@@ -1,21 +1,68 @@
-# process_description
+# 📊 Eclipse S-CORE Process Description
 
-S-CORE process description
+## 🎯 **Overview**
 
-## Overview
+The **Eclipse S-CORE Process Description** is a comprehensive process model designed to
+establish organizational rules for developing **open source automotive software** in
+**safety and security-critical contexts**.
+This project is part of the Eclipse Foundation and provides standardized processes for
+the automotive industry.
 
-The S-CORE process model aims to establish organization rules for developing open source software in the automotive industry, which can be used in safety and security context.
 
-## Features
+## 🚀 **Key Features & Purpose**
 
-The process model provide processes, which conform to state-of the art standards
+### **Primary Mission:**
+- Establish organizational rules for automotive open source software development
+- Enable safety and security compliance in automotive software projects
+- Provide standardized processes for critical automotive applications
 
-- ASPICE PAM 4.0
-- ISO 26262
-- ISO/SAE 21434
-- ISO PAS 8926
+### **Standards Compliance:**
 
-## Building process documentation
+The process model conforms to state-of-the-art industry standards:
+
+- **ASPICE PAM 4.0** (Automotive Software Process Improvement and Capability Determination)
+- **ISO 26262** (Functional Safety for Road Vehicles)
+- **ISO/SAE 21434** (Cybersecurity Engineering for Road Vehicles)
+- **ISO PAS 8926** (Safety and Cybersecurity for Automated Driving Systems)
+
+
+## 📋 **Core Process Areas**
+
+The workspace is organized into comprehensive process areas:
+
+### **🔧 Management Processes:**
+- **Platform Management** - Project Management, Infrastructure and platform oversight
+- **Safety Management** - ISO 26262 compliance, safety planning, anomaly handling
+- **Security Management** - ISO/SAE 21434 compliance, security planning, vulnerability management
+- **Quality Management** - ASPICE 4.0 compliance, quality assurance
+- **Change Management** - Only way to contribute, Impact analysis for safety/security changes
+- **Problem Resolution** - Issue tracking and resolution
+- **Release Management** - Release planning and execution
+
+### **🛠️ Development Processes:**
+- **Requirements Engineering** - Requirements specification and traceability
+- **Architecture** - Software architecture
+- **Implementation** - Software development and coding
+- **Verification** - Testing and verification processes
+- **Safety Analysis** - Safety analysis
+- **Security Analysis** - Security analysis
+
+### **🎯 Support Processes:**
+- **Configuration Management** - Version control and change tracking
+- **Tool Management** - Development tool evaluation and qualification
+- **Documentation Management** - Technical documentation processes
+
+
+## 👥 **Roles & Responsibilities**
+
+### **Key Roles Defined:**
+- **Safety Manager** - Functional safety oversight and compliance
+- **Security Manager** - Cybersecurity management and vulnerability handling
+- **Quality Manager** - Quality assurance and process compliance
+- **Project Lead** - Technical decision making and development coordination
+
+
+## 🛠️ **Development Environment**
 
 #### Run a documentation build:
 
