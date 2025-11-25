@@ -66,7 +66,7 @@ Process Safety Analysis Attributes
 .. gd_req:: Safety Analysis attribute: mitigated by
    :id: gd_req__saf_attr_mitigated_by
    :status: valid
-   :tags: prio_1_automation, attribute, optional
+   :tags: done_automation, attribute, optional
    :satisfies: wf__analyse_platform_featarch, wf__analyse_featarch, wf__analyse_comparch
    :complies: std_req__iso26262__analysis_844, std_req__iso26262__analysis_746, std_req__iso26262__analysis_747
 
@@ -77,7 +77,7 @@ Process Safety Analysis Attributes
 .. gd_req:: Safety Analysis attribute: mitigation issue
    :id: gd_req__saf_attr_mitigation_issue
    :status: valid
-   :tags: prio_1_automation, attribute, optional
+   :tags: done_automation, attribute, optional
    :satisfies: wf__analyse_platform_featarch, wf__analyse_featarch, wf__analyse_comparch
    :complies: std_req__iso26262__analysis_844, std_req__iso26262__analysis_746, std_req__iso26262__analysis_747
 
@@ -86,7 +86,7 @@ Process Safety Analysis Attributes
 .. gd_req:: Safety Analysis attribute: sufficient
    :id: gd_req__saf_attr_sufficient
    :status: valid
-   :tags: prio_1_automation, attribute, mandatory
+   :tags: done_automation, attribute, mandatory
    :satisfies: wf__analyse_platform_featarch, wf__analyse_featarch, wf__analyse_comparch
    :complies: std_req__iso26262__analysis_848, std_req__iso26262__analysis_749, std_req__isopas8926__44431, std_req__isopas8926__44432
 
@@ -96,7 +96,7 @@ Process Safety Analysis Attributes
 .. gd_req:: Safety Analysis content: argument
    :id: gd_req__saf_argument
    :status: valid
-   :tags: prio_1_automation, attribute, mandatory
+   :tags: done_automation, attribute, mandatory
    :satisfies: wf__analyse_platform_featarch, wf__analyse_featarch, wf__analyse_comparch
    :complies: std_req__iso26262__analysis_848, std_req__iso26262__analysis_749, std_req__isopas8926__44433
 
@@ -106,7 +106,7 @@ Process Safety Analysis Attributes
 .. gd_req:: Safety Analysis attribute: status
    :id: gd_req__saf_attr_status
    :status: valid
-   :tags: prio_1_automation, attribute, mandatory
+   :tags: done_automation, attribute, mandatory
    :satisfies: wf__analyse_platform_featarch, wf__analyse_featarch, wf__analyse_comparch
    :complies: std_req__iso26262__analysis_848, std_req__iso26262__analysis_749, std_req__isopas8926__44431, std_req__isopas8926__44432
 
@@ -115,7 +115,7 @@ Process Safety Analysis Attributes
 .. gd_req:: Safety Analysis attribute: failure effect
    :id: gd_req__saf_attr_feffect
    :status: valid
-   :tags: prio_1_automation, attribute, mandatory
+   :tags: done_automation, attribute, mandatory
    :satisfies: wf__analyse_platform_featarch, wf__analyse_featarch, wf__analyse_comparch
    :complies: std_req__iso26262__analysis_742
 
@@ -129,7 +129,7 @@ Safety Analysis Linkage
 .. gd_req:: Safety Analysis Linkage check
    :id: gd_req__saf_linkage_check
    :status: valid
-   :tags: prio_1_automation, attribute, automated
+   :tags: done_automation, attribute, automated
    :satisfies: wf__analyse_platform_featarch, wf__analyse_featarch, wf__analyse_comparch
    :complies: std_req__iso26262__analysis_842, std_req__iso26262__software_7410, std_req__iso26262__software_7411
 
@@ -147,7 +147,7 @@ Safety Analysis Linkage
 .. gd_req:: Safety Analysis attribute: check Requirements linkage
    :id: gd_req__saf_attr_requirements_check
    :status: valid
-   :tags: prio_1_automation, attribute, automated
+   :tags: done_automation, attribute, automated
    :satisfies: wf__analyse_platform_featarch, wf__analyse_featarch, wf__analyse_comparch
    :complies: std_req__iso26262__analysis_842, std_req__iso26262__software_7410, std_req__iso26262__software_7411
 
@@ -165,7 +165,7 @@ Safety Analysis Linkage
 .. gd_req:: Safety Analysis attribute: link to Aou
    :id: gd_req__saf_attr_aou
    :status: valid
-   :tags: prio_1_automation, attribute, automated
+   :tags: done_automation, attribute, automated
    :satisfies: wf__analyse_platform_featarch, wf__analyse_featarch, wf__analyse_comparch
    :complies: std_req__iso26262__analysis_845
 
@@ -197,7 +197,7 @@ Safety Analysis Checks
 .. gd_req:: Safety Analysis mandatory attributes provided
    :id: gd_req__saf_attr_mandatory
    :status: valid
-   :tags: prio_1_automation, attribute, check
+   :tags: done_automation, attribute, check
    :satisfies: wf__analyse_platform_featarch, wf__analyse_featarch, wf__analyse_comparch
    :complies: std_req__iso26262__analysis_848, std_req__iso26262__analysis_749
 
@@ -237,7 +237,7 @@ DFA Process Requirements
 .. gd_req:: DFA attribute: failure ID
    :id: gd_req__saf_attr_failure_id
    :status: valid
-   :tags: prio_1_automation, attribute, mandatory
+   :tags: done_automation, attribute, mandatory
    :satisfies: wf__analyse_platform_featarch, wf__analyse_featarch, wf__analyse_comparch
    :complies: std_req__iso26262__support_6425, std_req__iso26262__support_6432
 
@@ -251,7 +251,7 @@ FMEA Process Requirements
 .. gd_req:: FMEA attribute: fault ID
    :id: gd_req__saf_attr_fault_id
    :status: valid
-   :tags: prio_1_automation, attribute, mandatory
+   :tags: done_automation, attribute, mandatory
    :satisfies: wf__analyse_featarch, wf__analyse_comparch
    :complies: std_req__iso26262__analysis_848
 
