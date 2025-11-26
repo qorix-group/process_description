@@ -37,7 +37,7 @@ Detailed description which steps are need for implementation.
    or <TBD> for Rust.
 #. Create a pull request for your change.
 #. Detail Design and Code Inspection is done to review the code of the software and detect errors in it.
-#. Check the results of the static and dynamic code analysis (this inlcludes compiler warnings).
+#. Check the results of the static and dynamic code analysis (this inlcludes compiler warnings). Acceptance criteria are defined in the Verification Plan :need:`gd_temp__verification_plan`.
 #. Fix or justify the errors.
 #. Merge the pull request.
 #. Create a follow up ticket if not all findings could be fixed.
