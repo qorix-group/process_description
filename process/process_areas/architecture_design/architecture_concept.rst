@@ -213,7 +213,7 @@ The second viewpoint is named as *component architecture* and describes the impl
       {{ draw_component(need(), needs) }}
 
 The *lower level components* are optional and rely on the complexity of the component. Thus there is no graphic representation required for it.
-In all views the Components which are marked as ASIL_B related are drawn in red color.
+In all views the components which are marked as ASIL_B related are drawn in red color.
 
 Dynamic View
 ------------
