@@ -267,4 +267,6 @@ Checks for Architectural Design
    :tags: done_automation
    :satisfies: wf__cr_mt_featarch, wf__cr_mt_comparch
 
-   It shall be possible to provide the required architectural building blocks inside the dynamic architecture.
+   It shall be checked if the required architectural building blocks inside the dynamic architecture exists as component in the static architecture.
+
+   For example via tooling or review checklist.
