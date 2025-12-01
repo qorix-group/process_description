@@ -99,17 +99,6 @@ In case you are appointed as a :need:`Safety Manager <rl__safety_manager>` by th
 * Make familiar with your role description and the other workflows of safety management (see below)
 * Make familiar with the development and supporting process descriptions in :ref:`process_description` plus the relevant sections of the :need:`Platform Management Plan <wp__platform_mgmt>`
 
-Workflows
----------
-
-.. toctree::
-   :maxdepth: 1
-   :glob:
-
-   roles.rst
-   workproducts.rst
-   workflows.rst
-
 Guidance
 --------
 
@@ -121,3 +110,14 @@ Guidance
 
 .. needextend:: docname is not None and "process_areas/safety_management" in docname
    :+tags: safety_mgt
+
+Workflows
+---------
+
+.. toctree::
+   :maxdepth: 1
+   :glob:
+
+   roles.rst
+   workproducts.rst
+   workflows.rst
