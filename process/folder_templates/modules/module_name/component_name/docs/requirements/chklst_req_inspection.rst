@@ -146,6 +146,7 @@ Requirement Inspection Checklist
         -
         -
         -
+        -
       * - REQ_09_02
         - Do the requirements that define a safety mechanism specify the error reaction leading to a safe state?
         - Alternatively to the safe state there could also be "repair" mechanisms. Also do not forget to consider REQ_05_01 for these.
