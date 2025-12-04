@@ -206,6 +206,7 @@ Checks for Architectural Design
    :status: valid
    :tags: prio_1_automation, attribute, check
    :satisfies: wf__cr_mt_featarch, wf__cr_mt_comparch
+   :complies: std_req__iso26262__software_748
 
    It shall be checked that valid safety architectural elements (Safety != QM) can only be linked against valid safety architectural elements.
 
