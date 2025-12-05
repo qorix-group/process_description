@@ -162,3 +162,14 @@ Checklist
       -
       -
       -
+    * - ARC_04_01
+      - If software partitioning (different operting system processes) is used to implement freedom from interference:
+        a) shared resources (cpu time, shared memory, ...) are used so that freedom from interference between the processes is ensured,
+        b) the operating system supports freedom from interference between the processes
+
+        Note: see ISO 26262-6, 7.4.9 and Annex D for partitioning
+      - manual
+      -
+      -
+      -
+      -

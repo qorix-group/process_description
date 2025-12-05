@@ -34,11 +34,15 @@ Platform
 .. workproduct:: Platform Integration Test
    :id: wp__verification_platform_int_test
    :status: valid
-   :complies: std_wp__iso26262__support_952
+   :complies: std_wp__iso26262__support_952, std_req__iso26262__software_749
 
    Platform Integration Testing verifies Stakeholder Requirements performed on reference HW.
    Depending on the nature of the project, respective tailoring (e.g. for reduced requirements
    coverage) has to be reflected in the :need:`wp__verification_plan` and :need:`wp__platform_safety_plan`.
+
+   If software partitioning (operating system processes) is used to implement freedom from interference
+   effectiveness evidence shall be generated during integration and verification tests
+
 
 .. workproduct:: Platform Verification Report
    :id: wp__verification_platform_ver_report
@@ -66,7 +70,7 @@ Feature
 .. workproduct:: Feature Integration test
    :id: wp__verification_feat_int_test
    :status: valid
-   :complies: std_wp__iso26262__software_1051, std_wp__iso26262__support_952
+   :complies: std_wp__iso26262__software_1051, std_wp__iso26262__support_952, std_req__iso26262__software_749
 
    Integration Testing verifies feature requirements and architecture:
 
@@ -74,6 +78,9 @@ Feature
    - all flows from Dynamic View and
    - performance and resource consumption: i.e. RAM and processor usage
      on reference HW
+   - If software partitioning (operating system processes) is used to implement freedom from interference
+     effectiveness evidence shall be generated during integration and verification tests
+
 
 Module
 ******
