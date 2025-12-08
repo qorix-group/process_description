@@ -34,7 +34,7 @@ Platform
 .. workproduct:: Platform Integration Test
    :id: wp__verification_platform_int_test
    :status: valid
-   :complies: std_wp__iso26262__support_952, std_req__iso26262__software_749
+   :complies: std_wp__iso26262__support_952
 
    Platform Integration Testing verifies Stakeholder Requirements performed on reference HW.
    Depending on the nature of the project, respective tailoring (e.g. for reduced requirements
@@ -70,7 +70,7 @@ Feature
 .. workproduct:: Feature Integration test
    :id: wp__verification_feat_int_test
    :status: valid
-   :complies: std_wp__iso26262__software_1051, std_wp__iso26262__support_952, std_req__iso26262__software_749
+   :complies: std_wp__iso26262__software_1051, std_wp__iso26262__support_952
 
    Integration Testing verifies feature requirements and architecture:
 
