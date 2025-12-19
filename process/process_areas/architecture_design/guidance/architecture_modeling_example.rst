@@ -22,7 +22,17 @@ This chapter only serves as an example how an architecture could be modeled in *
 Feature Architecture File
 =========================
 
-.. feat_arc_sta:: Feature 1
+.. feat:: Feature 1
+   :id: feat__example_feature
+   :security: YES
+   :safety: QM
+   :status: valid
+   :includes: logic_arc_int__example_feature__archdes_logical_interface_1, logic_arc_int__example_feature__archdes_logical_interface_2
+   :consists_of: comp__component_example_1
+
+   This is the example feature.
+
+.. feat_arc_sta:: Feature 1 Static View
    :id: feat_arc_sta__example_feature__archdes_static
    :security: YES
    :safety: QM
@@ -122,6 +132,15 @@ Feature Architecture File
 Module Viewpoint
 ================
 
+.. mod:: Module 1
+   :id: mod__example_feature_archdes_module_1
+   :security: YES
+   :safety: ASIL_B
+   :status: valid
+   :includes: comp__component_example_1
+
+   This is Module 1.
+
 .. mod_view_sta:: Module 1
    :id: mod_view_sta__example_feature__archdes_1
    :includes: comp_arc_sta__example_feature__archdes_component_1
@@ -145,6 +164,16 @@ Module Viewpoint
 Component Architecure File(s)
 =============================
 
+.. comp:: Component 1
+   :id: comp__component_example_1
+   :security: YES
+   :safety: ASIL_B
+   :status: invalid
+   :implements: logic_arc_int__example_feature__archdes_logical_interface_1, logic_arc_int__example_feature__archdes_logical_interface_2
+   :uses: logic_arc_int__example_feature__archdes_logical_interface_3
+
+   Example Component 1 description.
+
 .. comp_arc_sta:: Component 1
    :id: comp_arc_sta__example_feature__archdes_component_1
    :status: valid
@@ -161,7 +190,7 @@ Component Architecure File(s)
 
       {{ draw_component(need(), needs) }}
 
-.. comp_arc_sta:: Component 3
+.. comp_arc_sta:: Component 3 Static View
    :id: comp_arc_sta__example_feature__archdes_component_3
    :status: valid
    :safety: QM
