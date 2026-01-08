@@ -179,9 +179,9 @@ A SW Module represents a outcome of an component or a set of components realizin
 
 On this level also a view shall be defined which is called *Module View*. It represents the allocation of components into modules and displays the dependencies between the single modules. In this view also cyclic dependencies between modules can be identified.
 
-.. mod_view_sta:: Module 3
+.. mod_view_sta:: Module 1 Static View
    :id: mod_view_sta__example_feature__archdes_3
-   :includes: comp_arc_sta__example_feature__archdes_component_1
+   :includes: comp__component_example_1
 
    .. needarch::
       :scale: 50
@@ -198,12 +198,12 @@ Static View
 
 The second viewpoint is named as *component architecture* and describes the implementation of the functionalities in a white-box view of the platform. It describes the structural decomposition of the *SW components* into *lower level* SW components. In the projects this viewpoint provides more detailed information concerning the respective interfaces of a component. If a SW component interacts with a different component it is also included via a *use* relationship in the diagram. An example of the *component architecture* is displayed here:
 
-.. comp_arc_sta:: Component 2
-   :id: comp_arc_sta__example_feature__archdes_component_2
+.. comp_arc_sta:: Component 1 Static View
+   :id: comp_arc_sta__example_feature__archdes_component_concept_1
    :status: valid
    :safety: ASIL_B
    :security: NO
-   :includes: comp_arc_sta__example_feature__archdes_sub_component_1, comp_arc_sta__example_feature__archdes_sub_component_2, comp_arc_sta__example_feature__archdes_sub_component_3
+   :includes: comp__archdes_sub_component_1, comp__archdes_sub_component_2, comp__archdes_sub_component_3
    :fulfils: comp_req__example_feature__archdes_example_req
 
    .. needarch::

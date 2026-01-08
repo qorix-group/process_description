@@ -166,7 +166,7 @@ Component Architecture
 The following section is an example, how an component looks like and how the detail design of an component is described. Please note that components with an "ASIL_B" safety rating are highlighted with red borders in the diagram (e.g., "Component 1").
 
 
-.. comp_arc_sta:: Component 1
+.. comp_arc_sta:: Component 1 Static View
    :id: comp_arc_sta__example_feature__component_getstrt
    :status: valid
    :safety: ASIL_B
