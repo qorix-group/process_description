@@ -31,7 +31,7 @@ Static Diagrams for Unit Interactions
     :safety: ASIL_B
     :status: valid
     :implements: comp_req__example_feature__archdes_example_req
-    :satisfies: comp_arc_sta__example_feature__archdes_sub_component_1
+    :satisfies: comp_arc_sta__example_feature__archdes_component_1
     :includes: sw_unit__example_feature__unit1, sw_unit__example_feature__unit2
 
 .. uml:: dd_example_ex_sta.puml
@@ -45,7 +45,7 @@ Dynamic Diagrams for Unit Interactions
     :safety: ASIL_B
     :status: valid
     :implements: comp_req__example_feature__archdes_example_req
-    :satisfies: comp_arc_sta__example_feature__archdes_sub_component_1
+    :satisfies: comp_arc_sta__example_feature__archdes_component_1
 
 .. uml:: dd_example_ex_dyn.puml
 

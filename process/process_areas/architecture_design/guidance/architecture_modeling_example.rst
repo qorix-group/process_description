@@ -171,6 +171,7 @@ Component Architecure File(s)
    :status: invalid
    :implements: logic_arc_int__example_feature__archdes_logical_interface_1, logic_arc_int__example_feature__archdes_logical_interface_2
    :uses: logic_arc_int__example_feature__archdes_logical_interface_3
+   :consists_of: comp__archdes_sub_component_1, comp__archdes_sub_component_2, comp__archdes_sub_component_3
 
    Example Component 1 description.
 
@@ -182,7 +183,6 @@ Component Architecure File(s)
    :uses: logic_arc_int__example_feature__archdes_logical_interface_3
    :implements: logic_arc_int__example_feature__archdes_logical_interface_1, logic_arc_int__example_feature__archdes_logical_interface_2
    :fulfils: comp_req__example_feature__archdes_example_req
-   :includes: comp_arc_sta__example_feature__archdes_sub_component_1, comp_arc_sta__example_feature__archdes_sub_component_2, comp_arc_sta__example_feature__archdes_sub_component_3
 
    .. needarch::
       :scale: 50
@@ -206,31 +206,28 @@ Component Architecure File(s)
 
 .. Subcomponents
 
-.. comp_arc_sta:: Lower Level Component 1
-   :id: comp_arc_sta__example_feature__archdes_sub_component_1
+.. comp:: Lower Level Component 1
+   :id: comp__archdes_sub_component_1
    :status: valid
    :safety: ASIL_B
    :security: NO
    :uses: logic_arc_int__example_feature__archdes_logical_interface_3
    :implements: logic_arc_int__example_feature__archdes_logical_interface_2
-   :fulfils: comp_req__example_feature__archdes_example_req
 
-.. comp_arc_sta:: Lower Level Component 2
-   :id: comp_arc_sta__example_feature__archdes_sub_component_2
+.. comp:: Lower Level Component 2
+   :id: comp__archdes_sub_component_2
    :status: valid
    :safety: ASIL_B
    :security: NO
    :uses: logic_arc_int__example_feature__archdes_logical_interface_3
    :implements: logic_arc_int__example_feature__archdes_logical_interface_2
-   :fulfils: comp_req__example_feature__archdes_example_req
 
-.. comp_arc_sta:: Lower Level Component 3
-   :id: comp_arc_sta__example_feature__archdes_sub_component_3
+.. comp:: Lower Level Component 3
+   :id: comp__archdes_sub_component_3
    :status: valid
    :safety: QM
    :security: NO
    :implements: logic_arc_int__example_feature__archdes_logical_interface_3
-   :fulfils: comp_req__example_feature__archdes_example_req
 
 ..
     Requirements

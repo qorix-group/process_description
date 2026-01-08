@@ -220,7 +220,7 @@ UML diagram selection
 
 Static architecture
 -------------------
-As can be seen from the examples presented in :need:`feat_arc_sta__example_feature__feature_1` and :need:`comp_arc_sta__example_feature__archdes_component_2`
+As can be seen from the examples presented in :need:`feat_arc_sta__example_feature__feature_1` and :need:`comp_arc_sta__example_feature__archdes_component_concept_1`
 for the static architecture a UML component diagram is expected (and supported by the tooling).
 
 Dynamic architecture
