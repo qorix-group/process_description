@@ -165,6 +165,12 @@ Component Architecture
 
 The following section is an example, how an component looks like and how the detail design of an component is described. Please note that components with an "ASIL_B" safety rating are highlighted with red borders in the diagram (e.g., "Component 1").
 
+.. comp:: Component 1
+   :id: comp__component_getstrt
+   :security: NO
+   :safety: ASIL_B
+   :status: invalid
+   :implements: logic_arc_int__example_feature__archdes_logical_interface_1
 
 .. comp_arc_sta:: Component 1 Static View
    :id: comp_arc_sta__example_feature__component_getstrt
@@ -172,7 +178,6 @@ The following section is an example, how an component looks like and how the det
    :safety: ASIL_B
    :security: NO
    :uses: logic_arc_int__example_feature__archdes_logical_interface_3
-   :implements: logic_arc_int__example_feature__archdes_logical_interface_1
    :fulfils: comp_req__example_feature__archdes_example_req
 
    .. needarch::
