@@ -83,11 +83,11 @@ Safety Management Workflows
    :contains: gd_guidl__saf_plan_definitions, gd_chklst__safety_plan, gd_chklst__safety_package
    :has: doc_concept__safety_management_process, doc_getstrt__safety_management_process
 
-   | A "external" safety manager is responsible the formal reviews on safety plan, safety package and safety analysis.
-   | "External" means here that the person is not the Safety Manager of the platform/module (i.e. created or approved the respective work product).
+   | An "external" safety manager is responsible the formal reviews on safety plan, safety package and safety analysis.
+   | In this context "external" means that the person is not the Safety Manager of the platform/module (i.e. created or approved the respective work product).
    | The Safety Manager (of the platform/module) shall support the "external" safety manager during the reviews.
    | The Safety Manager (of the platform/module) shall approve the formal reviews.
-   | A checklists exist to guide the creator of the relevant safety documents.
+   | Checklists exist to guide the creator of the relevant safety documents.
 
 .. workflow:: Create/Maintain Safety Manual
    :id: wf__cr_mt_safety_manual
