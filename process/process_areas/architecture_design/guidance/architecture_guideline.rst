@@ -17,7 +17,7 @@
 Architecture Guideline
 ######################
 
-.. gd_guidl:: Architectural Design
+.. gd_guidl:: Architectural Design Guideline
    :id: gd_guidl__arch_design
    :status: valid
    :complies: std_req__isopas8926__44411, std_req__isopas8926__44412, std_req__iso26262__software_743, std_req__iso26262__software_744, std_req__iso26262__software_745
