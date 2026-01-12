@@ -147,7 +147,7 @@ Review architectural design
 ---------------------------
 
 As soon as the design is in a mature state, it can be reviewed according to :need:`doc_concept__wp_inspections`
-and merged into the main branch of the score repository.
+and merged into the main branch of the score repository. See also the document life-cycle guideline :need:`gd_guidl__documentation` for more information about the documentation for the feature architecture :need:`wp__feature_arch`.
 
 For the review process, a checklist template is available: :need:`Architecture Inspection Checklist Template <gd_chklst__arch_inspection_checklist>`.
 
@@ -201,7 +201,7 @@ The relations of the static elements are described in :ref:`metamodel_architectu
 Review component architecture
 -----------------------------
 
-As soon as the design is in a mature state, it can be :ref:`reviewed <review_concept>` and merged into the main branch of the module repository.
+As soon as the design is in a mature state, it can be :ref:`reviewed <review_concept>` and merged into the main branch of the module repository. See also the document life-cycle guideline :need:`gd_guidl__documentation` for more information about the documentation for the component architecture :need:`wp__component_arch`.
 
 Following roles should be included in the review:
 
