@@ -115,13 +115,15 @@ Based on the inputs two architectural levels are defined.
 
 .. _feature_view:
 
-Feature View
-============
+Feature Views
+=============
+
+The feature architecture contain the following views:
 
 Static View
 -----------
 
-The first viewpoint is named as *feature architecture*. It displays the SW modules (= top level SW components) which are required to realize the feature including their interactions. Also the *logical interfaces* and the interaction between the feature and the user are included in this view. On this architectural level the feature requirements shall be allocated. An example for the static architecture is shown here:
+The first viewpoint is named as *feature architecture*. It displays the SW Components within the SW modules (= top level SW components) which are required to realize the feature including their interactions. Also the *logical interfaces* and the interaction between the feature and the user are included in this view. On this architectural level the feature requirements shall be allocated. An example for the static architecture is shown here:
 
 .. feat_arc_sta:: Feature 1 Architecture
    :id: feat_arc_sta__example_feature__feature_1
@@ -142,7 +144,7 @@ In all views, the components which are marked as ASIL_B related are drawn with r
 Dynamic View
 ------------
 
-The next chart shows the *dynamic behavior* of the feature including the interaction of its modules with the user. Following scenarios should be included:
+This view shows the *dynamic behavior* of the feature including the interaction of its components with the user. Following scenarios should be included:
 
 *  important use cases or features: how do components execute them?
 *  interactions at critical external interfaces: how do components cooperate with users and neighboring components?
@@ -193,10 +195,12 @@ On this level also a view shall be defined which is called *Module View*. It rep
 Component View
 ==============
 
+The component architecture contain the following views:
+
 Static View
 -----------
 
-The second viewpoint is named as *component architecture* and describes the implementation of the functionalities in a white-box view of the platform. It describes the structural decomposition of the *SW components* into *lower level* SW components. In the projects this viewpoint provides more detailed information concerning the respective interfaces of a component. If a SW component interacts with a different component it is also included via a *use* relationship in the diagram. An example of the *component architecture* is displayed here:
+The *component architecture* describes the implementation of the functionalities in a white-box view. It describes the structural decomposition of the *SW components* into *lower level* SW components. It provides a more detailed information concerning the respective interfaces of a component. If a SW component interacts with a different component it is also included via a *use* relationship in the diagram. An example of the *component architecture* is displayed here:
 
 .. comp_arc_sta:: Component 1 Static View
    :id: comp_arc_sta__example_feature__archdes_component_concept_1
@@ -338,8 +342,8 @@ Relations between the architectural elements
 
 The traceability between the architectural elements itself shall be established by modeling the elements in the *docs-as-code* tool. Here a "clickable" architecture can be generated which allows an easy tracing through the element tree. The previously introduced architectural components shall be connected by using following relations:
 
-   .. note::
-      The current state only considers logic_arc_int, others will be addressed later in the model and is work in progress.
+.. note::
+   The current state only considers logic_arc_int, others will be addressed later in the model and is work in progress.
 
 The following picture shows the metamodel for the architectural design including the defined elements and their relations.
 It serves as a guidance for modeling the architecture.
@@ -594,7 +598,6 @@ To make *needuml* work we have to replace the *need()* call with a different fun
       :safety: ASIL_B
       :security: NO
       :uses: real_arc_int__archdes_component_interface_3
-      :implements: real_arc_int__example_feature__archdes_component_interface_1
       :fulfils: comp_req__example_feature__archex_example_req
 
       .. needuml::
