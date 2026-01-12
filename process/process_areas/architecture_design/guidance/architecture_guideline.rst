@@ -108,7 +108,7 @@ For this step, the following guidance is available: :need:`Feature Architecture 
 Model feature architecture
 --------------------------
 
-Based on the concept description, a model of the feature architecture should be designed. It shall consist of the logical interfaces which the user of the feature can access, including the modules which provide the interfaces. Therefore, the following elements shall be used:
+Based on the concept description, a model of the feature architecture shall be designed. It shall consist of the logical interfaces which the user of the feature can access, including the modules which provide the interfaces. Therefore, the following elements shall be used:
 
 .. list-table:: Architectural Elements of the Feature Architecture
    :header-rows: 1
