@@ -14,8 +14,8 @@
 
 .. _architecture_inspection_checklist:
 
-Inspection Checklist Template
-=============================
+Architecture Inspection Checklist Template
+==========================================
 
 .. gd_chklst:: Architecture Inspection Checklist Template
     :id: gd_chklst__arch_inspection_checklist
@@ -28,4 +28,4 @@ Inspection Checklist Template
     - :need:`doc__component_name_arc_inspection`
     - :need:`doc__feature_name_arc_inspection`
 
-    These have the same questions, but different scope and document naming.
+    These two documents have the same questions, but different scope and document naming.

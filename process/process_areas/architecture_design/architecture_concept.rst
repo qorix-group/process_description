@@ -115,20 +115,22 @@ Based on the inputs two architectural levels are defined.
 
 .. _feature_view:
 
-Feature View
-============
+Feature Views
+=============
+
+The feature architecture contain the following views:
 
 Static View
 -----------
 
-The first viewpoint is named as *feature architecture*. It displays the SW modules (= top level SW components) which are required to realize the feature including their interactions. Also the *logical interfaces* and the interaction between the feature and the user are included in this view. On this architectural level the feature requirements shall be allocated. An example for the static architecture is shown here:
+The first viewpoint is named as *feature architecture*. It displays the SW Components within the SW modules (= top level SW components) which are required to realize the feature including their interactions. Also the *logical interfaces* and the interaction between the feature and the user are included in this view. On this architectural level the feature requirements shall be allocated. An example for the static architecture is shown here:
 
 .. feat_arc_sta:: Feature 1 Architecture
    :id: feat_arc_sta__example_feature__feature_1
    :security: YES
    :safety: QM
    :status: valid
-   :includes: logic_arc_int__example_feature__archdes_logical_interface_1, logic_arc_int__example_feature__archdes_logical_interface_2
+   :includes: logic_arc_int__example_feature__archex_logical_interface_1, logic_arc_int__example_feature__archex_logical_interface_2
    :fulfils: feat_req__example_feature__archdes_example_req
 
    .. needarch::
@@ -142,7 +144,7 @@ In all views, the components which are marked as ASIL_B related are drawn with r
 Dynamic View
 ------------
 
-The next chart shows the *dynamic behavior* of the feature including the interaction of its modules with the user. Following scenarios should be included:
+This view shows the *dynamic behavior* of the feature including the interaction of its components with the user. Following scenarios should be included:
 
 *  important use cases or features: how do components execute them?
 *  interactions at critical external interfaces: how do components cooperate with users and neighboring components?
@@ -160,7 +162,7 @@ Interface View
 On the feature level only *logical interfaces* shall be displayed. This means that only logical names shall be provided for both the interface and the operations within. Those *logical interfaces* shall be connected to component interfaces on the module view.
 
 .. logic_arc_int:: Logical Interface 1
-   :id: logic_arc_int__example_feature__archdes_logical_interface_1
+   :id: logic_arc_int__example_feature__archcon_logical_interface_1
    :security: YES
    :safety:  ASIL_B
    :status: valid
@@ -180,7 +182,7 @@ A SW Module represents a outcome of an component or a set of components realizin
 On this level also a view shall be defined which is called *Module View*. It represents the allocation of components into modules and displays the dependencies between the single modules. In this view also cyclic dependencies between modules can be identified.
 
 .. mod_view_sta:: Module 1 Static View
-   :id: mod_view_sta__example_feature__archdes_3
+   :id: mod_view_sta__example_feature__archcon_1
    :includes: comp__component_example_1
 
    .. needarch::
@@ -193,18 +195,20 @@ On this level also a view shall be defined which is called *Module View*. It rep
 Component View
 ==============
 
+The component architecture contain the following views:
+
 Static View
 -----------
 
-The second viewpoint is named as *component architecture* and describes the implementation of the functionalities in a white-box view of the platform. It describes the structural decomposition of the *SW components* into *lower level* SW components. In the projects this viewpoint provides more detailed information concerning the respective interfaces of a component. If a SW component interacts with a different component it is also included via a *use* relationship in the diagram. An example of the *component architecture* is displayed here:
+The *component architecture* describes the implementation of the functionalities in a white-box view. It describes the structural decomposition of the *SW components* into *lower level* SW components. It provides a more detailed information concerning the respective interfaces of a component. If a SW component interacts with a different component it is also included via a *use* relationship in the diagram. An example of the *component architecture* is displayed here:
 
 .. comp_arc_sta:: Component 1 Static View
    :id: comp_arc_sta__example_feature__archdes_component_concept_1
    :status: valid
    :safety: ASIL_B
    :security: NO
-   :includes: comp__archdes_sub_component_1, comp__archdes_sub_component_2, comp__archdes_sub_component_3
-   :fulfils: comp_req__example_feature__archdes_example_req
+   :includes: comp__archex_sub_component_1, comp__archex_sub_component_2, comp__archex_sub_component_3
+   :fulfils: comp_req__example_feature__archex_example_req
 
    .. needarch::
       :scale: 50
@@ -242,7 +246,7 @@ The component interface view shows the actual interfaces of the component. Also 
    :status: valid
    :safety: ASIL_B
    :security: NO
-   :fulfils: comp_req__example_feature__archdes_example_req
+   :fulfils: comp_req__example_feature__archex_example_req
    :language: cpp
 
    .. needarch::
@@ -338,8 +342,8 @@ Relations between the architectural elements
 
 The traceability between the architectural elements itself shall be established by modeling the elements in the *docs-as-code* tool. Here a "clickable" architecture can be generated which allows an easy tracing through the element tree. The previously introduced architectural components shall be connected by using following relations:
 
-   .. note::
-      The current state only considers logic_arc_int, others will be addressed later in the model and is work in progress.
+.. note::
+   The current state only considers logic_arc_int, others will be addressed later in the model and is work in progress.
 
 The following picture shows the metamodel for the architectural design including the defined elements and their relations.
 It serves as a guidance for modeling the architecture.
@@ -396,3 +400,255 @@ Reviews of the architecture
 ***************************
 
 Some of the checks cannot be performed automatically. Therefore a manual inspection of the architecture is needed. The architecture review itself is included in the PR review which is triggered if a contributor wants to commit code to the main line. For this review a checklist is available: :need:`gd_chklst__arch_inspection_checklist`.
+
+Tooling support
+***************
+
+Templates
+=========
+
+For creating the architectural design, snippets in RestructuredText (rst) are available:
+
+* feat
+* feat_arc_<sta|dyn>
+* comp
+* comp_arc_<sta|dyn>
+
+The needs itself which are the basis for the template are defined in the :ref:`Architectural Design <architectural_design>`.
+
+.. _arch_gen_sphinx:
+
+Architecture Generation for Sphinx-Needs
+========================================
+
+Overview
+--------
+
+The system provides utilities to generate diagrams (like `PlantUML <https://plantuml.com/en/>`_) diagrams from requirement specifications. It supports various architectural elements types including:
+
+* Features
+* Logical Interfaces
+* Components
+* Component Interfaces
+
+as well as the linkage between them.
+
+Usage
+-----
+
+To generate a UML diagram, use the *needarch* directive in your Sphinx-Needs documentation:
+
+.. code-block:: rst
+
+   .. needarch::
+      :scale: 50
+      :align: center
+
+      {{ draw_feature(need(), needs) }}
+
+It's also possible to manually extend the drawing. For an example, check out :ref:`manual_addition_uml`.
+
+Available Drawing Classes
+-------------------------
+
+.. code-block:: none
+
+   # Draw Feature
+   # Generates a UML representation of a feature and its included components/interfaces.
+
+   {{ draw_feature(need(), needs) }}
+
+   # Draw Any Interface
+   # Renders a logical interface and its operations or a component interface with its operations and implementations.
+
+   {{ draw_interface(need(), needs) }}
+
+   # Draw Component
+   # Creates a complete component diagram including internal structure and linkages.
+
+   {{ draw_component(need(), needs) }}
+
+Rendered Examples
+-----------------
+
+Here are some excerpts of UML diagrams made from the requirements of that file.
+
+Feature Architecture
+^^^^^^^^^^^^^^^^^^^^
+
+The following section is an example, how an `Feature <https://eclipse-score.github.io/score/main/features/index.html>`_ looks like and how the architecture of an Feature is described. Please note that components with an "ASIL_B" safety rating are highlighted with red borders in the diagram (e.g., "Component 1").
+
+.. feat:: Feature Name
+   :id: feat__feature_name_example
+   :security: YES
+   :safety: ASIL_B
+   :status: invalid
+   :includes: logic_arc_int__feature_name__interface_name
+   :consists_of: comp__component_name
+
+.. feat_arc_sta:: Feature Static Architecture - Getting Started Example
+      :id: feat_arc_sta__example_feature__archdes_getstrt
+      :security: YES
+      :safety: QM
+      :status: valid
+      :includes: logic_arc_int__example_feature__archex_logical_interface_1, logic_arc_int__example_feature__archex_logical_interface_2
+      :fulfils: feat_req__example_feature__archdes_example_req
+
+      .. needarch::
+         :scale: 50
+         :align: center
+
+         {{ draw_feature(need(), needs) }}
+
+.. code-block:: rst
+
+   .. feat:: Feature Name
+      :id: feat__feature_name
+      :security: YES
+      :safety: ASIL_B
+      :status: invalid
+      :includes: logic_arc_int__feature_name__interface_name
+      :consists_of: comp__component_name
+
+   .. feat_arc_sta:: Feature Static Architecture View Getting Started
+      :id: feat_arc_sta__example_feature__archdes_getstrt
+      :security: YES
+      :safety: QM
+      :status: valid
+      :includes: logic_arc_int__example_feature__archex_logical_interface_1, logic_arc_int__example_feature__archex_logical_interface_2
+      :fulfils: feat_req__example_feature__archdes_example_req
+
+      .. needarch::
+         :scale: 50
+         :align: center
+
+         {{ draw_feature(need(), needs) }}
+
+Component Architecture
+^^^^^^^^^^^^^^^^^^^^^^
+
+The following section is an example, how an component looks like and how the detail design of an component is described. Please note that components with an "ASIL_B" safety rating are highlighted with red borders in the diagram (e.g., "Component 1").
+
+.. comp_arc_sta:: Component 1 Static View
+   :id: comp_arc_sta__example_feature__component_getstrt
+   :status: valid
+   :safety: ASIL_B
+   :security: NO
+   :uses: logic_arc_int__example_feature__archex_logical_interface_3
+   :fulfils: comp_req__example_feature__archex_example_req
+
+   .. needarch::
+      :scale: 50
+      :align: center
+
+      {{ draw_component( need(), needs ) }}
+
+.. code-block:: rst
+
+   .. comp_arc_sta:: Static View - Component 1
+      :id: comp_arc_sta__example_feature__component_getstrt
+      :status: valid
+      :safety: ASIL_B
+      :security: NO
+      :uses: real_arc_int__archdes_component_interface_3
+      :fulfils: comp_req__example_feature__archex_example_req
+
+      .. needarch::
+         :scale: 50
+         :align: center
+
+         {{ draw_component( need(), needs ) }}
+
+Debugging PlantUML Figures
+--------------------------
+For debugging PlantUML diagrams which are generated via the *needarch* directive following options are available:
+
+**Storing the PlantUML File**
+
+It is possible to store the generate PlantUML file in the directory ``<workspace_root>/_build/_plantuml_sources``
+Therefore the *needarch* directive needs to be extended with the attribute ``:save:``
+
+.. code-block:: rst
+
+   .. needarch::
+      :scale: 50
+      :align: center
+      :save: comp1.puml
+
+      {{ draw_component( need(), needs ) }}
+
+**Printing the PlantUML Code**
+
+Besides storing the output it is also possible to display the generated PlantUML text below the rendered Figure. Therefore the *needarch* directive needs to be extended with the attribute ``:debug:``
+
+.. _manual_addition_uml:
+
+Manual Addition to the UML
+--------------------------
+
+We use a similar rst as above, just this time we use *needuml* and add some extra manual UML at the end.
+To make *needuml* work we have to replace the *need()* call with a different function call.
+
+
+.. code-block:: rst
+
+   .. comp_arc_sta:: Component Get Started Manually Edited
+      :id: comp_arc_sta__example_feature__component_manual_getstrt
+      :status: valid
+      :safety: ASIL_B
+      :security: NO
+      :uses: real_arc_int__archdes_component_interface_3
+      :fulfils: comp_req__example_feature__archex_example_req
+
+      .. needuml::
+
+         {{ draw_component( needs.__getitem__('comp_arc_sta__example_feature__component_getstrt'), needs ) }}
+         component "Component Manual" as CM {
+         }
+         CM -> LI1: EXTRA_LINKAGE_MANUALLY_ADDED
+
+.. comp_arc_sta:: Component Static View - Get Started Manually Edited
+   :id: comp_arc_sta__example_feature__component_manual_getstrt
+   :status: valid
+   :safety: ASIL_B
+   :security: NO
+   :uses: logic_arc_int__example_feature__archex_logical_interface_3
+   :fulfils: comp_req__example_feature__archex_example_req
+
+   .. needuml::
+
+         {{ draw_component( needs.__getitem__('comp_arc_sta__example_feature__component_getstrt'), needs ) }}
+         component "Component Manual" as CM {
+         }
+         CM -> LI1: EXTRA_LINKAGE_MANUALLY_ADDED
+
+You can add any layout or additional configuration you want before you call the *draw_xyz*.
+
+Facing Build Issues
+-------------------
+
+If for some reason the docs build gets stuck in an endless loop a more detailed info can be retrieved by using the **incremental build**. Usually this build aborts and points to the failure.
+
+Using NeedUML directive
+-----------------------
+
+The above syntax is for the *needarch* directive. It is also possible to use the *needuml* directive.
+To achieve this the *need()* call needs to be replaced with the following, as *needuml* does not support *need()*
+
+   .. code-block:: none
+
+      # need() => needs.__getitem__('ID OF THE REQUIREMENT YOU ARE IN')
+
+      # For example, drawing the requirement:
+      `COMP_ARC_STA__component_manual_1`
+
+      would then look as such
+      {{ draw_component( needs.__getitem__('COMP_ARC_STA__component_manual_1'), needs ) }}
+
+
+Limitations
+-----------
+
+* Grouping functionality needs improvement
+* Manual extendability is limited to the same type as the underlying drawing, either class or association diagram types
+* Currently only uses the need attributes *includes, uses, implements*

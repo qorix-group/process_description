@@ -190,7 +190,7 @@ Traceability to Requirements
 Checks for Architectural Design
 -------------------------------
 
-.. gd_req:: Architecture mandatory attributes
+.. gd_req:: Check of Architecture mandatory attributes
    :id: gd_req__arch_attr_mandatory
    :status: valid
    :tags: prio_1_automation, attribute, check
@@ -204,7 +204,7 @@ Checks for Architectural Design
       :columns: title
       :colwidths: 30
 
-.. gd_req:: Architecture linkage metamodel
+.. gd_req:: Check of Architecture linkage metamodel
    :id: gd_req__arch_linkage_safety
    :status: valid
    :tags: prio_1_automation, attribute, check
@@ -212,7 +212,7 @@ Checks for Architectural Design
 
    It shall be checked that every valid safety architectural element is linked according to the defined model :need:`gd_req__arch_build_blocks_corr`.
 
-.. gd_req:: Architecture linkage safety
+.. gd_req:: Check of Architecture linkage safety
    :id: gd_req__arch_linkage_safety_trace
    :status: valid
    :tags: prio_1_automation, attribute, check
@@ -221,7 +221,7 @@ Checks for Architectural Design
 
    It shall be checked that valid safety architectural elements (Safety!=QM) can only be linked against valid safety architectural elements.
 
-.. gd_req:: Architecture linkage security
+.. gd_req:: Check of Architecture linkage security
    :id: gd_req__arch_linkage_security_trace
    :status: valid
    :tags: prio_2_automation, attribute, check
@@ -229,7 +229,7 @@ Checks for Architectural Design
 
    It shall be checked that security relevant architectural elements (Security==YES) can only be linked against security relevant architectural elements.
 
-.. gd_req:: Architecture linkage requirement
+.. gd_req:: Check of Architecture linkage requirement
    :id: gd_req__arch_linkage_requirement
    :status: valid
    :tags: prio_1_automation, attribute, check
@@ -238,7 +238,7 @@ Checks for Architectural Design
    It shall be checked that each architectural element (safety!=QM) is linked against at least one safety requirement (safety!=QM).
    It shall be checked that architectural elements with safety=QM are not linked against safety requirements (safety!=QM).
 
-.. gd_req:: Architecture linkage requirement type
+.. gd_req:: Check of Architecture linkage requirement type
    :id: gd_req__arch_linkage_requirement_type
    :status: valid
    :tags: prio_3_automation, attribute, check
@@ -249,7 +249,7 @@ Checks for Architectural Design
    * Functional requirements <-> static / dynamic architectural elements (feat_arc_sta, feat_arc_dyn)
    * Interface requirements <-> interface architectural elements (logic_arc_int, logic_arc_int_op)
 
-.. gd_req:: Architecture check consistency modules
+.. gd_req:: Check of Architecture consistency Components in modules
    :id: gd_req__arch_consistency_model
    :status: valid
    :tags: prio_2_automation, model, check
@@ -257,7 +257,7 @@ Checks for Architectural Design
 
    It shall be checked if all mentioned SW components are available in the modules repository.
 
-.. gd_req:: Architecture check consistency interfaces
+.. gd_req:: Check of Architecture consistency interfaces in modules
    :id: gd_req__arch_consistency_interf
    :status: valid
    :tags: prio_2_automation, model, check
@@ -265,10 +265,10 @@ Checks for Architectural Design
 
    It shall be checked if all mentioned component interfaces are available in the modules repository.
 
-.. gd_req:: Architecture check consistency dynamic architecture
+.. gd_req:: Check of Architecture consistency in dynamic architecture
    :id: gd_req__arch_consistency_dynamic
    :status: valid
    :tags: prio_3_automation, model, check
    :satisfies: wf__cr_mt_featarch, wf__cr_mt_comparch
 
-   It shall be checked if all SW components which are mentioned in the dynamic architecture are defined in the static architecture.
+   It shall be checked if all SW components which are mentioned in the dynamic architecture views are defined in the static architecture.
