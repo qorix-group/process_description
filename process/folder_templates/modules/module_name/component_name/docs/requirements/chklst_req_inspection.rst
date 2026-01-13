@@ -40,7 +40,7 @@ Requirement Inspection Checklist
 
    As described in the concept :need:`doc_concept__wp_inspections` the following "inspection roles" are expected to be filled:
 
-   - author: these are the persons who did the last commits on the requirements in scope (can be derived from version mgt tool)
+   - author: <contributor/committer(s) explicitly named here, who is/are the content responsible(s)>
    - reviewer: these are all persons committing into this inspection document or giving a pull request verdict on it (can be derived from version mgt tool)
    - moderator: only needed for conflict resolution between author and reviewers, is the safety manager, security manager or quality manager called in as a reviewer (can be derived from version mgt tool)
    - test expert: <one of the reviewers explicitly named here, to cover REQ_08_01 as described>
