@@ -146,7 +146,6 @@ create test cases using the same.
 
 Tailoring
 =========
-
 .. gd_guidl:: Verification Requirements Tailored
    :id: gd_guidl__verification_req_tailored
    :status: valid
