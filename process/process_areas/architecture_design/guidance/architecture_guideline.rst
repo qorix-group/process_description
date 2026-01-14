@@ -101,7 +101,9 @@ Create feature architecture (Concept)
 
 The feature architecture (= high-level architecture) shall be created in the feature tree of the platform repository.
 
-For this step, the following guidance is available: :need:`Feature Architecture Template <gd_temp__arch_feature>`. Based on this template, the feature architecture shall describe the concept of the feature, including supporting figures and drawings. Additionally, you should consult your project's specific guidelines, e.g., for using the version management tooling or architecture element naming conventions, which should be defined (or linked) in the :need:`Project SW development Plan <wp__sw_development_plan>`.
+For this step, the following guidance is available: :need:`Feature Architecture Template <gd_temp__arch_feature>`. Based on this template, the feature architecture shall describe the concept of the feature, including supporting figures and drawings. If multiple solutions are possible, these should be documented here with the rationale for the final decision. A design decision template is provided in :need:`Decision Record Template <gd_temp__change_decision_record>`.
+
+Additionally, you should consult your project's specific guidelines, e.g., for using the version management tooling or architecture element naming conventions, which should be defined (or linked) in the :need:`Project SW development Plan <wp__sw_development_plan>`.
 
 .. _model_feature_architecture:
 

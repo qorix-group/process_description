@@ -597,12 +597,12 @@ To make *needuml* work we have to replace the *need()* call with a different fun
       :status: valid
       :safety: ASIL_B
       :security: NO
-      :uses: real_arc_int__archdes_component_interface_3
+      :uses: logic_arc_int__example_feature__archex_logical_interface_1
       :fulfils: comp_req__example_feature__archex_example_req
 
       .. needuml::
 
-         {{ draw_component( needs.__getitem__('comp_arc_sta__example_feature__component_getstrt'), needs ) }}
+         {{ draw_component( needs.__getitem__('comp__component_example_1'), needs ) }}
          component "Component Manual" as CM {
          }
          CM -> LI1: EXTRA_LINKAGE_MANUALLY_ADDED
@@ -612,15 +612,16 @@ To make *needuml* work we have to replace the *need()* call with a different fun
    :status: valid
    :safety: ASIL_B
    :security: NO
-   :uses: logic_arc_int__example_feature__archex_logical_interface_3
+   :uses: logic_arc_int__example_feature__archex_logical_interface_1
    :fulfils: comp_req__example_feature__archex_example_req
 
-   .. needuml::
+   .. needarch::
 
-         {{ draw_component( needs.__getitem__('comp_arc_sta__example_feature__component_getstrt'), needs ) }}
+         {{ draw_component( needs.__getitem__('comp__component_example_1'), needs ) }}
+
          component "Component Manual" as CM {
          }
-         CM -> LI1: EXTRA_LINKAGE_MANUALLY_ADDED
+         CM -> logic_arc_int__example_feature__archex_logical_interface_1: EXTRA_LINKAGE_MANUALLY_ADDED
 
 You can add any layout or additional configuration you want before you call the *draw_xyz*.
 
