@@ -161,7 +161,7 @@ Tailoring
    The reasoning is:
 
    - For SW requirement 945 & 1047 tests are executed in target environment regarding code and hardware architecture.
-     An integrator of the software can re-execute them on source or unmodified binary in the product environnment.
+     An integrator of the software can re-execute them on source or unmodified binary in the product environment.
    - For SW requirement 1045 "Function and call coverage" are not considered explicitly due to lower target safety integrity level (ASIL_B).
    - For SW requirement 1046 the software is not a production release, but work for the system integrator or distributor with a production release.
    - For SW requirement 1141, 1143, 1144 the SW only points to AoUs, but will not be executed on the final product environment as part of the project scope.
