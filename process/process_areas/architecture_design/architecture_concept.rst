@@ -141,6 +141,8 @@ The first viewpoint is named as *feature architecture*. It displays the SW Compo
 
 In all views, the components which are marked as ASIL_B related are drawn with red borders.
 
+See :ref:`uml_diagram_selection` in guideline for further information about the UML diagram selection for static architecture.
+
 Dynamic View
 ------------
 
@@ -155,6 +157,8 @@ This view shows the *dynamic behavior* of the feature including the interaction 
 .. uml:: _assets/feature_architecture_dynamic.puml
    :align: center
    :caption: Dynamic Feature Architecture
+
+See :ref:`uml_diagram_selection` in guideline for further information about the UML diagram selection and usage for dynamic architecture.
 
 Interface View
 --------------
@@ -181,7 +185,7 @@ A SW Module represents a outcome of an component or a set of components realizin
 
 On this level also a view shall be defined which is called *Module View*. It represents the allocation of components into modules and displays the dependencies between the single modules. In this view also cyclic dependencies between modules can be identified.
 
-.. mod_view_sta:: Module 1 Static View
+.. mod_view_sta:: Module 1 Static View concept
    :id: mod_view_sta__example_feature__archcon_1
    :includes: comp__component_example_1
 
@@ -486,7 +490,7 @@ The following section is an example, how an `Feature <https://eclipse-score.gith
    :includes: logic_arc_int__feature_name__interface_name
    :consists_of: comp__component_name
 
-.. feat_arc_sta:: Feature Static Architecture - Getting Started Example
+.. feat_arc_sta:: Feature Static Architecture View - Rendered Example
       :id: feat_arc_sta__example_feature__archdes_getstrt
       :security: YES
       :safety: QM
@@ -529,12 +533,12 @@ Component Architecture
 
 The following section is an example, how an component looks like and how the detail design of an component is described. Please note that components with an "ASIL_B" safety rating are highlighted with red borders in the diagram (e.g., "Component 1").
 
-.. comp_arc_sta:: Component 1 Static View
+.. comp_arc_sta:: Component Static View - Rendered Example
    :id: comp_arc_sta__example_feature__component_getstrt
    :status: valid
    :safety: ASIL_B
    :security: NO
-   :uses: logic_arc_int__example_feature__archex_logical_interface_3
+   :includes: comp__archex_sub_component_1, comp__archex_sub_component_2, comp__archex_sub_component_3
    :fulfils: comp_req__example_feature__archex_example_req
 
    .. needarch::
@@ -545,12 +549,12 @@ The following section is an example, how an component looks like and how the det
 
 .. code-block:: rst
 
-   .. comp_arc_sta:: Static View - Component 1
+   .. comp_arc_sta:: Static View - Rendered Example
       :id: comp_arc_sta__example_feature__component_getstrt
       :status: valid
       :safety: ASIL_B
       :security: NO
-      :uses: real_arc_int__archdes_component_interface_3
+      :includes: logic_arc_int__example_feature__archex_logical_interface_1, comp__archex_sub_component_1, comp__archex_sub_component_2, comp__archex_sub_component_3
       :fulfils: comp_req__example_feature__archex_example_req
 
       .. needarch::
@@ -592,7 +596,7 @@ To make *needuml* work we have to replace the *need()* call with a different fun
 
 .. code-block:: rst
 
-   .. comp_arc_sta:: Component Get Started Manually Edited
+   .. comp_arc_sta:: Component Architecture Static View - Rendered Example Manually Edited
       :id: comp_arc_sta__example_feature__component_manual_getstrt
       :status: valid
       :safety: ASIL_B
@@ -607,7 +611,7 @@ To make *needuml* work we have to replace the *need()* call with a different fun
          }
          CM -> LI1: EXTRA_LINKAGE_MANUALLY_ADDED
 
-.. comp_arc_sta:: Component Static View - Get Started Manually Edited
+.. comp_arc_sta:: Component Architecture Static View - Rendered Example Manually Edited
    :id: comp_arc_sta__example_feature__component_manual_getstrt
    :status: valid
    :safety: ASIL_B
