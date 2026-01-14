@@ -136,6 +136,7 @@ The first viewpoint is named as *feature architecture*. It displays the SW Compo
    .. needarch::
       :scale: 50
       :align: center
+      :debug:
 
       {{ draw_feature(need(), needs) }}
 
