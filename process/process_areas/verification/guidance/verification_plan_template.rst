@@ -150,6 +150,8 @@ Verification Plan Template
          coverage goals (e.g. by :need:`wp__verification_sw_unit_test`, :need:`wp__verification_comp_int_test`, and
          :need:`wp__sw_implementation_inspection`).
 
+         The confirmation or any deviation of the coverage percentage value is documented in this section.
+
          Coverage of architectural design
          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
