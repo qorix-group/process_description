@@ -207,7 +207,7 @@ Component Architecure File(s)
    :status: valid
    :safety: QM
    :security: NO
-   :uses: logic_arc_int__example_feature__archex_logical_interface_2, logic_arc_int__example_feature__archex_logical_interface_3
+   :uses: logic_arc_int__example_feature__archex_logical_interface_1, logic_arc_int__example_feature__archex_logical_interface_2, logic_arc_int__example_feature__archex_logical_interface_3
    :fulfils: comp_req__example_feature__archex_example_req
 
    .. needarch::
@@ -232,7 +232,7 @@ Component Architecure File(s)
    :safety: ASIL_B
    :security: NO
    :uses: logic_arc_int__example_feature__archex_logical_interface_3
-   :implements: logic_arc_int__example_feature__archex_logical_interface_2
+   :implements: logic_arc_int__example_feature__archex_logical_interface_1
 
 .. comp:: Lower Level Component 3
    :id: comp__archex_sub_component_3
