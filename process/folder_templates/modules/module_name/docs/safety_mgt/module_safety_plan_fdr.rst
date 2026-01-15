@@ -39,6 +39,8 @@ The purpose of this safety plan formal review checklist is to report status of t
 
 **2. Checklist**
 
+See also :ref:`review_concept` for further information about reviews in general and inspection in particular.
+
 .. list-table:: Safety Plan Checklist
         :header-rows: 1
 

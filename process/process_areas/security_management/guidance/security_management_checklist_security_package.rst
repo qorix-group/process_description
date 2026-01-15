@@ -26,6 +26,8 @@ The purpose of this review checklist is to report status of the formal review fo
 
 **2. Checklist**
 
+See also :ref:`review_concept` for further information about reviews in general and inspection in particular.
+
 .. list-table:: Security Package Checklist
         :header-rows: 1
 

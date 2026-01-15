@@ -39,7 +39,7 @@ Architecture Work Products
 
    Component Architecture linked to Component Requirements
 
-   * Static view (Sphinx Needs) - Component interfaces (to outside of component) and interfaces between own (lower level) components
+   * Static view (Sphinx Needs) - Component interfaces (to outside of component) and interfaces between own (internal) components
    * Dynamic view (UML) - Sequences of components interactions and components states
    * Interface view (Sphinx Needs) - Overview of used and provided interfaces
 

@@ -45,6 +45,8 @@ communication and documentation of architectural decisions to stakeholders.
 Checklist
 ---------
 
+Please note that it is mandatory to fill in the "passed" column with "yes" or "no" for each checklist item and additional to add in the remarks why it is passed or not passed. In case of "no" an issue link to the issue tracking system has to be added in the last column. See also :ref:`review_concept` for further information about reviews in general and inspection in particular.
+
 .. list-table:: Architecture Design Review Checklist
     :header-rows: 1
 

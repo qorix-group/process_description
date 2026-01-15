@@ -35,7 +35,7 @@ Component Architecture
 
 Overview
 --------
-Brief summary
+<Brief summary>
 
 Requirements Linked to Component Architecture
 ---------------------------------------------
@@ -51,16 +51,16 @@ Requirements Linked to Component Architecture
 Description
 -----------
 
-General Description
+<General Description>
 
-Design Decisions - For the documentation of the decision the :need:`gd_temp__change_decision_record` can be used.
+<Design Decisions - For the documentation of the decision the :need:`gd_temp__change_decision_record` can be used.>
 
-Design Constraints
+<Design Constraints>
 
 Rationale Behind Architecture Decomposition
 *******************************************
 
-Mandatory: a motivation for the decomposition or reason for not further splitting it into lower level components.
+Mandatory: A motivation for the decomposition or reason for not further splitting it into internal components.
 
 .. note:: Common decisions across components / cross cutting concepts is at the higher level.
 
@@ -71,18 +71,18 @@ The components are designed to cover the expectations from the feature architect
 (i.e. if already exists a definition it should be taken over and enriched).
 
 .. comp:: Component Name
-   :id: comp__component_name
+   :id: comp__component_name_template
    :security: YES
    :safety: ASIL_B
    :status: invalid
-   :implements: logic_arc_int__feature_name__interface_name
+   :implements: logic_arc_int__feature_name__interface_name1
 
 .. comp_arc_sta:: Component Name (Static View)
    :id: comp_arc_sta__component_name__static_view
    :security: YES
    :safety: ASIL_B
    :status: invalid
-   :implements: logic_arc_int__feature_name__interface_name
+   :implements: logic_arc_int__feature_name__interface_name1
    :fulfils: comp_req__component_name__some_title
    :includes: comp_arc_sta__component_name__2
 
@@ -117,16 +117,16 @@ Interfaces
       :fulfils: <link to component requirement id>
       :language: cpp
 
-Lower Level Components
-----------------------
+Internal Components
+-------------------
 
-.. comp_arc_sta:: Component Name 2
+.. comp_arc_sta:: Component Name Static View
    :id: comp_arc_sta__component_name__2
    :status: invalid
    :safety: ASIL_B
    :security: YES
    :fulfils: comp_req__component_name__some_title
-   :implements: logic_arc_int__feature_name__interface_name
+   :implements: logic_arc_int__feature_name__interface_name1
 
    No architecture but detailed design
 
