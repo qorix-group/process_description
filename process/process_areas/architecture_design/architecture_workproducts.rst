@@ -29,7 +29,7 @@ Architecture Work Products
    * Dynamic view (UML) - Sequences of component interactions and state diagrams
    * Interface view (Sphinx Needs) - Overview of used and provided interfaces
 
-   Technical concept on platform level.
+   Technical concept on platform or feature level.
 
 .. workproduct:: Component Architecture
    :id: wp__component_arch
@@ -39,7 +39,7 @@ Architecture Work Products
 
    Component Architecture linked to Component Requirements
 
-   * Static view (Sphinx Needs) - Component interfaces (to outside of Component) and interfaces between own (lower level) components
+   * Static view (Sphinx Needs) - Component interfaces (to outside of component) and interfaces between own (lower level) components
    * Dynamic view (UML) - Sequences of components interactions and components states
    * Interface view (Sphinx Needs) - Overview of used and provided interfaces
 
@@ -52,4 +52,4 @@ Architecture Work Products
    :tags: doc_lifecycle_model_2
 
    Depends on architecture guideline and tooling.
-   May include several methods like inspection, modelling ... Which are selected in SW Verification Plan.
+   May include several methods like inspection, modelling, ... which are selected in projects SW Verification Plan.
