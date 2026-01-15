@@ -43,7 +43,6 @@ Feature Architecture File
    .. needarch::
       :scale: 50
       :align: center
-      :debug:
 
       {{ draw_feature(need(), needs) }}
 
@@ -230,20 +229,6 @@ Component Architecure File(s)
 
       {{ draw_component(need(), needs) }}
 
-.. comp_arc_sta:: Component 2 Static View
-   :id: comp_arc_sta__example_feature__archdes_component_2
-   :status: valid
-   :safety: QM
-   :security: NO
-   :includes: logic_arc_int__example_feature__archex_logical_interface_2
-   :fulfils: comp_req__example_feature__archex_example_req
-
-   .. needarch::
-      :scale: 50
-      :align: center
-
-      {{ draw_component(need(), needs) }}
-
 .. Subcomponents
 
 .. comp:: Lower Level Component 1
@@ -267,6 +252,9 @@ Component Architecure File(s)
    :status: valid
    :safety: QM
    :security: NO
+
+Requierements for the Example
+=============================
 
 .. Requirements
 

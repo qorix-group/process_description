@@ -136,7 +136,6 @@ The first viewpoint is named as *feature architecture*. It displays the SW Compo
    .. needarch::
       :scale: 50
       :align: center
-      :debug:
 
       {{ draw_feature(need(), needs) }}
 
@@ -585,6 +584,32 @@ Therefore the *needarch* directive needs to be extended with the attribute ``:sa
 **Printing the PlantUML Code**
 
 Besides storing the output it is also possible to display the generated PlantUML text below the rendered Figure. Therefore the *needarch* directive needs to be extended with the attribute ``:debug:``
+
+.. code-block:: rst
+
+   .. needarch::
+      :scale: 50
+      :align: center
+      :debug:
+
+      {{ draw_component( need(), needs ) }}
+
+Debug example for component architecture:
+
+.. comp_arc_sta:: Component Static View - Rendered Debug Example
+   :id: comp_arc_sta__example_feature__component_getstrt_debug
+   :status: valid
+   :safety: ASIL_B
+   :security: NO
+   :includes:
+   :fulfils: comp_req__example_feature__archex_example_req
+
+   .. needarch::
+      :scale: 50
+      :align: center
+      :debug:
+
+      {{ draw_component( need(), needs ) }}
 
 .. _manual_addition_uml:
 
