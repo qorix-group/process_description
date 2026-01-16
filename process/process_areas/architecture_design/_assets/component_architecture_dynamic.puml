@@ -30,10 +30,10 @@
 
 participant "Feature User" as actor
 participant "«component» :Component 1_1" as sc1
-participant "«component» :Component 1_3" as sc3
+participant "«component» :Component 1_2" as sc3
 
 actor -> sc1: real operation 3 ()
-sc1 -> sc3: real operation 9 ()
+sc1 -> sc3: real operation 4 ()
 
 alt success
     sc3 --> sc1: success
