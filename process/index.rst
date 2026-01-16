@@ -36,12 +36,20 @@ Process Model
 The project process model is described by workflows, executed by roles and is creating work products.
 Workflow activities are supported by guidances. For further details (like motivation, objectives and approach) please refer to the :ref:`introduction page<processes_introduction>` and the respective sections below.
 
-.. figure:: _assets/score_process_area_overview.drawio.svg
-  :width: 100%
+.. figure :: _assets/score_process_area_overview.drawio.svg
+  :width: 0%
   :align: center
   :alt: Process area overview for the **Project**
 
   Process area overview for **Project**
+
+.. raw:: html
+
+   <figure>
+     <object data="_images/score_process_area_overview.drawio.svg" type="image/svg+xml"
+             width="100%"></object>
+     <figcaption>Process area overview for Project</figcaption>
+   </figure>
 
 General Concepts
 ~~~~~~~~~~~~~~~~
