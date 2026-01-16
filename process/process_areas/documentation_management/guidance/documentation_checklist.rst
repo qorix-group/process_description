@@ -28,6 +28,8 @@ Checklists
    | **2. Checklist**
    |
 
+   See also :ref:`review_concept` for further information about reviews in general and inspection in particular.
+
    .. list-table:: Documentation Review Checklist
       :header-rows: 1
       :widths: 10,30,6

@@ -26,6 +26,8 @@ The purpose of this security plan review checklist is to report status of the re
 
 **2. Checklist**
 
+See also :ref:`review_concept` for further information about reviews in general and inspection in particular.
+
 .. list-table:: Security Plan Checklist
         :header-rows: 1
 

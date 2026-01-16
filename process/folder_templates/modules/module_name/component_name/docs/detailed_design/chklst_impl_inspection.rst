@@ -43,6 +43,8 @@ by linking to C++ or Rust specific documentation.
 Checklist
 ---------
 
+See also :ref:`review_concept` for further information about reviews in general and inspection in particular.
+
 .. list-table:: Implementation Checklist
    :header-rows: 1
    :widths: 10,30,50,6,6,8

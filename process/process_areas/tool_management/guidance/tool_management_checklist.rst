@@ -29,6 +29,8 @@ Tool Verification Report Review Checklist
    |
    | **2. Checklist**
 
+   See also :ref:`review_concept` for further information about reviews in general and inspection in particular.
+
    .. list-table:: Tool Verification Report Review Checklist
       :header-rows: 1
       :widths: 10,30,6

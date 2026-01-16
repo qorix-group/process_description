@@ -209,7 +209,7 @@ Component Architecure File(s)
 .. comp:: Component 3
    :id: comp__component_example_3
    :security: YES
-   :safety: ASIL_B
+   :safety: QM
    :status: invalid
    :implements: logic_arc_int__example_feature__archex_logical_interface_3
 
@@ -231,7 +231,7 @@ Component Architecure File(s)
 
 .. Subcomponents
 
-.. comp:: Lower Level Component 1
+.. comp:: Component 1_1
    :id: comp__archex_sub_component_1
    :status: valid
    :safety: ASIL_B
@@ -239,7 +239,7 @@ Component Architecure File(s)
    :uses: logic_arc_int__example_feature__archex_logical_interface_2
    :implements: logic_arc_int__example_feature__archex_logical_interface_1
 
-.. comp:: Lower Level Component 2
+.. comp:: Component 1_2
    :id: comp__archex_sub_component_2
    :status: valid
    :safety: ASIL_B
@@ -247,10 +247,10 @@ Component Architecure File(s)
    :uses: logic_arc_int__example_feature__archex_logical_interface_2
    :implements: logic_arc_int__example_feature__archex_logical_interface_2
 
-.. comp:: Lower Level Component 3
+.. comp:: Component 1_3
    :id: comp__archex_sub_component_3
    :status: valid
-   :safety: QM
+   :safety: ASIL_B
    :security: NO
 
 Requierements for the Example

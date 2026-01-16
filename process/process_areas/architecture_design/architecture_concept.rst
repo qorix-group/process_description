@@ -204,7 +204,7 @@ The component architecture contain the following views:
 Static View
 -----------
 
-The *component architecture* describes the implementation of the functionalities in a white-box view. It describes the structural decomposition of the *SW components* into *lower level* SW components. It provides a more detailed information concerning the respective interfaces of a component. If a SW component interacts with a different component it is also included via a *use* relationship in the diagram. An example of the *component architecture* is displayed here:
+The *component architecture* describes the implementation of the functionalities in a white-box view. It describes the internal structure of SW components and their decomposition. It provides a more detailed information concerning the respective interfaces of a component. If a SW component interacts with a different component it is also included via a *use* relationship in the diagram. An example of the *component architecture* is displayed here:
 
 .. comp_arc_sta:: Component 1 Static View
    :id: comp_arc_sta__example_feature__archdes_component_concept_1
@@ -220,18 +220,18 @@ The *component architecture* describes the implementation of the functionalities
 
       {{ draw_component(need(), needs) }}
 
-The *lower level components* are optional and rely on the complexity of the component. Thus there is no graphic representation required for it.
+The decomposition is optional and relies on the complexity of the component. Thus there is no graphic representation required for it.
 In all views the components which are marked as ASIL_B related are drawn in red color.
 
 Dynamic View
 ------------
 
-The *dynamic view* of the component architecture shows the order of the interactions between the respective lower level components. It is displayed via relations to the interface operations which are provided or used by each component.
+The *dynamic view* of the component architecture shows the order of the interactions between the respective components. It is displayed via relations to the interface operations which are provided or used by each component.
 
 Following scenarios should be included:
 
-*  important use cases: how do lower level components execute them?
-*  interactions at critical interfaces: how do lower level components cooperate with users and neighboring lower level components?
+*  important use cases: how do the internal components execute them?
+*  interactions at critical interfaces: how do internal components cooperate with users and neighboring internal components?
 *  operation and administration: launch, start-up, stop
 *  successful use cases
 *  error and exception use cases
@@ -487,8 +487,8 @@ The following section is an example, how an `Feature <https://eclipse-score.gith
    :security: YES
    :safety: ASIL_B
    :status: invalid
-   :includes: logic_arc_int__feature_name__interface_name
-   :consists_of: comp__component_name
+   :includes: logic_arc_int__example_feature__archex_logical_interface_1
+   :consists_of: comp__component_example_1
 
 .. feat_arc_sta:: Feature Static Architecture View - Rendered Example
       :id: feat_arc_sta__example_feature__archdes_getstrt

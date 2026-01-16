@@ -47,6 +47,8 @@ Stakeholder Requirement Inspection Checklist
 
    **Checklist**
 
+   See also :ref:`review_concept` for further information about reviews in general and inspection in particular.
+
    .. list-table:: Stakeholder Requirement Inspection Checklist
       :header-rows: 1
       :widths: 10,30,50,6,6,8

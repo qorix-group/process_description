@@ -190,7 +190,7 @@ Assertions
    Confidence scoring for TA-TESTS is based on the presence of tests and our
    confidence in their implementation and construction.
 
-   **CHECKLIST**
+   **Checklist**
 
    - How confident are we that we've implemented all of the specified tests?
    - How confident are we that we've implemented all of the specified fault
@@ -821,7 +821,7 @@ Assertions
    Confidence scoring for TA-ANALYSIS is based on Key Performance Indicators (KPIs)
    that may indicate problems in development, test, or production
 
-   **CHECKLIST**
+   **Checklist**
 
    - What fraction of expectations are covered by the test data?
    - What fraction of misbehaviours are covered by the monitored indicator data?

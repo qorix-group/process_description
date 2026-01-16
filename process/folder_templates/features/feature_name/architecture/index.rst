@@ -35,16 +35,16 @@ Feature Architecture
 
 Overview
 --------
-Brief summary
+<Brief summary>
 
 Description
 -----------
 
-General Description
+<General Description>
 
-Design Decisions - For the documentation of the decision the :need:`gd_temp__change_decision_record` can be used.
+<Design Decisions - For the documentation of the decision the :need:`gd_temp__change_decision_record` can be used.>
 
-Design Constraints
+<Design Constraints>
 
 Requirements
 ------------
@@ -58,9 +58,17 @@ Requirements
       :colwidths: 70,30
 
 
+.. needtable:: Overview of Feature Requirements
+   :style: table
+   :columns: title;id
+   :filter: search("feat_arch_sta__archdes$", "fulfils_back")
+   :colwidths: 70,30
+
+
 Rationale Behind Architecture Decomposition
 *******************************************
-mandatory: a motivation for the decomposition
+
+Mandatory: A motivation for the decomposition
 
 .. note:: Common decisions across features / cross cutting concepts is at the high level.
 
@@ -72,18 +80,18 @@ Static Architecture
    :security: YES
    :safety: ASIL_B
    :status: invalid
-   :includes: logic_arc_int__feature_name__interface_name
-   :consists_of: comp__component_name
+   :includes: logic_arc_int__feature_name__interface_name1
+   :consists_of: comp__component_name_template
 
    General Feature Description
 
-.. feat_arc_sta:: Static View
+.. feat_arc_sta:: Feature Static View
    :id: feat_arc_sta__feature_name__static_view
    :security: YES
    :safety: ASIL_B
    :status: invalid
    :fulfils: feat_req__feature_name__some_title
-   :includes: logic_arc_int__feature_name__interface_name
+   :includes: logic_arc_int__feature_name__interface_name1
 
    .. needarch::
       :scale: 50
@@ -107,7 +115,7 @@ Logical Interfaces
 ------------------
 
 .. logic_arc_int:: Interface Name
-   :id: logic_arc_int__feature_name__interface_name
+   :id: logic_arc_int__feature_name__interface_name1
    :security: YES
    :safety: ASIL_B
    :status: invalid
@@ -125,7 +133,7 @@ Logical Interfaces
    :security: YES
    :safety: ASIL_B
    :status: invalid
-   :included_by: logic_arc_int__feature_name__interface_name
+   :included_by: logic_arc_int__feature_name__interface_name1
 
    General Operation Description
 
@@ -135,9 +143,14 @@ Module Viewpoint
 The following modules are needed to be defined to be able to draw the static feature view.
 They will be replaced by linking the proper module definitions in the used module's repositories as soon as those exist.
 
-.. mod_view_sta:: Module Name
+.. mod:: Module Name
+   :id: mod__module_name
+   :includes: comp__component_name_template
+
+
+.. mod_view_sta:: Module Name Static View
    :id: mod_view_sta__feature_name__module_name
-   :includes: comp_arc_sta__feature_name__component_name
+   :includes: comp__component_name_template
 
    .. needarch::
       :scale: 50
@@ -151,18 +164,19 @@ Used Components
 The following components are needed to be defined to be able to draw the static feature view.
 They will be replaced by linking the proper SW component definitions in the used module's repositories as soon as those exist.
 
-.. comp_arc_sta:: Component Name
-   :id: comp_arc_sta__feature_name__component_name
-   :safety: ASIL_B
-   :security: YES
-   :status: invalid
-   :fulfils: comp_req__component_name__some_title
-   :implements: logic_arc_int__feature_name__interface_name
+.. code-block:: rst
+
+   .. comp:: Component Name
+      :id: comp__component_name_template
+      :safety: ASIL_B
+      :security: YES
+      :status: invalid
+      :implements: logic_arc_int__feature_name__interface_name1
 
 .. note::
    Architecture can be split into multiple files, it is an high level architecture design
    which can be shown without actual c++/rust interfaces and data types
-   and there will be link to lower level architecture till code to get actual api descriptions.
+   and there will be link to internal architecture till code to get actual api descriptions.
 
 .. attention::
     The above directives must be updated according to your feature architecture.
