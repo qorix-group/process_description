@@ -285,5 +285,6 @@ Requierements for the Example
    :safety: ASIL_B
    :satisfies: feat_req__example_feature__archdes_example_req
    :status: valid
+   :belongs_to: comp__component_example_2
 
    The component shall provide the Logical Operation 4 to get the ..
