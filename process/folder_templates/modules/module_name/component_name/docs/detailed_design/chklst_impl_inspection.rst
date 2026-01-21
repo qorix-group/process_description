@@ -40,10 +40,21 @@ i.e. in the detailed design and the source code of the units.
 The checklist shall be agnostic to which programming language is used. Differences shall be treated
 by linking to C++ or Rust specific documentation.
 
+Conduct
+-------
+
+As described in the concept :need:`doc_concept__wp_inspections` the following "inspection roles" are expected to be filled:
+
+- content responsible (author): <contributor/committer explicitly named here, who is the main author, as can be seen in config mgt tooling>
+- reviewer: <contributor/committer explicitly named here, who is the main content reviewer, must be different from content responsible>
+- moderator: <committer explicitly named here, who is is the safety manager, security manager or quality manager initiating the inspection>
+
 Checklist
 ---------
 
-See also :ref:`review_concept` for further information about reviews in general and inspection in particular.
+It is mandatory to fill in the "passed" column with "yes" or "no" for each checklist item and additionally to add in the remarks why it is passed or not passed.
+In case of "no" an issue link to the issue tracking system has to be added in the last column (if not solved in the same issue).
+See also :need:`doc_concept__wp_inspections` for further information about reviews in general and inspection in particular.
 
 .. list-table:: Implementation Checklist
    :header-rows: 1
