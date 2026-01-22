@@ -76,13 +76,13 @@ The components are designed to cover the expectations from the feature architect
    :safety: ASIL_B
    :status: invalid
    :implements: logic_arc_int__feature_name__interface_name1
+   :fulfils: comp_req__component_name__some_title
 
 .. comp_arc_sta:: Component Name (Static View)
    :id: comp_arc_sta__component_name__static_view
    :security: YES
    :safety: ASIL_B
    :status: invalid
-   :fulfils: comp_req__component_name__some_title
    :includes: comp_arc_sta__component_name__2
 
    .. needarch::
@@ -99,7 +99,6 @@ Dynamic Architecture
    :security: YES
    :safety: ASIL_B
    :status: invalid
-   :fulfils: comp_req__component_name__some_title
    :belongs_to: comp__component_name_template
 
    Put here a sequence diagram
