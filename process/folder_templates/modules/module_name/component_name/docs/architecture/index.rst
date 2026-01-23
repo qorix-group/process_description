@@ -83,7 +83,7 @@ The components are designed to cover the expectations from the feature architect
    :security: YES
    :safety: ASIL_B
    :status: invalid
-   :includes: comp_arc_sta__component_name__2
+   :includes: comp__component_name_template
 
    .. needarch::
       :scale: 50
