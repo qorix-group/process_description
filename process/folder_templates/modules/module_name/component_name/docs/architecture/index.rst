@@ -76,14 +76,13 @@ The components are designed to cover the expectations from the feature architect
    :safety: ASIL_B
    :status: invalid
    :implements: logic_arc_int__feature_name__interface_name1
-   :fulfils: comp_req__component_name__some_title
 
 .. comp_arc_sta:: Component Name (Static View)
    :id: comp_arc_sta__component_name__static_view
    :security: YES
    :safety: ASIL_B
    :status: invalid
-   :includes: comp__component_name_template
+   :belongs_to: comp__component_name_template
 
    .. needarch::
       :scale: 50
@@ -125,6 +124,7 @@ Internal Components
    :safety: ASIL_B
    :security: YES
    :fulfils: comp_req__component_name__some_title
+   :belongs_to: comp__component_example_2
 
    No architecture but detailed design
 

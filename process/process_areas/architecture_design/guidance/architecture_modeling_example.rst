@@ -194,7 +194,6 @@ Component Architecure File(s)
    :status: invalid
    :implements: logic_arc_int__example_feature__archex_logical_interface_1
    :consists_of: comp__archex_sub_component_1, comp__archex_sub_component_2, comp__archex_sub_component_3
-   :fulfils: comp_req__example_feature__archex_example_req
 
    Example Component 1 description.
 
@@ -213,7 +212,6 @@ Component Architecure File(s)
    :safety: QM
    :status: invalid
    :implements: logic_arc_int__example_feature__archex_logical_interface_3
-   :fulfils: comp_req__example_feature__archex_example_req
 
    Example Component 3 description.
 
@@ -222,7 +220,7 @@ Component Architecure File(s)
    :status: valid
    :safety: ASIL_B
    :security: NO
-   :includes: comp__archex_sub_component_1, comp__archex_sub_component_2, comp__archex_sub_component_3
+   :belongs_to: comp__component_example_1
 
    .. needarch::
       :scale: 50
