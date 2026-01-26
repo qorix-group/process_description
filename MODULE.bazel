@@ -53,6 +53,6 @@ bazel_dep(name = "score_tooling", version = "1.0.2")
 bazel_dep(name = "score_docs_as_code", version = "2.3.3")
 git_override(
     module_name = "score_docs_as_code",
-    commit = "56ebbde1e4f0d73ec269099babd719a046736ec9",
+    commit = "f784d4370240cc0eafce779e5c317f6bf8988fb2",
     remote = "https://github.com/eclipse-score/docs-as-code.git",
 )
