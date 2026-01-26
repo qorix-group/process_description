@@ -39,6 +39,7 @@ Feature Architecture File
    :status: valid
    :includes: logic_arc_int__example_feature__archex_logical_interface_1, logic_arc_int__example_feature__archex_logical_interface_2, logic_arc_int__example_feature__archex_logical_interface_3
    :fulfils: feat_req__example_feature__archdes_example_req
+   :belongs_to: feat__example_feature
 
    .. needarch::
       :scale: 50

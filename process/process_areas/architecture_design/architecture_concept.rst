@@ -132,6 +132,7 @@ The first viewpoint is named as *feature architecture*. It displays the SW Compo
    :status: valid
    :includes: logic_arc_int__example_feature__archex_logical_interface_1, logic_arc_int__example_feature__archex_logical_interface_2
    :fulfils: feat_req__example_feature__archdes_example_req
+   :belongs_to: feat__example_feature
 
    .. needarch::
       :scale: 50
@@ -497,6 +498,7 @@ The following section is an example, how an `Feature <https://eclipse-score.gith
       :status: valid
       :includes: logic_arc_int__example_feature__archex_logical_interface_1, logic_arc_int__example_feature__archex_logical_interface_2
       :fulfils: feat_req__example_feature__archdes_example_req
+      :belongs_to: feat__example_feature
 
       .. needarch::
          :scale: 50
@@ -521,6 +523,7 @@ The following section is an example, how an `Feature <https://eclipse-score.gith
       :status: valid
       :includes: logic_arc_int__example_feature__archex_logical_interface_1, logic_arc_int__example_feature__archex_logical_interface_2
       :fulfils: feat_req__example_feature__archdes_example_req
+      :belongs_to: feat__example_feature
 
       .. needarch::
          :scale: 50
