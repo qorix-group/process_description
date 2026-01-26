@@ -554,9 +554,9 @@ The following section is an example, how an component looks like and how the det
       :status: valid
       :safety: ASIL_B
       :security: NO
-      :includes: logic_arc_int__example_feature__archex_logical_interface_1, comp__archex_sub_component_1, comp__archex_sub_component_2, comp__archex_sub_component_3
       :fulfils: comp_req__example_feature__archex_example_req
       :belongs_to: comp__component_component_getstrt
+
       .. needarch::
          :scale: 50
          :align: center
@@ -601,7 +601,6 @@ Debug example for component architecture:
    :status: valid
    :safety: ASIL_B
    :security: NO
-   :includes:
    :fulfils: comp_req__example_feature__archex_example_req
    :belongs_to: comp__component_example_1
 

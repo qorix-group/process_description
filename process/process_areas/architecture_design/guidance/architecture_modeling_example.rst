@@ -274,6 +274,7 @@ Requierements for the Example
    :safety: ASIL_B
    :satisfies: stkh_req__example_feature__archdes_example_req
    :status: valid
+   :belongs_to: feat__example_feature
 
    The feature shall provide the functionality to ....
 
