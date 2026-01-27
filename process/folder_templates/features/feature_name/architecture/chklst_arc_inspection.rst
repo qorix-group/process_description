@@ -170,7 +170,7 @@ Please note that it is mandatory to fill in the "passed" column with "yes" or "n
         Note: see :need:`std_req__iso26262__software_749` and Annex D for partitioning to ensure freedom from interference.
       - manual
       -
-        Check lso if the operating system supports freedom from interference between the processes.
+        Check also if the operating system supports freedom from interference between the processes.
       -
       -
       -
