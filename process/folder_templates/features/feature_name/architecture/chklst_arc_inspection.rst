@@ -165,18 +165,17 @@ Please note that it is mandatory to fill in the "passed" column with "yes" or "n
       -
       -
     * - ARC_04_01
-      - If software partitioning (different operating system processes) is used to implement freedom from interference between the processes with different rating (QM/ASIL), is effectiveness evidence generated during integration and verification tests?
+      - If your software architectural design includes processes with different safety rating (QM/ASIL) are freedom from interference for shared resources (cpu time, shared memory, ...) are ensured? See also ARC_04_03.
 
-        Note: see :need:`std_req__iso26262__software_749` and Annex D for partitioning
+        Note: see :need:`std_req__iso26262__software_749` and Annex D for partitioning to ensure freedom from interference.
       - manual
       -
-        a) the usage of shared resources (cpu time, shared memory, ...) are checked in a way that freedom from interference between the processes is ensured,
-        b) check if the operating system supports freedom from interference between the processes
+        Check lso if the operating system supports freedom from interference between the processes.
       -
       -
       -
     * - ARC_04_02
-      - Is an upper estimation of the required resources (RAM, ROM, non volatile memory, communication) available and documented?
+      - Does the software architectural design consider its feasibility with respect to the required resources for the embedded software, especially for time critical aspects like startup time, but also including RAM, ROM, non volatile memory, communication bandwidth, and processing time limits according to the requirements or forseeable customer needs? See also ARC_02_05.
 
         Note: see :need:`std_req__iso26262__software_7411`
       - manual
@@ -185,11 +184,11 @@ Please note that it is mandatory to fill in the "passed" column with "yes" or "n
       -
       -
     * - ARC_04_03
-      - Are the the scheduling properties for the component defined and documented?
+      - If your software architectural design includes processes and tasks, are their scheduling policies and priorities (at least the needed relation one to another) defined to ensure that timing requirements are met? Please note, that the particular priorities or priority ranges will be probably defined by the project handbook or the software development plan.
 
         Note: see :need:`std_req__iso26262__software_743`
       - manual
-      -
+      - Give a reason for these scheduling policies and priorities or explain why not needed.
       -
       -
       -
