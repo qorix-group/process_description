@@ -60,4 +60,4 @@ Developer Experience
 ====================
 
 There are some tests intended to check e.g. format which are described in
-https://github.com/eclipse-score/score?tab=readme-ov-file#score-platform.
+https://github.com/eclipse-score/score/blob/main/README.md.

@@ -94,7 +94,7 @@ Base practices
    .. note::
 
       Verification measures are related to software components but not to the software units since
-      software unit verification is addressed in the process `SWE.4 Software Unit Verification <swe4-software-unit-verification>`__.
+      software unit verification is addressed in the process :doc:`SWE.4 Software Unit Verification <swe.4>`.
 
 
 .. std_req:: SWE.5.BP3: Select verification measures
@@ -189,5 +189,5 @@ Base practices
       other parties to judge the consequences.
 
 
-.. needextend:: "c.this_doc()" 
+.. needextend:: "c.this_doc()"
    :+tags: aspice40_swe5

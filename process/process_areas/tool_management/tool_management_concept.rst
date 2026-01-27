@@ -30,7 +30,7 @@ Key concept
 In general all tools to generate the project product must be identified. As it is a project objective
 to use tools wherever applicable to generate any kind of work product, the selection criteria for
 any tool including OSS tools must include therefore the determination of the Tool Confidence Level
-`(TCL) <https://www.validas.de/publications/automotive2012.pdf>`_ for the tool under consideration.
+`(TCL) <https://www.validas.de/resources/glossary/tool-classification#b-what-is-the-tool-confidence-level-tcl>`_ for the tool under consideration.
 
 Based on the resulting TCL additional Tool Qualification activities may required.
 
