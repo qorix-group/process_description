@@ -165,21 +165,23 @@ Please note that it is mandatory to fill in the "passed" column with "yes" or "n
       -
       -
     * - ARC_04_01
-      - If your software architectural design includes processes with different safety rating (QM/ASIL) are freedom from interference for shared resources (cpu time, shared memory, ...) are ensured? See also ARC_04_03.
+      - If your software architectural design includes processes with different safety rating (QM/ASIL) are freedom from interference for shared resources (cpu time, shared memory, ...) is
+        ensured? See also ARC_04_03.
 
-        Note: see :need:`std_req__iso26262__software_749` and Annex D for partitioning to ensure freedom from interference.
+        Note: see :need:`std_req__iso26262__software_7411` and :need:`std_req__iso26262__software_749` with Annex D for partitioning to ensure freedom from interference.
       - manual
       -
-        Check also if the operating system supports freedom from interference between the processes.
+        Check also if the operating system supports freedom from interference between the processes and make sure an "assumption of Use requirement" for this exists in your project, like for example see `score aou_req__platform__process_isolation <https://eclipse-score.github.io/score/main/requirements/platform_assumptions/index.html#aou_req__platform__process_isolation>`_.
       -
       -
       -
     * - ARC_04_02
       - Does the software architectural design consider its feasibility with respect to the required resources for the embedded software, especially for time critical aspects like startup time, but also including RAM, ROM, non volatile memory, communication bandwidth, and processing time limits according to the requirements or forseeable customer needs? See also ARC_02_05.
 
-        Note: see :need:`std_req__iso26262__software_7411`
+        Note: see :need:`std_req__iso26262__software_7413`
       - manual
       -
+        Check if there are any limits for resource consumption or timing aspects in your project, such as startup time, communication bandwidth, or memory usage. If such limits exist, ensure that your architecture takes these limits into account, especially with respect to scalability.
       -
       -
       -
