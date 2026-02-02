@@ -121,6 +121,7 @@ Logical Interfaces
    :security: YES
    :safety: ASIL_B
    :status: invalid
+   :fulfils: feat_req__feature_name__some_title
 
    General Interface Description
 
