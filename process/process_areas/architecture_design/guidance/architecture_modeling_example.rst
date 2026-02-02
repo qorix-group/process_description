@@ -185,7 +185,7 @@ Module Viewpoint
 
       {{ draw_module(need(), needs) }}
 
-Component Architecure File(s)
+Component Architecture File(s)
 =============================
 
 .. comp:: Component 1
@@ -254,7 +254,7 @@ Component Architecure File(s)
    :safety: ASIL_B
    :security: NO
 
-Requierements for the Example
+Requirements for the Example
 =============================
 
 .. Requirements
