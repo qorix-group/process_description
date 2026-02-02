@@ -160,6 +160,7 @@ Please note that it is mandatory to fill in the "passed" column with "yes" or "n
         Note: Modules should not mix ASIL and QM processes unless justified otherwise; therefore, this question is only relevant on the feature level.
       - manual
       -
+        Check whether your architecture design complies with project guidelines to establish freedom from interference between components. This can be achieved, for example, by using a hypervisor or an OS that supports partitioning with an MMU or specific scheduling mechanisms, as well as safety mechanisms like watchdogs or program flow monitoring.
         Also check if the operating system supports freedom from interference between the processes and make sure an "Assumption of Use requirement" for this exists in your project. For example, see `score aou_req__platform__process_isolation <https://eclipse-score.github.io/score/main/requirements/platform_assumptions/index.html#aou_req__platform__process_isolation>`_.
       -
       -
