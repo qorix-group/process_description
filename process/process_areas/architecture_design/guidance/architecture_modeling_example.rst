@@ -186,7 +186,7 @@ Module Viewpoint
       {{ draw_module(need(), needs) }}
 
 Component Architecture File(s)
-=============================
+==============================
 
 .. comp:: Component 1
    :id: comp__component_example_1
