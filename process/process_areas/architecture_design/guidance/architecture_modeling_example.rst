@@ -222,6 +222,7 @@ Component Architecure File(s)
    :safety: ASIL_B
    :security: NO
    :belongs_to: comp__component_example_1
+   :fulfils: comp_req__example_feature__archex_example_req
 
    .. needarch::
       :scale: 50
