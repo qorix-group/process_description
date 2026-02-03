@@ -87,6 +87,7 @@ A component can optional also consist of subcomponents to further structure the 
    :status: invalid
    :belongs_to: comp__component_name_template
    :uses: logic_arc_int__feature_name__interface_name1
+   :fulfils: comp_req__component_name__some_title
 
    .. needarch::
       :scale: 50
@@ -103,6 +104,7 @@ Dynamic Architecture
    :safety: ASIL_B
    :status: invalid
    :belongs_to: comp__component_name_template
+   :fulfils: comp_req__component_name__some_title
 
    Put here a sequence diagram
 
