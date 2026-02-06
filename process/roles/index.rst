@@ -118,8 +118,8 @@ Project Development Roles
    (Eclipse) Open Source Role, person(s) who is(are) responsible for coordinating the resolution of Vulnerabilities within the Project.
    By default, the project Security Team includes all Committers. However, the Project may choose a different arrangement and establish specific criteria for team nominations.
 
-Project Feature Teams
----------------------
+Project Teams
+-------------
 
 .. role:: Platform Team
    :id: rl__platform_team
@@ -129,14 +129,14 @@ Project Feature Teams
 
    The platform team is responsible for all artifacts within the platform SEooC. Additionally it is also responsible for the overall process including its support by tooling.
 
-.. role:: Module Team
-   :id: rl__module_team
+.. role:: Delivery Team
+   :id: rl__delivery_team
    :status: valid
    :tags: cross_functional
    :contains: rl__safety_manager, rl__quality_manager, rl__security_manager, rl__contributor, rl__committer
 
-   The module team is responsible for all artifacts within the module SEooCs. Each module has only one responsible team but a team may also be responsible for several (small) modules.
-   One of the committers in the team acts as the "Module Project Manager" and is responsible for planning and reporting.
+   The delivery team is responsible for all artifacts within the Delivery Container SEooCs containing the Dependable Elements. Each Delivery Container has only one responsible team.
+   One of the committers in the team acts as the "Project Manager" and is responsible for planning and reporting.
 
 Project Roles List
 ------------------
