@@ -48,13 +48,16 @@ Assumptions of Use** (blue box, top, 7nd column).
 The platform consists of **Features** (yellow box, middle, 2nd column).
 
 Further the project provides **Dependable Elements** (red box, middle, 1st column),
-which can also be developed as a SEooC and it can be delivered as part of a Delivery
-Container. A Dependable Element is consists of **Components** (green box, middle, 2nd column)
-or a set of components realizing a Feature of the platform. In this sense a Dependable
-Element is the highest abstraction level in our model. A Dependable Element,
+which can also be developed as a SEooC and are delivered as part of a **Delivery
+Container**. This Delivery Container can contain one or more Dependable Elements,
+it is versioned and can be depended on by other Delivery Containers.
+A Dependable Element consists of one or more **Components** (green box, middle, 2nd column),
+which are in the same Delivery Container as the Dependable Element.
+In this sense a Dependable Element is the highest abstraction level in our model. A Dependable Element,
 delivered in a Delivery Container represents e.g. executable code or a library.
 The **Dependable Element View** (red box, middle, 1st column) documents the mapping of
-components to a Dependable Element.
+components to a Dependable Element. Note that the term "Dependable" hints that the
+element can have safety and/or security relevance (but also non of these).
 
 .. attention::
    Throughout the process description workspace, the term "Module" or "SW  Module" is
