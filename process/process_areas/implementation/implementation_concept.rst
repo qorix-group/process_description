@@ -115,15 +115,15 @@ the detailed design.
 Dynamic View
 ````````````
 The **dynamic view** illustrates how the **units** interact with each other over **interfaces** to fulfill a specific
-**use case** or **functionality**. This view captures the **behavioral aspects** of the component as it executes.
-It is represented using **UML behavioral diagrams**, including:
+**use case** or **functionality**. This view captures the **behavioural aspects** of the component as it executes.
+It is represented using **UML behavioural diagrams**, including:
 
 - **Sequence Diagrams** – Depict the interactions between objects in a **time-ordered sequence**,
   highlighting how methods are invoked and how control flows between objects over time.
 - **State Machine Diagrams** – Show how the **state of an object changes** in response to events,
   allowing for the modeling of complex state transitions (if there is stateful behaviour).
 
-These diagrams are essential for understanding the **dynamic behavior** of the component and how
+These diagrams are essential for understanding the **dynamic behaviour** of the component and how
 units collaborate to perform tasks. But this also means that if the dynamic behaviour is simple
 it does not require a dynamic diagram at all (similar to the rules depicted in :need:`gd_guidl__arch_design`).
 
@@ -261,4 +261,3 @@ The following section provides templates for defining needs within the source co
       //!     :implements: <real_arc_int, real_arc_int_op>
       //!
       //!     This implements the ....
-

@@ -147,7 +147,7 @@ See :ref:`uml_diagram_selection` in guideline for further information about the 
 Dynamic View
 ------------
 
-This view shows the *dynamic behavior* of the feature including the interaction of its components with the user. Following scenarios should be included:
+This view shows the *dynamic behaviour* of the feature including the interaction of its components with the user. Following scenarios should be included:
 
 *  important use cases or features: how do components execute them?
 *  interactions at critical external interfaces: how do components cooperate with users and neighboring components?
@@ -309,9 +309,9 @@ To represent the CI build tool module (for example a `Bazel Modules <https://baz
 Dynamic view
 ============
 
-The *dynamic view* describes the concrete behavior and interactions of the *building blocks* in form of use cases which were described above.
+The *dynamic view* describes the concrete behaviour and interactions of the *building blocks* in form of use cases which were described above.
 
-The dynamic view shall be modeled partly in Sphinx Needs and PlantUML. The components itself shall be used from the sphinx needs model in the PlantUML diagram. The dynamic relations between the component and the interfaces shall be modeled in PlantUML as it would be a huge effort to model the dynamic behavior in sphinx needs and would not provide any additional benefit.
+The dynamic view shall be modeled partly in Sphinx Needs and PlantUML. The components itself shall be used from the sphinx needs model in the PlantUML diagram. The dynamic relations between the component and the interfaces shall be modeled in PlantUML as it would be a huge effort to model the dynamic behaviour in sphinx needs and would not provide any additional benefit.
 
 .. list-table:: Definition of the dynamic architectural elements
    :header-rows: 1

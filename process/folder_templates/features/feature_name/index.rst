@@ -149,7 +149,7 @@ How to Teach This
 [How to teach users, new and experienced, how to apply the CR to their work.]
 
    .. note::
-      For a CR that adds new functionality or changes behavior, it is helpful to include a section on how to teach users, new and experienced, how to apply the CR to their work.
+      For a CR that adds new functionality or changes behaviour, it is helpful to include a section on how to teach users, new and experienced, how to apply the CR to their work.
 
 
 

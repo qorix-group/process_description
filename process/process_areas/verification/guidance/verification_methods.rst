@@ -261,7 +261,7 @@ The following perspectives are included in ``equivalence-classes``:
 - **Improve Test Coverage**
 
   By testing at least one value from each partition, you ensure that you've covered all the
-  different behaviors of the software.
+  different behaviours of the software.
 - **Address Different Input Types**
 
   EP is applicable to various input types, including numerical ranges, enumerated values,
@@ -298,7 +298,7 @@ How to perform the analysis:
      Classes that contain invalid input values (out of range, incorrect data type, etc.).
    - **Special Cases**
 
-     Classes representing specific or unusual input values that might trigger special behavior
+     Classes representing specific or unusual input values that might trigger special behaviour
      in the software.
 
    **3. Define Test Values**
@@ -324,7 +324,7 @@ Fuzzy Testing
 Fuzzy Testing, often called Fuzz Testing, is a software testing technique that involves providing
 invalid, unexpected, or random data as inputs to a component or system to detect defects. The goal
 of fuzzy testing is to expose unhandled exceptions, memory leaks, assertion failures, and other
-critical issues by generating semi-random inputs and observing the system's behavior.
+critical issues by generating semi-random inputs and observing the system's behaviour.
 
 The following perspectives are included in ``fuzz-testing``:
 
@@ -359,8 +359,8 @@ How to perform fuzzy testing:
    **3. Generate Fuzzy Inputs** Create inputs that are slightly malformed or unexpected, either
    through complete randomization or by mutating valid inputs.
 
-   **4. Monitor System Behavior** Execute the system with fuzzy inputs and monitor for crashes,
-   hangs, memory leaks, or other unexpected behaviors.
+   **4. Monitor System behaviour** Execute the system with fuzzy inputs and monitor for crashes,
+   hangs, memory leaks, or other unexpected behaviours.
 
    **5. Analyze and Fix Issues** When a problem is detected, analyze the input that caused it
    and fix the underlying issue in the code.
