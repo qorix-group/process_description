@@ -113,7 +113,7 @@ i.e. the assumption on what content is needed, which shall be matched by the use
 Feature Requirements
 ====================
 
-The *Feature Requirements* derived from stakeholder requirements address mainly the integration level of SW modules and components. These shall describe the behavior of the feature on platform level shall be described including the correlations of the integrated components. They serves mainly as an input for (SW + Safety) Architects, Testers, Integrators and are derived from the *Stakeholder Requirements*. To provide an example
+The *Feature Requirements* derived from stakeholder requirements address mainly the integration level of SW modules and components. These shall describe the behaviour of the feature on platform level shall be described including the correlations of the integrated components. They serves mainly as an input for (SW + Safety) Architects, Testers, Integrators and are derived from the *Stakeholder Requirements*. To provide an example
 
 .. code-block:: text
 
@@ -124,7 +124,7 @@ However the detailed interaction of the underlying components itself which is re
 Component Requirements
 ======================
 
-The lowest abstraction level is represented by the *component requirements*. They are derived from *feature requirements* and describe component specific implementation details. It is described which behavior a component itself needs to fulfil in the context of the feature, e.g.
+The lowest abstraction level is represented by the *component requirements*. They are derived from *feature requirements* and describe component specific implementation details. It is described which behaviour a component itself needs to fulfil in the context of the feature, e.g.
 
 .. code-block:: text
 

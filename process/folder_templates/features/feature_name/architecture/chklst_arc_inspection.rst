@@ -105,7 +105,7 @@ Please note that it is mandatory to fill in the "passed" column with "yes" or "n
     * - ARC_02_04
       - Are the interfaces between the software architectural element and other architectural elements well defined?
       - manual
-      - Check if the interface handles undefined behavior or errors; can established protocols be used; are the interfaces for inputs, outputs, and error codes documented; is loose coupling considered and only limited exposure; can unit or integration tests be written against the interface; data amount transferred; ensure no sensitive data is exposed;
+      - Check if the interface handles undefined behaviour or errors; can established protocols be used; are the interfaces for inputs, outputs, and error codes documented; is loose coupling considered and only limited exposure; can unit or integration tests be written against the interface; data amount transferred; ensure no sensitive data is exposed;
       -
       -
       -

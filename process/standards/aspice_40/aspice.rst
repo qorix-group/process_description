@@ -369,7 +369,7 @@ Process attribute achievements
 2. Assignment of persons necessary for performing the defined process to roles is performed and communicated.
 3. Required education, training and experience is ensured and monitored for the person(s) assigned to the roles.
 4. Required resources for performing the defined process are made available, allocated, and maintained.
-5. Appropriate information is collected and analyzed as a basis for understanding the behavior of the process.
+5. Appropriate information is collected and analyzed as a basis for understanding the behaviour of the process.
 
 
 Generic practices

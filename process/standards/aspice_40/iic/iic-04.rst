@@ -28,7 +28,7 @@
    Software Architecture may have the following characteristics:
 
    - A justifying rationale for the chosen architecture.
-   - Individual functional and non-functional behavior of the software
+   - Individual functional and non-functional behaviour of the software
      component
    - Settings for application parameters (being a technical implementation
      solution for configurability-oriented requirements)
