@@ -30,7 +30,7 @@ Process outcomes
    of, and interactions between, the software components.
 2. Verification measures for software components are specified to
    provide evidence for compliance of the software components with the
-   software components’ behaviour and interfaces.
+   software components’ behavior and interfaces.
 3. Software elements are integrated up to a complete integrated
    software.
 4. Verification measures are selected according to the release scope
@@ -79,13 +79,13 @@ Base practices
       interfaces or simulation environments (e.g, Software-in-the-Loop-Simulation).
 
 
-.. std_req:: SWE.5.BP2: Specify verification measures for verifying software component behaviour
+.. std_req:: SWE.5.BP2: Specify verification measures for verifying software component behavior
    :id: std_req__aspice_40__SWE-5-BP2
    :status: valid
    :links: std_req__aspice_40__iic-08-60
 
    Specify verification measures for software component verification against the defined software
-   components’ behaviour and their interfaces in the software architecture, including
+   components’ behavior and their interfaces in the software architecture, including
    - techniques for the verification measures,
    - entry and exit criteria for verification measures,
    - pass/fail criteria for verification measures, and
@@ -149,7 +149,7 @@ Base practices
    :links: std_req__aspice_40__iic-03-50;std_req__aspice_40__iic-15-52
 
    Perform the selected verification
-   measures for verifying software component behaviour. Record the verification results including
+   measures for verifying software component behavior. Record the verification results including
    pass/fail status and corresponding verification measure data.
 
    .. note::

@@ -49,7 +49,7 @@
      - lifetime and mission profile, lifetime robustness
      - maximum price
      - storage and transportation requirements
-     - functional behaviour of analog or digital circuits and logic
+     - functional behavior of analog or digital circuits and logic
      - quiescent current, voltage impulse responsiveness to crank, startstop, drop-out, load dump
      - temperature, maximum hardware heat dissipation
      - power consumption depending on the operating state such as

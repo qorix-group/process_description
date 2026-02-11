@@ -58,7 +58,7 @@ Base practices
 
    Specify and document
    the dynamic aspects of the software architecture with respect to the functional and non-
-   functional software requirements, including the behaviour of the software components and their
+   functional software requirements, including the behavior of the software components and their
    interaction in different software modes, and concurrency aspects.
 
    .. note::
@@ -68,7 +68,7 @@ Base practices
 
    .. note::
 
-      Examples for behavioural descriptions are natural language or semi-formal notation (e.g,
+      Examples for behavioral descriptions are natural language or semi-formal notation (e.g,
       SysML, UML).
 
 

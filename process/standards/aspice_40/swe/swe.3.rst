@@ -46,7 +46,7 @@ Base practices
    :links: std_req__aspice_40__iic-04-05;std_req__aspice_40__iic-11-05
 
    For each software component
-   specify the behaviour of its software units, their static structure and relationships, their interfaces
+   specify the behavior of its software units, their static structure and relationships, their interfaces
    including
 
    - valid data value ranges for inputs and outputs (from the application domain perspective),
@@ -90,11 +90,11 @@ Base practices
 
    Specify and document the
    dynamic aspects of the detailed design with respect to the software architecture, including the
-   interactions between relevant software units to fulfill the component’s dynamic behaviour.
+   interactions between relevant software units to fulfill the component’s dynamic behavior.
 
    .. note::
 
-      Examples for behavioural descriptions are natural language or semi-formal notation (e.g,
+      Examples for behavioral descriptions are natural language or semi-formal notation (e.g,
       SysML, UML).
 
 
