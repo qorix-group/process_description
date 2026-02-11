@@ -1351,7 +1351,7 @@ Part 8: Supporting processes
        :status: valid
 
 
-    .. std_wp:: support_8522
+    .. std_wp:: support_852
        :id: std_wp__iso26262__support_852
        :status: valid
 
