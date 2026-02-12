@@ -33,11 +33,16 @@ Safety Plan Formal Review Report
     - Adjust ``status`` to be ``valid``
     - Adjust ``safety`` and ``tags`` according to your needs
 
-**1. Purpose**
+**Purpose**
 
 The purpose of this safety plan formal review checklist is to report status of the review for the safety plan.
 
-**2. Checklist**
+**Conduct**
+As described in :need:`wf__p_formal_rv`, the formal document review is performed by an "external" safety manager:
+
+- reviewer: <committer with safety manager skills explicitly named here>
+
+**Checklist**
 
 See also :ref:`review_concept` for further information about reviews in general and inspection in particular.
 
