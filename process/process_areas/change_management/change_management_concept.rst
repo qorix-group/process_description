@@ -30,8 +30,7 @@ A *Change Request* is the **ONLY** way to contribute new features or to modify t
 of existing features in the project.
 As features are built-up by components a Change Request is also needed to add new
 components or to modify the scope of existing components.
-As a *Software Module* is defined as the top-level component, all statements here for
-components are also valid for Software Modules.
+All statements here for components are also valid for *SW Modules*.
 
 Inputs
 ******

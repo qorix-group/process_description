@@ -123,7 +123,7 @@ The feature architecture contain the following views:
 Static View
 -----------
 
-The first viewpoint is named as *feature architecture*. It displays the SW Components within the SW modules (= top level SW components) which are required to realize the feature including their interactions. Also the *logical interfaces* and the interaction between the feature and the user are included in this view. On this architectural level the feature requirements shall be allocated. An example for the static architecture is shown here:
+The first viewpoint is named as *feature architecture*. It displays the SW Components within the SW modules (= dependable elements) which are required to realize the feature including their interactions. Also the *logical interfaces* and the interaction between the feature and the user are included in this view. On this architectural level the feature requirements shall be allocated. An example for the static architecture is shown here:
 
 .. feat_arc_sta:: Feature 1 Architecture
    :id: feat_arc_sta__example_feature__feature_1
@@ -182,7 +182,7 @@ On the feature level only *logical interfaces* shall be displayed. This means th
 SW Module View
 ==============
 
-A SW Module represents a outcome of an component or a set of components realizing a feature and all belonging parts of CI build tool. It serves only as a container (or package) which can include components. It is not meant to be an architectural element which includes that no requirements can be allocated to it.
+A SW Module (=dependable element) is packaging a component or a set of components which is developed, documented and released together. It is not meant to be an architectural element which means that no requirements can be allocated to it.
 
 On this level also a view shall be defined which is called *Module View*. It represents the allocation of components into modules and displays the dependencies between the single modules. In this view also cyclic dependencies between modules can be identified.
 
@@ -295,7 +295,7 @@ The *static view* shows the *building blocks* of the architecture. It shall be c
    * - Component Architecture
      - comp_arc_sta
 
-To represent the CI build tool module (for example a `Bazel Modules <https://bazel.build/external/module>`_) an additional container (or package) is introduced. It can only contain components:
+To represent the SW module an additional package view is introduced. It can only contain components:
 
 .. list-table:: Definition of the static module view
    :header-rows: 1

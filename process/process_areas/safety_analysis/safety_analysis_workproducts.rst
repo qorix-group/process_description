@@ -21,7 +21,7 @@ Safety Analysis Work Products
    :tags: doc_lifecycle_model_2
    :complies: std_wp__iso26262__software_751, std_wp__iso26262__software_753, std_wp__isopas8926__4524
 
-   Analyse the dependencies between features that references all platform feature static architecture diagrams, highlighting potential shared use of modules.
+   Analyse the dependencies between features that references all platform feature static architecture diagrams, highlighting potential shared use of features.
 
 .. workproduct:: Feature FMEA
    :id: wp__feature_fmea
@@ -43,7 +43,7 @@ Safety Analysis Work Products
 
    Detections, preventions, mitigations linked to Software Feature Requirements or Feature Assumptions of Use.
 
-   Perform analysis on interactions between safety related and non-safety related modules or modules with different ASIL of one feature.
+   Perform analysis on interactions between safety related and non-safety related components or components with different ASIL of one feature.
 
 .. workproduct:: Component FMEA
    :id: wp__sw_component_fmea
@@ -61,10 +61,10 @@ Safety Analysis Work Products
    :tags: doc_lifecycle_model_2
    :complies: std_wp__iso26262__analysis_751, std_wp__iso26262__software_753, std_wp__isopas8926__4524, std_wp__iso26262__software_752
 
-   Dependent Failure Analysis on component/module level.
+   Dependent Failure Analysis on component level.
 
    Detections, preventions, mitigations linked to Software Component Requirements or Assumptions of Use.
 
    Perform analysis of safety related and non-safety related sub-elements or sub-elements with different ASIL.
 
-   Perform analysis on interactions between safety related and non-safety related sub-components or sub-components with different ASIL of one component. Including potential influences from the other components in the component's module.
+   Perform analysis on interactions between safety related and non-safety related lower level components or lower level components with different ASIL of one (higher level) component.

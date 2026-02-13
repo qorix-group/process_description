@@ -162,7 +162,7 @@ Following roles should be included in the review:
 Derive child requirement and establish traceability
 ---------------------------------------------------
 
-In an upcoming step the child requirements shall be derived from the parent requirements. Feature requirements shall be placed in the main project's repository again, while component requirements shall be placed in the module repository. During this process the derived requirements shall also be linked according to the defined traceability matrix to the parent requirements.
+In an upcoming step the child requirements shall be derived from the parent requirements. Feature requirements shall be placed in the main project's repository again, while component requirements shall be placed in the module's repository. During this process the derived requirements shall also be linked according to the defined traceability matrix to the parent requirements.
 
 For this the following templates are available:
 
@@ -211,7 +211,7 @@ This is different for AoU created on SW-platform level, these are also coming fr
 As it can not be fulfilled by the architecture element (e.g. component) itself, it needs to be fulfilled by the user of the element.
 In Safety Elements out of Context (SEooC) the AoUs will normally be part of the safety manual.
 In this process description (as it describes SEooC development) these AoUs are created both internally and externally - the latter if existing SEooCs are integrated into the platform (e.g. a qualified Operating System).
-For AoU which arise internally (i.e. from project specific modules) the template is almost identical to the one for feature/component requirements. The only difference is that it is defined such that the attribute "satisfies" is replaced with the attribute "mitigates" (see picture below).
+For AoU which arise internally (i.e. from project specific architecture) the template is almost identical to the one for feature/component requirements. The only difference is that it is defined such that the attribute "satisfies" is replaced with the attribute "mitigates" (see picture below).
 For externally provided AoUs of course the sentence template cannot be taken into account, as these are only imported from an external safety manual. It is also not possible to link it to other development artifacts via the attribute "mitigates".
 
 AoUs can be of different class and shall be handled by tracing those

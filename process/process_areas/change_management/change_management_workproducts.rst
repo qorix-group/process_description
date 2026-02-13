@@ -63,4 +63,4 @@ Change Management Work Products
    |
    | Change Request for a new component or a modification of an existing component,
    | which changes the scope of the component.
-   | Software Modules are also components (top-level component).
+   | This includes the allocation of components into SW Modules.

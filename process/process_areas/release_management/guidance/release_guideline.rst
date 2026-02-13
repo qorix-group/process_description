@@ -27,7 +27,7 @@ Software Module Release
 
 1. **Repository Management**:
 
-   * Each software module is contained in its own repository.
+   * Each software module is contained in one repository.
    * Ensure that the repository follows the standard naming conventions and structure.
 
 2. **Release Planning**:
@@ -44,7 +44,7 @@ Software Module Release
 
 4. **Release Preparation**:
 
-   * Update the version number according to the versioning policy of your module (defined in release management part of the :need:`gd_temp__platform_mgmt_plan`).
+   * Update the version number according to the versioning policy of your module's delivery container (defined in release management part of the :need:`gd_temp__platform_mgmt_plan`).
    * Prepare release notes documenting the changes, improvements, and bug fixes.
    * Check if all planned configuration items are in correct state (i.e. work products are valid, external libraries/tools are used in the correct released version).
    * Ensure the module's safety package is available and complete.
