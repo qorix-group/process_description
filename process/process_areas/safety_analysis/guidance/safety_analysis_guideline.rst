@@ -141,7 +141,7 @@ In the static view of the example could be seen that component 1 uses component 
 
     The shall be possible to detect and report data corruption.
 
-* Failure initiator SR_01_01 "reused software modules" is not applicable, no software modules are reused in the feature.
+* Failure initiator SR_01_01 "reused software components" is not applicable, no software componentss are reused in the feature.
 * Failure initiator SI_01_03 "constants, or variables, being global to the two software functions" is not applicable, because it's not possible to create constants or variables that being global to the two software functions in Rust.
 
 

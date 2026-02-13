@@ -25,7 +25,7 @@ Verification Templates
               std_req__iso26262__support_9421, std_req__iso26262__support_9422
 
    The sections below are seen as typical ways when writing tests and their specification.
-   Their usage differs based on the selected testing framework and the implementation language of the module(s).
+   Their usage differs based on the selected testing framework and the implementation language of the component(s).
 
 C++
 ---

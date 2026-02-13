@@ -78,7 +78,7 @@ Those steps are:
      - :ref:`Review architectural design <review_architectural_design>`
      - :need:`[[title]] <rl__committer>`
    * - 5.
-     - Merge architectural design into score repository
+     - Merge architectural design into score delivery container
      - :need:`[[title]] <rl__committer>`
    * - 6.
      - | :ref:`Create component architecture (Concept) <create_component_architecture>`
@@ -91,7 +91,7 @@ Those steps are:
      - :ref:`Review component architecture <review_component_architecture>`
      - :need:`[[title]] <rl__committer>`
    * - 9.
-     - Merge component architectural design into module
+     - Merge component architectural design into module's delvery container
      - :need:`[[title]]  <rl__committer>`
 
 .. _create_feature_architecture:
@@ -99,7 +99,7 @@ Those steps are:
 Create feature architecture (Concept)
 ----------------------------------------
 
-The feature architecture (= high-level architecture) shall be created in the feature tree of the platform repository.
+The feature architecture (= high-level architecture) shall be created in the feature tree of the platform delvery container.
 
 For this step, the following guidance is available: :need:`Feature Architecture Template <gd_temp__arch_feature>`. Based on this template, the feature architecture shall describe the concept of the feature, including supporting figures and drawings. If multiple solutions are possible, these should be documented here with the rationale for the final decision. A design decision template is provided in :need:`Decision Record Template <gd_temp__change_decision_record>`.
 
@@ -149,7 +149,7 @@ Review architectural design
 ---------------------------
 
 As soon as the design is in a mature state, it can be reviewed according to :need:`doc_concept__wp_inspections`
-and merged into the main branch of the score repository. See also the document life-cycle guideline :need:`gd_guidl__documentation` for more information about the documentation for the feature architecture :need:`wp__feature_arch`.
+and merged into the main branch of the platform delvery container. See also the document life-cycle guideline :need:`gd_guidl__documentation` for more information about the documentation for the feature architecture :need:`wp__feature_arch`.
 
 For the review process, a checklist template is available: :need:`Architecture Inspection Checklist Template <gd_chklst__arch_inspection_checklist>`.
 
@@ -165,7 +165,7 @@ The following roles should be included in the review:
 Create component architecture (Concept)
 ---------------------------------------
 
-Based on the *feature architecture*, the concept for the *component architecture* shall be created in the SW module. It shall describe which components need to be created and how they correlate with each other in order to provide the required functionality. As a starting point, a :need:`template <gd_temp__arch_comp>` is provided.
+Based on the *feature architecture*, the concept for the *component architecture* shall be created in the module's delvery container. It shall describe which components need to be created and how they correlate with each other in order to provide the required functionality. As a starting point, a :need:`template <gd_temp__arch_comp>` is provided.
 
 For this step, the following guidance is available: :need:`Feature Architecture Template <gd_temp__arch_feature>`. Additionally, you should consult your project's specific guidelines, e.g., for using the version management tooling or architecture element naming conventions, which should be defined (or linked) in the :need:`Project SW development Plan <wp__sw_development_plan>`.
 
@@ -203,7 +203,7 @@ The relations of the static elements are described in :ref:`metamodel_architectu
 Review component architecture
 -----------------------------
 
-As soon as the design is in a mature state, it can be :ref:`reviewed <review_concept>` and merged into the main branch of the module repository. See also the document life-cycle guideline :need:`gd_guidl__documentation` for more information about the documentation for the component architecture :need:`wp__component_arch`.
+As soon as the design is in a mature state, it can be :ref:`reviewed <review_concept>` and merged into the main branch of the module's delvery container. See also the document life-cycle guideline :need:`gd_guidl__documentation` for more information about the documentation for the component architecture :need:`wp__component_arch`.
 
 Following roles should be included in the review:
 

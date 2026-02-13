@@ -126,7 +126,7 @@ In <project name> project all configuration items are kept in the version manage
 <Describe how baselines are created by using the version management tool.>
 See also <link to doc__platform_release_management_plan>.
 
-Every change in the release repository is also taken over into the main branch. The module development team
+Every change in the release repository is also taken over into the main branch. The :need:`rl__delivery_team` responsible for the repository
 can decide how to ensure this (e.g. by development in main and cherrypick to release branch).
 
 

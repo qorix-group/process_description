@@ -144,7 +144,7 @@ The Safety Analysis (DFA and FMEA) shall consider the architectural elements on 
 
 1. **Platform Level**: At this level, the focus is on the overall feature architecture to analyse if there are failures that effects more than one feature.
 
-    | **Example DFA:** Dependencies between features shall be analysed. This could be the usage of modules by different features, shared libraries or shared services. A common cause failure could be a erroneous signal that effects the behaviour of several functions.
+    | **Example DFA:** Dependencies between features shall be analysed. This could be the usage of feature interfaces by multiple features, shared libraries or shared services. A common cause failure could be a erroneous signal that effects the behaviour of several functions.
 
 2. **Feature Level**: This level involves a more detailed analysis of individual components within the feature. The analysis shall consider the internal structure of components and their interactions with other components in the feature.
 

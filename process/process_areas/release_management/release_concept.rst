@@ -64,15 +64,16 @@ Platform Release
 
 The Platform Release contains the full <Project> scope which spans over many modules. The releases
 are proposed and approved by *Project Leads*. Every software module
-has its own repository which contains multiple components, their requirements, architecture,
-implementation and tests.
+is located in one repository (= delivery container) which contains multiple components, their requirements, architecture,
+implementation and tests. There may be more than one software module (=dependable element) in one repository,
+but this is not the recommended configuration.
 
 #. :need:`Project Lead Circle <rl__project_lead>`
 
    * Define and proposes scope of release
    * Writes platform release notes
    * Approves the platform release notes
-   * Adds and removes software modules to the platform
+   * Adds and removes delivery containers to the platform
    * Releases the platform
 
 Module Release Plan
@@ -103,7 +104,7 @@ Only released software modules can be included into a platform release.
 #. :need:`Project Lead Circle <rl__project_lead>`
 
    * Approves the module release notes
-   * Adds and removes Software modules to the Platform
+   * Adds and removes delivery containers to the Platform
    * Releases the module
 
 Branching Strategy

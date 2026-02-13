@@ -48,7 +48,7 @@ DFA failure initiators
     - Violation cause shared resources
     - Importance (can be used for prioritization)
   * - SR_01_01
-    - Reused software modules
+    - Reused software components
     - Medium
   * - SR_01_02
     - Libraries

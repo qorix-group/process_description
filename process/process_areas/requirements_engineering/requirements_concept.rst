@@ -113,11 +113,11 @@ i.e. the assumption on what content is needed, which shall be matched by the use
 Feature Requirements
 ====================
 
-The *Feature Requirements* derived from stakeholder requirements address mainly the integration level of SW modules and components. These shall describe the behaviour of the feature on platform level shall be described including the correlations of the integrated components. They serves mainly as an input for (SW + Safety) Architects, Testers, Integrators and are derived from the *Stakeholder Requirements*. To provide an example
+The *Feature Requirements* derived from stakeholder requirements address mainly the integration level of SW components. These shall describe the behaviour of the feature on platform level independent from a decomposition into components. They serves mainly as an input for (SW + Safety) Architects, Testers, Integrators. Example:
 
 .. code-block:: text
 
-   The feature shall accept JSON formatted string input according to RFC-8259
+   The feature shall use JSON formatted string according to RFC-8259 for configuration
 
 However the detailed interaction of the underlying components itself which is required to form a feature shall be defined in the feature architecture.
 
