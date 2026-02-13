@@ -182,7 +182,7 @@ On the feature level only *logical interfaces* shall be displayed. This means th
 SW Module View
 ==============
 
-A SW Module (=Dependable Element) is packaging a component or a set of components which is developed, documented and released together. It is not meant to be an architectural element which means that no requirements can be allocated to it.
+A SW Module (=dependable element) is packaging a component or a set of components which is developed, documented and released together. It is not meant to be an architectural element which means that no requirements can be allocated to it.
 
 On this level also a view shall be defined which is called *Module View*. It represents the allocation of components into modules and displays the dependencies between the single modules. In this view also cyclic dependencies between modules can be identified.
 
