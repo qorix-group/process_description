@@ -182,3 +182,20 @@ Additionally in the static view we see Component 4 is a library used by Componen
 For all failure initiators that are not applicable, the reason has to be documented in the content of the document, so it can be recognized. An example could be that
 
 * Failure initiator CO_01_02 "Data or message corruption" of "flow component 3" is not applicable, this flow is not contributing to the safety function.
+
+
+Tailoring
+=========
+
+.. gd_guidl:: Analysis Tailored
+   :id: gd_guidl__analysis_tailored
+   :status: valid
+   :complies: std_req__iso26262__analysis_641, std_req__iso26262__analysis_642, std_req__iso26262__analysis_643, std_req__iso26262__analysis_644
+
+   This part of the guideline links to all the requirements which are not fulfilled by the
+   safety analysis process. Make sure these are tailored out in the safety/security/quality plans
+   for your project (documented in the PMP). Reasoning given below must be confirmed there.
+
+   The reasoning is:
+
+   - see platform safety plan in PMP

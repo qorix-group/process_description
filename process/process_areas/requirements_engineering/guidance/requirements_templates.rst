@@ -55,7 +55,7 @@ Templates
 .. gd_temp:: Component Requirements Template
    :id: gd_temp__req_comp_req
    :status: valid
-   :complies: std_req__iso26262__support_641, std_req__iso26262__support_6421, std_req__iso26262__support_6425, std_req__aspice_40__SWE-1-BP1
+   :complies: std_req__iso26262__support_641, std_req__iso26262__support_6421, std_req__iso26262__support_6425, std_req__iso26262__support_12425, std_req__aspice_40__SWE-1-BP1
 
    .. code-block:: rst
 
