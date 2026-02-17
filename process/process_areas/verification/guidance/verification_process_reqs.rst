@@ -154,3 +154,16 @@ Process Requirements
 
     - If TestType is set to requirements-based then PartiallyVerifies or FullyVerifies shall contain a link to at least one requirement
     - If TestType is set to interface-test then PartiallyVerifies or FullyVerifies shall contain a link to at least one interface
+
+.. gd_req:: Verification of External Components AoUs
+    :id: gd_req__verification_external_aou
+    :status: valid
+    :tags: prio_2_automation, verification
+    :satisfies: wf__verification_comp_int_test, wf__verification_feat_int_test
+    :complies:
+
+    External components AoUs shall be verified by integration tests or static analysis tooling.
+
+    Note1: These external components AoU need to be checked generally for the complete platform, so we create a process automation requirement for this.
+
+    Note2: One example would be the checking if safety components are unly using "safe" functions of the operating system.
