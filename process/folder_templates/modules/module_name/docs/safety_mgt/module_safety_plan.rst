@@ -217,39 +217,51 @@ If the OSS element is classified as
         :header-rows: 1
 
         * - Work product Id
+          - Link to process
           - Reasoning for tailoring
 
         * - :need:`wp__requirements_comp`
+          - :need:`gd_temp__req_comp_req`
           - Always needed (for Q and QR classification) and also improves process Id 2
 
         * - :need:`wp__requirements_comp_aou`
+          - :need:`gd_temp__req_aou_req`
           - Always needed (for Q and QR classification) and also improves process Id 5
 
         * - :need:`wp__requirements_inspect`
+          - :need:`gd_chklst__req_inspection`
           - <Reasoning for tailoring>
 
         * - :need:`wf__cr_mt_comparch`
+          - :need:`gd_temp__arch_comp`
           - <Reasoning for tailoring, needed for example in case of deficits in process Id 3&4 and complexity Ids 1&4>
 
         * - :need:`wp__sw_component_fmea`
+          - :need:`gd_temp__comp_saf_fmea`
           - <Reasoning for tailoring, could help arguing too high cyclomatic complexity covered by safety mechanisms>
 
         * - :need:`wp__sw_arch_verification`
+          - :need:`gd_chklst__arch_inspection_checklist`
           - <Reasoning for tailoring, needed if also wf__cr_mt_comparch is required>
 
         * - :need:`wp__sw_implementation`
+          - n/a
           - Tailored - If source code is modified, this is not a OSS qualification any more.
 
         * - :need:`wp__verification_sw_unit_test`
+          - :need:`gd_guidl__verification_guide`
           - <Reasoning for tailoring, can improve deficits in process Id 6 and complexity Id 3>
 
         * - :need:`wp__sw_implementation_inspection`
+          - :need:`gd_chklst__impl_inspection_checklist`
           - <Reasoning for tailoring, can improve deficits in process Id 6 and complexity Id 2>
 
         * - :need:`wp__verification_comp_int_test`
+          - :need:`gd_guidl__verification_guide`
           - Always needed (for Q and QR classification)
 
         * - :need:`wp__sw_component_class`
+          - :need:`gd_guidl__component_classification`
           - Always needed as basis for tailoring.
 
 Module Safety Package
