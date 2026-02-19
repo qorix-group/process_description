@@ -43,7 +43,7 @@ Stakeholders for the requirements
 #. :need:`SW Architect <rl__committer>`
 
    * Break down the platform specification into features (High Level)
-   * Derive component architecture for each feature
+   * Derive feature/component architecture for each feature
    * Allocate requirements to architecture elements for specification of features/components
    * Define AoUs which arise from architecture
 
@@ -101,7 +101,7 @@ Based on the inputs of the previous chapter the types of requirements which need
 Stakeholder Requirements
 ========================
 
-On the platform level the *Stakeholder (=customer) Requirements* are defined. These requirements describe which content (functionality and safety mechanisms) the platform needs to contain, and serve as a project description of the top-level functionality. An example could be e.g.
+On the platform level the *Stakeholder (=customer) Requirements* are defined. These requirements describe which content (functionality and safety mechanisms) the platform needs to contain, and serve as a project description of the top-level functionality. An example could be:
 
 .. code-block:: text
 
@@ -117,23 +117,23 @@ The *Feature Requirements* derived from stakeholder requirements address mainly 
 
 .. code-block:: text
 
-   The feature shall use JSON formatted string according to RFC-8259 for configuration
+   The feature shall use JSON formatted string according to RFC-8259 for configuration.
 
 However the detailed interaction of the underlying components itself which is required to form a feature shall be defined in the feature architecture.
 
 Component Requirements
 ======================
 
-The lowest abstraction level is represented by the *component requirements*. They are derived from *feature requirements* and describe component specific implementation details. It is described which behaviour a component itself needs to fulfil in the context of the feature, e.g.
+The lowest abstraction level is represented by the *component requirements*. They are derived from *feature requirements* and describe component specific implementation details. It is described which behaviour a component itself needs to fulfil in the context of the feature, for example:
 
 .. code-block:: text
 
-   The component shall provide API calls to read and interpret every field of a JSON body in C++
+   The component shall provide API calls to read and interpret every field of a JSON body in C++.
 
 Assumption of Use Requirements
 ==============================
 
-Last but not least a requirement type is needed which describes e.g. the boundary conditions which need to be fulfilled when using a software element. Those requirements are called *Assumption of Use* (AoUs) and can be defined on every level (stakeholder/SW-platform, feature, component).
+Last but not least a requirement type is needed which describes e.g. the boundary conditions which need to be fulfilled when using a software element. Those requirements are called *Assumption of Use* (AoUs) and can be defined on every level (stakeholder/SW-platform, feature, component). Example:
 
 .. code-block:: text
 
@@ -142,12 +142,11 @@ Last but not least a requirement type is needed which describes e.g. the boundar
 Process Requirements
 ====================
 
-Besides those four types of requirements which describe the contents of the platform also a type, describing the requirements towards the tooling from a process point of view, needs to be specified. These *process requirements* can be derived from a process description. Here it is defined which part of the process need to be performed manually and which parts of the process should be implemented by tooling
+Besides those four types of requirements which describe the contents of the platform also a type, describing the requirements towards the tooling from a process point of view, needs to be specified. These *process requirements* can be derived from a process description. Here it is defined which part of the process need to be performed manually and which parts of the process should be implemented by tooling. Example:
 
 .. code-block:: text
 
    It shall be checked that safety requirements (Safety != QM) can only be linked against safety requirements.
-
 
 .. _attributes of the requirements:
 
@@ -188,7 +187,7 @@ Following attributes need to be filled manually for each requirement:
        - Process: If implemented can be verified by reviewing the process description (sub-type of non-functional)
        - Non-Functional: If implemented can be checked by review/analysis (of e.g. code, documentation)
 
-       Note that the linking to the requirements is affected by these types, see :need:`gd_req__req_linkage_architecture`
+       Note that the linking to the requirements is affected by these types, see :need:`gd_req__req_linkage_architecture`.
 
 Following attributes are automatically generated:
 
@@ -212,7 +211,7 @@ Following attributes are automatically generated:
      - During Build the code files are parsed for a defined tag which includes the requirement id. If this is located a link to the code will be added in the requirement
      - Docs-as-Code
    * - Verified by
-     - During build the junit test files are parsed for a defined marker which includes the requirement id. If the marker is located in the test a link to the test case will be added to the requirement
+     - During build the test files are parsed for a defined marker which includes the requirement id. If the marker is located in the test a link to the test case will be added to the requirement
      - Docs-as-Code
    * - Requirement Covered
      - During build it will be checked if the requirements hashes which are mentioned in the coverage file match the hashes of the linked child requirements. If so then this attribute will be set to yes.
@@ -283,12 +282,12 @@ In the general for the reviews a :ref:`guideline <review_concept>` exists.
 
 .. _coverage_of_requirements:
 
-Coverage of requirements
+Coverage of Requirements
 ************************
 
 According to the standards, requirements shall be derived from top to bottom. This means that at the point in time when the parent requirement is generated the coverage for itself can not be evaluated. In a second step all the parent requirements need to be broken down into child requirements which are linked to the parent requirement again. If during the creation of the child requirements any of the parent requirements would be touched again the hash value of the parent requirement would change and the linkage from the child to the parent requirement would be invalid again.
 
-Therefore the information concerning requirement coverage is stored in a config file located in the same folder as the requirements file. It contains the parent requirements and it´s links to child requirements including hashes to the of the child requirements. If it is merged to the main branch it will specify exactly the coverage of child requirements which are required to fulfil the coverage of the parent requirement.
+Therefore the information concerning requirement coverage is stored in a config file located in the same folder as the requirements file. It contains the parent requirements and its links to child requirements including hashes to the of the child requirements. If it is merged to the main branch it will specify exactly the coverage of child requirements which are required to fulfil the coverage of the parent requirement.
 
 If this file will now be merged to the main branch a review will be triggered again. During this review it will only be checked if the parent requirement is covered by its child requirements.
 

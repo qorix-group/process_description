@@ -96,7 +96,7 @@ During the docs build checks will be performed on the requirements. Those are sp
 Workflow for Creating a Requirement
 ===================================
 
-This section describes in detail which steps need to be performed to create a requirement based on :numref:`requirements_workflow_fig`
+This section describes in detail which steps need to be performed to create a requirement based on :ref:`requirements_workflow_fig`
 
 .. list-table:: Workflow for creating a requirement
    :header-rows: 1
@@ -232,7 +232,7 @@ AoUs can be of different class and shall be handled by tracing those
 
    AoU Traceability
 
-:numref:`aou_traceability` is an extension of the workproduct traceability to show the handling of AoU.
+:ref:`aou_traceability` is an extension of the workproduct traceability to show the handling of AoU.
 Note that the component level displayed in green shows two components - on the right (dark green) the one which is exporting AoU to be fulfilled by others,
 on the left (light green) the component which fulfills and exports AoU.
 Internal component's AoU can also be fulfilled (and linked) by other internal components, this is not depicted here, but would be quite the same with one exception:
