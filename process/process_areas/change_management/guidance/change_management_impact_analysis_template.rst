@@ -31,10 +31,10 @@ Type of Change Request
 Dependencies on other Change Requests
 -------------------------------------
 
-[List all dependencies on other Change Request]
+[List all dependencies on other Change Requests]
 
 
-Estimates for realization
+Estimates for Realization
 -------------------------
 
 [List all work products and elements affected by the Change Request]
@@ -67,12 +67,12 @@ Potential Impact on Security
 -----------------------------
 
 Add the potential impact in the chapter Security Impact of the concerned Feature Request
-(compare :need:`Feature Request Template <gd_temp__change_feature_request>`) or Coponent Request
+(compare :need:`Feature Request Template <gd_temp__change_feature_request>`) or Component Request
 (compare :need:`Component Request Template <gd_temp__change_component_request>`).
 
 Potential Impact on Safety
 --------------------------
 
 Add the potential impact in the chapter Safety Impact of the concerned Feature Request
-(compare :need:`Feature Request Template <gd_temp__change_feature_request>`) or Coponent Request
+(compare :need:`Feature Request Template <gd_temp__change_feature_request>`) or Component Request
 (compare :need:`Component Request Template <gd_temp__change_component_request>`).
