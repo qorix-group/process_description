@@ -52,7 +52,7 @@ Stakeholders for the requirements
    * Verify that the specification is fulfilled by the elements under test
    * Consider AoUs for test case specification
 
-#. :need:`Safety Architect <rl__safety_manager>`
+#. :need:`Safety Architect <rl__safety_engineer>`
 
    * *Dependent Failure Analysis*
 
@@ -62,13 +62,13 @@ Stakeholders for the requirements
 
      * Detailed element description to identify systematic errors within the element under investigation
 
-#. :need:`Security Architect <rl__security_manager>`
+#. :need:`Security Architect <rl__security_engineer>`
 
    * Trust Boundary Analysis
    * Defense in Depth Analysis
    * Qualitative Security Analysis (TARA or at least Attack Potential Analysis with impact category Safety)
 
-#. :need:`Platform/Tooling SW Developer <rl__committer>`
+#. :need:`Module/Tooling SW Developer <rl__delivery_team>`
 
    * Implement the SW according to its specification
    * Create traceability by linking its specification to code
@@ -80,9 +80,16 @@ Stakeholders for the requirements
    * Get detailed information concerning the specification of a feature
    * Be informed about its boundary conditions (AoUs)
 
-#. :need:`Platform SW Developer of the Reference Integration <rl__committer>`
+#. :need:`Platform SW Developer of the Reference Integration <rl__platform_team>`
 
-   * Requirements for Integration
+   * Implements Requirements for Integration
+
+As the platform is developed in an open source working mode, in principle every :need:`rl__contributor`
+can create SW requirements (as can be seen in :ref:`requirements_workflows`) but always
+a :need:`rl__committer` or :need:`rl__project_lead` has to approve.
+In practice the expectation is that the above stakeholders also define requirements,
+mostly the :need:`SW Architect <rl__committer>` and competent persons from the module's :need:`rl__delivery_team`.
+The person responsible is planned in the issue tickets for requirements definition.
 
 Standard Requirements
 =====================
