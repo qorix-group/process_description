@@ -66,13 +66,20 @@ Please note that it is mandatory to fill in the "passed" column with "yes" or "n
       -
       -
     * - ARC_01_02
+      - Does the software architecture design consider all the requirements allocated to the architectural element, including functional, non-functional, safety, and security requirements and all related design decisions?
+      - manual
+      - Check if all requirements allocated to the architectural element are considered in the design. This includes functional requirements (e.g., use cases, functional safety requirements), non-functional requirements (e.g., performance, reliability), safety requirements (e.g., ASIL-related requirements), and security requirements (e.g., confidentiality, integrity). Additionally, ensure that all related design decisions are taken into account and documented in the architectural design.
+      -
+      -
+      -
+    * - ARC_01_03
       - If the architectural element is related to any supplier manuals (including safety and security), are the relevant parts covered?
       - manual
       - If the architecture makes use of supplied elements, their manuals (like safety) have to be considered (i.e. its provided functionality matches the expectation and assumptions are fulfilled). Note that in case of safety component this means that assumed Technical Safety Requirements and AoUs of the safety manual are covered.
       -
       -
       -
-    * - ARC_01_03
+    * - ARC_01_04
       - Is the architectural element traceable to the lower-level artifacts as defined by the work product traceability?
       - automated
       - Will be removed from checklist once the requirement (:need:`Correlations of the architectural building blocks <gd_req__arch_build_blocks_corr>`) is implemented by automated tool check. See `Tool Requirements <https://eclipse-score.github.io/docs-as-code/main/internals/requirements/requirements.html>`_.
