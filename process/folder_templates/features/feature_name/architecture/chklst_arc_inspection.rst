@@ -142,7 +142,7 @@ Please note that it is mandatory to fill in the "passed" column with "yes" or "n
       - manual
       - Indicators of complexity include: the number of use cases (corresponding to dynamic diagrams) allocated to a single design element, the number of interfaces and operations in an interface, function parameters, global variables, complex types, and limited comprehensibility.
 
-        Notes
+        Notes:
 
         If the "number of use cases" or "number of interfaces" or "number of function parameters" above exceeds "3" and the "number of operations" exceeds "20" or global variables are used, a design rationale is mandatory
       -
