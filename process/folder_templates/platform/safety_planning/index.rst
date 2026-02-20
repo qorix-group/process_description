@@ -32,7 +32,8 @@ Safety Planning
     - Adjust ``safety``, ``security`` and ``tags`` according to your needs
 
 
-:note: The Safety Management Plan shall be continuously maintained during the project. Deviations to the platform plan should be documented here.
+:note: The platform safety plan shall be continuously maintained during the project.
+       Deviations to the platform safety plan should be documented :ref:`here <platform_safety_package_deviations>`
 
 
 Safety management / Platform Safety Plan
@@ -147,13 +148,39 @@ Functional Safety Quality Criteria
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 Description of the functional safety quality criteria.
 
-Platform Safety Plan
-++++++++++++++++++++
+Platform Safety Plan / Package
+++++++++++++++++++++++++++++++
 
-Functional Safety Management SW Platform Work Products
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Functional Safety/Security Management SW Platform Work Products
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-List of all relevant Functional Safety Management work products for the platform project.
+List of all relevant work products for the platform project relevant for both Functional Safety and Security Management.
+Including their status (which makes it cover also the "safety package").
+
+Functional Safety Specific SW Platform Work Products
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+List of all relevant work products for the platform project relevant for Functional Safety.
+Including their status (which makes it cover also the "safety package").
+
+Platform Safety Plan - Feature Work Product Lists
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+<add here the link to all the platform's features WP lists>
 
 Platform Management Plan - Documents Status Chart
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+See <add here the section reference to the documentation management plan>
+
+.. _platform_safety_package_deviations:
+
+Deviations from Platform Safety Plan
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+The following deviations from the platform safety plan are present in the platform safety package.
+These are deviations from planned processes execution and/or workproduct results,
+safety anomalies in the sense of known bugs in the software are reported in the release notes (of the platform's modules).
+
+<Describe here the deviations, whether they have an impact on platform safety functions,
+how these can be mitigated or argued and if and when a resolution is planned.>
