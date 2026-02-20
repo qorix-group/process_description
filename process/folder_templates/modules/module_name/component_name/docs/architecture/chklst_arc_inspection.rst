@@ -156,7 +156,7 @@ Please note that it is mandatory to fill in the "passed" column with "yes" or "n
 
         Notes:
 
-        If the "number of use cases" or "number of interfaces" or the "number of function parameters" above exceeds "3" and the "number of operations" exceeds "20" or global variables are used, a design rationale is mandatory
+        If the "number of use cases" or "number of interfaces" or the "number of function parameters" above exceeds "3" and the "number of operations" exceeds "20" or global variables are used, a design rationale is mandatory.
 
         See also if component classification :need:`gd_temp__component_classification` as measure is present.
 
