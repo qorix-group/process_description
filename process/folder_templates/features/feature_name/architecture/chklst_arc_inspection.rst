@@ -144,7 +144,7 @@ Please note that it is mandatory to fill in the "passed" column with "yes" or "n
 
         Notes:
 
-        If the "number of use cases" or "number of interfaces" above exceeds "3" or "number of function parameters" exceeds "5" and the "number of operations" exceeds "20" or global variables are used, a design rationale is mandatory.
+        If the "number of use cases" or "number of interfaces" above exceeds "3" or "number of function parameters" exceeds "5" or the "number of operations" exceeds "20" or global variables are used, a design rationale is mandatory.
       -
       -
       -
