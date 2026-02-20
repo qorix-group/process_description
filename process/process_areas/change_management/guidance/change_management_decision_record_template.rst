@@ -83,7 +83,7 @@ In each DR file, include the following sections:
     - Modify ``dec_rec`` to provide a descriptive and concise title. Summarizing the decision. (mandatory)
     - Modify ``id`` to contain the Platform/Feature/Component name the DR belongs to and the title, in upper snake case preceded by ``dec_rec__`` (mandatory)
     - Adjust ``status`` according to your needs (mandatory)
-    - Modify ``affects`` to point to the work product it affects, mostly this will be architecture or design (recommended)
+    - Modify ``affects`` to point to the work product it affects, mostly this will be requirements, architecture or design (recommended)
     - Provide ``Description`` (mandatory)
     - Add ``Context`` to describe the issue or motivation behind this decision or change (mandatory)
     - Add ``decision`` to detail the proposed change or decision (mandatory)
