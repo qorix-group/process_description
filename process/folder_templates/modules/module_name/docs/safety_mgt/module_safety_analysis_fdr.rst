@@ -34,16 +34,18 @@ Safety Analysis Checklist
 
 
 **Purpose**
+
 The purpose of this Safety Analysis (DFA and FMEA) checklist template is to collect the topics to be checked during verification of the Safety Analysis.
 
 **Conduct**
+
 As described in :need:`wf__p_formal_rv`, the formal document review is performed by an "external" safety manager:
 
 - reviewer: <committer with safety manager skills explicitly named here>
 
 **Checklist**
 
-Please note that it is mandatory to fill in the "passed" column with "yes" or "no" for each checklist item and additional to add in the remarks why it is passed or not passed. In case of "no" an issue link to the issue tracking system has to be added in the last column. See also :ref:`review_concept` for further information about reviews in general and inspection in particular.
+Please note that the "passed" column must contain "yes" or "no" for each checklist item. Additionally, the remarks column must explain why item passed or did not passed. In case of "no" an issue link to the issue tracking system has to be added in the last column. See also :ref:`review_concept` for further information about reviews in general and inspection in particular.
 
 .. list-table:: Safety Analysis Checklist
       :header-rows: 1
@@ -57,14 +59,14 @@ Please note that it is mandatory to fill in the "passed" column with "yes" or "n
         - Issue link
       * - REQ_01_01
         - Is / are the attribute sufficient set correctly?
-        - The mitigations shall have a direct influence ont the violation by prevention, detection or mitigation to reduce the risk to an acceptable level.
+        - The mitigations shall have a direct influence on the violation by prevention, detection or mitigation to reduce the risk to an acceptable level.
         - The mitigations are sufficient.
         - <yes|no>
         -
       * - REQ_01_02
         - Are the templates for DFA and/or FMEA used?
         - See :ref:`dfa_templates` / :ref:`FMEA_templates` and also :ref:`process_requirements_safety_analysis`
-        - Templates are used to generate the DFA or / and FMEA.
+        - Templates are used to generate the DFA and/or FMEA.
         - <yes|no>
         -
       * - REQ_01_03
@@ -76,7 +78,7 @@ Please note that it is mandatory to fill in the "passed" column with "yes" or "n
       * - REQ_01_04
         - Are the failure effects clearly and completely described?
         - Use the generic failure effect descriptions and enlarge the description if it's applicable to the considered element.
-        - The effects of the failure is described completely. The effect can be recognized easily.
+        - The effects of the failure are described completely. The effect can be recognized easily.
         - <yes|no>
         -
       * - REQ_01_06
@@ -86,14 +88,14 @@ Please note that it is mandatory to fill in the "passed" column with "yes" or "n
         - <yes|no>
         -
       * - REQ_01_07
-        - Is the sufficiency of the "mitigated by" (prevention, detection or mitigation) described or can it be recognized easily?
+        - Is the sufficiency of the "mitigated by" (prevention, detection or mitigation) clearly described or easily recognizable?
         - The sufficiency of the "mitigated by" is described in the content of the document. It can be recognized easily.
-        - The "mitigated by" shows clearly that a fault / failure can be mitigated by the linked requirement by prevention, detection or mitigation. It shall be described in the contend.
+        - The "mitigated by" shows clearly that a fault / failure can be mitigated by the linked requirement by prevention, detection or mitigation. It shall be described in the content.
         - <yes|no>
         -
       * - REQ_01_08
         - Is the overall result of the Safety Analysis described in the report?
-        - It shall be shown in the report if the Safety Analysis are finished and if all artifacts are "valid" and "sufficient".
-        - The results of the Safety Analysis are described in the report. The report is available :need:`wp__verification_platform_ver_report`.
+        - It shall be shown in the report if the Safety Analyses are finished and if all artifacts are "valid" and "sufficient".
+        - The results of the Safety Analyses are described in the report. The report is available :need:`wp__verification_platform_ver_report`.
         - <yes|no>
         -
