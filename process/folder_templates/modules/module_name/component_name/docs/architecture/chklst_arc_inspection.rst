@@ -58,8 +58,7 @@ Please note that it is mandatory to fill in the "passed" column with "yes" or "n
       - Remarks
       - Issue link
     * - ARC_01_01
-      - Is the traceability from software architectural elements to requirements, and other level architectural
-        elements (e.g. component to interface) established according to the "Relations between the architectural elements" as described in :need:`doc_concept__arch_process`?
+      - Is the traceability from software architectural elements to requirements, and other level architectural elements (e.g. component to interface) established according to the "Relations between the architectural elements" as described in :need:`doc_concept__arch_process`?
       - automated
       - Trace should be checked automatically by tool support in the future. Will be removed from the checklist once the requirement (:need:`Correlations of the architectural building blocks <gd_req__arch_build_blocks_corr>`) is implemented. Refer to `Tool Requirements <https://eclipse-score.github.io/docs-as-code/main/internals/requirements/requirements.html>`_ for the current status.
       -
