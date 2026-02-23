@@ -33,6 +33,8 @@ Module Safety Plan
     - Adjust ``status`` to be ``valid``
     - Adjust ``safety`` and ``tags`` according to your needs
 
+:note: The module safety plan shall be continuously maintained during the project.
+       Deviations to the module safety plan should be documented :ref:`here <module_name_safety_package_deviations>`
 
 Functional Safety Management Context
 ====================================
@@ -321,3 +323,15 @@ Component Architecture Status
    :columns: id;status;tags
    :colwidths: 25,25,25
    :sort: title
+
+.. _module_name_safety_package_deviations:
+
+Deviations from Module Safety Plan
+----------------------------------
+
+The following deviations from the module safety plan are present in the module safety package.
+These are deviations from planned processes execution and/or workproduct results,
+safety anomalies in the sense of known bugs in the software are reported in the release notes.
+
+<Describe here the deviations, whether they have an impact on module's safety functions,
+how these can be mitigated or argued and if and when a resolution is planned.>
