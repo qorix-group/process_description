@@ -68,7 +68,7 @@ Please note that it is mandatory to fill in the "passed" column with "yes" or "n
     * - ARC_01_02
       - Does the software architecture design consider all the requirements allocated to the architectural element, including functional, non-functional, safety, and security requirements and all related design decisions?
       - manual
-      - Check if all requirements allocated to the architectural element are considered in the design. This includes functional requirements (e.g., use cases, functional safety requirements), non-functional requirements (e.g., performance, reliability), safety requirements (e.g., ASIL-related requirements), and security requirements (e.g., confidentiality, integrity). Additionally, ensure that all related design decisions are taken into account and documented in the architectural design.
+      - Check if all requirements allocated to the architectural element are considered in the design. This includes functional requirements (e.g. functional safety requirements), non-functional requirements (e.g. performance, reliability), and security requirements (e.g. confidentiality, integrity). Additionally, ensure that all related design decisions are taken into account and documented in the architectural design.
       -
       -
       -
