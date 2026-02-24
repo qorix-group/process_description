@@ -68,20 +68,25 @@ See also :need:`doc_concept__wp_inspections` for further information about revie
       - Remarks
       - Issue link
     * - ARC_01_01
-      - Is the traceability from software architectural elements to requirements, and other level architectural
-        elements (e.g. component to interface) established according to the "Relations between the architectural elements" as described in :need:`doc_concept__arch_process`?
+      - Is the traceability from software architectural elements to requirements, and other level architectural elements (e.g. component to interface) established according to the "Relations between the architectural elements" as described in :need:`doc_concept__arch_process`?
+      - automated
       - Trace should be checked automatically by tool support in the future. Will be removed from the checklist once the requirement (:need:`Correlations of the architectural building blocks <gd_req__arch_build_blocks_corr>`) is implemented. Refer to `Tool Requirements <https://eclipse-score.github.io/docs-as-code/main/internals/requirements/requirements.html>`_ for the current status.
       -
       -
-      -
     * - ARC_01_02
+      - Does the software architecture design consider all the requirements allocated or belonging to the architectural element, including functional, non-functional, safety, and security requirements and all related design decisions?
+      - manual
+      - Check if all requirements allocated or belonging to the architectural element are considered in the design. This includes functional requirements (e.g. functional safety requirements), non-functional requirements (e.g. performance, reliability), and security requirements (e.g. confidentiality, integrity). Additionally, ensure that all related design decisions are taken into account and documented in the architectural design.
+      -
+      -
+    * - ARC_01_03
       - If the architectural element is related to any supplier manuals (incl. safety and security)
         are the relevant parts covered?
       - If the architecture makes use of supplied elements, their manuals (like safety) have to be considered (i.e. its provided functionality matches the expectation and assumptions are fulfilled). Note that in case of safety component this means that assumed Technical Safety Requirements and AoUs of the safety manual are covered.
       -
       -
       -
-    * - ARC_01_03
+    * - ARC_01_04
       - Is the architectural element traceable to the lower level artifacts as defined by the workproduct traceability?
       - Will be removed from checklist once the requirement (:need:`Correlations of the architectural building blocks <gd_req__arch_build_blocks_corr>`) is implemented by automated tool check. See `Tool Requirements <https://eclipse-score.github.io/docs-as-code/main/internals/requirements/requirements.html>`_.
         Details of possible linking can be depicted from :ref:`traceability concept <general_concepts_traceability>`.
