@@ -75,7 +75,7 @@ Fault Models for sequence diagrams
       - High
     * - execution
       - EX_01_01
-      - Process calculates wrong result(s) (is a subset/more precise description of MF_01_05 or MF_01_04)
+      - Process calculates wrong result(s) (is a subset/more precise description of MF_01_05 or MF_01_04). This failure mode is related to the analysis if e.g. internal safety mechanisms are required (level 2 function, plausibility check of the output, …) because of the size / complexity of the feature.
       - High
     * - execution
       - EX_01_02

@@ -50,7 +50,7 @@ The attributes of the template are described in :ref:`process_requirements_safet
 #. Replace the placeholders in the "id" attribute with the name of the feature or component and a short description of the element so that it can be easily identified.
 #. Document the fault ID from the fault model :need:`gd_guidl__fault_models` that applies to the element in the "fault_id" attribute.
 #. Describe the failure effect of the fault model on the element in the "failure_effect" attribute. Use the failure mode description and enlarge the if it's applicable to the considered element.
-#. Document the safety mitigation. This can be a detection, prevention or mitigation of the fault.
+#. Document the safety mitigation. This can be a detection, prevention or mitigation of the fault. If only testability is defined as mitigation measure, complexity requirements shall be allocated to the feature/component.
 #. If there is no mitigation or existing mitigation is not sufficient a mitigation issue has to be created in the Issue Tracking system and linked in the "mitigation_issue" attribute.
 #. The analysis is finished, if for each identified fault a sufficient mitigation exists.
 #. Unless the attribute sufficient is yes, mitigation and argument attribute can be still empty.
@@ -79,7 +79,7 @@ The attributes of the template are described in :ref:`process_requirements_safet
 #. Replace the placeholders in the "id" attribute with the name of the feature or component and a short description of the element so that it can be easily identified.
 #. Document the failure ID from the failure initiator :need:`gd_guidl__dfa_failure_initiators` that applies to the element in the "failure_id" attribute.
 #. Describe the failure effect of the failure initiator on the element in the "failure_effect" attribute. Use the violation cause description and enlarge the if it's applicable to the considered element.
-#. Document the safety mitigation. This can be a detection, prevention or mitigation of the fault.
+#. Document the safety mitigation. This can be a detection, prevention or mitigation of the fault. If only testability is defined as mitigation measure, complexity requirements shall be allocated to the feature/component.
 #. If there is no mitigation or the mitigation is not sufficient a mitigation issue has to be created in the Issue Tracking system and linked in the "mitigation_issue" attribute.
 #. The analysis is finished, if for each identified fault a sufficient mitigation exists.
 #. Unless the attribute sufficient is yes, mitigation and argument attribute can be still empty.
