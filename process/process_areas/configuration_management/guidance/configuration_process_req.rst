@@ -49,7 +49,7 @@ Configuration Management Process Requirements
    The content of pull requests (conversation, commits, files changed) shall be stored permanently
    for every release.
 
-   Note: The reason is that the PRs could be altered after the release and therefore for example the inspection documented within the review would be corrupted.
+   Note: This requirement exists because PRs may be modified after a release, which could corrupt the documented inspection results recorded during the review.
 
 .. gd_req:: Baseline Differences
    :id: gd_req__config_baseline_diff

@@ -217,10 +217,10 @@ Process Requirements
    :complies: std_req__iso26262__support_6433, std_req__iso26262__software_7414, std_req__iso26262__software_942
    :satisfies: wf__monitor_verify_requirements, wf__mr_vy_arch
 
-   For all the pull requests modifying a work product subject to inspection,
-   a template for the pull request containing the applicable checklist items shall be provided.
-   Ideally this is automatically applied based on the files modified in the PR.
-   The requirements and architecture inspections are not automatically applied.
+   For every pull request that modifies a work product subject to inspection,
+   a pull‑request template containing the applicable inspection checklist items shall be provided.
+   When possible, the template should be applied automatically based on the files modified in the pull request.
+   As of now, requirements and architecture inspection checklists shall be added manually because they are not automatically applied.
 
 .. gd_req:: Status Set Check
    :id: gd_req__general_status_set_check
