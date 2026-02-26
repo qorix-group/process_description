@@ -153,7 +153,7 @@ Problem Resolution Checks
    It shall be checked if all mandatory attributes for each Problem
    is provided by the user. Following attributes shall be mandatory:
 
-   .. needtable:: Overview mandatory problem attributes
+   .. needtable:: Overview of mandatory problem attributes
       :filter: "mandatory" in tags and "attribute" and "problem_resolution" in tags and is_external == False
       :style: table
       :columns: title

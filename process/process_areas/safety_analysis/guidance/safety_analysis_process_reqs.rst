@@ -81,7 +81,7 @@ Process Safety Analysis Attributes
    :satisfies: wf__analyse_platform_featarch, wf__analyse_featarch, wf__analyse_comparch
    :complies: std_req__iso26262__analysis_844, std_req__iso26262__analysis_746, std_req__iso26262__analysis_747
 
-   If a new mitigation (e.g. prevention, detection or mitigation) is needed link to the issue and keep status invalid until mitigation is sufficient.
+   If a new mitigation (e.g. prevention, detection or mitigation) is needed, link to the issue and keep status invalid until mitigation is sufficient.
 
 .. gd_req:: Safety Analysis attribute: sufficient
    :id: gd_req__saf_attr_sufficient
