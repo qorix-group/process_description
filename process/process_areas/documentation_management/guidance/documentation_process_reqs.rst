@@ -84,7 +84,7 @@ Document Management Process Requirements
    Compare :need:`gd_guidl__documentation`
 
 .. gd_req:: Document Author
-   :id: gd_req__doc_reviewer
+   :id: gd_req__doc_author
    :status: valid
    :tags: prio_1_automation
    :satisfies: wf__platform_cr_mt_platform_mgmt_plan
@@ -94,7 +94,7 @@ Document Management Process Requirements
    I.e. for each change of a document the author of the changes is stored.
 
 .. gd_req:: Document Reviewer
-   :id: gd_req__doc_author
+   :id: gd_req__doc_reviewer
    :status: valid
    :tags: prio_1_automation
    :satisfies: wf__platform_cr_mt_platform_mgmt_plan
