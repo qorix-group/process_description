@@ -143,6 +143,9 @@ Safety Management Guideline
    Based on the component classification as described in :need:`gd_guidl__component_classification`,
    the qualification of the component is planned as part of the :need:`gd_temp__module_safety_plan`.
    The template contains guidance how to do this and to document in the "OSS (sub-)component <name> Workproducts" list.
+   As an alternative the module safety manager can also decide to use the :ref:`external_tsf`
+   to reach enough trust in an externally provided (OSS) to use it for safety related functionality
+   in the scope of the SW platform. This approach is also documented in the module safety plan.
 
 
 .. gd_guidl:: Safety manual generation

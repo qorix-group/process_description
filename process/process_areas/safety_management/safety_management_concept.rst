@@ -90,9 +90,10 @@ Safety Management Work Products
 
 Apart from the safety plans the main work products of Safety Management are:
 
-* :need:`Safety Manual <wp__platform_safety_manual>` - the safety manual defines the requirements for safe usage or integration of the SW platform (or its individual modules)
+* :need:`Safety Manual <wp__platform_safety_manual>` - defines the requirements for safe usage or integration of the SW platform (or its individual modules)
 * :need:`Formal Document Review Reports <wp__fdr_reports>` - on safety plan, safety package and safety analyses, according to ISO 26262 requirements
-* :need:`Safety Package <wp__platform_safety_package>` - the safety package contains the released work products planned in the safety plan, it does not contain the safety argumentation. By this the project ensures it does not take over liability for the SW platform (or its individual modules). But it enables the user to integrate the SW platform (or its individual modules) in their safety case.
+* :need:`Safety Package <wp__platform_safety_package>` - contains the released work products planned in the safety plan, it does not contain the safety argumentation. By this the project ensures it does not take over liability for the SW platform (or its individual modules). But it enables the user to integrate the SW platform (or its individual modules) in their safety case.
+* :need:`SW Component Classification <wp__sw_component_class>` - used for pre-existing software components, to determine their usability for safety funtionalities and the activities needed for its qualification in context of the SW platform. Is used as an input for the planning of SW component qualification documented in :need:`Module Safety Plan <wp__module_safety_plan>`.
 
 Safety Management Tooling
 ^^^^^^^^^^^^^^^^^^^^^^^^^
