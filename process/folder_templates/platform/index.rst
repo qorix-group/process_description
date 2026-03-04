@@ -1,6 +1,6 @@
 ..
    # *******************************************************************************
-   # Copyright (c) 2024 Contributors to the Eclipse Foundation
+   # Copyright (c) 2026 Contributors to the Eclipse Foundation
    #
    # See the NOTICE file(s) distributed with this work for additional
    # information regarding copyright ownership.
@@ -20,12 +20,9 @@ Platform
 .. toctree::
    :hidden:
 
-   safety_analysis/platform_dfa.rst
    requirements/stakeholder/chklst_req_inspection.rst
-   safety_planning/platform_safety_plan.rst
-   safety_planning/platform_safety_analysis_fdr.rst
-   security_analysis/platform_security_manual.rst
-   security_analysis/platform_security_analysis_fdr.rst
-   security_analysis/platform_security_package_fdr.rst
-   security_planning/platform_security_plan.rst
-   security_planning/platform_security_plan_fdr.rst
+   requirements/stakeholder/index.rst
+   docs/release/release_note.rst
+   docs/safety_mgt/index.rst
+   docs/security_mgt/index.rst
+   docs/verification/platform_verification_report.rst

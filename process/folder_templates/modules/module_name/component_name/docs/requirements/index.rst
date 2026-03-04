@@ -19,7 +19,7 @@ Requirements
    :id: doc__component_name_requirements
    :status: draft
    :safety: ASIL_B
-   :security: NO
+   :security: YES
    :realizes: wp__requirements_comp
    :tags: template
 
@@ -29,7 +29,7 @@ Requirements
     - Modify ``Your Component Name`` to be your Component Name
     - Modify ``id`` to be your Component Name in upper snake case preceded by ``doc__`` and followed by ``_requirements``
     - Adjust ``status`` to be ``valid``
-    - Adjust ``safety`` and ``tags`` according to your needs
+    - Adjust ``safety``, ``security`` and ``tags`` according to your needs
 
 <Headlines (for the list of requirements if structuring is needed)>
 ===================================================================
@@ -54,6 +54,9 @@ Component Requirements
     The above directive must be updated according to your component requirements.
 
     - Replace the example content by the real content for your first requirement
+    - Set ``satistifes`` with links to Feature requirements
+    - Set ``belongs_to`` with a link to the right Component id
+    - Set ``safety`` and ``security`` to the right value
     - Set the status to valid and start the review/merge process
     - Add other needed requirements for your component
 
@@ -67,7 +70,7 @@ Assumption of Use Requirements
    :safety: ASIL_B
    :status: invalid
 
-   The Component User shall do xyz to use the component safely
+   The Component User shall do xyz to use the component safely/securely
 
 Environmental Requirements
 --------------------------
@@ -89,8 +92,10 @@ Hints
     The above directives must be updated according to your feature requirements.
 
     - Replace the example content by the real content for your first requirement (according to :need:`gd_guidl__req_engineering`)
-    - Set the status to valid and start the review/merge process
+    - Set ``safety`` and ``security`` to the right value (ASIL B/QM; YES/NO)
+    - Set ``reqtype`` with a link to the right value (<Functional|Interface|Process|Non-Functional>)
     - Add other needed requirements for your feature
+    - Set ``status`` to ``valid`` and start the review/merge process
 
 .. needextend:: "component_name" in id
    :+tags: component_name
