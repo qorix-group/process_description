@@ -107,22 +107,40 @@ Also requirements of standards need to be taken into consideration:
 How to analyze?
 ===============
 
-The Security Analysis are done on the feature and component architecture.
+The Security Analysis are done on the platform, feature and component architecture.
 The Security Analysis shall be done accompanying to the development.
 So the results can directly be used for the development of the feature and component.
 With an iterative approach it is needed to provide the evidence of the cybersecurity of
 the functions.
-The analysis were applied at static and dynamic architecture diagrams. Examples will
-be added here in an future PR (https://github.com/eclipse-score/process_description/issues/409).
+
+Platform security analysis
+==========================
+.. figure:: _assets/PlatformAnalysisFLowChart.png
+   :align: center
+   :width: 80%
+   :name: platform_security_analysis
+
+   Platform Architecture
+
+A step-by-step-approach is described in :need:`gd_guidl__security_analysis`.
+As shown above in the flow diagram, the first step in the platform security analysis is the definition of the trust boundary. An example definition is shown below.
+
+.. figure:: _assets/exampleTrustBoundary.png
+   :align: center
+   :width: 80%
+   :name: trust_boundary_example
+
+   Trust Boundary
+
 
 How to mitigate?
 ================
-
-Identified risks without a mitigation remain open and are tracked in the issue tracking
+Security requirements resulting from the Platform analysis become stakeholder requirements for the features. Identified risks without a mitigation remain open and are tracked in the issue tracking
 system :need:`wp__issue_track_system` until they are resolved.
 Resolving includes acceptance of the risk or avoidance.
 Further a new security control may be needed to reduce the risk.
 Finally also the risk may shared, if applicable.
+Security assumptions resulting from the anlysis are documented properly.
 
 What analysis shall be done in which level?
 ===========================================
