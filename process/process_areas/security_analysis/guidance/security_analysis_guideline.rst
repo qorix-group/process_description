@@ -93,7 +93,7 @@ The analysis is done by as described in the flowchart :ref:`platform_security_an
 #. Identify the assets of the platform. The assets are the elements of the platform that have to be protected. The assets can be identified by using the trust boundary model and the platform architecture. The assets can be identified using the following questions:
 
    - What are the critical
-      - functions, interfaces, components (HW and SW), data of the platform?
+      - features, interfaces, components (HW and SW), data of the platform?
       - communication paths and interfaces of the platform?
       - configurations of the platform?
    - What critical information is shared between the components?
@@ -146,11 +146,6 @@ The analysis is done by as described in the flowchart :ref:`platform_security_an
    If there are changes they have to be analyzed with an impact analysis
    :need:`gd_temp__change_impact_analysis`. If needed the Security Analysis has to be
    updated accordingly. Therefore all necessary steps have to be repeated.
-.. #. If a threat scenario applies, use the template :need:`gd_temp__plat_threat_scenario`, :need:`gd_temp__feat_sec_ana_threat` or :need:`gd_temp__comp_sec_ana_threat` to perform the analysis.
-.. #. The title of the analysis should be easily recognizable e.g. "Component xy unauthorized access".
-.. #. Link the violated architecture with the "violates" attribute.
-.. #. Replace the placeholders in the "id" attribute with the name of the feature or component and a short description of the element so that it can be easily identified.
-.. #. Document the threat ID from the threat scenario :need:`gd_guidl__sec_ana_threat_scenarios` that applies to the element in the "threat_id" attribute.
 
 
 Examples for Security Analysis at feature level

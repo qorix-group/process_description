@@ -135,12 +135,12 @@ As shown above in the flow diagram, the first step in the platform security anal
 
 How to mitigate?
 ================
-Security requirements resulting from the Platform analysis become stakeholder requirements for the features. Identified risks without a mitigation remain open and are tracked in the issue tracking
+Security requirements resulting from the Platform analysis become :need:`wp__requirements_stkh` for the features. Identified risks without a mitigation remain open and are tracked in the issue tracking
 system :need:`wp__issue_track_system` until they are resolved.
 Resolving includes acceptance of the risk or avoidance.
 Further a new security control may be needed to reduce the risk.
 Finally also the risk may shared, if applicable.
-Security assumptions resulting from the anlysis are documented properly.
+Security assumptions resulting from the analysis are documented properly as :need:`wp__requirements_sw_platform_aou`.
 
 What analysis shall be done in which level?
 ===========================================
