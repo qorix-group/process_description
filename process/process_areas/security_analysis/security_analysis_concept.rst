@@ -22,12 +22,11 @@ Concept Description
    :status: valid
    :tags: security_analysis
 
-This section discusses a concept for Security Analysis. Different methods for Security
-Analysis are used (e.g. STRIDE). Inputs for this concept are the requirements of
-ISO/SAE 21434 Part 8 and Part 15.
+This section discusses a concept for Security Analysis. Various methods can be used for Security Analysis (e.g. STRIDE).
+This concept is based on the requirements of ISO/SAE 21434 Part 8 and Part 15.
 
 The objective of the **Security Analysis** is to identify and analyze potential
-cybersecurity threat scenarios, threats and vulnerabilities. Security Analysis
+cybersecurity threat scenarios, threats, and vulnerabilities. Security Analysis
 identifies potential attack scenarios that could compromise the cybersecurity of the
 defined elements.
 How to perform a Security Analysis is described in :need:`gd_guidl__security_analysis`.
@@ -36,21 +35,21 @@ To have a structured Security Analysis, the threat scenarios have to be consider
 categories:
 
  | - Attack surfaces threats: Interfaces and entry points that could be exploited by attackers.
- | - Communication threats: Threats related to data transmission including interception, manipulation, or spoofing.
- | - Shared information inputs threats: Same information input used by multiple functions that could be exploited.
- | - Unintended impacts threats: Security impacts due to various vulnerabilities like privilege escalation or resource exhaustion.
- | - Development threats: Vulnerabilities that occur during the development process, potentially leading to security issues.
+ | - Communication threats: Threats related to data transmission, including interception, manipulation, or spoofing.
+ | - Shared information inputs threats: Same input used by multiple functions that could be exploited.
+ | - Unintended impacts threats: Security impacts due to various vulnerabilities such as privilege escalation or resource exhaustion.
+ | - Development threats: Vulnerabilities introduced during the development process that may lead to security issues.
 
 The objective of the **Security Analysis** is to show that the architecture created to
 fulfill the requirements does not introduce possible vulnerabilities which would
 break the security requirements (cybersecurity goals are top level security requirements).
-Or rather that the possibility of these vulnerabilities is reduced to an acceptable
-level. This can be done by mitigation (accept, avoid, reduce, share). The Security
+Alternatively, it ensures that the possibility of these vulnerabilities is reduced to an acceptable
+level. This can be achieved by mitigation actions (accept, avoid, reduce, share). The Security
 Analysis is used to find possible threats and their effects. The possible threats are
 systematically identified by applying threat models :need:`gd_guidl__threat_models_stride`.
 
 The Security Analysis shall be performed once at platform level to analyze the attack
-surfaces between the features of the platform.
+surfaces between the platform features.
 Typically the Security Analysis shall be performed at feature level and component level.
 If a component has no sub-components, the result of the analysis is the same as at
 feature level. So no additional consideration is needed.
@@ -61,8 +60,8 @@ Inputs
 
 #. Stakeholders for the Security Analysis?
 #. Who needs which information?
-#. How to analyze?
-#. How to mitigate?
+#. How should the analysis be performed?
+#. How should risks be mitigated?
 #. What analysis shall be done in which level?
 
 Stakeholders for the Security Analysis
@@ -70,10 +69,10 @@ Stakeholders for the Security Analysis
 
 #. :need:`Security Engineer <rl__security_engineer>`
 
-   * Analyze all the feature architectures together with a Platform Security Analysis
+   * Analyze all feature architectures together with Platform-Level Security Analysis
    * Analyze the feature architecture with the defined method
    * Analyze the component architecture with the defined method
-   * Monitor/verify the Security Analyses
+   * Monitor and Verify the Security Analyses
 
 #. :need:`Security Manager <rl__security_manager>`
 
@@ -99,7 +98,7 @@ Stakeholders for the Security Analysis
 Standard Requirements
 =====================
 
-Also requirements of standards need to be taken into consideration:
+Requirements from relevant standards must also be considered:
 
 * ISO/SAE 21434
 * ISO 26262
@@ -110,7 +109,7 @@ How to analyze?
 The Security Analysis are done on the platform, feature and component architecture.
 The Security Analysis shall be done accompanying to the development.
 So the results can directly be used for the development of the feature and component.
-With an iterative approach it is needed to provide the evidence of the cybersecurity of
+An iterative approach is required to provide the evidence of the cybersecurity of
 the functions.
 
 Platform security analysis
@@ -137,9 +136,9 @@ How to mitigate?
 ================
 Security requirements resulting from the Platform analysis become :need:`wp__requirements_stkh` for the features. Identified risks without a mitigation remain open and are tracked in the issue tracking
 system :need:`wp__issue_track_system` until they are resolved.
-Resolving includes acceptance of the risk or avoidance.
-Further a new security control may be needed to reduce the risk.
-Finally also the risk may shared, if applicable.
+Resolution may include accepting or avoiding the risk.
+Further a new security control may be required to reduce the risk.
+Finally, the risk may be shared if applicable.
 Security assumptions resulting from the analysis are documented properly as :need:`wp__requirements_sw_platform_aou`.
 
 What analysis shall be done in which level?
@@ -155,5 +154,5 @@ The Security Analysis shall consider the architectural elements on different lev
    components and their interactions with other components in the feature.
 
 3. **Component Level**: If a component consists of multiple sub-components, the analysis
-   shall be extended to these sub-components. This level of detail is necessary to
+   must be extended to these sub-components. This level of detail is necessary to
    identify specific threat models that may not be apparent at higher levels.

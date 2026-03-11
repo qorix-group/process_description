@@ -45,8 +45,8 @@ the feature or component architectural diagrams. By using the threat models
 a structured way. Apply the threat model to the diagram and document the results in the
 template. Use the content of the document :need:`gd_temp__feat_sec_ana_threat`,
 :need:`gd_temp__comp_sec_ana_threat` to describe e.g. why a threat model is not
-applicable for the diagram. If a treat can't be applied, the reason has to be documented
-in the content of the document, so it can be recognized.
+applicable for the diagram. If a threat model can't be applied or diagram address the threats , the reason has to be documented
+in the analysis, so it can be recognized.
 
 The attributes of the template are described in :ref:`process_requirements_security_analysis_attributes`.
 
@@ -135,11 +135,11 @@ The analysis is done by as described in the flowchart :ref:`platform_security_an
    - Other relevant sources such as security advisories, research papers, etc.
 
 #. If a threat scenario applies, use the template :need:`gd_temp__plat_threat_scenario` to perform the analysis.
-#. For each identified potential threat, identify and document the potential mitigations. The potential mitigations are security requirements that then serve as the stakeholder requirements for features.
+#. For each identified potential threat, identify and document the potential mitigations. The potential mitigations are security requirements, which then serve as the stakeholder requirements for features.
 #. Document the Security assumptions derived from this process.
 #. Risk treatment can be done by using the following options: accept, avoid, reduce, share. The chosen risk treatment shall be documented.
 #. If there is no mitigation or the mitigation is not sufficient, a mitigation issue has to be created in the Issue Tracking system and linked in the "mitigation_issue" attribute.
-#. Continue the analysis until all applicable threat scenarios for each attack surface of each asset are checked.
+#. The analysis shall continue until all applicable threat scenarios for each attack surface of each asset has been evaluated.
 #. The verification is done by applying the checklist :need:`gd_chklst__security_analysis`.
 
 .. note::
