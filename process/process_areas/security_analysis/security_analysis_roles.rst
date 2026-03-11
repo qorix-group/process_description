@@ -65,6 +65,6 @@ Contributing Roles:
    * :need:`Safety Manager <rl__safety_manager>`
 
 A detailed overview of the responsibility for the steps of the Security Analysis process
-is listed in the section titled "Workflow Security Analysis". You can find it here:
+is listed in the section titled "Security Analysis Workflows". You can find it here:
 
 :ref:`workflow_security_analysis`

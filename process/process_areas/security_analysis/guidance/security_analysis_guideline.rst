@@ -43,8 +43,8 @@ the feature or component architectural diagrams. By using the threat models
 a structured way. Apply the threat model to the diagram and document the results in the
 template. Use the content of the document :need:`gd_temp__feat_sec_ana_threat`,
 :need:`gd_temp__comp_sec_ana_threat` to describe e.g. why a threat model is not
-applicable for the diagram. If a treat can't be applied, the reason has to be documented
-in the content of the document, so it can be recognized.
+applicable for the diagram. If a threat model can't be applied or diagram address the threats , the reason has to be documented
+in the analysis, so it can be recognized.
 
 The attributes of the template are described in :ref:`process_requirements_security_analysis_attributes`.
 
@@ -88,14 +88,14 @@ The attributes of the template are described in :ref:`process_requirements_secur
 #. For each architectural element check if a threat from the threat scenarios :need:`gd_guidl__sec_ana_threat_scenarios` applies.
 #. If a threat scenario applies, use the template :need:`gd_temp__plat_threat_scenario`, :need:`gd_temp__feat_sec_ana_threat` or :need:`gd_temp__comp_sec_ana_threat` to perform the analysis.
 #. The title of the analysis should be easily recognizable e.g. "Component xy unauthorized access".
-#. Link the violated architecture with the "violates" attribute.
-#. Replace the placeholders in the "id" attribute with the name of the feature or component and a short description of the element so that it can be easily identified.
-#. Document the threat ID from the threat scenario :need:`gd_guidl__sec_ana_threat_scenarios` that applies to the element in the "threat_id" attribute.
-#. Describe the threat effect of the threat scenario on the element in the "threat_effect" attribute. Use the violation cause description and enlarge it if it's applicable to the considered element.
+#. Link the violated architecture with the ``violates`` attribute.
+#. Replace the placeholders in the ``id`` attribute with the name of the feature or component and a short description of the element so that it can be easily identified.
+#. Document the threat ID from the threat scenario :need:`gd_guidl__sec_ana_threat_scenarios` that applies to the element in the ``threat_id`` attribute.
+#. Describe the threat effect of the threat scenario on the element in the ``threat_effect`` attribute. Use the violation cause description and expand it wherever applicable to the considered element.
 #. Document the mitigation. This can be (accept, avoid, reduce, share) of the threat.
-#. If there is no mitigation or the mitigation is not sufficient, a mitigation issue has to be created in the Issue Tracking system and linked in the "mitigation_issue" attribute.
-#. The analysis is finished if for each identified threat a sufficient mitigation exists.
-#. Unless the attribute sufficient is yes, mitigation and argument attributes can be still empty.
+#. If there is no mitigation or the mitigation is not sufficient, a mitigation issue has to be created in the Issue Tracking system and linked in the ``mitigation_issue`` attribute.
+#. The analysis is complete when a sufficient mitigation exists for each identified threat.
+#. Unless the attribute sufficient is set to ``yes``, the mitigation and argument attributes are permitted to remain empty.
 #. Continue the analysis until all applicable threat scenarios are checked.
 #. The verification is done by applying the checklist :need:`gd_chklst__security_analysis`.
 
