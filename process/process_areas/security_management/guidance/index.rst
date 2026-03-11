@@ -19,9 +19,8 @@ Guidance
    :maxdepth: 1
 
    security_management_guideline
-   security_management_feature_security_wp_template
-   security_management_module_security_plan_template
-   security_management_security_manual_template
-   security_management_checklist_security_package
-   security_management_checklist_security_plan
+   security_plan_templates
+   security_manual_templates
+   checklist_security_package
+   checklist_security_plan
    security_management_process_reqs

@@ -106,22 +106,40 @@ Requirements from relevant standards must also be considered:
 How to analyze?
 ===============
 
-The Security Analysis are done on the feature and component architecture.
+The Security Analysis are done on the platform, feature and component architecture.
 The Security Analysis shall be done accompanying to the development.
 So the results can directly be used for the development of the feature and component.
 An iterative approach is required to provide the evidence of the cybersecurity of
 the functions.
-The analysis were applied at static and dynamic architecture diagrams. Examples will
-be added here in an future PR (https://github.com/eclipse-score/process_description/issues/409).
+
+Platform security analysis
+==========================
+.. figure:: _assets/PlatformAnalysisFLowChart.png
+   :align: center
+   :width: 80%
+   :name: platform_security_analysis
+
+   Platform Architecture
+
+A step-by-step-approach is described in :need:`gd_guidl__security_analysis`.
+As shown above in the flow diagram, the first step in the platform security analysis is the definition of the trust boundary. An example definition is shown below.
+
+.. figure:: _assets/exampleTrustBoundary.png
+   :align: center
+   :width: 80%
+   :name: trust_boundary_example
+
+   Trust Boundary
+
 
 How to mitigate?
 ================
-
-Identified risks without a mitigation remain open and are tracked in the issue tracking
+Security requirements resulting from the Platform analysis become :need:`wp__requirements_stkh` for the features. Identified risks without a mitigation remain open and are tracked in the issue tracking
 system :need:`wp__issue_track_system` until they are resolved.
 Resolution may include accepting or avoiding the risk.
-Further a new security control may also be required to reduce the risk.
+Further a new security control may be required to reduce the risk.
 Finally, the risk may be shared if applicable.
+Security assumptions resulting from the analysis are documented properly as :need:`wp__requirements_sw_platform_aou`.
 
 What analysis shall be done in which level?
 ===========================================
