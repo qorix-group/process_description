@@ -168,7 +168,7 @@ Traceability to Requirements and AoU
    :complies: std_req__iso26262__support_6425, std_req__aspice_40__SWE-2-BP4
    :satisfies: wf__cr_mt_featarch, wf__cr_mt_comparch
 
-   Each architectural element shall be linked to a requirement.
+   Each architectural view (feature/comp_arc_sta, feature/comp_arc_dyn) and interface (logic/real_arc_int) shall be linked to a requirement.
 
 .. gd_req:: Architecture attribute: fulfils (AoU)
    :id: gd_req__arch_attr_fulfils_aou
@@ -177,7 +177,7 @@ Traceability to Requirements and AoU
    :complies: std_req__iso26262__support_6425, std_req__aspice_40__SWE-2-BP4
    :satisfies: wf__cr_mt_featarch, wf__cr_mt_comparch
 
-   Each architectural element shall be linked to AoUs if it fulfills these.
+   Each architectural static view (feature/comp_arc_sta) shall be linked to AoUs if the element (feature/comp) fulfills these.
 
 .. gd_req:: Architecture traceability
    :id: gd_req__arch_traceability
@@ -265,8 +265,9 @@ Checks for Architectural Design
    :tags: prio_2_automation, attribute, check
    :satisfies: wf__cr_mt_featarch, wf__cr_mt_comparch
 
-   It shall be checked that architecture elements are not linked to its own AoU
-   ("own" means the AoU linked as "mitigated_by" to the Safety/Security Analysis linked via "violates" to the element)
+   It shall be checked that architectural static view (feature/comp_arc_sta) are not linked to its own AoU
+   ("own" means the AoU linked as "mitigated_by" to the Safety/Security Analysis linked via "violates" to the element,
+   another equivalent distinguishing is that the "own" AoU are in the same repository whereas the "other" are in another repository).
 
 .. gd_req:: Check of Architecture consistency Components in modules
    :id: gd_req__arch_consistency_model

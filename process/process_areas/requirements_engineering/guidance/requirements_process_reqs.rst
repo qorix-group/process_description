@@ -199,7 +199,7 @@ Process Requirement Linkage
    :complies: std_req__iso26262__support_6432, std_req__aspice_40__SWE-1-BP5
    :satisfies: wf__req_feat_req, wf__req_comp_req
 
-   Requirements shall be linked to AoU via the attribute satisfies, if they already satisfy these.
+   Requirements shall be linked to AoU via the attribute covers, if they already cover these.
 
       * AoU <- feature requirements
       * AoU <- component requirements
