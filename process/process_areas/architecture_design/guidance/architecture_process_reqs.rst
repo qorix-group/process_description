@@ -269,21 +269,13 @@ Checks for Architectural Design
    ("own" means the AoU linked as "mitigated_by" to the Safety/Security Analysis linked via "violates" to the element,
    another equivalent distinguishing is that the "own" AoU are in the same repository whereas the "other" are in another repository).
 
-.. gd_req:: Check of Architecture consistency Components in modules
-   :id: gd_req__arch_consistency_model
-   :status: valid
-   :tags: prio_2_automation, model, check
-   :satisfies: wf__cr_mt_featarch, wf__cr_mt_comparch
-
-   It shall be checked if all mentioned SW components are available in the modules repository.
-
 .. gd_req:: Check of Architecture consistency interfaces in modules
    :id: gd_req__arch_consistency_interf
    :status: valid
    :tags: prio_2_automation, model, check
    :satisfies: wf__cr_mt_featarch, wf__cr_mt_comparch
 
-   It shall be checked if all mentioned component interfaces are available in the modules repository.
+   It shall be checked if any interface referred by the features (link from Feature to Logical Arc. Interfaces must be defined and exists) is matched by an "implements" link in the Module (from component to Logical Arc. Interface). Additionally it shall be checked if the feature architecture are linked against at least one logical architectural interface.
 
 .. gd_req:: Check of Architecture consistency in dynamic architecture
    :id: gd_req__arch_consistency_dynamic
