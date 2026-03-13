@@ -83,12 +83,25 @@ For a detailed explanation of workflows and their role within the process model,
    The platform handbook is prepared and approved by the project lead circle.
    It may be updated later in case of bugs found after the release is published.
 
+.. workflow:: Verify/Approve Platform Release
+   :id: wf__vy_ap_pltrelease
+   :status: valid
+   :responsible: rl__release_team
+   :approved_by: rl__project_lead, rl__quality_manager
+   :input: wp__qms_plan, wp__platform_sw_release_plan
+   :output: wp__platform_sw_release_note
+   :contains: gd_guidl__qlm_plan_definitions, gd_chklst__review_checklist, gd_temp__rel_plat_rel_note, gd_guidl__rel_management
+   :has: doc_concept__quality_process, doc_getstrt__quality_process, doc_concept__rel_process, doc_getstrt__release_process
+
+   | The project/platform release is verified and approved.
+
+
 RAS(IC) for Release Management:
 *******************************
 
 .. needtable:: RASIC Overview for Release Management
-   :tags: release_mgt
-   :filter: "release_mgt" in tags and type == "workflow" and is_external == False
+   :tags: release_management
+   :filter: "release_management" in tags and type == "workflow" and is_external == False
    :style: table
    :sort: status
    :columns: id as "Activity";responsible as "Responsible";approved_by as "Approver";supported_by as "Supporter"

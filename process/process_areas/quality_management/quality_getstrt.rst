@@ -40,7 +40,7 @@ The workflows are defined in the :ref:`quality_workflows` section. The following
 For every release, the following workflows are executed:
 
 * Create/Maintain Quality Management Plan
-* Verify/Approve Platform Release
+* Verify/Approve Platform Release (described in the :ref:`release_workflows` section)
 * Execute Platform Process Audit
 * Execute Execute Feature Contribution Conformance Checks
 * Execute Work Product Reviews

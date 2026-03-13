@@ -33,18 +33,6 @@ For a detailed explanation of workflows and their role within the process model,
 
    | The Quality Management Plan is created and maintained by the :need:`rl__quality_manager`.
 
-.. workflow:: Verify/Approve Platform Release
-   :id: wf__vy_ap_pltrelease
-   :status: valid
-   :responsible: rl__quality_manager
-   :approved_by: rl__project_lead
-   :input: wp__qms_plan
-   :output: wp__platform_sw_release_note
-   :contains: gd_guidl__qlm_plan_definitions, gd_chklst__review_checklist
-   :has: doc_concept__quality_process, doc_getstrt__quality_process
-
-   | The project/platform release is verified and approved.
-
 .. workflow:: Execute Platform Process Audit
    :id: wf__exe_pltprocess_audit
    :status: valid

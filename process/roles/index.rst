@@ -139,6 +139,15 @@ Project Teams
    The delivery team is responsible for all artifacts within the Delivery Container SEooCs containing the Dependable Elements. Each Delivery Container has only one responsible team.
    One of the committers in the team acts as the "Project Manager" and is responsible for planning and reporting.
 
+.. role:: Release Team
+   :id: rl__release_team
+   :status: valid
+   :tags: cross_functional
+   :contains: rl__safety_manager, rl__quality_manager, rl__security_manager, rl__contributor, rl__committer
+
+   The release team is responsible for the release. The release team consists of different stakeholders like
+   module leads, project leads and quality managers.
+
 Project Roles List
 ------------------
 
