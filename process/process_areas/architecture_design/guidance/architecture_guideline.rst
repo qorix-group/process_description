@@ -130,7 +130,8 @@ The relations of the static elements are described in :ref:`metamodel_architectu
 .. note::
   For the modelling of the architecture a sphinx extension is available: :ref:`arch_gen_sphinx`
 
-  An example of modelling the architecture can be found :ref:`here <definition_architectural_design>`.
+  An example of modelling the architecture can be found in the
+  `module template documentation <https://eclipse-score.github.io/module_template/main/>`_.
 
 .. _allocate_feature_requirements:
 
@@ -220,8 +221,9 @@ UML diagram selection
 
 Static architecture
 -------------------
-As can be seen from the examples presented in :need:`feat_arc_sta__example_feature__feature_1` and :need:`comp_arc_sta__example_feature__archdes_component_concept_1`
-for the static architecture a UML component diagram is expected (and supported by the tooling).
+As can be seen from the rendered feature and the component example in the
+`module template documentation <https://eclipse-score.github.io/module_template/main/>`__,
+for the static architecture a UML component diagram is expected (and supported  by the tooling).
 
 Dynamic architecture
 --------------------
