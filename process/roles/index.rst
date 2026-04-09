@@ -108,17 +108,7 @@ Project Development Roles
    The testing community members are responsible for the test case development from component to
    platform level. They shall be included in any requirements reviews. They can also improve
    independence argumentation when involved in the development of unit testing on safety critical
-   units. In this way the testing community takes a supportive role for unit testing.
-
-.. role:: Architecture Community Member
-   :id: rl__architecture_community
-   :status: valid
-   :tags: architecture_design
-   :contains: rl__committer
-
-   The architecture community members are responsible for the features and components of
-   the platform. Feature and Components requests, which add new ones or modifications, are
-   in their responsibility. They are aligned with the Project Leads.
+   units. In this way the testing community takes a supportive role for unit testing
 
 .. role:: Project Security Team
    :id: rl__security_team
@@ -136,12 +126,9 @@ Project Teams
    :id: rl__platform_team
    :status: valid
    :tags: cross_functional
-   :contains: rl__project_lead, rl__safety_manager, rl__quality_manager, rl__security_manager, rl__contributor, rl__committer, rl__infrastructure_tooling_community, rl__process_community, rl__architecture_community
+   :contains: rl__project_lead, rl__safety_manager, rl__quality_manager, rl__security_manager, rl__contributor, rl__committer, rl__infrastructure_tooling_community, rl__process_community
 
-   The platform team is responsible for all artifacts within the platform SEooC.
-   Additionally it is also responsible for the overall process including its support
-   by tooling.
-   Depending on the platform artifacts, some of them are assigned as codeowner.
+   The platform team is responsible for all artifacts within the platform SEooC. Additionally it is also responsible for the overall process including its support by tooling.
 
 .. role:: Delivery Team
    :id: rl__delivery_team
@@ -149,21 +136,8 @@ Project Teams
    :tags: cross_functional
    :contains: rl__safety_manager, rl__quality_manager, rl__security_manager, rl__contributor, rl__committer
 
-   The delivery team is responsible for all artifacts within the Delivery Container
-   SEooCs containing the Dependable Elements. Each Delivery Container has only one
-   responsible team.
-   One of the committers in the team acts as the "Project Manager" and is responsible
-   for planning and reporting.
-   Depending on the delivery container artifacts, some of them are assigned as codeowner.
-
-.. role:: Release Team
-   :id: rl__release_team
-   :status: valid
-   :tags: cross_functional
-   :contains: rl__safety_manager, rl__quality_manager, rl__security_manager, rl__contributor, rl__committer
-
-   The release team is responsible for the release. The release team consists of different stakeholders like
-   module leads, project leads and quality managers.
+   The delivery team is responsible for all artifacts within the Delivery Container SEooCs containing the Dependable Elements. Each Delivery Container has only one responsible team.
+   One of the committers in the team acts as the "Project Manager" and is responsible for planning and reporting.
 
 Project Roles List
 ------------------

@@ -29,7 +29,7 @@ General Hints
 Templates
 ---------
 
-*Need* templates displaying the correct syntax and attribute definition are provided for each requirement type. For VScode, code snippets are included in the workspace settings which will provide in-place the definition of requirements including all mandatory attributes:
+*Need* templates displaying the correct syntax and attribute definition are provided for each requirement type. For VScode code snippets are included in the workspace settings which will provide in-place the definition of requirements including all mandatory attributes:
 
 .. list-table:: Overview
    :header-rows: 1
@@ -72,12 +72,12 @@ For all requirements following mandatory attributes are defined:
    :colwidths: 30
 
 
-* Title and description: For formulating requirements, the following template shall be used :need:`[[title]]<gd_temp__req_formulation>`
+* Title and description: For the formulation of requirements following template shall be used :need:`[[title]]<gd_temp__req_formulation>`
 * ID: The naming convention for the ID is defined for every project in a central place (e.g. in the general contributor's guidelines)
-* Furthermore the requirements need to be versioned. Therefore, a hash value of the requirement will to be calculated. The concept is described: :ref:`traceability concept for requirements`
+* Furthermore the requirements need to be versioned. Therefore a hash value of the requirement will to be calculated. The concept is described: :ref:`traceability concept for requirements`
 * For the remaining attributes only predefined values can be used. A more detailed description can be found here: :ref:`attributes of the requirements`
-* Note that "rationale" is only mandatory for Stakeholder Requirements.
-* Process requirements do not need the security and safety attributes because these can be derived from the standards they comply with. Type attributes are also unnecessary, as these requirements are always non‑functional.
+* Note that "rationale" is only mandatory for Stakeholder Requirements ...
+* and process requirements do not need security and safety because these can be derived from the standards they comply to (as well type attributes as these would all be "Non-functional")
 
 Checks
 ------
@@ -141,7 +141,7 @@ For this the following templates are available:
 
 * :ref:`Requirement Templates <requirement templates>`
 
-Note: The project's way of contributing new content (how to branch, how to commit, how to merge with the selected version management tool)
+Note: The projec's way of contributing new content (how to branch, how to commit, how to merge with the selected version management tool)
 has to be documented in a central place, stick to this guideline also for the requirement contributions.
 
 .. _review_parent_requirement:
@@ -149,7 +149,7 @@ has to be documented in a central place, stick to this guideline also for the re
 Review parent requirement
 -------------------------
 
-As soon as the parent requirements are in a mature state, they can be :ref:`reviewed <review_concept>` and merged into the main branch of the main project's repository. However this is not the formal inspection of the requirements, this will follow in an upcoming step.
+As soon as the parent requirements are in a mature state it can be :ref:`reviewed <review_concept>` and merged into the main branch of the main project's repository. However this is not the formal inspection of the requirements, this will follow in an upcoming step.
 
 Following roles should be included in the review:
 
@@ -162,7 +162,7 @@ Following roles should be included in the review:
 Derive child requirement and establish traceability
 ---------------------------------------------------
 
-In an upcoming step, the child requirements shall be derived from the parent requirements. Feature requirements shall be placed in the main project's repository, while component requirements shall be placed in the module's repository. During this process the derived requirements shall also be linked according to the defined traceability matrix to the parent requirements.
+In an upcoming step the child requirements shall be derived from the parent requirements. Feature requirements shall be placed in the main project's repository again, while component requirements shall be placed in the module's repository. During this process the derived requirements shall also be linked according to the defined traceability matrix to the parent requirements.
 
 For this the following templates are available:
 
@@ -184,7 +184,7 @@ As soon as also the child requirements are in a mature state they can be :ref:`r
 Generate linkage document
 -------------------------
 
-As parent and child requirements are now available, the linkage of the requirements can be established. This should be performed as described in :ref:`coverage_of_requirements`
+As parent and child requirements are now available the linkage of the requirements can be established. This should be performed as described in :ref:`coverage_of_requirements`
 
 
 .. _formal_requirement_review:
@@ -207,13 +207,6 @@ Workflow for Creating and Linking Assumption of Use (AoU)
 =========================================================
 
 An AoU is a category of requirement which is part of a safety concept of an architectural element (and thus it is confirmed by a safety analysis).
-As such a part of a safety concept it is aimed to avoid or detect safety relevant failures of the components.
-The need for an AoU can arise in every development step, starting from requirements creation, but the main trigger for these is informal and formal safety analysis,
-see :need:`doc_concept__safety_analysis`.
-AoU handling is described in the requirements process mainly because AoU have very similar content and are treated almost like requirements,
-i.e. they are inspected, fulfilled by architecture, mitigate failure modes from safety analysis and are verified by test.
-Do not mistake AoUs to be more formal "user manuals", describing the proper use of a component's API so as to avoid error returns.
-Error returns are perfectly ok from a safety point of view, if this does not mean that a safety requirement is violated.
 As an AoU can not be fulfilled by the architecture element (e.g. component) itself, it needs to be fulfilled by the user of the element.
 AoU created on SW-platform level are also coming from the scope of the project (i.e. the knowledge which safety activities are not part of a project)
 or are defining general assumptions every user and/or every module in the platform has to fulfill.
@@ -222,13 +215,13 @@ In Safety Elements out of Context (SEooC) the AoUs are part of the safety manual
 
 In this workflow (as it describes SEooC development) these AoUs are created both project internal and project external
 
-- internal:  For AoU which arise internally (i.e. from project specific architecture), the template is similar to the one for feature/component requirements. The main difference is that it is defined such that a requirement "satisfies" a parent requirement, but an AoU is not. Safety Analysis results must be "mitigated_by" an AoU or requirement (see picture below).
-- external:  If externally provided SEooCs are integrated into the platform (e.g. a qualified Operating System). For these AoUs the sentence template cannot be taken into account, as these may be imported from an external safety manual. It is also not possible to link those to other platform development artifacts via the attribute "mitigates".
+- internal:  For AoU which arise internally (i.e. from project specific architecture), the template is almost identical to the one for feature/component requirements. The only difference is that it is defined such that the attribute "satisfies" is replaced with the attribute "mitigates" (see picture below).
+- external:  if externally provided SEooCs are integrated into the platform (e.g. a qualified Operating System). For these AoUs the sentence template cannot be taken into account, as these may be imported from an external safety manual. It is also not possible to link those to other platform development artifacts via the attribute "mitigates".
 
 AoUs can be of different class and shall be handled by tracing those
 
-* to Feature/Component (architecture) (via fulfills), if those are on (external) Component Level and can be fulfilled by (internal) Feature/Component
-* to Stakeholder Requirements (via covers), if AoU are of general nature and can be fulfilled by platform
+* to Feature/Component (via satisfies), if those are on (external) Component Level and can be fulfilled by (internal) Feature/Component
+* to Stakeholder Requirements (via satisfies), if AoU are of general nature and can be fulfilled by platform
 * or by containing those in Platform(s) Safety Manual(s), if AoU cannot be fulfilled by platform or its components (alone) but need to be satisfied by the user of the platform
 
 
@@ -243,8 +236,8 @@ AoUs can be of different class and shall be handled by tracing those
 Note that the component level displayed in green shows two components - on the right (dark green) the one which is exporting AoU to be fulfilled by others,
 on the left (light green) the component which fulfills and exports AoU.
 Internal component's AoU can also be fulfilled (and linked) by other internal components, this is not depicted here, but would be quite the same with one exception:
-External component's AoUs which cannot be fulfilled by the platform alone are contained in the platform safety manual, whereas the internal component's AoUs
-are part of the module safety manual.
+External component's AoUs which cannot be fulfilled by the platform alone are contained in the platform Safety Manual, whereas the internal component's AoUs
+are part of the Module Safety Manual.
 
 Like other requirements also an AoU needs to be verified - but by the user of the feature/component.
 To improve the usability of a feature/component, its responsible team should already provide
@@ -256,7 +249,7 @@ Special cases
 Requirements for future (or past) milestones
 --------------------------------------------
 
-A project release is always consistent, i.e. all linked development artifacts must be non-contradictory
+A project release is always consistent, i.e. all development artefacts linked to each other do not contradict each other
 and complete, i.e. all requirements are derived into dependent work products down to the implementation.
 This is also the case for the selection of the scope of a platform by feature flags, as these
 select a part of the platform but this part is complete.

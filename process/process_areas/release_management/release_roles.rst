@@ -21,7 +21,6 @@ Contributing Roles:
 
    * :need:`Committer <rl__committer>`
    * :need:`Project Lead <rl__project_lead>`
-   * :need:`Release Team <rl__release_team>`
 
 A detailed overview of the responsibility for the steps of the Release Management process
 is listed here: :need:`doc_concept__rel_process`

@@ -36,7 +36,7 @@ in project's selected Issue Tracking System: :need:`[[title]]<gd_temp__problem_t
 .. note::
   An example template for the Issue Tracking System in GitHub (`GitHub Issues <https://github.com/features/issues>`_)
   can be found here:
-  `Issue Template Bugfix <https://github.com/eclipse-score/.github/blob/main/.github/ISSUE_TEMPLATE/5_Bug.yml>`_
+  `Issue Template Bugfix <https://github.com/eclipse-score/process_description/blob/main/.github/ISSUE_TEMPLATE/1-bugfix.yml>`_
 
 Attributes
 ----------
@@ -102,14 +102,14 @@ from the different users.
 .. note::
   For the Issue Tracking System in GitHub, there is a template created, which can be
   be found here:
-  `Issue Template Bugfix <https://github.com/eclipse-score/.github/blob/main/.github/ISSUE_TEMPLATE/5_Bug.yml>`_
+  `Issue Template Bugfix <https://github.com/eclipse-score/process_description/blob/main/.github/ISSUE_TEMPLATE/1-bugfix.yml>`_
 
 .. note::
   A Problem Report Example based on that template is here:
-  `Example Problem Report <https://github.com/eclipse-score/process_description/issues/631>`_
+  `Example Problem Report <https://github.com/eclipse-score/process_description/issues/124>`_
 
 .. note::
-  A Problem Report Example 2 based on an older version template is here:
+  A Problem Report Example 2 based on that template is here:
   `Example Problem Report 2 <https://github.com/eclipse-score/process_description/issues/126>`_
 
 It is expected, that the UID will be provided automatically by the Issue Tracking System.
@@ -134,13 +134,11 @@ If safety is affected, the ASIL classification should be added, if applicable.
 
 The problem should be classified according minor, major, critical or blocker.
 
-The affected versions of the release should be documented. After detection of the
-problem, checking the affected versions is critical to understand the impact of the
-problem. Thus document the first affected version and the last affected version.
+The affected version of the release should be documented, where the problem was detected.
 
 .. note::
   | For the Problem Report Example:
-  | * The UID is provided by the Issue Tracking System as: **#631**
+  | * The UID is provided by the Issue Tracking System as: **#124**
   | * The status of the issue is provided by the Issue Tracking System as: **Open**
   | * The submitter is provided by the Issue Tracking System as: **masc2023**
   | * The title contains the main root cause, missing safety/security attribute
@@ -149,8 +147,7 @@ problem. Thus document the first affected version and the last affected version.
   | * Further supporting information is added as the link to the official feature request template which makes it reproducible
   | * Checkboxes are selected to highlight, that Safety and Security is affected, no further classification, as the project is defined as ASIL B
   | * The problem classification is provided as minor
-  | * The first affected version is provided: *pre-0.5*
-  | * The last affected version is provided: *0.5*
+  | * The affected version is provided: *pre-0.5*
 
 When ready to review and to analyze, the author sets the status to "in review" manually.
 
@@ -180,32 +177,12 @@ If applicable, the features affected should be identified too.
 
 The description shall reflect the result of the analysis.
 
-Topics to checked (critical topics are marked with x):
-
-- [x] Is the problem description clear and detailed enough to understand the problem and its impact?
-- [x] Is the problem root cause clearly described?
-- [x] Is the problem impact clearly described?
-- [ ] Is notification of affected parties required? If yes, are the affected parties notified?
-- [ ] Are there any proposed solutions provided?
-- [ ] Are there any further linked issues or pull requests provided?
-- [x] Is the error occurrence rate provided? If yes, is it high enough to accept the problem?
-- [x] Is the problem reproducible?
-- [ ] Are there any further supporting information provided?
-- [x] Is the problem classification correct?
-- [x] Is information for the affected version of the release provided? If yes, is it correct?
-- [ ] Is the information for the expected closure version provided? If yes, is it correct?
-- [x] Is the problem affecting safety or security? If yes, is the classification correct?
-
-The analysis phase can not be closed, until all critical topics are
-clarified and provided in the description. If not, the problem report should be rejected
-and closed with the reason "Closed as not planned".
-
 .. note::
   | For the Problem Report Example:
   | * The descriptions has a section for the analysis results: **Accepted**
   | * The stakeholder are provided using Assignees field: **masc2023**
-  | * The expected fix version is provided: *0.6*
-  | * The "Milestone" is provided: **Release v0.6 - Maturity Level 2**
+  | * The expected closure version is provided: *0.5*
+  | * The "Milestone" is provided: **Release 2.0.0 - Maturity Level 2**
   | * Feature identification is not applicable for this example, so no label is set, beside **bug**
 
 If accepted, :need:`[[title]] <rl__contributor>` can start with the initiation of the

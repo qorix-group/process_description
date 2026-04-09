@@ -37,20 +37,18 @@ Requirements
 Component Requirements
 ----------------------
 
-.. code-block:: rst
+.. comp_req:: Some Title
+   :id: comp_req__component_name__some_title
+   :reqtype: Process
+   :security: YES
+   :safety: ASIL_B
+   :satisfies: feat_req__feature_name__some_title
+   :status: invalid
+   :belongs_to: comp__component_name_template
 
-   .. comp_req:: Some Title
-      :id: comp_req__component_name__some_title
-      :reqtype: Process
-      :security: YES
-      :safety: ASIL_B
-      :satisfies: feat_req__feature_name__some_title
-      :status: invalid
-      :belongs_to: comp__component_name_template
+   The Component shall do xyz to another component to bring it to this condition at this time
 
-      The Component shall do xyz to another component to bring it to this condition at this time
-
-      Note: (optional, not to be verified)
+   Note: (optional, not to be verified)
 
 .. attention::
     The above directive must be updated according to your component requirements.
@@ -65,31 +63,27 @@ Component Requirements
 Assumption of Use Requirements
 ------------------------------
 
-.. code-block:: rst
+.. aou_req:: Next Title
+   :id: aou_req__component_name__next_title
+   :reqtype: Process
+   :security: YES
+   :safety: ASIL_B
+   :status: invalid
 
-   .. aou_req:: Next Title
-      :id: aou_req__component_name__next_title
-      :reqtype: Process
-      :security: YES
-      :safety: ASIL_B
-      :status: invalid
-
-      The Component User shall do xyz to use the component safely/securely
+   The Component User shall do xyz to use the component safely/securely
 
 Environmental Requirements
 --------------------------
 
-.. code-block:: rst
+.. aou_req:: Another Title
+   :id: aou_req__component_name__another_title
+   :reqtype: Process
+   :security: YES
+   :safety: ASIL_B
+   :status: invalid
+   :tags: environment
 
-   .. aou_req:: Another Title
-      :id: aou_req__component_name__another_title
-      :reqtype: Process
-      :security: YES
-      :safety: ASIL_B
-      :status: invalid
-      :tags: environment
-
-      The Component shall only be used in a xyz environment to ensure its proper functioning.
+   The Component shall only be used in a xyz environment to ensure its proper functioning.
 
 Hints
 -----

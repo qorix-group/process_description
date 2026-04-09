@@ -1,6 +1,6 @@
-..
+/'
    # *******************************************************************************
-   # Copyright (c) 2025 Contributors to the Eclipse Foundation
+   # Copyright (c) 2024 Contributors to the Eclipse Foundation
    #
    # See the NOTICE file(s) distributed with this work for additional
    # information regarding copyright ownership.
@@ -11,14 +11,27 @@
    #
    # SPDX-License-Identifier: Apache-2.0
    # *******************************************************************************
+'/
+..
 
-Component Architecture Template
-###############################
+@startuml
 
-.. gd_temp:: Component Architecture Templates
-    :id: gd_temp__arch_comp
-    :status: valid
-    :tags: architecture_design
-    :complies: std_req__iso26262__software_741, std_req__iso26262__software_742, std_req__iso26262__software_743, std_req__iso26262__software_744, std_req__aspice_40__iic-04-04
+title Static View - dd example
 
-    For the content see here: :ref:`component_architecture_template`
+skinparam component {
+    BackgroundColor<<component>> white
+}
+
+skinparam rectangle {
+    BackgroundColor<<unit>> green
+}
+
+' Define Features
+component "component1" <<component>> {
+    rectangle "unit1" as unit1 <<unit>>
+    rectangle "unit2" as unit2 <<unit>>
+}
+
+unit1 ..> unit2 : uses
+
+@enduml

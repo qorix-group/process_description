@@ -105,7 +105,7 @@ See also :need:`doc_concept__wp_inspections` for further information about revie
       -
     * - REQ_04_01
       - Is the requirement *internally and externally consistent*?
-      - Does the requirement contradict other requirements within the same or higher levels? Is the description of the requirement consistent with all its attributes (if not already part of another check, e.g. does the title fit?).
+      - Does the requirement contradict other requirements within the same or higher levels?
       -
       -
       -
@@ -117,7 +117,7 @@ See also :need:`doc_concept__wp_inspections` for further information about revie
       -
     * - REQ_06_01
       - Does the requirement consider *external interfaces*?
-      - This check is not needed, as on the level of stakeholder requirements interfaces do not need to be used to describe the function.
+      - The SW platform's external interfaces (to the user and external systems) are defined, so the Feature and Component Requirements should determine the input data use and setting of output data for these interfaces. Are all output values defined?
       -
       -
       -
@@ -135,9 +135,9 @@ See also :need:`doc_concept__wp_inspections` for further information about revie
       -
     * - REQ_08_01
       - Is the requirement *verifiable*?
+      - If at the time of the inspection already tests are created for the requirement, the answer is yes. This can be checked via traces, but also :need:`gd_req__req_attr_test_covered` shows this. In case the requirement is not sufficiently traced to test cases already, a test expert is invited to the inspection to give his opinion whether the requirement is formulated in a way that supports test development and the available test infrastructure is sufficient to perform the test.
+      - n/a
       - As the stakeholder requirements are only "assumed safety requirements" and also the tests do not need to be complete, this check is not applicable.
-      - n/a
-      - n/a
       - n/a
     * - REQ_09_01
       - Do those requirements cover assumed safety mechanisms needed by the hardware and system?

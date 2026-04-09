@@ -45,30 +45,22 @@ Stakeholders for the Change Requests
 #. :need:`Contributor <rl__contributor>`
 
    * In general contributes features and components to grow the project content
-   * Creates change requests
-   * Supports all change request activities
+   * Creates change requests, analyzes changes, implement changes
 
-#. :need:`Architecture Team <rl__architecture_community>`
+#. :need:`Committer <rl__committer>`
 
-   * Supports all change request activities
-   * Approves the creation of the change request
    * Verifies that the contribution including change requests fulfills the project policies
-
-#. :need:`Platform Team <rl__platform_team>`
-
-   * Supports creation and the analysis of change requests
-   * Is responsible and approves the implementation and the closure of the feature change request
-
-#. :need:`Delivery Team <rl__delivery_team>`
-
-   * Is responsible and approves the implementation and the closure of the component change request
+   * Approves all change request activities besides changes closing
+   * Is responsible to initiate the the closure of the change request
 
 #. :need:`Project Lead <rl__project_lead>`
 
    * Supports all change request activities
-   * Approves the analysis of the change request
-   * Verifies that the contribution including change requests fulfills the project policies
+   * Approves the closing of the change request
 
+#. :need:`Safety Manager <rl__safety_manager>`, :need:`Security Manager <rl__security_manager>`, :need:`Quality Manager <rl__quality_manager>`
+
+   * Supports all change request activities
 
 Standard Requirements
 =====================
@@ -111,13 +103,12 @@ Analysis of the Change Request
 Based on the analysis results decision about the acceptance or rejection must be taken
 by authorized persons.
 
-Authorized person, as members of the :need:`Platform Team <rl__platform_team>`, includes
+Authorized person includes
 
 #. :need:`Project Lead <rl__project_lead>`
 #. :need:`Safety Manager <rl__safety_manager>`
 #. :need:`Security Manager <rl__security_manager>`
 #. :need:`Quality Manager <rl__quality_manager>`
-#. :need:`Committer <rl__committer>`
 
 Further prioritization must be done, e.g. based on release planning.
 
@@ -131,8 +122,7 @@ monitored.
 The Change Request implementation must be tracked until it is closed.
 
 The status of the Change Request must be communicated by the
-:need:`Project Lead <rl__project_lead>` (for feature requests) and the lead of the
-:need:`Delivery Team <rl__delivery_team>` (for component requests) until
+:need:`Project Lead <rl__project_lead>` until
 the implementation is completed and confirmed.
 
 .. _chm_closing:

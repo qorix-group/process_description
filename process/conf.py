@@ -31,6 +31,3 @@ extensions = [
     "sphinxcontrib.plantuml",
     "score_sphinx_bundle",
 ]
-
-# :need:`{title}` is used in the needs templates to display the title of the need
-needs_role_need_template = "{title}"

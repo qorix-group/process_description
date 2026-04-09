@@ -43,9 +43,7 @@ to provide e.g. a change request issue template.
 .. note::
   An example template for the Issue Tracking System in GitHub (`GitHub Issues <https://github.com/features/issues>`_)
   can be found here:
-  `Issue Template Change (Feature) Request <https://github.com/eclipse-score/.github/blob/main/.github/ISSUE_TEMPLATE/1a_FeatureRequest.yml>`_
-  or
-  `Issue Template Change (Component) Request <https://github.com/eclipse-score/.github/blob/main/.github/ISSUE_TEMPLATE/1b_ComponentenRequest.yml>`_
+  `Issue Template Change Request <https://github.com/eclipse-score/process_description/blob/main/.github/ISSUE_TEMPLATE/3-change.yml>`_
 
 Improvements including Process Improvements are not Change Requests.
 The project's selected Issue Tracking System may also provide a template for improvements,
@@ -54,7 +52,7 @@ e.g. an improvement issue template.
 .. note::
   An example template for the Issue Tracking System in GitHub (`GitHub Issues <https://github.com/features/issues>`_)
   can be found here:
-  `Issue Template Improvement <https://github.com/eclipse-score/.github/blob/main/.github/ISSUE_TEMPLATE/4_Task.yml>`_
+  `Issue Template Improvement <https://github.com/eclipse-score/process_description/blob/main/.github/ISSUE_TEMPLATE/2-improvement.yml>`_
 
 
 Attributes
@@ -91,19 +89,19 @@ This section describes in detail which steps need to be performed for a Change R
    * - :ref:`1. <chm_create_change_request>`
      - Create Change Request
      - :need:`[[title]] <rl__contributor>`
-     - :need:`[[title]] <rl__architecture_community>`
+     - :need:`[[title]] <rl__committer>`
    * - :ref:`2. <chm_analyze_change_request>`
      - Analyze Change Request
-     - :need:`[[title]] <rl__architecture_community>`
+     - :need:`[[title]] <rl__contributor>`
      - :need:`[[title]] <rl__project_lead>`
    * - :ref:`3. <chm_imp_mon_change_request>`
      - Implement and Monitor Change Request
-     - :need:`[[title]] <rl__platform_team>`, :need:`[[title]] <rl__delivery_team>`
-     - :need:`[[title]] <rl__platform_team>`, :need:`[[title]] <rl__delivery_team>`
+     - :need:`[[title]] <rl__contributor>`
+     - :need:`[[title]] <rl__committer>`
    * - :ref:`4. <chm_close_change_request>`
      - Close Change Request
-     - :need:`[[title]] <rl__platform_team>`, :need:`[[title]] <rl__delivery_team>`
-     - :need:`[[title]] <rl__platform_team>`, :need:`[[title]] <rl__delivery_team>`
+     - :need:`[[title]] <rl__committer>`
+     - :need:`[[title]] <rl__project_lead>`
 
 
 .. _chm_create_change_request:
@@ -130,13 +128,11 @@ automatically included or copied by the different users.
 .. note::
   For the Issue Tracking System in GitHub, there is a template created, which can be
   be found here:
-  `Issue Template Change (Feature) Request <https://github.com/eclipse-score/.github/blob/main/.github/ISSUE_TEMPLATE/1a_FeatureRequest.yml>`_
-  or
-  `Issue Template Change (Component) Request <https://github.com/eclipse-score/.github/blob/main/.github/ISSUE_TEMPLATE/1b_ComponentenRequest.yml>`_
+  `Issue Template Change <https://github.com/eclipse-score/process_description/blob/main/.github/ISSUE_TEMPLATE/3-change.yml>`_
 
 .. note::
   A Change Request Example based on that template is here:
-  `Example Change Request <https://github.com/eclipse-score/process_description/issues/629>`_
+  `Example Change Request <https://github.com/eclipse-score/process_description/issues/168>`_
 
 It is expected, that
 
@@ -177,8 +173,8 @@ When ready to review and to analyze, the author sets the status to "in review" m
 Analyze Change Request
 ----------------------
 The projects :need:`[[title]] <rl__project_lead>` supported by
-:need:`[[title]] <rl__platform_team>` (includes Safety, Security and Quality Manager) analyzes the change
-request together with the :need:`[[title]] <rl__architecture_community>` and takes a decision with
+:need:`[[title]] <rl__committer>` (includes Safety, Security and Quality Manager) analyzes the change
+request together with the :need:`[[title]] <rl__contributor>` and takes a decision with
 the submitting/authoring contributor for accepting or rejecting it.
 
 The analysis will start by reviewing all the information given during the creation of the
@@ -198,9 +194,6 @@ should be closed, shall be defined. Optionally, the corresponding milestone can 
 
 If accepted, :need:`[[title]] <rl__contributor>` can start with the implementation of the
 Change Request.
-Depending of feature or component requests, :need:`[[title]] <rl__platform_team>` or
-:need:`Delivery Team <rl__delivery_team>` will be empowered for the implementation,
-which will contain the :need:`[[title]] <rl__contributor>`.
 
 The author has the freedom to cancel the change request at any time by setting the status to "rejected".
 
@@ -215,9 +208,8 @@ The author has the freedom to cancel the change request at any time by setting t
 Implement and Monitor Change Request
 ------------------------------------
 
-If accepted, the either the :need:`[[title]] <rl__platform_team>` (feature) or
-:need:`Delivery Team <rl__delivery_team>` (component) initiates the implementation
-of the change.
+If accepted, the projects :need:`[[title]] <rl__committer>` initiates the implementation
+of the change together with the :need:`[[title]] <rl__contributor>`.
 
 The description may reflect details for the implementation.
 
@@ -250,12 +242,10 @@ When ready to implement, the author sets the status to "in implementation" manua
   | * The **Create a branch** action may used to create automatically a linked pull request
 
 During the implementation of the change the responsible lead :need:`[[title]] <rl__project_lead>`
-or the assigned lead of the :need:`Delivery Team <rl__delivery_team>`
 reports regularly the status to the affected
 projects teams.
 
-The :need:`[[title]] <rl__contributor>` as an author has the freedom to cancel the
-change request at any time by setting the status to "rejected".
+The author has the freedom to cancel the change request at any time by setting the status to "rejected".
 
 
 .. _chm_close_change_request:
@@ -263,17 +253,17 @@ change request at any time by setting the status to "rejected".
 Close Change Request
 --------------------
 
-During implementation the responsible team (:need:`[[title]] <rl__platform_team>`
-or :need:`Delivery Team <rl__delivery_team>`) monitors all activities linked to
+During implementation the :need:`[[title]] <rl__contributor>` monitors all activities linked to
 the change, until they are closed.
 
-The team finally checks if the Change Request implementation
+:need:`[[title]] <rl__committer>` finally checks if the Change Request implementation
 is sufficient before the status is changed to closed. To check, if it is sufficient,
 :need:`Change Request Checklist <gd_chklst__change_cr_review>` can be used.
 Further the effectiveness of the implemented measure is confirmed and the availability
 of the required reports, as well as verification results, if applicable.
 
-When confirmed, the team sets the status to "closed" manually, if not done automatically.
+When confirmed, the :need:`[[title]] <rl__project_lead>`
+sets the status to "closed" manually, if not done automatically.
 
 .. note::
   | For the Change Request Example:
@@ -282,7 +272,8 @@ When confirmed, the team sets the status to "closed" manually, if not done autom
   | * The PR status must be changed to **Merged**
   | * The combination of issue status **Closed** and "Process Development Community" status **Done** and the pull request status **Merged** defines the status **closed**
 
-The teams has the freedom to reject it at any time by setting the status to "reject".
+:need:`[[title]] <rl__committer>` has the freedom to reject it at any time by setting the status
+to "reject".
 
 Tailoring
 =========

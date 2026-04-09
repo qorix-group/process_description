@@ -20,9 +20,7 @@ Guideline
    :id: gd_guidl__process_management
    :status: valid
    :tags: process_management
-   :complies: std_req__iso26262__management_5421, std_req__iso26262__management_5422, std_req__iso26262__management_5426, std_req__aspice_40__gp-311, std_req__aspice_40__iic-10-00, std_req__aspice_40__iic-15-54,
-              std_req__aspice_40__gp-211, std_req__aspice_40__gp-212, std_req__aspice_40__gp-213, std_req__aspice_40__gp-214, std_req__aspice_40__gp-215, std_req__aspice_40__gp-216, std_req__aspice_40__gp-224,
-              std_req__aspice_40__gp-312, std_req__aspice_40__gp-313, std_req__aspice_40__gp-314, std_req__aspice_40__gp-321, std_req__aspice_40__gp-322, std_req__aspice_40__gp-323, std_req__aspice_40__gp-324
+   :complies: std_req__iso26262__management_5421, std_req__iso26262__management_5422, std_req__iso26262__management_5426, std_req__aspice_40__gp-311, std_req__aspice_40__iic-10-00, std_req__aspice_40__iic-15-54
 
 This document describes the general guidances for Process Management based on the concept which is defined :need:`[[title]]<doc_concept__process_management>`.
 
@@ -117,7 +115,7 @@ Monitor/Improve Process
 
 If potential improvements are detected, the :need:`[[title]] <rl__contributor>` triggers
 an ISSUE for improvement by using the
-`Issue Template Improvement <https://github.com/eclipse-score/.github/blob/main/.github/ISSUE_TEMPLATE/4_Task.yml>`_.
+`Issue Template Improvement <https://github.com/eclipse-score/process_description/blob/main/.github/ISSUE_TEMPLATE/2-improvement.yml>`_.
 
 The potential improvement is discussed during the public Process Community Meetings
 and if decided to implement, a pull request to follow :ref:`pm_create_maintain_strategy`

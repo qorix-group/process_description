@@ -34,8 +34,6 @@ The workflow of the Security Analysis is described in :ref:`workflow_security_an
 The single steps in these workflows are described in detail in the following sections.
 
 
-
-
 Step-by-Step-approach Security Analysis Feature/Component:
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
@@ -45,8 +43,8 @@ the feature or component architectural diagrams. By using the threat models
 a structured way. Apply the threat model to the diagram and document the results in the
 template. Use the content of the document :need:`gd_temp__feat_sec_ana_threat`,
 :need:`gd_temp__comp_sec_ana_threat` to describe e.g. why a threat model is not
-applicable for the diagram. If a threat model can't be applied or diagram address the threats , the reason has to be documented
-in the analysis, so it can be recognized.
+applicable for the diagram. If a treat can't be applied, the reason has to be documented
+in the content of the document, so it can be recognized.
 
 The attributes of the template are described in :ref:`process_requirements_security_analysis_attributes`.
 
@@ -85,68 +83,26 @@ can be recognized.
 
 The attributes of the template are described in :ref:`process_requirements_security_analysis_attributes`.
 
-The analysis is done by as described in the flowchart :ref:`platform_security_analysis`.
-
 **Steps:**
 
-#. Define the trust boundary model for the platform under analysis. An example trust boundary definition is given in :ref:`trust_boundary_example`. The trust boundary model should be defined in a way that it can be easily recognized which architectural elements are located in which trust boundary. The trust boundary model should be defined before starting the analysis and should be used as an input for the analysis. The trust boundary model should be updated if there are changes in the platform architecture or if there are changes in the threat scenarios.
-#. Identify the assets of the platform. The assets are the elements of the platform that have to be protected. The assets can be identified by using the trust boundary model and the platform architecture. The assets can be identified using the following questions:
-
-   - What are the critical
-      - features, interfaces, components (HW and SW), data of the platform?
-      - communication paths and interfaces of the platform?
-      - configurations of the platform?
-   - What critical information is shared between the components?
-   - Compromise of which assets can have an impact on security properties such as confidentiality, integrity, availability, authenticity, accountability, non-repudiation?
-   - What are the process assets such as development, production, maintenance processes that could be exploited by attackers?
-
-#. Identify how each asset flows through the features in the platform. The asset flow can be identified by using the platform architecture and the trust boundary model. The asset flow can be identified by using the following questions:
-
-   - How critical functions of the platform interact with each other?
-   - How critical data of the platform flow through the platform?
-   - How critical components of the platform interact with each other?
-   - How critical interfaces and communication paths are used in the platform?
-   - How critical information is shared between the functions/components of the platform?
-#. For each identified assets, identify the attack surfaces. The attack surfaces can be any interface or entry point that could be exploited by an attacker. Some examples are as follows:
-
-   - External communication interfaces
-     - Wireless: cellular, Wi‑Fi, Bluetooth, GNSS, V2X, keyless entry, NFC
-     - Wired: OBD-II, USB, Ethernet ports, charging connectors, dealer tools, external storage
-   - In-vehicle networks and internal interfaces
-     - CAN, LIN, FlexRay, Automotive Ethernet segments, gateway connections, debug ports
-     - API/IPC boundaries between SW components, service interfaces between ECUs
-   - User and physical interfaces
-     - HMI (touchscreen, buttons, voice), infotainment, smartphone apps, mobile keys
-     - Physical access to ECUs, sensors, actuators, wiring harness, debug/programming pins
-   - Backend, cloud and off-board systems
-     - Backend services for OTA, fleet management, mobile apps, web portals
-     - Data centers, PKI/signing services, identity and access management, APIs
-   - Development, production and service infrastructure
-     - Build servers, version control, CI/CD, signing infrastructure
-     - Manufacturing/test equipment, configuration tools, dealer/service tools, update media
-
-#. For each attack surface, identify the potential threats that can be used by an attacker to compromise the asset. The potential threats can be identified using the following sources as input:
-
-   - :need:`gd_guidl__sec_ana_threat_scenarios`.
-   - `UN R155 Annex 5 <https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://wiki.unece.org/download/attachments/179700184/TFCS-23-05%2520%2528OICA%252C%2520CLEPA%2529%2520R155%2520Annex5%2520table%2520C3%2520deletion.pdf%3Fapi%3Dv2&ved=2ahUKEwie0--t6IWTAxXXR_EDHbXrKDgQFnoECAQQAQ&usg=AOvVaw1XygSpmzqxlOxJ4Fb59a9w>`_
-   - `Auto ISAC Threat Catalog <https://atm.automotiveisac.com/home>`_
-   - `Capec Catalog of Attack Patterns <https://capec.mitre.org/data/index.html>`_
-   - `CWE Common Weakness Enumeration <https://cwe.mitre.org/data/index.html/>`_
-   - Other relevant sources such as security advisories, research papers, etc.
-
-#. If a threat scenario applies, use the template :need:`gd_temp__plat_threat_scenario` to perform the analysis.
-#. For each identified potential threat, identify and document the potential mitigations. The potential mitigations are security requirements, which then serve as the stakeholder requirements for features.
-#. Document the Security assumptions derived from this process.
-#. Risk treatment can be done by using the following options: accept, avoid, reduce, share. The chosen risk treatment shall be documented.
+#. For each architectural element check if a threat from the threat scenarios :need:`gd_guidl__sec_ana_threat_scenarios` applies.
+#. If a threat scenario applies, use the template :need:`gd_temp__plat_threat_scenario`, :need:`gd_temp__feat_sec_ana_threat` or :need:`gd_temp__comp_sec_ana_threat` to perform the analysis.
+#. The title of the analysis should be easily recognizable e.g. "Component xy unauthorized access".
+#. Link the violated architecture with the "violates" attribute.
+#. Replace the placeholders in the "id" attribute with the name of the feature or component and a short description of the element so that it can be easily identified.
+#. Document the threat ID from the threat scenario :need:`gd_guidl__sec_ana_threat_scenarios` that applies to the element in the "threat_id" attribute.
+#. Describe the threat effect of the threat scenario on the element in the "threat_effect" attribute. Use the violation cause description and enlarge it if it's applicable to the considered element.
+#. Document the mitigation. This can be (accept, avoid, reduce, share) of the threat.
 #. If there is no mitigation or the mitigation is not sufficient, a mitigation issue has to be created in the Issue Tracking system and linked in the "mitigation_issue" attribute.
-#. The analysis shall continue until all applicable threat scenarios for each attack surface of each asset has been evaluated.
+#. The analysis is finished if for each identified threat a sufficient mitigation exists.
+#. Unless the attribute sufficient is yes, mitigation and argument attributes can be still empty.
+#. Continue the analysis until all applicable threat scenarios are checked.
 #. The verification is done by applying the checklist :need:`gd_chklst__security_analysis`.
 
 .. note::
    If there are changes they have to be analyzed with an impact analysis
    :need:`gd_temp__change_impact_analysis`. If needed the Security Analysis has to be
    updated accordingly. Therefore all necessary steps have to be repeated.
-
 
 Examples for Security Analysis at feature level
 ===============================================

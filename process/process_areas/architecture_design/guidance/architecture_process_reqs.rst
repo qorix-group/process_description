@@ -103,7 +103,7 @@ Architectural Views
    * Sequence Diagram (feat_arc_dyn, comp_arc_dyn)
    * Interface View (logic_arc_int, real_arc_int)
 
-   At the module level, only one additional static view (mod_view_sta) shall be created.
+   Only an additional view  shall be created on module level.
 
 Attributes of Architectural Elements
 ------------------------------------
@@ -158,8 +158,8 @@ Attributes of Architectural Elements
    * valid
    * invalid
 
-Traceability to Requirements and AoU
-------------------------------------
+Traceability to Requirements
+----------------------------
 
 .. gd_req:: Architecture attribute: fulfils
    :id: gd_req__arch_attr_fulfils
@@ -168,16 +168,7 @@ Traceability to Requirements and AoU
    :complies: std_req__iso26262__support_6425, std_req__aspice_40__SWE-2-BP4
    :satisfies: wf__cr_mt_featarch, wf__cr_mt_comparch
 
-   Each architectural view (feature/comp_arc_sta, feature/comp_arc_dyn) and interface (logic/real_arc_int) shall be linked to a requirement.
-
-.. gd_req:: Architecture attribute: fulfils (AoU)
-   :id: gd_req__arch_attr_fulfils_aou
-   :status: valid
-   :tags: manual_prio_1, attribute, mandatory
-   :complies: std_req__iso26262__support_6425, std_req__aspice_40__SWE-2-BP4
-   :satisfies: wf__cr_mt_featarch, wf__cr_mt_comparch
-
-   Each architectural static view (feature/comp_arc_sta) shall be linked to AoUs if the element (feature/comp) fulfills these.
+   Each architectural element shall be linked to a requirement.
 
 .. gd_req:: Architecture traceability
    :id: gd_req__arch_traceability
@@ -259,15 +250,13 @@ Checks for Architectural Design
    * Functional requirements <-> static / dynamic architectural elements (feat_arc_sta, feat_arc_dyn)
    * Interface requirements <-> interface architectural elements (logic_arc_int, logic_arc_int_op)
 
-.. gd_req:: Check of Architecture linkage to AoU
-   :id: gd_req__arch_linkage_aou
+.. gd_req:: Check of Architecture consistency Components in modules
+   :id: gd_req__arch_consistency_model
    :status: valid
-   :tags: prio_2_automation, attribute, check
+   :tags: prio_2_automation, model, check
    :satisfies: wf__cr_mt_featarch, wf__cr_mt_comparch
 
-   It shall be checked that architectural static view (feature/comp_arc_sta) are not linked to its own AoU
-   ("own" means the AoU linked as "mitigated_by" to the Safety/Security Analysis linked via "violates" to the element,
-   another equivalent distinguishing is that the "own" AoU are in the same repository whereas the "other" are in another repository).
+   It shall be checked if all mentioned SW components are available in the modules repository.
 
 .. gd_req:: Check of Architecture consistency interfaces in modules
    :id: gd_req__arch_consistency_interf
@@ -275,7 +264,7 @@ Checks for Architectural Design
    :tags: prio_2_automation, model, check
    :satisfies: wf__cr_mt_featarch, wf__cr_mt_comparch
 
-   It shall be checked if any interface referred by the features (link from Feature to Logical Arc. Interfaces must be defined and exists) is matched by an "implements" link in the Module (from component to Logical Arc. Interface). Additionally it shall be checked if the feature architecture are linked against at least one logical architectural interface.
+   It shall be checked if all mentioned component interfaces are available in the modules repository.
 
 .. gd_req:: Check of Architecture consistency in dynamic architecture
    :id: gd_req__arch_consistency_dynamic

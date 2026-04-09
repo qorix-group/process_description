@@ -45,5 +45,6 @@
     "prio",
     "toctree",
     "workproduct"
-  ]
+  ],
+  "python-envs.defaultEnvManager": "ms-python.python:system"
 }

@@ -34,33 +34,29 @@ Feature Requirements
 <Headlines (for the list of requirements if structuring is needed)>
 ===================================================================
 
-.. code-block:: rst
+.. feat_req:: Some Title
+   :id: feat_req__feature_name__some_title
+   :reqtype: Process
+   :security: NO
+   :safety: ASIL_B
+   :satisfies: stkh_req__requirements__template
+   :valid_from: v0.0.1
+   :valid_until: v1.0.1
+   :status: invalid
+   :belongs_to: feat__feature_name
 
-   .. feat_req:: Some Title
-      :id: feat_req__feature_name__some_title
-      :reqtype: Process
-      :security: NO
-      :safety: ASIL_B
-      :satisfies: stkh_req__requirements__template
-      :valid_from: v0.0.1
-      :valid_until: v1.0.1
-      :status: invalid
-      :belongs_to: feat__feature_name
+   The Feature shall do xyz to the user to bring him to this condition at this time.
 
-      The Feature shall do xyz to the user to bring him to this condition at this time.
+   Note: (optional, not to be verified)
 
-      Note: (optional, not to be verified)
+.. aou_req:: Some Other Title
+   :id: aou_req__feature_name__some_other_title
+   :reqtype: Process
+   :security: NO
+   :safety: ASIL_B
+   :status: invalid
 
-.. code-block:: rst
-
-   .. aou_req:: Some Other Title
-      :id: aou_req__feature_name__some_other_title
-      :reqtype: Process
-      :security: NO
-      :safety: ASIL_B
-      :status: invalid
-
-      The Feature User shall do xyz to use the feature safely.
+   The Feature User shall do xyz to use the feature safely.
 
 .. attention::
     The above directives must be updated according to your feature requirements.

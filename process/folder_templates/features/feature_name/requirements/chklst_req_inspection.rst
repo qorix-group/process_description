@@ -108,7 +108,7 @@ See also :need:`doc_concept__wp_inspections` for further information about revie
       -
     * - REQ_04_01
       - Is the requirement *internally and externally consistent*?
-      - Does the requirement contradict other requirements within the same or higher levels? One may restrict the search to the feature for component requirements, for features to other features using same components. Is the description of the requirement consistent with all its attributes (if not already part of another check, e.g. does the title fit?).
+      - Does the requirement contradict other requirements within the same or higher levels? One may restrict the search to the feature for component requirements, for features to other features using same components.
       -
       -
       -
