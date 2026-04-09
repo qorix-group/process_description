@@ -39,7 +39,7 @@ Dependent Failure Initiators
 Shared resources
 ^^^^^^^^^^^^^^^^
 
-.. note:: Shared libraries is only than applicable as a shared resource if the feature and the related safety mechanisms are using this specific library. If the library is not used by the feature or the related safety mechanisms, it is not a shared resource.
+.. note:: Shared libraries is only than applicable as a shared resource if the feature and the related safety mechanisms are using this specific library. If the library is not used by the feature or the related safety mechanisms, it is not applicable as shared resource at the end.
 
 
 .. list-table:: DFA shared resources (used for Platform DFA)
