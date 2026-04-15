@@ -16,8 +16,8 @@
 Safety Analysis Checklist
 =========================
 
-.. document:: [Your Module Name] Safety Analysis Checklist
-   :id: doc__module_name_safety_analysis_fdr
+.. document:: [Your Feature Name] Safety Analysis Checklist
+   :id: doc__feature_name_safety_analysis_fdr
    :status: draft
    :safety: ASIL_B
    :security: YES
@@ -25,10 +25,10 @@ Safety Analysis Checklist
    :tags: template
 
 .. attention::
-    The above directive must be updated according to your Module.
+    The above directive must be updated according to your Feature.
 
-    - Modify ``Your Module Name`` to be your Module Name
-    - Modify ``id`` to be your Module Name in lower snake case preceded by ``doc__`` and followed by ``_safety _analysis_fdr``
+    - Modify ``Your Feature Name`` to be your Feature Name
+    - Modify ``id`` to be your Feature Name in lower snake case preceded by ``doc__`` and followed by ``_safety _analysis_fdr``
     - Adjust ``status`` to be ``valid``
     - Adjust ``safety``, ``security`` and ``tags`` according to your needs
 
@@ -46,7 +46,6 @@ As described in :need:`wf__p_formal_rv`, the formal document review is performed
 **Checklist**
 
 Please note that the "passed" column must contain "yes" or "no" for each checklist item. Additionally, the remarks column must explain why item passed or did not passed. In case of "no" an issue link to the issue tracking system has to be added in the last column. See also :ref:`review_concept` for further information about reviews in general and inspection in particular.
-
 
 .. list-table:: General Checklist
       :header-rows: 1
