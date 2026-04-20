@@ -32,7 +32,7 @@ DFA (Dependent Failure Analysis)
     - Modify ``Your Component Name`` to be your Component Name
     - Modify ``id`` to be your Component Name in upper snake case preceded by ``doc__`` and succeeded by ``_dfa``
     - Adjust ``status`` to be ``valid``
-    - Adjust ``safety`` and ``tags`` according to your needs
+    - Adjust ``safety``, ``security`` and ``tags`` according to your needs
 
 The DFA for the component [Your Component Name] is performed. To show evidence that all failure initiators are considered, the applicability has to be filled out in the
 following tables. For all applicable failure initiators, the DFA has to be performed.
