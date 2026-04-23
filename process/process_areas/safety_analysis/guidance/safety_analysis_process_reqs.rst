@@ -81,7 +81,7 @@ Process Safety Analysis Attributes
    :satisfies: wf__analyse_platform_featarch, wf__analyse_featarch, wf__analyse_comparch
    :complies: std_req__iso26262__analysis_844, std_req__iso26262__analysis_746, std_req__iso26262__analysis_747
 
-   If a new mitigation (e.g. prevention, detection or mitigation) is needed, link to the issue and keep status invalid until mitigation is sufficient.
+   If a new mitigation (e.g. prevention, detection or mitigation) is needed, link to the issue and keep status sufficient == no until mitigation is sufficient.
 
 .. gd_req:: Safety Analysis attribute: sufficient
    :id: gd_req__saf_attr_sufficient
@@ -110,7 +110,7 @@ Process Safety Analysis Attributes
    :satisfies: wf__analyse_platform_featarch, wf__analyse_featarch, wf__analyse_comparch
    :complies: std_req__iso26262__analysis_848, std_req__iso26262__analysis_749, std_req__isopas8926__44431, std_req__isopas8926__44432
 
-   Each Safety Analysis shall have the status invalid until the analysis is finished. The status shall be set to valid if the analysis is finished and all issues are closed.
+   Each Safety Analysis shall have a status which can be either "valid" or "invalid". 
 
 .. gd_req:: Safety Analysis attribute: failure effect
    :id: gd_req__saf_attr_feffect

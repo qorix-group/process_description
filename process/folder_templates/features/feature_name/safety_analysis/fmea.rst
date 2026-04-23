@@ -32,7 +32,7 @@ FMEA (Failure Modes and Effects Analysis)
     - Modify ``Your Feature Name`` to be your Feature Name
     - Modify ``id`` to be your Feature Name in upper snake case preceded by ``doc__`` and succeeded by ``_fmea``
     - Adjust ``status`` to be ``valid``
-    - Adjust ``safety`` and ``tags`` according to your needs
+    - Adjust ``safety``, ``security`` and ``tags`` according to your needs
 
 The FMEA for the feature [Your Feature Name] is performed. To show evidence that all failure initiators are considered, the applicability has to be filled out in the
 following tables. For all applicable failure initiators, the FMEA has to be performed.
