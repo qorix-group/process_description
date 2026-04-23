@@ -19,7 +19,7 @@ Safety Analysis Work Products
    :id: wp__platform_dfa
    :status: valid
    :tags: doc_lifecycle_model_2
-   :complies: std_wp__iso26262__software_751, std_wp__iso26262__software_753, std_wp__isopas8926__4524
+   :complies: std_wp__iso26262__analysis_751, std_wp__iso26262__software_753, std_wp__isopas8926__4524
 
    Analyse the dependencies between features that references all platform feature static architecture diagrams, highlighting potential shared use of features.
 
@@ -27,7 +27,7 @@ Safety Analysis Work Products
    :id: wp__feature_fmea
    :status: valid
    :tags: doc_lifecycle_model_2
-   :complies: std_wp__iso26262__software_751, std_wp__iso26262__analysis_851, std_wp__isopas8926__4524
+   :complies: std_wp__iso26262__analysis_851, std_wp__iso26262__software_752, std_wp__isopas8926__4524
 
    FMEA verifies the feature architecture (as part of SW Safety Concept)
 
@@ -37,7 +37,7 @@ Safety Analysis Work Products
    :id: wp__feature_dfa
    :status: valid
    :tags: doc_lifecycle_model_2
-   :complies: std_wp__iso26262__software_751, std_wp__iso26262__software_753, std_wp__isopas8926__4524
+   :complies: std_wp__iso26262__analysis_751, std_wp__iso26262__software_753, std_wp__isopas8926__4524
 
    Dependent Failure Analysis on feature level.
 
@@ -49,7 +49,7 @@ Safety Analysis Work Products
    :id: wp__sw_component_fmea
    :status: valid
    :tags: doc_lifecycle_model_2
-   :complies: std_wp__iso26262__analysis_751, std_wp__iso26262__analysis_851, std_wp__isopas8926__4524, std_wp__iso26262__software_752
+   :complies: std_wp__iso26262__analysis_851, std_wp__iso26262__software_752, std_wp__isopas8926__4524, std_wp__iso26262__software_752
 
    FMEA, verifies the component architecture (as part of SW Safety Concept)
 
