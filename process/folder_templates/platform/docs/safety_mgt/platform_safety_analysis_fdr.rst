@@ -60,7 +60,7 @@ Please note that it is mandatory to fill in the "passed" column with "yes" or "n
         - Are the safety analysis performed in a systematic way to identify the potential dependent failures / failure modes and their effects? Are the failure effect and the mitigation described?
         - [YES | NO ]
         - :need:`[[title]] <std_req__iso26262__analysis_849>`, :need:`[[title]] <std_req__iso26262__analysis_8410>`
-        - <Rationale for result>
+        - <Ensured and checked by application of the defined templates and processes>
 
       * - Gen 3
         - Is the result of the safety analysis indicate if the safety requirements are complied?
