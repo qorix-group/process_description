@@ -13,10 +13,10 @@
    # *******************************************************************************
 
 
-Module Safety Analysis Formal Review Report
-=============================================
+Safety Analysis Formal Review Report
+====================================
 
-.. document:: Module Safety Analysis Formal Review Report
+.. document:: Safety Analysis Formal Review Report
    :id: doc__module_safety_analysis_fdr
    :status: draft
    :safety: ASIL_B
@@ -27,7 +27,7 @@ Module Safety Analysis Formal Review Report
 
 
 **Purpose**
-The purpose of this Safety Analysis (DFA and FMEA) formal review report template is to collect the topics to be checked during verification of the Module Safety Analysis.
+The purpose of this Safety Analysis (DFA and FMEA) formal review report template is to collect the topics to be checked during verification of the Safety Analysis.
 
 **Conduct**
 As described in :need:`wf__p_formal_rv`, the formal document review is performed by an "external" safety manager:
