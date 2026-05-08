@@ -184,6 +184,5 @@ Footnotes
    requirements/chklst_req_inspection.rst
    safety_analysis/fmea.rst
    safety_analysis/dfa.rst
-   safety_analysis/feature_safety_analysis_fdr.rst
    safety_planning/index.rst
    security_planning/index.rst
