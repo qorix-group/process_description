@@ -115,3 +115,15 @@ For a detailed explanation of workflows and their role within the process model,
    :contains: gd_chklst__req_inspection
 
    The requirements are monitored and verified. The inspection shall be implemented as integral part of the review in version management tool.
+
+
+RAS(IC) for Requirements Engineering:
+*************************************
+
+.. needtable:: RASIC Overview for Requirements Engineering
+   :tags: requirements_engineering
+   :filter: "requirements_engineering" in tags and type == "workflow" and is_external == False
+   :style: table
+   :sort: status
+   :columns: id as "Activity";responsible as "Responsible";approved_by as "Approver";supported_by as "Supporter"
+   :colwidths: 30,30,30,30
