@@ -44,9 +44,9 @@ Component Requirements
       :reqtype: Process
       :security: YES
       :safety: ASIL_B
-      :satisfies: feat_req__feature_name__some_title
+      :derived_from: feat_req__feature_name__some_title
       :status: invalid
-      :belongs_to: comp__component_name_template
+      :satisfied_by: comp__component_name_template
 
       The Component shall do xyz to another component to bring it to this condition at this time
 
@@ -56,8 +56,8 @@ Component Requirements
     The above directive must be updated according to your component requirements.
 
     - Replace the example content by the real content for your first requirement
-    - Set ``satistifes`` with links to Feature requirements
-    - Set ``belongs_to`` with a link to the right Component id
+    - Set ``derived_from`` with links to Feature requirements
+    - Set ``satisfied_by`` with a link to the right Component id
     - Set ``safety`` and ``security`` to the right value
     - Set the status to valid and start the review/merge process
     - Add other needed requirements for your component
