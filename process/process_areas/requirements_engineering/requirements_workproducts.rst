@@ -73,7 +73,7 @@ Requirements Engineering Work Products
 
 .. workproduct:: Requirements Inspection
    :id: wp__requirements_inspect
-   :status: draft
+   :status: valid
    :complies: std_wp__iso26262__software_653
    :tags: doc_lifecycle_model_2
 

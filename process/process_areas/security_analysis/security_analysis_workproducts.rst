@@ -28,7 +28,7 @@ Security Analysis Work Products
 
 .. workproduct:: Feature Security Analysis
    :id: wp__feature_security_analysis
-   :status: draft
+   :status: valid
    :tags: doc_lifecycle_model_2
    :complies: std_wp__isosae21434__development_1055, std_wp__isosae21434__assessment_15332, std_wp__isosae21434__assessment_15431, std_wp__isosae21434__assessment_15631, std_wp__isosae21434__assessment_15731, std_wp__isosae21434__assessment_15831, std_wp__isosae21434__assessment_15931
 
@@ -45,7 +45,7 @@ Security Analysis Work Products
 
 .. workproduct:: Component Security Analysis
    :id: wp__sw_component_security_analysis
-   :status: draft
+   :status: valid
    :tags: doc_lifecycle_model_2
    :complies: std_wp__isosae21434__development_1055, std_wp__isosae21434__assessment_15332, std_wp__isosae21434__assessment_15431, std_wp__isosae21434__assessment_15631, std_wp__isosae21434__assessment_15731, std_wp__isosae21434__assessment_15831, std_wp__isosae21434__assessment_15931
 
