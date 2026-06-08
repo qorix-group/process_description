@@ -41,7 +41,7 @@ Security analysis is used as an umbrella term.
 
 .. workflow:: Analyse Feature Architecture
    :id: wf__analyse_sec_featarch
-   :status: draft
+   :status: valid
    :tags: security_analysis
    :responsible: rl__security_engineer
    :approved_by: rl__security_manager
@@ -55,7 +55,7 @@ Security analysis is used as an umbrella term.
 
 .. workflow:: Analyse Component Architecture
    :id: wf__analyse_sec_comparch
-   :status: draft
+   :status: valid
    :tags: security_analysis
    :responsible: rl__security_engineer
    :approved_by: rl__security_manager
@@ -69,7 +69,7 @@ Security analysis is used as an umbrella term.
 
 .. workflow:: Monitor Security Analysis
    :id: wf__mr_sec_analyses
-   :status: draft
+   :status: valid
    :tags: security_analysis
    :responsible: rl__security_engineer
    :approved_by: rl__security_manager
@@ -83,7 +83,7 @@ Security analysis is used as an umbrella term.
 
 .. workflow:: Verify Security Analysis
    :id: wf__vy_sec_analyses
-   :status: draft
+   :status: valid
    :tags: security_analysis
    :responsible: rl__security_engineer
    :approved_by: rl__security_manager

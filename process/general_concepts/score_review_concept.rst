@@ -197,7 +197,7 @@ Process Requirements
 
 .. gd_req:: Version for inspected architecture
    :id: gd_req__general_architecture_version
-   :status: draft
+   :status: valid
    :tags: general
    :complies: std_req__iso26262__support_6433, std_req__iso26262__software_7414
    :satisfies: wf__mr_vy_arch

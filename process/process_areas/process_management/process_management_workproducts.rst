@@ -19,7 +19,7 @@ Here only project specific work products are listed, which are generic for the p
 
 .. workproduct:: Policies
    :id: wp__policies
-   :status: draft
+   :status: valid
    :tags: doc_lifecycle_model_2
    :complies: std_wp__iso26262__management_551
 

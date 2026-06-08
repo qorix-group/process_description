@@ -18,7 +18,7 @@ Roles
 
 .. role:: Security Manager
    :id: rl__security_manager
-   :status: draft
+   :status: valid
    :tags: security_management
    :contains: rl__committer
 

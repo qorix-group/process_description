@@ -145,7 +145,7 @@ Process Requirements
 
 .. gd_req:: Verification Documentation Checks Extended
     :id: gd_req__verification_checks_extended
-    :status: draft
+    :status: valid
     :tags: verification
     :satisfies: wf__verification_unit_test, wf__verification_comp_int_test, wf__verification_feat_int_test, wf__verification_platform_int_test
     :complies:

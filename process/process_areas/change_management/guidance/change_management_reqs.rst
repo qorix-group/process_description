@@ -118,7 +118,7 @@ Change Request Attributes
 
 .. gd_req:: Change Request attribute: Affected Work Products
    :id: gd_req__change_attr_affected_wp
-   :status: draft
+   :status: valid
    :tags: attribute, mandatory
    :satisfies: wf__change_create_cr, wf__change_analyze_cr, wf__change_implement_monitor_cr, wf__change_close_cr
    :complies: std_req__aspice_40__SUP-10-BP4, std_req__iso26262__support_8412, std_req__iso26262__support_8422, std_req__iso26262__support_8452, std_req__iso26262__support_8453

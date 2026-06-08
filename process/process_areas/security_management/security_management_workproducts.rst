@@ -131,7 +131,7 @@ Security Management Work Products
 
 .. workproduct:: Platform Software Bill of Material (SBOM)
    :id: wp__sw_platform_sbom
-   :status: draft
+   :status: valid
    :tags: doc_lifecycle_model_2
    :complies: std_wp__isosae21434__continual_8631
 
@@ -140,7 +140,7 @@ Security Management Work Products
 
 .. workproduct:: Module Software Bill of Material (SBOM)
    :id: wp__sw_module_sbom
-   :status: draft
+   :status: valid
    :tags: doc_lifecycle_model_2
    :complies: std_wp__isosae21434__continual_8631
 
