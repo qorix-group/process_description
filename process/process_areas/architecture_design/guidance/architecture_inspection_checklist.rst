@@ -29,7 +29,9 @@ Architecture Inspection Checklist Template
                std_req__aspice_40__iic-15-51[version==1],
                std_req__aspice_40__SWE-2-BP4[version==1],
                std_req__aspice_40__iic-13-51[version==1],
-               std_req__aspice_40__SWE-2-BP5[version==1]
+               std_req__aspice_40__SWE-2-BP5[version==1],
+               std_req__aspice_40__iic-08-63[version==1], 
+               std_req__aspice_40__iic-03-06[version==1]
 
     For the content see here:
 
