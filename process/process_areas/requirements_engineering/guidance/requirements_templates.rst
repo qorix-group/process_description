@@ -28,8 +28,7 @@ Templates
               std_req__iso26262__support_6425[version==1],
               std_req__aspice_40__SWE-1-BP1[version==1]
 
-   See the stakeholder requirements template in the
-   `module template documentation <https://eclipse-score.github.io/module_template/stakeholder_requirements_template.html>`__.
+   See the stakeholder requirements template in :need:`doc__platform_name_requirements`
 
 .. gd_temp:: Feature Requirements Template
    :id: gd_temp__req_feat_req
@@ -40,8 +39,7 @@ Templates
               std_req__iso26262__support_6425[version==1],
               std_req__aspice_40__SWE-1-BP1[version==1]
 
-   See the feature requirements template in
-   :doc:`../../../folder_templates/platform/features/feature_name/requirements/index`
+   See the feature requirements template in :need:`doc__feature_name_requirements`
 
 .. gd_temp:: Component Requirements Template
    :id: gd_temp__req_comp_req
@@ -53,7 +51,7 @@ Templates
               std_req__iso26262__support_12425[version==1],
               std_req__aspice_40__SWE-1-BP1[version==1]
 
-   See the component requirements template in the
+   See the component requirements template in
    `module template documentation <https://eclipse-score.github.io/module_template/main/score/component_example/docs/requirements/index.html>`__.
 
 .. gd_temp:: AoU Requirement Template
@@ -66,7 +64,7 @@ Templates
               std_req__aspice_40__SWE-1-BP1[version==1]
 
    See the Assumption of Use requirement snippets in the
-   `module template documentation <https://eclipse-score.github.io/module_template/aou_requirements_template.html>`__.
+   `module template documentation <https://eclipse-score.github.io/module_template/main/score/component_example/docs/requirements/index.html>`__.
 
 
 .. gd_temp:: Tool Requirements Template
