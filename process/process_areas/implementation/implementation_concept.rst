@@ -92,23 +92,36 @@ per unit is **not required**; the unit's attributes and behaviour are documented
 code itself as the source code is sufficiently self-explanatory and adheres to the design principles outlined in the development plan.
 
 This is sufficient for ASIL B compliance per :need:`ISO 26262-6 §8 <std_req__iso26262__software_841>`, as the structural decomposition
-is evident from the directory layout and the component-level static view already captures the
-relevant unit relationships.
+is evident from the directory layout and the safety/security level and requirements are inherited from the component.
 
-However, for components with complex interactions or a large number of units, a static view can be beneficial for understanding the overall structure and relationships between units. The developer may choose to add a additional unit-level static and dynamic view if they believe it helps to explain the source code better.
+However, for components with complex interactions or a large number of units, a textual description, a static or dynamic view can
+be beneficial for understanding the overall structure and relationships between units.
+The developer may choose to add a additional unit-level description, static and dynamic view if they believe it helps to explain the source code better.
+It is important that the naming of the units, their interfaces and functions in any diagrams or descriptions matches the naming in the source code to ensure traceability.
+That means the diagrams and descriptions should not be outdated and be consistent with the source code and not introduce new terminology or concepts that are not present in the code.
 
 Design Principles of the Units
 ``````````````````````````````
 
-The unit design shall achieve quality attributes (like simplicity, modularity, and encapsulation) which shall be enforced through coding guidelines and static analysis tooling appropriate for the programming language in use (e.g. MISRA C for C/C++, Clippy lints for Rust) as specified in the project development plan to fulfill the guidelines :need:`ISO 26262-6 §8.4.5, Table 6 <std_req__iso26262__software_845>` and :need:`ASPICE SWE.3/SWE.4<std_req__aspice_40__SWE-3-BP3>` requirements.
+The unit design shall achieve quality attributes (like simplicity, modularity, and encapsulation)
+which shall be enforced through coding guidelines and static analysis tooling appropriate
+for the programming language in use (e.g. MISRA C for C/C++, Clippy lints for Rust) as specified
+in the project development plan to fulfill the guidelines :need:`ISO 26262-6 §8.4.5, Table 6 <std_req__iso26262__software_845>` and :need:`ASPICE SWE.3/SWE.4<std_req__aspice_40__SWE-3-BP3>` requirements.
 
-The **source code** itself shall be self-documenting with meaningful naming and structure.
+The **source code** itself shall be self-documenting with meaningful naming and structure
+to fulfill the guidelines :need:`ISO 26262-6 §8.4.3 <std_req__iso26262__software_845>`.
 **Code comments** may be used where the logic is not self-evident and to give an rationale.
 These comments, along with commit messages, and any additional documentation accompanying the
 source code shall use natural language.
 
 The interface documentation of a software unit is part of the source code (e.g. public API headers,
-trait definitions, or documented function signatures).
+trait definitions, or documented function signatures). If interfaces of the units are also interfaces of the component,
+they shall follow the same documentation rules as the component interfaces (see :need:`gd_guidl__arch_design`).
+Especially for public interfaces, the interface naming should follow the naming of the
+logical interface in the feature and component architecture to ensure traceability.
+The interface documentation should be clear and comprehensive to ensure that users of the
+unit can understand how to interact with it without needing to read the implementation details.
+The documentation should be maintained and updated as the implementation evolves to ensure it remains accurate and useful.
 
 Diagrams
 --------
