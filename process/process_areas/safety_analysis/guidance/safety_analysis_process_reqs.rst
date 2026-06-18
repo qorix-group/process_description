@@ -215,7 +215,7 @@ Safety Analysis Linkage
    :id: gd_req__saf_attr_ver
    :status: valid
    :version: 1
-   :tags: prio_2_automation, attribute, automated
+   :tags: done_automation, attribute, automated
    :satisfies: wf__analyse_platform_featarch[version==1], wf__analyse_featarch[version==1], wf__analyse_comparch[version==1]
    :complies: std_req__iso26262__support_6425[version==1], std_req__iso26262__support_6434[version==1]
 
@@ -265,19 +265,6 @@ Safety Analysis Checks
    <Feature | Component | AoU> Requirements with at least one Requirement with the same ASIL or with a higher ASIL
    as the corresponding ASIL of the Feature or Component that is analysed and linked via violates.
 
-
-.. gd_req:: Safety Analysis finalization check
-   :id: gd_req__saf_finalization_check
-   :status: valid
-   :version: 1
-   :tags: prio_2_automation, attribute, automated
-   :satisfies: wf__analyse_platform_featarch[version==1], wf__analyse_featarch[version==1], wf__analyse_comparch[version==1]
-   :complies: std_req__iso26262__analysis_848[version==1],
-              std_req__iso26262__analysis_749[version==1],
-              std_req__isopas8926__44431[version==1],
-              std_req__isopas8926__44432[version==1]
-
-    It shall be checked if all artifacts of the analysis are "valid" and "sufficient".
 
 DFA Process Requirements
 ========================
