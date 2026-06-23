@@ -22,11 +22,20 @@ Guideline
    :complies: std_req__iso26262__software_744[version==1],
               std_req__iso26262__software_841[version==1],
               std_req__iso26262__software_842[version==1],
+              std_req__iso26262__software_843[version==1],
+              std_req__iso26262__software_844[version==1],
+              std_req__iso26262__software_845[version==1],
+              std_req__aspice_40__SWE-3-BP1[version==1],
+              std_req__aspice_40__SWE-3-BP2[version==1],
+              std_req__aspice_40__SWE-3-BP3[version==1],
+              std_req__aspice_40__SWE-3-BP4[version==1],
               std_req__aspice_40__iic-11-05[version==1]
 
 This document describes the general guidance for implementation based on the concept which is defined :need:`[[title]]<doc_concept__imp_concept>`.
 An example of a Detailed Design is maintained in the
 `module template documentation <https://eclipse-score.github.io/module_template/detailed_design_example.html>`_.
+
+**Scope:** This guideline applies to both QM (Quality Management) and ASIL B components. Where specific requirements differ between QM and ASIL B (e.g., complexity thresholds, design principles), they are explicitly noted.
 
 Workflow for Implementation
 ===========================
@@ -36,12 +45,13 @@ Detailed description which steps are need for implementation.
 #. Consult which programming languages, design/coding guidelines and tools are used for Software
    development according the rules given in the project specific :need:`SW development Plan <wp__sw_development_plan>`.
 #. Create a Detailed Design by using the template :need:`gd_temp__detailed_design`.
-   In this step, the components are broken down into smaller, independent units that can be tested
-   separately during the unit testing phase. The detailed design shall be so exact, that test and
-   implementation can be run simultaneously.
+   Based on the :need:`Component Requirements <wp__requirements_comp>` and the
+   :need:`Component Architecture <wp__component_arch>`, the components are broken down into smaller,
+   independent units that can be tested separately during the unit testing phase.
+   The detailed design shall be so exact that test and implementation can be run simultaneously.
 #. Implement the source code, by using the coding guidelines given within the project specific :need:`SW development Plan <wp__sw_development_plan>` for the programming languages in your project.
 #. Create a pull request for your change.
-#. Detail Design and Code Inspection is done to review the code of the software and detect errors in it.
+#. Detail Design and Code Inspection is done to review the code of the software and detect errors in it. See the detailed design and code :need:`inspection checklist <doc__feature_name_req_inspection>` for evaluation criteria.
 #. Check the results of the static and dynamic code analysis (this includes compiler warnings). Acceptance criteria are defined in the Verification Plan :need:`gd_temp__verification_plan`.
 #. Fix or justify the errors.
 #. Merge the pull request.
@@ -53,6 +63,12 @@ Traceability
 
 The detailed design is created by using the template :need:`gd_temp__detailed_design`. In the template
 the static and the dynamic view for unit interactions is described.
+
+Traceability from requirements to units is established implicitly through the verification work products:
+:need:`unit tests <wf__sw_unit_test>` and integration tests reference specific requirement IDs and exercise
+the units that implement those requirements. This creates the necessary requirement-to-unit link for compliance
+and audit purposes. See the :need:`verification process area <process_areas>` for details on how requirements
+are verified through tests that exercise specific units.
 
 .. figure:: _assets/static_view.drawio.svg
    :align: center
@@ -127,9 +143,15 @@ introduce new terminology or concepts that are not present in the code.
 Design Principles of the Units
 ``````````````````````````````
 
-The unit design should target quality attributes like simplicity, modularity and encapsulation,
+The unit design and implementation should target quality attributes like simplicity, modularity and encapsulation,
 using project-defined coding guidelines and static analysis tooling appropriate for the language
 in use (e.g. MISRA C for C/C++, Clippy lints for Rust) as specified in the software development plan.
+
+For ASIL B components, the software development plan shall mandate compliance with the design principles
+specified in ISO 26262-6 §8.4.5 Table 6, including requirements for limited complexity (one-entry-one-exit,
+no recursion, no unconditional jumps), restricted use of pointers, limited global variables, and absence
+of hidden data/control flow. These principles shall be enforced through coding guidelines and automated
+static analysis tooling.
 
 The **source code** itself should be self-documenting with meaningful naming and structure.
 **Code comments** may be used where the logic is not self-evident and to provide rationale.

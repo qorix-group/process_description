@@ -39,9 +39,10 @@ Detailed Design
 ===============
 
 In this step, the **components** are broken down into smaller, independent **units** that can be
-**tested separately** during the unit testing phase. This decomposition shall support the implementation
-and testing of the component's requirements while adhering to the design principles and patterns
-established in the architecture.
+**tested separately** during the unit testing phase. The basis for this decomposition are the
+:need:`Component Requirements <wp__requirements_comp>` and the :need:`Component Architecture <wp__component_arch>`.
+The decomposition shall support the implementation and testing of the component's requirements while
+adhering to the design principles and patterns established in the architecture.
 
 Following the **Detailed Design Template** :need:`gd_temp__detailed_design`, we must document the
 **design decisions** and **constraints** that guide the decomposition of the component into multiple
