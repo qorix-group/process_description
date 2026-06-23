@@ -45,7 +45,7 @@ Diagram Attributes
               std_req__iso26262__software_845[version==1],
               std_req__aspice_40__SWE-3-BP2[version==1]
 
-   Each diagram shall have a unique name. It shall consist of three parts:
+   Each diagram shall have a unique identifier (realized by it's file name). It shall consist of three parts:
 
    * type of diagram
    * structural element
@@ -87,7 +87,7 @@ Diagram Checks
 .. gd_req:: Diagram mandatory consistency
    :id: gd_req__impl_diagram_consistency
    :status: valid
-   :version: 1
+   :version: 2
    :tags: prio_2_manual, attribute, check
    :complies: std_req__iso26262__support_6421[version==1], std_req__iso26262__support_6425[version==1]
    :satisfies: wf__sw_detailed_design[version==1]
