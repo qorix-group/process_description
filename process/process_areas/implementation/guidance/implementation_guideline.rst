@@ -65,9 +65,9 @@ The detailed design is created by using the template :need:`gd_temp__detailed_de
 the static and the dynamic view for unit interactions is described.
 
 Traceability from requirements to units is established implicitly through the verification work products:
-:need:`unit tests <wf__sw_unit_test>` and integration tests reference specific requirement IDs and exercise
+:need:`unit tests <wf__verification_unit_test>` and :need:`component integration tests <wf__verification_comp_int_test>` reference specific requirement IDs and exercise
 the units that implement those requirements. This creates the necessary requirement-to-unit link for compliance
-and audit purposes. See the :need:`verification process area <process_areas>` for details on how requirements
+and audit purposes. See the :ref:`verification process area <process_verification>` for details on how requirements
 are verified through tests that exercise specific units.
 
 .. figure:: _assets/static_view.drawio.svg
