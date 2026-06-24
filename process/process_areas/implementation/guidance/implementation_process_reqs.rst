@@ -88,7 +88,7 @@ Diagram Checks
    :id: gd_req__impl_diagram_consistency
    :status: valid
    :version: 2
-   :tags: prio_2_manual, attribute, check
+   :tags: prio_3_automation, attribute, check
    :complies: std_req__iso26262__support_6421[version==1], std_req__iso26262__support_6425[version==1]
    :satisfies: wf__sw_detailed_design[version==1]
 
