@@ -147,7 +147,7 @@ Interface Attributes
    :id: gd_req__impl_interface_description
    :status: valid
    :version: 1
-   :tags: manual_prio_1, mandatory
+   :tags: manual_prio_1, attribute, mandatory
    :complies: std_req__iso26262__support_6421[version==1], std_req__iso26262__support_6425[version==1]
    :satisfies: wf__sw_detailed_design[version==1]
 
