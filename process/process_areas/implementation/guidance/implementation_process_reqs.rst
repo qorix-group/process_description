@@ -101,25 +101,25 @@ Diagram Checks
 Unit Attributes
 ---------------
 
-.. gd_req:: Unit naming
-   :id: gd_req__impl_unit_naming
+.. gd_req:: Unit attribute: UID
+   :id: gd_req__impl_unit_uid
    :status: valid
    :version: 1
    :tags: manual_prio_1, attribute, mandatory
    :satisfies: wf__sw_detailed_design[version==1]
    :complies: std_req__iso26262__software_843[version==1], std_req__aspice_40__SWE-3-BP1[version==1]
 
-   Each unit shall have a proper naming, which is unique within the component and
-   follows a consistent naming convention. The name should be descriptive and reflect
+   Each unit shall have a unique ID. It is build by the path and file name(s) of the unit within the component and following a consistent naming convention. The name should be descriptive and reflect
    the functionality of the unit to ensure traceability and understandability.
 
    The naming convention should be defined in the project guidelines and consistently applied across all units.
 
-.. gd_req:: Unit description
+.. gd_req:: Unit attribute: description
+
    :id: gd_req__impl_unit_description
    :status: valid
    :version: 1
-   :tags: manual_prio_1, mandatory
+   :tags: manual_prio_1, attribute, mandatory
    :complies: std_req__iso26262__support_6421[version==1], std_req__iso26262__support_6425[version==1]
    :satisfies: wf__sw_detailed_design[version==1]
 
@@ -128,21 +128,22 @@ Unit Attributes
 Interface Attributes
 --------------------
 
-.. gd_req:: Interface naming
-   :id: gd_req__impl_interface_naming
+.. gd_req:: Interface attribute: UID
+   :id: gd_req__impl_interface_uid
    :status: valid
    :version: 1
-   :tags: manual_prio_1, mandatory
+   :tags: manual_prio_1, attribute, mandatory
    :satisfies: wf__sw_detailed_design[version==1]
    :complies: std_req__iso26262__software_843[version==1], std_req__aspice_40__SWE-3-BP1[version==1]
 
-   Each interface shall have a proper naming, which is unique within the component and
-   follows a consistent naming convention. The name should be descriptive and reflect
-   the functionality of the interface to ensure traceability and understandability.
+   Each interface shall have a unique ID, which is defined by the path and file name(s)
+   of the interface within the component and the namespace and name of the interface inside the file.
+   The name should be descriptive and reflect the functionality of the interface to ensure
+   traceability and understandability.
 
    Consider the project's naming convention.
 
-.. gd_req:: Interface description
+.. gd_req:: Interface attribute: description
    :id: gd_req__impl_interface_description
    :status: valid
    :version: 1
