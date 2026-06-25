@@ -34,8 +34,8 @@ Also diagrams are optional, but if they are created, they shall have the followi
 Diagram Attributes
 ------------------
 
-.. gd_req:: Diagram attribute: unique name
-   :id: gd_req__impl_diagram_name
+.. gd_req:: Diagram attribute: UID
+   :id: gd_req__impl_diagram_uid
    :status: valid
    :version: 1
    :tags: manual_prio_1, attribute, mandatory
@@ -45,7 +45,7 @@ Diagram Attributes
               std_req__iso26262__software_845[version==1],
               std_req__aspice_40__SWE-3-BP2[version==1]
 
-   Each diagram shall have a unique name (realized by it's file name). It shall consist of three parts:
+   Each diagram shall have a unique identifier (UID) (realized by its file name). It shall consist of three parts:
 
    * type of diagram
    * structural element
