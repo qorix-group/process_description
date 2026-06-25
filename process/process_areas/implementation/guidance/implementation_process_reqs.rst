@@ -115,7 +115,6 @@ Unit Attributes
    The naming convention should be defined in the project guidelines and consistently applied across all units.
 
 .. gd_req:: Unit attribute: description
-
    :id: gd_req__impl_unit_description
    :status: valid
    :version: 1
