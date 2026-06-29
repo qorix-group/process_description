@@ -148,10 +148,8 @@ using project-defined coding guidelines and static analysis tooling appropriate 
 in use (e.g. MISRA C for C/C++, Clippy lints for Rust) as specified in the software development plan.
 
 For ASIL B components, the software development plan shall mandate compliance with the design principles
-specified in ISO 26262-6 §8.4.5 Table 6, including requirements for limited complexity (one-entry-one-exit,
-no recursion, no unconditional jumps), restricted use of pointers, limited global variables, and absence
-of hidden data/control flow. These principles shall be enforced through coding guidelines and automated
-static analysis tooling.
+specified in ISO 26262-6 §8.4.5 Table 6. These principles shall be enforced through project-specific
+coding guidelines and automated static analysis tooling.
 
 The **source code** itself should be self-documenting with meaningful naming and structure.
 **Code comments** may be used where the logic is not self-evident and to provide rationale.
@@ -172,9 +170,9 @@ updated as the implementation evolves.
 Diagrams
 --------
 
-Developers may add **class diagrams** or **sequence diagrams** at the unit level if they believe
-it helps to explain the source code better. These are optional and serve as supplementary
-documentation.
+Developers may add optional diagrams at the unit level if they believe it helps to explain the
+source code better. These are supplementary documentation and are not mandatory. Details are
+described in the following sections.
 
 Static View
 ```````````
