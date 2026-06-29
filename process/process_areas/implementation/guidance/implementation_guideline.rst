@@ -145,7 +145,7 @@ Design Principles of the Units
 
 The unit design and implementation should target quality attributes like simplicity, modularity and encapsulation,
 using project-defined coding guidelines and static analysis tooling appropriate for the language
-in use (e.g. MISRA C for C/C++, Clippy lints for Rust) as specified in the software development plan.
+in use as specified in the software development plan.
 
 For ASIL B components, the software development plan shall mandate compliance with the design principles
 specified in ISO 26262-6 §8.4.5 Table 6. These principles shall be enforced through project-specific
