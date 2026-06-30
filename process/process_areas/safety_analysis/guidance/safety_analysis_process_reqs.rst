@@ -187,13 +187,8 @@ Safety Analysis Linkage
    :complies: std_req__iso26262__analysis_842[version==1], std_req__iso26262__software_7410[version==1], std_req__iso26262__software_7411[version==1]
 
    Each Safety Analysis shall be automatically linked (inverse direction) to the corresponding architecture view via
-   the "violates by" linkage. The following linkages are defined in detail:
-   
-       * plat_saf_dfa <-> feat_arc_sta
-       * feat_saf_dfa <-> feat_arc_sta
-       * feat_saf_dfa <-> comp_arc_sta
-       * feat_saf_fmea <-> feat_arc_dyn, feat_arc_sta
-       * comp_saf_fmea <-> comp_arc_dyn, comp_arc_sta
+   the "violates by" linkage. The linkages are defined in detail at :need:`gd_req__saf_linkage_check`.
+
 
 .. gd_req:: Safety Analysis attribute: check Requirements linkage
    :id: gd_req__saf_attr_requirements_check
