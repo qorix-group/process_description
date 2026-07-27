@@ -86,13 +86,17 @@ Units within the Component
 --------------------------
 
 The relationship between a unit and its parent component is established implicitly through the
-**file path** — each component has its own directory, and units residing within that directory
-belong to it and therefore inherit the accordance to the architecture. A separate static diagram
+**file path**: the decomposition of a component into its units is mainly described by the directory
+and file name structure. Each component (and sub-component) has its own directory, its units are
+represented by the corresponding source and header files within that directory, and sub-components
+are reflected by nested sub-directories so that the folder hierarchy mirrors the decomposition of
+the component into sub-components and units. Units therefore belong to their component and inherit
+the accordance to the architecture from their location. A separate static diagram
 per unit is **not required**; the unit's attributes and behaviour are documented in the source
 code itself as the source code is sufficiently self-explanatory and adheres to the design principles outlined in the development plan.
 
 This is sufficient for ASIL B compliance per :need:`ISO 26262-6 §8 <std_req__iso26262__software_841>`, as the structural decomposition
-is evident from the directory layout and the component-level static view already captures the
+is evident from the directory layout and the component-level static view of the architecture already captures the
 relevant unit relationships.
 
 However, for components with complex interactions or a large number of units, a static view can be beneficial for understanding the overall structure and relationships between units. The developer may choose to add a additional unit-level static and dynamic view if they believe it helps to explain the source code better.
@@ -101,6 +105,22 @@ Design Principles of the Units
 ``````````````````````````````
 
 The unit design shall achieve quality attributes (like simplicity, modularity, and encapsulation) which shall be enforced through coding guidelines and static analysis tooling appropriate for the programming language in use (e.g. MISRA C for C/C++, Clippy lints for Rust) as specified in the project development plan to fulfill the guidelines :need:`ISO 26262-6 §8.4.5, Table 6 <std_req__iso26262__software_845>` and :need:`ASPICE SWE.3/SWE.4<std_req__aspice_40__SWE-3-BP3>` requirements.
+
+For safety-related (ASIL) units, the design and coding principles for software unit design and
+implementation of :need:`ISO 26262-6 §8.4.5, Table 6 <std_req__iso26262__software_845>` shall be
+applied, in particular:
+
+-  one entry and one exit point per function,
+-  initialization of variables before use,
+-  no (or justified) use of dynamic objects and dynamic memory allocation,
+-  limited use of pointers and no implicit type conversions,
+-  no hidden data flow or control flow,
+-  no unconditional jumps and no (or bounded) recursion.
+
+These principles are not enforced manually only: the project's coding guideline together with the
+static and dynamic code analysis defined in the project development plan (e.g. MISRA C for C/C++,
+Clippy lints for Rust) shall enforce them for ASIL units. For QM units the same activities apply,
+whereas the ISO 26262 specific principles above are binding only for safety-related units.
 
 The **source code** itself shall be self-documenting with meaningful naming and structure.
 **Code comments** may be used where the logic is not self-evident and to give an rationale.

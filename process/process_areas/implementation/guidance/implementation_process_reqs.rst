@@ -15,18 +15,39 @@
 Process Requirements
 ####################
 
+.. gd_req:: Design Decision Rationale
+   :id: gd_req__impl_design_decision
+   :status: valid
+   :version: 1
+   :tags: manual_prio_1, mandatory
+   :satisfies: wf__sw_detailed_design[version==1]
+   :complies: std_req__iso26262__software_842[version==1],
+              std_req__iso26262__support_6421[version==1],
+              std_req__iso26262__support_6425[version==1],
+              std_req__aspice_40__SWE-3-BP2[version==1]
+
+   The detailed design decisions shall be documented and justified, in particular those
+   that shape the decomposition of a component into its units. The rationale shall be
+   captured close to the design, i.e. in the source and header files (e.g. as
+   doxygen-style comments) and, where applicable, in the detailed design documentation.
+
 .. gd_req:: Static Diagram for Unit Interactions
    :id: gd_req__impl_static_diagram
    :status: valid
    :version: 1
-   :tags: manual_prio_1, mandatory
+   :tags: manual_prio_1, optional
    :satisfies: wf__sw_detailed_design[version==1]
    :complies: std_req__iso26262__software_843[version==1],
               std_req__iso26262__software_844[version==1],
               std_req__iso26262__software_845[version==1],
               std_req__aspice_40__SWE-3-BP1[version==1]
 
-   The static diagram shall represent the unit and their relationships using UML notations.
+   A static diagram is optional. The decomposition of a component into its units is
+   primarily represented by the directory and file structure (see
+   :need:`doc_concept__imp_concept`), so a static diagram is only added when it helps to
+   explain complex components or a large number of unit interactions.
+   If a static diagram is provided, it shall represent the units and their relationships
+   using UML notations, and it shall provide the attributes and linkages defined below.
 
 Diagram Attributes
 ------------------
