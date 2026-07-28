@@ -108,14 +108,7 @@ The unit design shall achieve quality attributes (like simplicity, modularity, a
 
 For safety-related (ASIL) units, the design and coding principles for software unit design and
 implementation of :need:`ISO 26262-6 §8.4.5, Table 6 <std_req__iso26262__software_845>` shall be
-applied, in particular:
-
--  one entry and one exit point per function,
--  initialization of variables before use,
--  no (or justified) use of dynamic objects and dynamic memory allocation,
--  limited use of pointers and no implicit type conversions,
--  no hidden data flow or control flow,
--  no unconditional jumps and no (or bounded) recursion.
+applied.
 
 These principles are not enforced manually only: the project's coding guideline together with the
 static and dynamic code analysis defined in the project development plan (e.g. MISRA C for C/C++,

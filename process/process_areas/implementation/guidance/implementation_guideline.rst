@@ -40,7 +40,7 @@ Detailed description which steps are need for implementation.
    smaller, independent units that can be tested separately during the unit testing phase.
    A detailed design shall exist for every unit. It is captured primarily in the source code
    itself (unit interfaces and contracts, e.g. public API headers, trait or function signatures,
-   and doxygen-style comments). A separate detailed design document following the template
+   and source code comments). A separate detailed design document following the template
    :need:`gd_temp__detailed_design` including static and dynamic views is **optional** and is
    only created where it helps to explain complex components or a large number of unit
    interactions (see :need:`doc_concept__imp_concept`). The detailed design shall be so exact,
