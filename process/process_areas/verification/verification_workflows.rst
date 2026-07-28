@@ -52,9 +52,10 @@ For a detailed explanation of workflows and their role within the process model,
 
    #. Check the detailed design of the component. Create a test for every interface of the unit
       showing at least every flow in dynamic diagrams.
-   #. Follow the detailed design to the component requirements and test these requirements.
+   #. Only in the exceptional case where a single unit fully realises a component requirement,
+      follow the detailed design to that component requirement and cover it with the unit test.
    #. Fill in the test attributes based on the previous steps and provide a description.
-   #. Link the test against detailed design or component requirement.
+   #. Link the test against the detailed design and, in the exceptional case above, the component requirement.
 
 .. workflow:: Create/Maintain Component Integration Test
    :id: wf__verification_comp_int_test
