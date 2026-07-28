@@ -18,7 +18,7 @@ Guideline
 .. gd_guidl:: Implementation Guideline
    :id: gd_guidl__implementation
    :status: valid
-   :version: 3
+   :version: 2
    :complies: std_req__iso26262__software_744[version==1],
               std_req__iso26262__software_841[version==1],
               std_req__iso26262__software_842[version==1],
