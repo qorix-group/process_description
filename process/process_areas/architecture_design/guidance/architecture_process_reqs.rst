@@ -173,6 +173,29 @@ Attributes of Architectural Elements
    * valid
    * invalid
 
+Diagram Linkage
+'''''''''''''''
+
+.. gd_req:: Diagram Linkage check Component ID
+   :id: gd_req__impl_diagram_check_id
+   :status: valid
+   :version: 1
+   :tags: prio_2_automation, attribute, automated
+   :complies: std_req__iso26262__support_6421[version==1], std_req__iso26262__support_6425[version==1]
+   :satisfies: wf__sw_detailed_design[version==1]
+
+   Each diagram shall be linked to the corresponding component id via the attribute belongs_to.
+
+.. gd_req:: Diagram Linkage Component ID
+   :id: gd_req__impl_diagram_linkage_id
+   :status: valid
+   :version: 1
+   :tags: prio_2_automation, attribute, automated
+   :complies: std_req__iso26262__support_6421[version==1], std_req__iso26262__support_6425[version==1]
+   :satisfies: wf__sw_detailed_design[version==1]
+
+   Each diagram shall be automatically linked (inverse direction) to the corresponding component id via the "belongs by" linkage.
+
 Traceability to Requirements and AoU
 ------------------------------------
 
@@ -227,7 +250,7 @@ Checks for Architectural Design
    :id: gd_req__arch_attr_mandatory
    :status: valid
    :version: 1
-   :tags: prio_1_automation, attribute, check
+   :tags: done_automation, attribute, check
    :satisfies: wf__cr_mt_featarch[version==1], wf__cr_mt_comparch[version==1]
 
    It shall be checked if all mandatory attributes for each architectural element are provided by the user. For all elements following attributes shall be mandatory:
@@ -262,7 +285,7 @@ Checks for Architectural Design
    :id: gd_req__arch_linkage_security_trace
    :status: valid
    :version: 1
-   :tags: prio_2_automation, attribute, check
+   :tags: done_automation, attribute, check
    :satisfies: wf__cr_mt_featarch[version==1], wf__cr_mt_comparch[version==1]
 
    It shall be checked that security relevant architectural elements (Security==YES) can only be linked against security relevant architectural elements.
@@ -271,7 +294,7 @@ Checks for Architectural Design
    :id: gd_req__arch_linkage_requirement
    :status: valid
    :version: 1
-   :tags: prio_1_automation, attribute, check
+   :tags: done_automation, attribute, check
    :satisfies: wf__cr_mt_featarch[version==1], wf__cr_mt_comparch[version==1]
 
    It shall be checked that each architectural element (safety!=QM) is linked against at least one safety requirement (safety!=QM).
@@ -325,6 +348,7 @@ Process Monitoring and Improvement
 .. gd_req:: Monitor architecture process performance
    :id: gd_req__arch_process_monitoring
    :status: valid
+   :version: 1
    :tags: manual_prio_2, process_monitoring
    :complies: std_req__aspice_40__gp-324, std_req__aspice_40__iic-03-06
    :satisfies: wf__cr_mt_featarch, wf__cr_mt_comparch

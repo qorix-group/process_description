@@ -30,7 +30,6 @@ Requirement Inspection Checklist
               std_req__aspice_40__SWE-1-BP3[version==1],
               std_req__aspice_40__SWE-1-BP4[version==1],
               std_req__aspice_40__SWE-1-BP6[version==1]
-   :tags: requirements_engineering
 
    For the content see here:
 
