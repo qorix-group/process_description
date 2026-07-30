@@ -326,7 +326,7 @@ Checks for Architectural Design
 .. gd_req:: Check of Architecture consistency interfaces in modules
    :id: gd_req__arch_consistency_interf
    :status: valid
-   :version: 1
+   :version: 2
    :tags: prio_2_automation, model, check
    :satisfies: wf__cr_mt_featarch[version==1], wf__cr_mt_comparch[version==1]
 
