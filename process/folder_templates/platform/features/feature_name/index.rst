@@ -60,7 +60,6 @@ Abstract
       :safety: ASIL_B
       :status: invalid
       :version: 1
-      :includes: logic_arc_int__feature_name__interface_name1
 
       General Feature Description
 
