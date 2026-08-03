@@ -80,7 +80,7 @@ Architectural Model
 .. gd_req:: Correlations of the architectural building blocks
    :id: gd_req__arch_build_blocks_corr
    :status: valid
-   :version: 1
+   :version: 2
    :tags: done_automation
    :complies: std_req__iso26262__support_6431[version==1], std_req__iso26262__support_6432[version==1]
    :satisfies: wf__cr_mt_featarch[version==1], wf__cr_mt_comparch[version==1]
@@ -326,11 +326,11 @@ Checks for Architectural Design
 .. gd_req:: Check of Architecture consistency interfaces in modules
    :id: gd_req__arch_consistency_interf
    :status: valid
-   :version: 1
+   :version: 2
    :tags: prio_2_automation, model, check
    :satisfies: wf__cr_mt_featarch[version==1], wf__cr_mt_comparch[version==1]
 
-   It shall be checked if any interface referred by the features (link from Feature to Logical Arc. Interfaces must be defined and exists) is matched by an "implements" link in the Module (from component to Logical Arc. Interface). Additionally it shall be checked if the feature architecture are linked against at least one logical architectural interface.
+   It shall be checked if any interface linked to the features (link from Logical Arc. Interface to Feature via the "included_by" link must be defined and exists) is matched by an "implements" link in the Module (from component to Logical Arc. Interface). Additionally it shall be checked if the feature architecture are linked against at least one logical architectural interface.
 
 .. gd_req:: Check of Architecture consistency in dynamic architecture
    :id: gd_req__arch_consistency_dynamic
