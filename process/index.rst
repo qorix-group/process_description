@@ -189,7 +189,7 @@ Support
       Qualify and manage tools used in the development process.
 
    .. grid-item-card::
-      :class-card: card-ml2
+      :class-card: card-ml3
 
       :ref:`Documentation Management <process_documentation_management>`
       ^^^
