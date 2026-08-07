@@ -86,7 +86,7 @@ Management
       Plan and oversee cybersecurity activities across the project lifecycle.
 
    .. grid-item-card::
-      :class-card: card-ml2
+      :class-card: card-ml3
 
       :ref:`Quality Management <quality_management>`
       ^^^
