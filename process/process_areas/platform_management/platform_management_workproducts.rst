@@ -23,7 +23,7 @@ Platform Management Work Products
    :complies:
 
    The Platform Management Plan shall include the plans as defined by the
-   :ref:`Platform Management Plan Template <platform_templates>`.
+   :ref:`Platform Management Plan Template <platform_management_templates>`.
 
    The main purpose of the plan documents is to define strategies, so that
 

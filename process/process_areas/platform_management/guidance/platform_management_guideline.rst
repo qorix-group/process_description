@@ -36,7 +36,7 @@ This document describes the general guidances for Platform Management based on t
 General Hints
 =============
 
-A template of the Platform Management Plan for <Project> is described in the :ref:`Platform Management Plan Template <platform_templates>`.
+A template of the Platform Management Plan for <Project> is described in the :ref:`Platform Management Plan Template <platform_management_templates>`.
 
 An iterative and incremental development model shall be used.
 
@@ -51,7 +51,7 @@ Templates
 ---------
 
 The content of the Platform Management Plan shall consider the
-:ref:`Platform Management Plan Template <platform_templates>`.
+:ref:`Platform Management Plan Template <platform_management_templates>`.
 
 Activities for Platform Management Plan
 =======================================
