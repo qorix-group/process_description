@@ -12,7 +12,7 @@
    # SPDX-License-Identifier: Apache-2.0
    # *******************************************************************************
 
-.. _platform_templates:
+.. _platform_management_templates:
 
 Platform Management Template
 ============================
