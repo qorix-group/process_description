@@ -19,6 +19,7 @@ Guideline
    :id: gd_guidl__implementation
    :status: valid
    :version: 2
+   :tags: implementation
    :complies: std_req__iso26262__software_744[version==1],
               std_req__iso26262__software_841[version==1],
               std_req__iso26262__software_842[version==1],
@@ -275,5 +276,3 @@ Example using PlantUML:
    UnitB --> UnitA : response()
    @enduml
 
-.. needextend:: "c.this_doc()"
-   :+tags: implementation

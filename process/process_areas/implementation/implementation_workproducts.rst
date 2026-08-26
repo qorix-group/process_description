@@ -19,7 +19,7 @@ Implementation Work Products
    :id: wp__sw_implementation
    :status: valid
    :version: 1
-   :tags: doc_lifecycle_model_3
+   :tags: implementation, doc_lifecycle_model_3
    :complies: std_wp__iso26262__software_851[version==1],
               std_wp__iso26262__software_852[version==1],
               std_wp__iso26262__software_app_c_53[version==1],
@@ -33,7 +33,7 @@ Implementation Work Products
    :id: wp__sw_implementation_inspection
    :status: valid
    :version: 1
-   :tags: doc_lifecycle_model_2
+   :tags: implementation, doc_lifecycle_model_2
    :complies: std_wp__iso26262__software_952[version==1]
 
    Github review with integrated inspection checklist, only valid Detailed Design and Code get merged.
@@ -42,7 +42,7 @@ Implementation Work Products
    :id: wp__sw_development_plan
    :status: valid
    :version: 1
-   :tags: doc_lifecycle_model_2
+   :tags: implementation, doc_lifecycle_model_2
    :complies: std_wp__iso26262__software_551[version==1], std_wp__iso26262__software_app_c_58[version==1], std_wp__isosae21434__development_1053[version==1]
 
    Process description of SW development including:
@@ -52,5 +52,3 @@ Implementation Work Products
    - SW configuration guideline
    - development tools
 
-.. needextend:: "c.this_doc()"
-   :+tags: implementation

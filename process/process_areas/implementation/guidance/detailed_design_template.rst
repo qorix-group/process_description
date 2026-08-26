@@ -20,6 +20,7 @@ Detailed Design Template
    :id: gd_temp__detailed_design
    :status: valid
    :version: 1
+   :tags: implementation
    :complies: std_req__iso26262__software_542[version==1],
               std_req__iso26262__support_641[version==1],
               std_req__iso26262__support_6421[version==1],
@@ -29,5 +30,3 @@ Detailed Design Template
 
    For the content see here: `Detailed Design Template <https://eclipse-score.github.io/module_template/main/components/component_example/detailed_design/index.html>`__
 
-.. needextend:: "c.this_doc()"
-   :+tags: implementation

@@ -62,5 +62,3 @@ The implementation concept intentionally stays at a high level. Practical guidan
 unit decomposition, source-code documentation, optional diagrams and naming consistency
 for traceability is defined in :need:`Implementation Guideline <gd_guidl__implementation>`.
 
-.. needextend:: "c.this_doc()"
-   :+tags: implementation
