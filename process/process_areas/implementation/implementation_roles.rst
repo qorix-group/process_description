@@ -26,5 +26,3 @@ A detailed overview of the responsibility for the steps of the requirement proce
 
 :ref:`workflow_implementation`
 
-.. needextend:: "c.this_doc()"
-   :+tags: implementation

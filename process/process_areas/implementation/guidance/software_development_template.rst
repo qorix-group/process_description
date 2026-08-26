@@ -19,6 +19,7 @@ Software Development Plan Template
    :id: gd_temp__software_development_plan
    :status: valid
    :version: 1
+   :tags: implementation
    :complies: std_req__iso26262__software_541[version==1], std_req__iso26262__software_543[version==1]
 
 Purpose
@@ -66,5 +67,3 @@ SW development tools
 
 Description of used SW development tools.
 
-.. needextend:: "c.this_doc()"
-   :+tags: implementation

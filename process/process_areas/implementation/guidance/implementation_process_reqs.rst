@@ -19,7 +19,7 @@ Process Requirements
    :id: gd_req__impl_design_decision
    :status: valid
    :version: 1
-   :tags: manual_prio_1, mandatory
+   :tags: implementation, manual_prio_1, mandatory
    :satisfies: wf__sw_detailed_design[version==1]
    :complies: std_req__iso26262__software_842[version==1],
               std_req__iso26262__support_6421[version==1],
@@ -38,7 +38,7 @@ Also diagrams are optional, but if they are created, they shall have the followi
    :id: gd_req__impl_static_diagram
    :status: valid
    :version: 1
-   :tags: manual_prio_1, optional
+   :tags: implementation, manual_prio_1, optional
    :satisfies: wf__sw_detailed_design[version==1]
    :complies: std_req__iso26262__software_843[version==1],
               std_req__iso26262__software_844[version==1],
@@ -59,7 +59,7 @@ Diagram Attributes
    :id: gd_req__impl_diagram_uid
    :status: valid
    :version: 1
-   :tags: manual_prio_1, attribute, mandatory
+   :tags: implementation, manual_prio_1, attribute, mandatory
    :satisfies: wf__sw_detailed_design[version==1]
    :complies: std_req__iso26262__software_843[version==1],
               std_req__iso26262__software_844[version==1],
@@ -78,7 +78,7 @@ Diagram Attributes
    :id: gd_req__impl_diagram_title
    :status: valid
    :version: 1
-   :tags: manual_prio_1 attribute, mandatory
+   :tags: implementation, manual_prio_1, attribute, mandatory
    :satisfies: wf__sw_detailed_design[version==1]
    :complies: std_req__iso26262__software_843[version==1],
               std_req__iso26262__software_844[version==1],
@@ -94,7 +94,7 @@ Diagram Attributes
    :id: gd_req__impl_diagram_description
    :status: valid
    :version: 1
-   :tags: manual_prio_1, attribute, mandatory
+   :tags: implementation, manual_prio_1, attribute, mandatory
    :complies: std_req__iso26262__support_6421[version==1], std_req__iso26262__support_6425[version==1]
    :satisfies: wf__sw_detailed_design[version==1]
 
@@ -108,7 +108,7 @@ Diagram Checks
    :id: gd_req__impl_diagram_consistency
    :status: valid
    :version: 2
-   :tags: prio_3_automation, attribute, check
+   :tags: implementation, prio_3_automation, attribute, check
    :complies: std_req__iso26262__support_6421[version==1], std_req__iso26262__support_6425[version==1]
    :satisfies: wf__sw_detailed_design[version==1]
 
@@ -125,7 +125,7 @@ Unit Attributes
    :id: gd_req__impl_unit_uid
    :status: valid
    :version: 1
-   :tags: manual_prio_1, attribute, mandatory
+   :tags: implementation, manual_prio_1, attribute, mandatory
    :satisfies: wf__sw_detailed_design[version==1]
    :complies: std_req__iso26262__software_843[version==1], std_req__aspice_40__SWE-3-BP1[version==1]
 
@@ -138,7 +138,7 @@ Unit Attributes
    :id: gd_req__impl_unit_description
    :status: valid
    :version: 1
-   :tags: manual_prio_1, attribute, mandatory
+   :tags: implementation, manual_prio_1, attribute, mandatory
    :complies: std_req__iso26262__support_6421[version==1], std_req__iso26262__support_6425[version==1]
    :satisfies: wf__sw_detailed_design[version==1]
 
@@ -151,7 +151,7 @@ Interface Attributes
    :id: gd_req__impl_interface_uid
    :status: valid
    :version: 1
-   :tags: manual_prio_1, attribute, mandatory
+   :tags: implementation, manual_prio_1, attribute, mandatory
    :satisfies: wf__sw_detailed_design[version==1]
    :complies: std_req__iso26262__software_843[version==1], std_req__aspice_40__SWE-3-BP1[version==1]
 
@@ -166,7 +166,7 @@ Interface Attributes
    :id: gd_req__impl_interface_description
    :status: valid
    :version: 1
-   :tags: manual_prio_1, attribute, mandatory
+   :tags: implementation, manual_prio_1, attribute, mandatory
    :complies: std_req__iso26262__support_6421[version==1], std_req__iso26262__support_6425[version==1]
    :satisfies: wf__sw_detailed_design[version==1]
 
@@ -179,23 +179,6 @@ Interface Attributes
    and any assumptions made in the design of the interface. The documentation should be
    maintained and updated as the implementation evolves to ensure it remains accurate and useful.
 
-Dependency Analysis
-'''''''''''''''''''
-
-.. gd_req:: Dependency Analysis
-   :id: gd_req__impl_dependency_analysis
-   :status: valid
-   :version: 1
-   :tags: prio_2_automation
-   :satisfies: wf__sw_verify_implementation[version==1]
-   :complies: std_req__iso26262__software_942[version==1]
-
-   For each component a dependency tree view shall be created to support design inspection and Safety Analysis.
-   It shall show the libraries used by the component (i.e. which libraries are linked to the component,
-   defined as CI build tool target) up to the leaves of the tree.
-
-.. needextend:: "c.this_doc()"
-   :+tags: implementation
 
 .. _impl_process_requirements_complexity:
 
@@ -206,7 +189,7 @@ Complexity Analyses
    :id: gd_req__impl_complexity_analysis
    :status: valid
    :version: 1
-   :tags: prio_3_automation, model, check
+   :tags: implementation, prio_3_automation, model, check
    :complies: std_req__iso26262__software_743[version==1], std_req__aspice_40__SWE-3-BP3[version==1]
 
    A complexity analysis for the components shall be performed by automated tool support. It shall consider appropriate code metrics like lines of code, cyclomatic complexity, number of public interfaces, number of parameters and so on. The results of the analysis shall be documented in the SW Verification Report. As default an exceeds of the following limits shall be reported for the complexity measures (ASIL B / QM):
