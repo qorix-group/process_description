@@ -290,6 +290,22 @@ Checks for Architectural Design
 
    It shall be checked that security relevant architectural elements (Security==YES) can only be linked against security relevant architectural elements.
 
+.. gd_req:: Check of Architecture linkage security requirement
+   :id: gd_req__arch_linkage_requirement_security
+   :status: valid
+   :version: 1
+   :tags: prio_2_automation, attribute, check
+   :satisfies: wf__cr_mt_featarch[version==1], wf__cr_mt_comparch[version==1]
+
+   It shall be checked that a security relevant requirement or AoU (Security == YES) is only
+   satisfied by security relevant architectural elements (Security == YES), in both link directions:
+
+   * requirement -> satisfied_by -> feature / component
+   * architectural view, interface or component -> fulfils -> requirement / AoU
+
+   Note: The reverse is allowed. A security relevant architectural element may also fulfil
+   requirements which are not security relevant.
+
 .. gd_req:: Check of Architecture linkage requirement
    :id: gd_req__arch_linkage_requirement
    :status: valid
@@ -340,7 +356,6 @@ Checks for Architectural Design
    :satisfies: wf__cr_mt_featarch[version==1], wf__cr_mt_comparch[version==1]
 
    It shall be checked if all SW components which are mentioned in the dynamic architecture views are defined in the static architecture.
-
 
 Process Monitoring and Improvement
 ----------------------------------
