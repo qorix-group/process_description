@@ -437,6 +437,20 @@ Process Requirements Checks
 
    Note: This ensures that safety requirements are properly derived into their children. Also a mix of safe and QM aspects in a parent is avoided by this.
 
+.. gd_req:: Requirements linkage security
+   :id: gd_req__req_linkage_security
+   :status: valid
+   :version: 1
+   :tags: prio_2_automation, check
+   :satisfies: wf__req_stkh_req[version==1], wf__req_feat_req[version==1], wf__req_comp_req[version==1]
+
+   It shall be checked that every security relevant requirement (Security == YES) which has child
+   requirements has at least one security relevant child requirement (Security == YES).
+
+   Note: Unlike :need:`gd_req__req_linkage_safety`, a child which is not security relevant may be
+   derived from a security relevant parent, because a parent is commonly refined into security and
+   non-security aspects. What the check prevents is the security aspect being lost in the refinement.
+
 .. gd_req:: Requirements validity
    :id: gd_req__req_validity
    :status: valid
