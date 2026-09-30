@@ -94,6 +94,10 @@ Guideline Quality Management Plan
    | * :need:`wp__verification_platform_int_test`
    | Verification planning is documented in :need:`wp__verification_plan`
    |
+   | **Quality relevant work products:**
+   | The Quality Management Plan (platform level only) lists per level (Platform, Feature, Module, Component) the work products needed for every development,
+   | independent of its safety or security classification. Safety and security specific work products are defined in the safety and security plans.
+   |
    | **Scheduling of audits, conformance checks, work product reviews, release verification and approval:**
    | Scheduling is done in the same way as for all work products definition by issues. The respective work products are listed in :need:`doc_concept__wp_inspections`.
    |

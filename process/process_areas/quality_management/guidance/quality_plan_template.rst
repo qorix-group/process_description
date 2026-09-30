@@ -132,9 +132,62 @@ Description of used Escalation path.
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 Description of Quality Management Specifics.
 
-4.4 Quality Management Generic workproducts
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-Description of used Generic Workproducts for Quality Management.
+4.4 Quality Relevant Work Products
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Description of the work products needed for every development, independent of its safety or security classification.
+Safety and security specific work products are defined in the safety and security plans.
+
+Platform Work Products
+""""""""""""""""""""""
+Needed once for the platform.
+
+.. list-table:: Quality relevant platform work products
+    :header-rows: 1
+
+    * - Workproduct Id
+      - Link to WP
+
+    * - <work product id>
+      - <link to the work product or to the folder containing it>
+
+Feature Work Products
+"""""""""""""""""""""
+Needed for each feature.
+
+.. list-table:: Quality relevant feature work products
+    :header-rows: 1
+
+    * - Workproduct Id
+      - Link to WP
+
+    * - <work product id>
+      - <link to the work product or to the folder containing it>
+
+Module Work Products
+""""""""""""""""""""
+Needed for each module.
+
+.. list-table:: Quality relevant module work products
+    :header-rows: 1
+
+    * - Workproduct Id
+      - Link to WP
+
+    * - <work product id>
+      - <link to the work product or to the folder containing it>
+
+Component Work Products
+"""""""""""""""""""""""
+Needed for each component of a module.
+
+.. list-table:: Quality relevant component work products
+    :header-rows: 1
+
+    * - Workproduct Id
+      - Link to WP
+
+    * - <work product id>
+      - <link to the work product or to the folder containing it>
 
 .. needextend:: "c.this_doc()"
    :+tags: quality_management
