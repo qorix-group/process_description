@@ -21,4 +21,5 @@ Guidance
    documentation_guideline
    documentation_checklist
    documentation_templates
+   documentation_plan_template
    documentation_process_reqs

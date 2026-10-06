@@ -27,6 +27,7 @@ Guideline
               std_req__iso26262__support_1046[version==1]
 
 The planning for the documents is part of the :need:`wp__document_mgt_plan` within the Platform Management Plan.
+For its creation the template :need:`gd_temp__document_mgt_plan` shall be used.
 This plan includes the configuration item list containing all work products created in the project
 as well as additional artifacts as defined in :need:`doc_concept__configuration_process`.
 

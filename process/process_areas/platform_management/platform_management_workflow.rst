@@ -39,7 +39,8 @@ For a detailed explanation of workflows and their role within the process model,
               gd_guidl__platform_mgmt_plan[version==1],
               gd_guidl__documentation[version==1],
               gd_chklst__documentation_review[version==1],
-              gd_temp__documentation[version==1]
+              gd_temp__documentation[version==1],
+              gd_temp__document_mgt_plan[version==1]
    :has: doc_concept__platform_process[version==1], doc_getstrt__platform_process[version==1]
 
    The Platform Management Plan shall include the plans as defined by the
@@ -64,7 +65,8 @@ For a detailed explanation of workflows and their role within the process model,
    :contains: gd_temp__platform_mgmt_plan[version==1],
               gd_guidl__platform_mgmt_plan[version==1],
               gd_guidl__documentation[version==1],
-              gd_chklst__documentation_review[version==1]
+              gd_chklst__documentation_review[version==1],
+              gd_temp__document_mgt_plan[version==1]
    :has: doc_concept__platform_process[version==1], doc_getstrt__platform_process[version==1]
 
    The :need:`Project Lead <rl__project_lead>` is responsible for the monitoring and reporting
