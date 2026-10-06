@@ -46,7 +46,7 @@ Architectural Model
 .. gd_req:: Structuring of the architectural elements
    :id: gd_req__arch_build_blocks
    :status: valid
-   :version: 1
+   :version: 2
    :tags: done_automation
    :complies: std_req__iso26262__support_6431[version==1],
               std_req__iso26262__support_6432[version==1],
@@ -71,11 +71,6 @@ Architectural Model
      * Component (comp_arc_dyn)
      * Interface (real_arc_int)
      * Interface Operation (real_arc_int_op)
-
-   * Module
-
-     * SW Module (mod)
-
 
 .. gd_req:: Correlations of the architectural building blocks
    :id: gd_req__arch_build_blocks_corr
