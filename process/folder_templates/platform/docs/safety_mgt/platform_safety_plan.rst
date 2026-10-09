@@ -33,8 +33,10 @@ Platform Safety Planning
     - Adjust ``safety``, ``security`` and ``tags`` according to your needs
 
 
-:note: The platform safety plan shall be continuously maintained during the project.
-       Deviations to the platform safety plan should be documented :ref:`here <platform_safety_package_deviations>`
+.. note::
+
+  The platform safety plan shall be continuously maintained during the project.
+  Deviations to the platform safety plan should be documented :ref:`here <platform_safety_package_deviations>`
 
 
 Safety management / Platform Safety Plan

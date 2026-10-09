@@ -33,7 +33,9 @@ Platform Security Planning
     - Adjust ``safety``, ``security`` and ``tags`` according to your needs
 
 
-:note: The Security Management Plan shall be continuously maintained during the project. Deviations to the Platform Plan should be documented here.
+.. note::
+
+  The Security Management Plan shall be continuously maintained during the project. Deviations to the Platform Plan should be documented here.
 
 
 Security Management / Platform Security Plan

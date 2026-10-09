@@ -27,9 +27,11 @@ Template Documentation Management Plan
               std_req__iso26262__support_1044[version==1],
               std_req__iso26262__support_1046[version==1]
 
-:note: The documentation management plan is part of the Platform Management Plan and shall be
-       continuously maintained during the project.
-       For the document header use :need:`gd_temp__documentation`.
+.. note::
+
+  The documentation management plan is part of the Platform Management Plan and shall be
+  continuously maintained during the project.
+  For the document header use :need:`gd_temp__documentation`.
 
 Purpose
 -------
