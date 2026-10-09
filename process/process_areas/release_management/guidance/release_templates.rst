@@ -54,6 +54,17 @@ Templates
    For the content see here: `Module Release Note Template <https://eclipse-score.github.io/module_template/main/module/release/release_note.html>`__
 
 
+.. gd_temp:: Module User Manual Template
+   :id: gd_temp__rel_mod_user_manual
+   :status: valid
+   :version: 1
+   :complies: std_req__iso26262__support_12421[version==1],
+              std_req__aspice_40__SPL-2-BP2[version==1],
+              std_req__aspice_40__iic-11-04[version==1]
+
+   For the content see here: `Module User Manual Template <https://eclipse-score.github.io/module_template/main/module/manuals/user_manual.html>`__
+
+
 .. gd_temp:: Release Issue Template
    :id: gd_temp__rel_issue
    :status: valid

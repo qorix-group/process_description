@@ -132,7 +132,7 @@ Safety Management Work Products
    * the safety concept of the SEooC (i.e. which faults are taken care of);
    * the Assumptions of Use (of the module's components and of the associated feature);
    * a link to the platform safety manual (containing the general AoUs every user has to obey additionally);
-   * a link to the (module) user manual;
+   * a link to the module user manual (:need:`wp__module_user_manual`);
    * the reactions of the implemented functions under anomalous operating conditions; and
    * a description of known anomalies with corresponding workaround measures.
 

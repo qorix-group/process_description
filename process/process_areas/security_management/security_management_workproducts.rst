@@ -133,7 +133,7 @@ Security Management Work Products
    * the assumed platform requirements (security related, including for post-development);
    * the security concept of the OoC (i.e. which attack paths are taken care of);
    * the assumptions of use (of the module's components);
-   * a link to the user manual;
+   * a link to the module user manual (:need:`wp__module_user_manual`);
    * the reactions of the implemented functions under threatened operating conditions; and
    * a description of known vulnerabilities with corresponding workaround measures.
 
