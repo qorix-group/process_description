@@ -182,7 +182,9 @@ DFA failure initiators
 | Development failure initiators
 | Section is **only applicable if a divers SW development is needed** due to decomposition.
 
-:note: Section shall be applied only once to analyse all dependencies of the features. Results shall be checked during of the analysis of new features if this is applicable to the feature.
+.. note::
+
+  Section shall be applied only once to analyse all dependencies of the features. Results shall be checked during of the analysis of new features if this is applicable to the feature.
 
 .. list-table:: DFA development failure initiators (Platform DFA)
   :header-rows: 1

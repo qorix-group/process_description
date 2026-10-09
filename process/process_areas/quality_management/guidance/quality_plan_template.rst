@@ -36,8 +36,10 @@ Template Quality Plan
               std_req__aspice_40__PIM-3-BP7[version==1],
               std_req__iso26262__management_5451[version==1]
 
-:note: The quality management plan shall be continuously maintained during the project.
-       Deviations to the platform plan should be documented here.
+.. note::
+
+  The quality management plan shall be continuously maintained during the project.
+  Deviations to the platform plan should be documented here.
 
 Purpose
 -------
