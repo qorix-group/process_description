@@ -74,12 +74,12 @@ Roles
 
    Required skills, Knowledge of security standards (ISO 21434), Experience
 
-   * External Auditor comes from organization specialized in secrity audits and assessment, thus sufficient skill should be guaranteed by the sending organization.
+   * External Auditor comes from organization specialized in security audits and assessment, thus sufficient skill should be guaranteed by the sending organization.
    * For performing the formal document reviews also a Security Manager from another Eclipse Safety project can play the role of an external auditor, in this case the same skills apply as for the Security Manager.
 
    Responsibility
 
-   * Performing and reporting of secrity audit
+   * Performing and reporting of security audit
 
    Authority
 

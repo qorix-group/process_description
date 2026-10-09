@@ -181,7 +181,7 @@ Following attributes need to be filled manually for each requirement:
    * - Description
      - In this attribute the content for the requirement will be specified. Please be aware that a note in a requirement is not part of the requirement itself. This means that notes should only be used to give additional explanation or context to the requirement.
    * - Version
-     - Version of the requirement adapted with each significat change, see :ref:`significant_requirement_changes`.
+     - Version of the requirement adapted with each significant change, see :ref:`significant_requirement_changes`.
    * - Rationale / Linkage
      - In either of those attributes the reasoning for the requirement is included.
        For *Stakeholder Requirements* a rationale which provides some more background infos shall be provided.

@@ -96,7 +96,7 @@ The stakeholders/stakeholder groups and organisation are defined. These may incl
 * Information needs of each stakeholder (group)
 * Required competences, skills, knowledge
 
-Communication and reporting pathes are described. These may include:
+Communication and reporting paths are described. These may include:
 
 * E-mails
 * Collaboration tools, like Slack, Teams, etc.
@@ -104,13 +104,13 @@ Communication and reporting pathes are described. These may include:
 * Blog
 * Webpages
 
-Escalation pathes are described. These may include:
+Escalation paths are described. These may include:
 
 * Defined mechanisms to report and confirm escalation relevant issues
 * Identifies stakeholders to be included in the escalation path
 * Identifies levels of escalation
 
-Training pathes are described. These may include:
+Training paths are described. These may include:
 
 * Tutorials
 * Training materials

@@ -139,7 +139,7 @@ Branches are used as a means of parallel development. In the <project name> proj
 The "remote" branch is not "local" to the developer but resides on the "remote" version management server.
 
 In <project name> project all configuration items are kept in the version management tool, this means that there only needs to be one baseline for these
-(and not multiple ones for each of the work products which are maintained in seperate tools).
+(and not multiple ones for each of the work products which are maintained in separate tools).
 <Describe how baselines are created by using the version management tool.>
 See also <link to doc__platform_release_management_plan>.
 
@@ -160,7 +160,7 @@ Status and Reporting
 
 This should cover :need:`std_req__aspice_40__SUP-8-BP6` and :need:`std_req__aspice_40__SUP-8-BP7`
 
-Every work product defined in our proceses has a "status" attribute. These are used to communicate to all the stakeholders.
+Every work product defined in our processes has a "status" attribute. These are used to communicate to all the stakeholders.
 The main communication means is a document list containing all documents and workproducts including their status.
 This list is typically part of the Documentation Management Plan <link doc__documentation_mgt_plan> as part of the Platform Management Plan,
 as defined in :need:`gd_guidl__documentation`.

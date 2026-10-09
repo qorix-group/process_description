@@ -123,7 +123,7 @@ After all requested reviewers are done, the author answers the findings and/or p
 4. Inspection approval
 
 The reviewer(s) re-review and adapt their verdict accordingly (to "Approve").
-In case the author or the reviewer(s) cannot agree on a solution, the safety/security/quality manger
+In case the author or the reviewer(s) cannot agree on a solution, the safety/security/quality manager
 who initiated the inspection will be asked to moderate this.
 After all the required reviewers approved including the CODEOWNER of the work product, the PR is merged.
 
@@ -159,7 +159,7 @@ Inspection Know-How
 ^^^^^^^^^^^^^^^^^^^
 
 For work products with ASIL rating the safety manager shall initiate the inspections,
-for those which are QM but are security related the security manger may request this,
+for those which are QM but are security related the security manager may request this,
 but also the quality manager may ask for inspection for critical QM work products.
 
 Judging if the maturity of a work product is already enough to request an inspection
