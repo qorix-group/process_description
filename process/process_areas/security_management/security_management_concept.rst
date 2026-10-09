@@ -30,7 +30,7 @@ Key concept
 ***********
 The Security Management Plan establishes a comprehensive strategy for managing all identified security activities throughout the entire project life cycle.
 It ensures that these activities are executed in a systematic, effective, and repeatable manner, providing clear guidance on responsibilities, processes, and control measures.
-This approach supports risk mitigation, regulatory compliance, and continuous improvement, enabling the project team to maintain secrity standards consistently from initiation to completion.
+This approach supports risk mitigation, regulatory compliance, and continuous improvement, enabling the project team to maintain security standards consistently from initiation to completion.
 
 Inputs
 ******

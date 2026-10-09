@@ -45,7 +45,7 @@ Participants
    * moderator: <committer explicitly named here, who is is the safety manager, security manager or quality manager initiating the inspection>
 
 
-.. list-table:: [Feature Name] Requirements Inspection Particpants
+.. list-table:: [Feature Name] Requirements Inspection Participants
     :header-rows: 1
 
     * - Author(s)

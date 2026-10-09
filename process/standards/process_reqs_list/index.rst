@@ -20,7 +20,7 @@ Process Requirements List
 Automation Status via Process Requirement Table
 ***********************************************
 
-All process requirements should be labelled with the priorization of automation implementation:
+All process requirements should be labelled with the prioritization of automation implementation:
 
 - A label "manual" means nothing to do, because it must be fulfilled manually (e.g. by filling attributes). It can be added a prio (to denote that this req is a must for v0.5 add "prio_1")
 - A label "done_automation" means nothing to do, because it already works. Note that in docs-as-code repository there are tool requirements linking to the process requirements with an "Implemented" attribute.

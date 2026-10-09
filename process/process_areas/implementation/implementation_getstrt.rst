@@ -44,7 +44,7 @@ Relevant Documents
 
 Concept Document: :need:`doc_concept__imp_concept` provides a high-level overview of the integration concept.
 
-Implementation Guideline: :need:`gd_guidl__implementation` Details on the implemenation.
+Implementation Guideline: :need:`gd_guidl__implementation` Details on the implementation.
 
 SW Development Plan: :need:`gd_temp__software_development_plan` Process description of SW development including
 

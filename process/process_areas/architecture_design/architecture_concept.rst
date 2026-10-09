@@ -383,7 +383,7 @@ If an element/view is linked to a "parent" also the version of the parent shall 
 
 As this check is included in the docs build as a warning it can be guaranteed that a change of a parent can only be merged if the derived child are also updated accordingly.
 
-All links to and from architecture elements/views as depicted in :ref:`Building Blocks Overwiew <general_concepts_building_blocks>` shall use versioing.
+All links to and from architecture elements/views as depicted in :ref:`Building Blocks Overview <general_concepts_building_blocks>` shall use versioning.
 
 .. _reviews of the architecture:
 

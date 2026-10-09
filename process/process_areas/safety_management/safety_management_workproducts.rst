@@ -130,7 +130,7 @@ Safety Management Work Products
 
    * The Assumed Platform Requirements (Safety related);
    * the safety concept of the SEooC (i.e. which faults are taken care of);
-   * the Assumptions of Use (of the modules's components and of the associated feature);
+   * the Assumptions of Use (of the module's components and of the associated feature);
    * a link to the platform safety manual (containing the general AoUs every user has to obey additionally);
    * a link to the (module) user manual;
    * the reactions of the implemented functions under anomalous operating conditions; and
