@@ -44,6 +44,7 @@ The following workflows are executed:
 * Create a release plan for the module according to :need:`wf__rel_mod_rel_plan`
 * According to the planning create release notes for modules :need:`wf__rel_mod_rel_note` and platform :need:`wf__rel_platform_rel_note`
 * According to the planning create the platform handbook :need:`wf__rel_platform_handbook`
+* According to the planning create the module user manual :need:`wf__rel_mod_user_manual`
 
 In addition create a release management plan as part of the platform management plan according to :need:`wf__platform_cr_mt_platform_mgmt_plan`.
 

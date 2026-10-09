@@ -75,6 +75,26 @@ Release Management Work Products
    development and release of new features, ensuring that all stakeholders are aligned on the
    module's future direction.
 
+.. workproduct:: Module User Manual
+   :id: wp__module_user_manual
+   :tags: doc_lifecycle_model_2
+   :status: valid
+   :version: 1
+   :complies: std_wp__iso26262__support_1251[version==1], std_req__aspice_40__iic-11-04[version==1]
+
+   The module user manual describes for the users of the module how to integrate, configure and use
+   the released software module. It is the customer documentation of the module release package and
+   is referenced by the module safety manual and the module security manual.
+
+   It contains:
+
+   - the needed environment (languages, toolchains, build system, target platforms) and the dependencies;
+   - the description of the configuration of the module and its effects;
+   - the instructions for a correct integration, including the configuration parameters of the
+     development tools required to integrate and use the module;
+   - the usage of the module (application manual), including examples;
+   - a reference to the interface documentation of the module.
+
 .. workproduct:: Platform Handbook
    :id: wp__platform_handbook
    :tags: doc_lifecycle_model_2

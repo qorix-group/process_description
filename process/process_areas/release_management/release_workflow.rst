@@ -89,6 +89,21 @@ For a detailed explanation of workflows and their role within the process model,
    It may be updated later in case of bugs found after the release is published.
 
 
+.. workflow:: Create/Maintain Module User Manual
+   :id: wf__rel_mod_user_manual
+   :status: valid
+   :version: 1
+   :responsible: rl__committer[version==1]
+   :approved_by: rl__project_lead[version==1]
+   :input: wp__module_sw_release_plan[version==1], wp__module_safety_manual[version==1], wp__module_security_manual[version==1]
+   :output: wp__module_user_manual[version==1]
+   :contains: gd_temp__rel_mod_user_manual[version==1], gd_guidl__rel_management[version==1]
+   :has: doc_concept__rel_process[version==1], doc_getstrt__release_process[version==1]
+
+   The module user manual is created and maintained by the committer acting as the module lead
+   for each release of the module.
+
+
 .. workflow:: Verify/Approve Module Release
    :id: wf__vy_ap_modrelease
    :status: valid
