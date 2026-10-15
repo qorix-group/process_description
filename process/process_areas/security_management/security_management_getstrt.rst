@@ -15,7 +15,7 @@
 Getting Started
 ###############
 
-.. doc_getstrt:: Getting Started on Change Management
+.. doc_getstrt:: Getting Started on Security Management
    :id: doc_getstrt__security_management_process
    :status: valid
    :version: 1
@@ -28,19 +28,22 @@ All other sub processes are linked here and in sub chapters.
 General Workflow
 ****************
 One goal of the security management process is to ensure that the project is following the defined processes and that the evidence of security can be shown according to the requirements.
-The Security Management process follows an continuous approach.
+The Security Management process follows a continuous approach.
 All these workflows are defined in the :ref:`workflow_security_management` section.
 
 The following workflows shall be executed continuously:
+
 * Create/Maintain Security Plan
 * Create/Maintain Security Package
 * Create/Maintain Security Manual
 * Create/Maintain SBOM
 * Monitor/Verify Security
+* Consult and Execute Security Trainings
 
 Additional to the continuous workflows the following workflows shall be executed according to the project needs:
+
 * Perform Security Audit (to be discussed, currently not in scope)
-* Perform Formal Reviews
+* Perform Formal Security Reviews
 
 Some of the workproducts are currently either tailored out or not in scope of this project (due to Out-of-Context development).
 Refer :need:`wp__tailoring_work_products` section for the details about tailoring.
