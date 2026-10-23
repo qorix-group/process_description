@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 
 
@@ -27,8 +26,8 @@
   </noscript>
   
   <!-- Loaded before other Sphinx assets -->
-  <link href="../../_static/styles/theme.css?digest=cb8930eaaf36d9849b67" rel="stylesheet" />
-<link href="../../_static/styles/pydata-sphinx-theme.css?digest=cb8930eaaf36d9849b67" rel="stylesheet" />
+  <link href="../../_static/styles/theme.css?digest=18bd87630a240e9c25be" rel="stylesheet" />
+<link href="../../_static/styles/pydata-sphinx-theme.css?digest=18bd87630a240e9c25be" rel="stylesheet" />
 
     <link rel="stylesheet" type="text/css" href="../../_static/pygments.css?v=8f2a1f02" />
     <link rel="stylesheet" type="text/css" href="../../_static/graphviz.css?v=4ae1632d" />
@@ -47,10 +46,10 @@
     <link rel="stylesheet" type="text/css" href="../../_static/custom.css?v=c6286864" />
   
   <!-- So that users can add custom icons -->
-  <script defer src="../../_static/scripts/fontawesome.js?digest=cb8930eaaf36d9849b67"></script>
+  <script defer src="../../_static/scripts/fontawesome.js?digest=18bd87630a240e9c25be"></script>
   <!-- Pre-loaded scripts that we'll load fully later -->
-  <link rel="preload" as="script" href="../../_static/scripts/bootstrap.js?digest=cb8930eaaf36d9849b67" />
-<link rel="preload" as="script" href="../../_static/scripts/pydata-sphinx-theme.js?digest=cb8930eaaf36d9849b67" />
+  <link rel="preload" as="script" href="../../_static/scripts/bootstrap.js?digest=18bd87630a240e9c25be" />
+<link rel="preload" as="script" href="../../_static/scripts/pydata-sphinx-theme.js?digest=18bd87630a240e9c25be" />
 
     <script src="../../_static/jquery.js?v=5d32c60e"></script>
     <script src="../../_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
@@ -65,7 +64,7 @@
     <script src="../../_static/sphinx-needs/libs/html/sphinx_needs_collapse.js?v=dca66431"></script>
     <script>DOCUMENTATION_OPTIONS.pagename = 'standards/isosae21434/isosae21434';</script>
     <script>
-        DOCUMENTATION_OPTIONS.theme_version = '0.21.0';
+        DOCUMENTATION_OPTIONS.theme_version = '0.23.0';
         DOCUMENTATION_OPTIONS.theme_switcher_json_url = 'https://qorix-group.github.io/process_description/versions.json';
         DOCUMENTATION_OPTIONS.theme_switcher_version_match = '';
         DOCUMENTATION_OPTIONS.show_version_warning_banner =
@@ -77,6 +76,7 @@
     <link rel="next" title="Process Requirements List" href="../process_reqs_list/index.html" />
     <link rel="prev" title="19-xx" href="../aspice_40/iic/iic-19.html" />
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <meta name="color-scheme" content="light dark"/>
   <meta name="docsearch:language" content="en"/>
   <meta name="docsearch:version" content="0.1" />
   
@@ -126,7 +126,7 @@
   
     <header id="pst-header" class="bd-header navbar navbar-expand-lg bd-navbar d-print-none">
 <div class="bd-header__inner bd-page-width">
-  <button class="pst-navbar-icon sidebar-toggle primary-toggle" aria-label="Site navigation">
+  <button type="button" class="pst-navbar-icon sidebar-toggle primary-toggle" aria-label="Site navigation">
     <span class="fa-solid fa-bars"></span>
   </button>
   
@@ -250,6 +250,13 @@
   </a>
 </li>
 
+
+<li class=" ">
+  <a class="nav-link dropdown-item nav-internal" href="../../process_extensions/index.html">
+    AI-Supported Process Execution
+  </a>
+</li>
+
                 </ul>
             </li>
             
@@ -264,7 +271,7 @@
         <div class="navbar-item navbar-persistent--container">
           
 
-<button class="btn search-button-field search-button__button pst-js-only" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
+<button type="button" class="btn search-button-field search-button__button pst-js-only" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
  <i class="fa-solid fa-magnifying-glass"></i>
  <span class="search-button__default-text">Search</span>
  <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd class="kbd-shortcut__modifier">K</kbd></span>
@@ -275,15 +282,15 @@
         <div class="navbar-item">
 
 <div class="theme-switch-container dropdown pst-js-only" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Color mode">
-  <button class="btn btn-sm nav-link pst-navbar-icon theme-switch-button dropdown-toggle" aria-label="Color mode" data-bs-toggle="dropdown">
+  <button type="button" class="btn btn-sm nav-link pst-navbar-icon theme-switch-button dropdown-toggle" aria-label="Color mode" data-bs-toggle="dropdown">
     <i class="theme-switch fa-solid fa-sun fa-lg fa-fw" data-mode="light" title="Light"></i>
     <i class="theme-switch fa-solid fa-moon fa-lg fa-fw" data-mode="dark" title="Dark"></i>
     <i class="theme-switch fa-solid fa-circle-half-stroke fa-lg fa-fw" data-mode="auto" title="System Settings"></i>
   </button>
   <ul class="dropdown-menu dropdown-menu-end">
-    <li><button class="dropdown-item d-flex align-items-center theme-change-button" data-mode="auto"><i class="fa-solid fa-circle-half-stroke fa-lg fa-fw me-1"></i>System Settings</button></li>
-    <li><button class="dropdown-item d-flex align-items-center theme-change-button" data-mode="light"><i class="fa-solid fa-sun fa-lg fa-fw me-1"></i>Light</button></li>
-    <li><button class="dropdown-item d-flex align-items-center theme-change-button" data-mode="dark"><i class="fa-solid fa-moon fa-lg fa-fw me-1"></i>Dark</button></li>
+    <li><button type="button" class="dropdown-item d-flex align-items-center theme-change-button" data-mode="auto"><i class="fa-solid fa-circle-half-stroke fa-lg fa-fw me-1"></i>System Settings</button></li>
+    <li><button type="button" class="dropdown-item d-flex align-items-center theme-change-button" data-mode="light"><i class="fa-solid fa-sun fa-lg fa-fw me-1"></i>Light</button></li>
+    <li><button type="button" class="dropdown-item d-flex align-items-center theme-change-button" data-mode="dark"><i class="fa-solid fa-moon fa-lg fa-fw me-1"></i>Dark</button></li>
   </ul>
 </div></div>
       
@@ -329,7 +336,7 @@
   
     <div class="navbar-persistent--mobile">
 
-<button class="btn search-button-field search-button__button pst-js-only" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
+<button type="button" class="btn search-button-field search-button__button pst-js-only" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
  <i class="fa-solid fa-magnifying-glass"></i>
  <span class="search-button__default-text">Search</span>
  <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd class="kbd-shortcut__modifier">K</kbd></span>
@@ -338,7 +345,7 @@
   
 
   
-    <button class="pst-navbar-icon sidebar-toggle secondary-toggle" aria-label="On this page">
+    <button type="button" class="pst-navbar-icon sidebar-toggle secondary-toggle" aria-label="On this page">
       <span class="fa-solid fa-outdent"></span>
     </button>
   
@@ -451,6 +458,13 @@
   </a>
 </li>
 
+
+<li class="nav-item ">
+  <a class="nav-link nav-internal" href="../../process_extensions/index.html">
+    AI-Supported Process Execution
+  </a>
+</li>
+
   </ul>
 </nav></div>
           
@@ -464,15 +478,15 @@
           <div class="navbar-item">
 
 <div class="theme-switch-container dropdown pst-js-only" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Color mode">
-  <button class="btn btn-sm nav-link pst-navbar-icon theme-switch-button dropdown-toggle" aria-label="Color mode" data-bs-toggle="dropdown">
+  <button type="button" class="btn btn-sm nav-link pst-navbar-icon theme-switch-button dropdown-toggle" aria-label="Color mode" data-bs-toggle="dropdown">
     <i class="theme-switch fa-solid fa-sun fa-lg fa-fw" data-mode="light" title="Light"></i>
     <i class="theme-switch fa-solid fa-moon fa-lg fa-fw" data-mode="dark" title="Dark"></i>
     <i class="theme-switch fa-solid fa-circle-half-stroke fa-lg fa-fw" data-mode="auto" title="System Settings"></i>
   </button>
   <ul class="dropdown-menu dropdown-menu-end">
-    <li><button class="dropdown-item d-flex align-items-center theme-change-button" data-mode="auto"><i class="fa-solid fa-circle-half-stroke fa-lg fa-fw me-1"></i>System Settings</button></li>
-    <li><button class="dropdown-item d-flex align-items-center theme-change-button" data-mode="light"><i class="fa-solid fa-sun fa-lg fa-fw me-1"></i>Light</button></li>
-    <li><button class="dropdown-item d-flex align-items-center theme-change-button" data-mode="dark"><i class="fa-solid fa-moon fa-lg fa-fw me-1"></i>Dark</button></li>
+    <li><button type="button" class="dropdown-item d-flex align-items-center theme-change-button" data-mode="auto"><i class="fa-solid fa-circle-half-stroke fa-lg fa-fw me-1"></i>System Settings</button></li>
+    <li><button type="button" class="dropdown-item d-flex align-items-center theme-change-button" data-mode="light"><i class="fa-solid fa-sun fa-lg fa-fw me-1"></i>Light</button></li>
+    <li><button type="button" class="dropdown-item d-flex align-items-center theme-change-button" data-mode="dark"><i class="fa-solid fa-moon fa-lg fa-fw me-1"></i>Dark</button></li>
   </ul>
 </div></div>
         
@@ -516,7 +530,7 @@
   </div>
   
     <div class="sidebar-primary-items__start sidebar-primary__section">
-        <div class="sidebar-primary-item pst-sidebar-collapse"><button id="pst-collapse-sidebar-button" aria-expanded="true" aria-controls="pst-primary-sidebar">
+        <div class="sidebar-primary-item pst-sidebar-collapse"><button type="button" id="pst-collapse-sidebar-button" aria-expanded="true" aria-controls="pst-primary-sidebar">
   <svg class="pst-icon" role="img" aria-hidden="true" focusable="false" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
     <path fill="currentColor" d="M3 15.5C2.36232 15.5 1.74874 15.2564 1.28478 14.8189C0.820828 14.3815 0.541576 13.7832 0.504167 13.1467L0.5 13L0.5 3C0.499965 2.36232 0.743605 1.74874 1.18107 1.28478C1.61854 0.820828 2.21676 0.541576 2.85333 0.504167L3 0.5L13 0.5C13.6377 0.499965 14.2513 0.743605 14.7152 1.18107C15.1792 1.61854 15.4584 2.21676 15.4958 2.85333L15.5 3L15.5 13C15.5 13.6377 15.2564 14.2513 14.8189 14.7152C14.3815 15.1792 13.7832 15.4584 13.1467 15.4958L13 15.5L3 15.5ZM3 13.8333L10.5 13.8333L10.5 2.16667L3 2.16667C2.79589 2.16669 2.59889 2.24163 2.44636 2.37726C2.29383 2.5129 2.19638 2.69979 2.1725 2.9025L2.16667 3L2.16667 13C2.16669 13.2041 2.24163 13.4011 2.37726 13.5536C2.5129 13.7062 2.69979 13.8036 2.9025 13.8275L3 13.8333ZM6.65583 10.325L6.5775 10.2558L4.91083 8.58917C4.76735 8.44567 4.68116 8.25476 4.66843 8.05223C4.65569 7.84971 4.71729 7.6495 4.84167 7.48917L4.91083 7.41083L6.5775 5.74417C6.72747 5.59471 6.9287 5.50794 7.14032 5.50148C7.35194 5.49502 7.55809 5.56935 7.7169 5.70937C7.8757 5.8494 7.97525 6.04463 7.99533 6.25539C8.01541 6.46616 7.95451 6.67667 7.825 6.84417L7.75583 6.9225L6.67917 8L7.75583 9.0775C7.89931 9.22099 7.98551 9.41191 7.99824 9.61443C8.01097 9.81695 7.94938 10.0172 7.825 10.1775L7.75583 10.2558C7.61234 10.3993 7.42142 10.4855 7.2189 10.4982C7.01638 10.511 6.81617 10.4494 6.65583 10.325Z"/>
   </svg>
@@ -533,7 +547,7 @@
 <li class="toctree-l1"><a class="reference internal" href="../iso26262/iso26262.html">ISO 26262</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../isopas8926/isopas8926.html">ISO PAS 8926</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../aspice_40/aspice.html">ASPICE 4.0</a></li>
-<li class="toctree-l1 current active"><a class="current reference internal" href="#">ISO/SAE 21434:2021(E)</a></li>
+<li class="toctree-l1 current active"><a aria-current="page" class="current reference internal" href="#">ISO/SAE 21434:2021(E)</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../process_reqs_list/index.html">Process Requirements List</a></li>
 </ul>
 </div>
@@ -614,7 +628,7 @@ defined as references below, if those are relevant for the project.</p>
 <h2>Clause 5: Organizational cybersecurity management<a class="headerlink" href="#clause-5-organizational-cybersecurity-management" title="Link to this heading">#</a></h2>
 <ul>
 <li><dl>
-<dt>Requirements</dt><dd><div class="need_container docutils container" id="SNCB-a9ff40bc">
+<dt>Requirements</dt><dd><div class="need_container docutils container" id="SNCB-70f678b9">
 <div class="pst-scrollable-table-container"><table class="need needs_grid_complex needs_layout_score needs_style_none needs_type_std_req table" id="std_req__isosae21434__org_management_5421">
 <tbody>
 <tr class="head row-odd"><td class="head_left" colspan="2"><div class="needs_head_left line-block">
@@ -657,7 +671,7 @@ defined as references below, if those are relevant for the project.</p>
 </table>
 </div>
 </div>
-<div class="need_container docutils container" id="SNCB-98c9e0aa">
+<div class="need_container docutils container" id="SNCB-47dad46f">
 <div class="pst-scrollable-table-container"><table class="need needs_grid_complex needs_layout_score needs_style_none needs_type_std_req table" id="std_req__isosae21434__org_management_5422">
 <tbody>
 <tr class="head row-odd"><td class="head_left" colspan="2"><div class="needs_head_left line-block">
@@ -700,7 +714,7 @@ defined as references below, if those are relevant for the project.</p>
 </table>
 </div>
 </div>
-<div class="need_container docutils container" id="SNCB-a9c3ee2c">
+<div class="need_container docutils container" id="SNCB-c1e603cb">
 <div class="pst-scrollable-table-container"><table class="need needs_grid_complex needs_layout_score needs_style_none needs_type_std_req table" id="std_req__isosae21434__org_management_5423">
 <tbody>
 <tr class="head row-odd"><td class="head_left" colspan="2"><div class="needs_head_left line-block">
@@ -743,7 +757,7 @@ defined as references below, if those are relevant for the project.</p>
 </table>
 </div>
 </div>
-<div class="need_container docutils container" id="SNCB-555fc939">
+<div class="need_container docutils container" id="SNCB-0355bb56">
 <div class="pst-scrollable-table-container"><table class="need needs_grid_complex needs_layout_score needs_style_none needs_type_std_req table" id="std_req__isosae21434__org_management_5441">
 <tbody>
 <tr class="head row-odd"><td class="head_left" colspan="2"><div class="needs_head_left line-block">
@@ -785,7 +799,7 @@ defined as references below, if those are relevant for the project.</p>
 </table>
 </div>
 </div>
-<div class="need_container docutils container" id="SNCB-1ba08939">
+<div class="need_container docutils container" id="SNCB-cf4d2807">
 <div class="pst-scrollable-table-container"><table class="need needs_grid_complex needs_layout_score needs_style_none needs_type_std_req table" id="std_req__isosae21434__org_management_5442">
 <tbody>
 <tr class="head row-odd"><td class="head_left" colspan="2"><div class="needs_head_left line-block">
@@ -827,7 +841,7 @@ defined as references below, if those are relevant for the project.</p>
 </table>
 </div>
 </div>
-<div class="need_container docutils container" id="SNCB-9f501e78">
+<div class="need_container docutils container" id="SNCB-0c1c8044">
 <div class="pst-scrollable-table-container"><table class="need needs_grid_complex needs_layout_score needs_style_none needs_type_std_req table" id="std_req__isosae21434__org_management_5443">
 <tbody>
 <tr class="head row-odd"><td class="head_left" colspan="2"><div class="needs_head_left line-block">
@@ -870,7 +884,7 @@ defined as references below, if those are relevant for the project.</p>
 </table>
 </div>
 </div>
-<div class="need_container docutils container" id="SNCB-cc769f16">
+<div class="need_container docutils container" id="SNCB-b9d36b89">
 <div class="pst-scrollable-table-container"><table class="need needs_grid_complex needs_layout_score needs_style_none needs_type_std_req table" id="std_req__isosae21434__org_management_5451">
 <tbody>
 <tr class="head row-odd"><td class="head_left" colspan="2"><div class="needs_head_left line-block">
@@ -913,7 +927,7 @@ defined as references below, if those are relevant for the project.</p>
 </table>
 </div>
 </div>
-<div class="need_container docutils container" id="SNCB-fc5ec562">
+<div class="need_container docutils container" id="SNCB-5d709d85">
 <div class="pst-scrollable-table-container"><table class="need needs_grid_complex needs_layout_score needs_style_none needs_type_std_req table" id="std_req__isosae21434__org_management_5452">
 <tbody>
 <tr class="head row-odd"><td class="head_left" colspan="2"><div class="needs_head_left line-block">
@@ -955,7 +969,7 @@ defined as references below, if those are relevant for the project.</p>
 </table>
 </div>
 </div>
-<div class="need_container docutils container" id="SNCB-cc176ac5">
+<div class="need_container docutils container" id="SNCB-343a25ac">
 <div class="pst-scrollable-table-container"><table class="need needs_grid_complex needs_layout_score needs_style_none needs_type_std_req table" id="std_req__isosae21434__org_management_5461">
 <tbody>
 <tr class="head row-odd"><td class="head_left" colspan="2"><div class="needs_head_left line-block">
@@ -1002,7 +1016,7 @@ defined as references below, if those are relevant for the project.</p>
 </dl>
 </li>
 <li><dl>
-<dt>Work products</dt><dd><div class="need_container docutils container" id="SNCB-5d2f3110">
+<dt>Work products</dt><dd><div class="need_container docutils container" id="SNCB-187ca3ab">
 <div class="pst-scrollable-table-container"><table class="need needs_grid_complex needs_layout_score needs_style_none needs_type_std_wp table" id="std_wp__isosae21434__org_management_551">
 <tbody>
 <tr class="head row-odd"><td class="head_left" colspan="2"><div class="needs_head_left line-block">
@@ -1045,7 +1059,7 @@ defined as references below, if those are relevant for the project.</p>
 </table>
 </div>
 </div>
-<div class="need_container docutils container" id="SNCB-6f516fc9">
+<div class="need_container docutils container" id="SNCB-d461c68f">
 <div class="pst-scrollable-table-container"><table class="need needs_grid_complex needs_layout_score needs_style_none needs_type_std_wp table" id="std_wp__isosae21434__org_management_552">
 <tbody>
 <tr class="head row-odd"><td class="head_left" colspan="2"><div class="needs_head_left line-block">
@@ -1088,7 +1102,7 @@ defined as references below, if those are relevant for the project.</p>
 </table>
 </div>
 </div>
-<div class="need_container docutils container" id="SNCB-89fd9f63">
+<div class="need_container docutils container" id="SNCB-d0652f1b">
 <div class="pst-scrollable-table-container"><table class="need needs_grid_complex needs_layout_score needs_style_none needs_type_std_wp table" id="std_wp__isosae21434__org_management_553">
 <tbody>
 <tr class="head row-odd"><td class="head_left" colspan="2"><div class="needs_head_left line-block">
@@ -1131,7 +1145,7 @@ defined as references below, if those are relevant for the project.</p>
 </table>
 </div>
 </div>
-<div class="need_container docutils container" id="SNCB-af469aef">
+<div class="need_container docutils container" id="SNCB-b623531d">
 <div class="pst-scrollable-table-container"><table class="need needs_grid_complex needs_layout_score needs_style_none needs_type_std_wp table" id="std_wp__isosae21434__org_management_554">
 <tbody>
 <tr class="head row-odd"><td class="head_left" colspan="2"><div class="needs_head_left line-block">
@@ -1174,7 +1188,7 @@ defined as references below, if those are relevant for the project.</p>
 </table>
 </div>
 </div>
-<div class="need_container docutils container" id="SNCB-1ecae2f4">
+<div class="need_container docutils container" id="SNCB-9a90d410">
 <div class="pst-scrollable-table-container"><table class="need needs_grid_complex needs_layout_score needs_style_none needs_type_std_wp table" id="std_wp__isosae21434__org_management_555">
 <tbody>
 <tr class="head row-odd"><td class="head_left" colspan="2"><div class="needs_head_left line-block">
@@ -1226,7 +1240,7 @@ defined as references below, if those are relevant for the project.</p>
 <h2>Clause 6: Project dependent cybersecurity management<a class="headerlink" href="#clause-6-project-dependent-cybersecurity-management" title="Link to this heading">#</a></h2>
 <ul>
 <li><dl>
-<dt>Requirements</dt><dd><div class="need_container docutils container" id="SNCB-d8540cef">
+<dt>Requirements</dt><dd><div class="need_container docutils container" id="SNCB-1b0921c5">
 <div class="pst-scrollable-table-container"><table class="need needs_grid_complex needs_layout_score needs_style_none needs_type_std_req table" id="std_req__isosae21434__prj_management_6411">
 <tbody>
 <tr class="head row-odd"><td class="head_left" colspan="2"><div class="needs_head_left line-block">
@@ -1269,7 +1283,7 @@ defined as references below, if those are relevant for the project.</p>
 </table>
 </div>
 </div>
-<div class="need_container docutils container" id="SNCB-7fd702b6">
+<div class="need_container docutils container" id="SNCB-9788f166">
 <div class="pst-scrollable-table-container"><table class="need needs_grid_complex needs_layout_score needs_style_none needs_type_std_req table" id="std_req__isosae21434__prj_management_6421">
 <tbody>
 <tr class="head row-odd"><td class="head_left" colspan="2"><div class="needs_head_left line-block">
@@ -1312,7 +1326,7 @@ defined as references below, if those are relevant for the project.</p>
 </table>
 </div>
 </div>
-<div class="need_container docutils container" id="SNCB-c85691f2">
+<div class="need_container docutils container" id="SNCB-8d6c9edb">
 <div class="pst-scrollable-table-container"><table class="need needs_grid_complex needs_layout_score needs_style_none needs_type_std_req table" id="std_req__isosae21434__prj_management_6422">
 <tbody>
 <tr class="head row-odd"><td class="head_left" colspan="2"><div class="needs_head_left line-block">
@@ -1355,7 +1369,7 @@ defined as references below, if those are relevant for the project.</p>
 </table>
 </div>
 </div>
-<div class="need_container docutils container" id="SNCB-d837be20">
+<div class="need_container docutils container" id="SNCB-9d3ba80e">
 <div class="pst-scrollable-table-container"><table class="need needs_grid_complex needs_layout_score needs_style_none needs_type_std_req table" id="std_req__isosae21434__prj_management_6423">
 <tbody>
 <tr class="head row-odd"><td class="head_left" colspan="2"><div class="needs_head_left line-block">
@@ -1398,7 +1412,7 @@ defined as references below, if those are relevant for the project.</p>
 </table>
 </div>
 </div>
-<div class="need_container docutils container" id="SNCB-bc48f555">
+<div class="need_container docutils container" id="SNCB-7761f3d6">
 <div class="pst-scrollable-table-container"><table class="need needs_grid_complex needs_layout_score needs_style_none needs_type_std_req table" id="std_req__isosae21434__prj_management_6424">
 <tbody>
 <tr class="head row-odd"><td class="head_left" colspan="2"><div class="needs_head_left line-block">
@@ -1441,7 +1455,7 @@ defined as references below, if those are relevant for the project.</p>
 </table>
 </div>
 </div>
-<div class="need_container docutils container" id="SNCB-c460fd69">
+<div class="need_container docutils container" id="SNCB-8fc1691c">
 <div class="pst-scrollable-table-container"><table class="need needs_grid_complex needs_layout_score needs_style_none needs_type_std_req table" id="std_req__isosae21434__prj_management_6425">
 <tbody>
 <tr class="head row-odd"><td class="head_left" colspan="2"><div class="needs_head_left line-block">
@@ -1484,7 +1498,7 @@ defined as references below, if those are relevant for the project.</p>
 </table>
 </div>
 </div>
-<div class="need_container docutils container" id="SNCB-df5b82a8">
+<div class="need_container docutils container" id="SNCB-bcdb62db">
 <div class="pst-scrollable-table-container"><table class="need needs_grid_complex needs_layout_score needs_style_none needs_type_std_req table" id="std_req__isosae21434__prj_management_6426">
 <tbody>
 <tr class="head row-odd"><td class="head_left" colspan="2"><div class="needs_head_left line-block">
@@ -1527,7 +1541,7 @@ defined as references below, if those are relevant for the project.</p>
 </table>
 </div>
 </div>
-<div class="need_container docutils container" id="SNCB-cf65f76d">
+<div class="need_container docutils container" id="SNCB-42e7f439">
 <div class="pst-scrollable-table-container"><table class="need needs_grid_complex needs_layout_score needs_style_none needs_type_std_req table" id="std_req__isosae21434__prj_management_6427">
 <tbody>
 <tr class="head row-odd"><td class="head_left" colspan="2"><div class="needs_head_left line-block">
@@ -1570,7 +1584,7 @@ defined as references below, if those are relevant for the project.</p>
 </table>
 </div>
 </div>
-<div class="need_container docutils container" id="SNCB-c47afb51">
+<div class="need_container docutils container" id="SNCB-298f3b7c">
 <div class="pst-scrollable-table-container"><table class="need needs_grid_complex needs_layout_score needs_style_none needs_type_std_req table" id="std_req__isosae21434__prj_management_6428">
 <tbody>
 <tr class="head row-odd"><td class="head_left" colspan="2"><div class="needs_head_left line-block">
@@ -1613,7 +1627,7 @@ defined as references below, if those are relevant for the project.</p>
 </table>
 </div>
 </div>
-<div class="need_container docutils container" id="SNCB-fa6740e4">
+<div class="need_container docutils container" id="SNCB-db5c764e">
 <div class="pst-scrollable-table-container"><table class="need needs_grid_complex needs_layout_score needs_style_none needs_type_std_req table" id="std_req__isosae21434__prj_management_6429">
 <tbody>
 <tr class="head row-odd"><td class="head_left" colspan="2"><div class="needs_head_left line-block">
@@ -1656,7 +1670,7 @@ defined as references below, if those are relevant for the project.</p>
 </table>
 </div>
 </div>
-<div class="need_container docutils container" id="SNCB-fb03b4a1">
+<div class="need_container docutils container" id="SNCB-d940cdf8">
 <div class="pst-scrollable-table-container"><table class="need needs_grid_complex needs_layout_score needs_style_none needs_type_std_req table" id="std_req__isosae21434__prj_management_64210">
 <tbody>
 <tr class="head row-odd"><td class="head_left" colspan="2"><div class="needs_head_left line-block">
@@ -1699,7 +1713,7 @@ defined as references below, if those are relevant for the project.</p>
 </table>
 </div>
 </div>
-<div class="need_container docutils container" id="SNCB-b118bed5">
+<div class="need_container docutils container" id="SNCB-044248c3">
 <div class="pst-scrollable-table-container"><table class="need needs_grid_complex needs_layout_score needs_style_none needs_type_std_req table" id="std_req__isosae21434__prj_management_64211">
 <tbody>
 <tr class="head row-odd"><td class="head_left" colspan="2"><div class="needs_head_left line-block">
@@ -1742,7 +1756,7 @@ defined as references below, if those are relevant for the project.</p>
 </table>
 </div>
 </div>
-<div class="need_container docutils container" id="SNCB-46e7bcd6">
+<div class="need_container docutils container" id="SNCB-1fe93323">
 <div class="pst-scrollable-table-container"><table class="need needs_grid_complex needs_layout_score needs_style_none needs_type_std_req table" id="std_req__isosae21434__prj_management_6431">
 <tbody>
 <tr class="head row-odd"><td class="head_left" colspan="2"><div class="needs_head_left line-block">
@@ -1785,7 +1799,7 @@ defined as references below, if those are relevant for the project.</p>
 </table>
 </div>
 </div>
-<div class="need_container docutils container" id="SNCB-6d884018">
+<div class="need_container docutils container" id="SNCB-4404548d">
 <div class="pst-scrollable-table-container"><table class="need needs_grid_complex needs_layout_score needs_style_none needs_type_std_req table" id="std_req__isosae21434__prj_management_6432">
 <tbody>
 <tr class="head row-odd"><td class="head_left" colspan="2"><div class="needs_head_left line-block">
@@ -1828,7 +1842,7 @@ defined as references below, if those are relevant for the project.</p>
 </table>
 </div>
 </div>
-<div class="need_container docutils container" id="SNCB-0d9a595c">
+<div class="need_container docutils container" id="SNCB-3c646707">
 <div class="pst-scrollable-table-container"><table class="need needs_grid_complex needs_layout_score needs_style_none needs_type_std_req table" id="std_req__isosae21434__prj_management_6441">
 <tbody>
 <tr class="head row-odd"><td class="head_left" colspan="2"><div class="needs_head_left line-block">
@@ -1871,7 +1885,7 @@ defined as references below, if those are relevant for the project.</p>
 </table>
 </div>
 </div>
-<div class="need_container docutils container" id="SNCB-be7e9e7f">
+<div class="need_container docutils container" id="SNCB-c207bb48">
 <div class="pst-scrollable-table-container"><table class="need needs_grid_complex needs_layout_score needs_style_none needs_type_std_req table" id="std_req__isosae21434__prj_management_6442">
 <tbody>
 <tr class="head row-odd"><td class="head_left" colspan="2"><div class="needs_head_left line-block">
@@ -1914,7 +1928,7 @@ defined as references below, if those are relevant for the project.</p>
 </table>
 </div>
 </div>
-<div class="need_container docutils container" id="SNCB-a69d317b">
+<div class="need_container docutils container" id="SNCB-43ef8cb3">
 <div class="pst-scrollable-table-container"><table class="need needs_grid_complex needs_layout_score needs_style_none needs_type_std_req table" id="std_req__isosae21434__prj_management_6443">
 <tbody>
 <tr class="head row-odd"><td class="head_left" colspan="2"><div class="needs_head_left line-block">
@@ -1957,7 +1971,7 @@ defined as references below, if those are relevant for the project.</p>
 </table>
 </div>
 </div>
-<div class="need_container docutils container" id="SNCB-2f7bced0">
+<div class="need_container docutils container" id="SNCB-1226bbb6">
 <div class="pst-scrollable-table-container"><table class="need needs_grid_complex needs_layout_score needs_style_none needs_type_std_req table" id="std_req__isosae21434__prj_management_6451">
 <tbody>
 <tr class="head row-odd"><td class="head_left" colspan="2"><div class="needs_head_left line-block">
@@ -2000,7 +2014,7 @@ defined as references below, if those are relevant for the project.</p>
 </table>
 </div>
 </div>
-<div class="need_container docutils container" id="SNCB-10682c36">
+<div class="need_container docutils container" id="SNCB-5b01f828">
 <div class="pst-scrollable-table-container"><table class="need needs_grid_complex needs_layout_score needs_style_none needs_type_std_req table" id="std_req__isosae21434__prj_management_6452">
 <tbody>
 <tr class="head row-odd"><td class="head_left" colspan="2"><div class="needs_head_left line-block">
@@ -2043,7 +2057,7 @@ defined as references below, if those are relevant for the project.</p>
 </table>
 </div>
 </div>
-<div class="need_container docutils container" id="SNCB-ab383e86">
+<div class="need_container docutils container" id="SNCB-fbc31262">
 <div class="pst-scrollable-table-container"><table class="need needs_grid_complex needs_layout_score needs_style_none needs_type_std_req table" id="std_req__isosae21434__prj_management_6453">
 <tbody>
 <tr class="head row-odd"><td class="head_left" colspan="2"><div class="needs_head_left line-block">
@@ -2086,7 +2100,7 @@ defined as references below, if those are relevant for the project.</p>
 </table>
 </div>
 </div>
-<div class="need_container docutils container" id="SNCB-bbda3b3e">
+<div class="need_container docutils container" id="SNCB-d690d73a">
 <div class="pst-scrollable-table-container"><table class="need needs_grid_complex needs_layout_score needs_style_none needs_type_std_req table" id="std_req__isosae21434__prj_management_6461">
 <tbody>
 <tr class="head row-odd"><td class="head_left" colspan="2"><div class="needs_head_left line-block">
@@ -2129,7 +2143,7 @@ defined as references below, if those are relevant for the project.</p>
 </table>
 </div>
 </div>
-<div class="need_container docutils container" id="SNCB-e0ec3aa9">
+<div class="need_container docutils container" id="SNCB-fe027906">
 <div class="pst-scrollable-table-container"><table class="need needs_grid_complex needs_layout_score needs_style_none needs_type_std_req table" id="std_req__isosae21434__prj_management_6462">
 <tbody>
 <tr class="head row-odd"><td class="head_left" colspan="2"><div class="needs_head_left line-block">
@@ -2172,7 +2186,7 @@ defined as references below, if those are relevant for the project.</p>
 </table>
 </div>
 </div>
-<div class="need_container docutils container" id="SNCB-d257b71b">
+<div class="need_container docutils container" id="SNCB-304a291e">
 <div class="pst-scrollable-table-container"><table class="need needs_grid_complex needs_layout_score needs_style_none needs_type_std_req table" id="std_req__isosae21434__prj_management_6471">
 <tbody>
 <tr class="head row-odd"><td class="head_left" colspan="2"><div class="needs_head_left line-block">
@@ -2215,7 +2229,7 @@ defined as references below, if those are relevant for the project.</p>
 </table>
 </div>
 </div>
-<div class="need_container docutils container" id="SNCB-6c3e1130">
+<div class="need_container docutils container" id="SNCB-f38c2ee2">
 <div class="pst-scrollable-table-container"><table class="need needs_grid_complex needs_layout_score needs_style_none needs_type_std_req table" id="std_req__isosae21434__prj_management_6491">
 <tbody>
 <tr class="head row-odd"><td class="head_left" colspan="2"><div class="needs_head_left line-block">
@@ -2258,7 +2272,7 @@ defined as references below, if those are relevant for the project.</p>
 </table>
 </div>
 </div>
-<div class="need_container docutils container" id="SNCB-b7554c65">
+<div class="need_container docutils container" id="SNCB-ae22f165">
 <div class="pst-scrollable-table-container"><table class="need needs_grid_complex needs_layout_score needs_style_none needs_type_std_req table" id="std_req__isosae21434__prj_management_6492">
 <tbody>
 <tr class="head row-odd"><td class="head_left" colspan="2"><div class="needs_head_left line-block">
@@ -2305,7 +2319,7 @@ defined as references below, if those are relevant for the project.</p>
 </dl>
 </li>
 <li><dl>
-<dt>Work products</dt><dd><div class="need_container docutils container" id="SNCB-ba709a13">
+<dt>Work products</dt><dd><div class="need_container docutils container" id="SNCB-191e708b">
 <div class="pst-scrollable-table-container"><table class="need needs_grid_complex needs_layout_score needs_style_none needs_type_std_wp table" id="std_wp__isosae21434__prj_management_651">
 <tbody>
 <tr class="head row-odd"><td class="head_left" colspan="2"><div class="needs_head_left line-block">
@@ -2348,7 +2362,7 @@ defined as references below, if those are relevant for the project.</p>
 </table>
 </div>
 </div>
-<div class="need_container docutils container" id="SNCB-05f25282">
+<div class="need_container docutils container" id="SNCB-770789f5">
 <div class="pst-scrollable-table-container"><table class="need needs_grid_complex needs_layout_score needs_style_none needs_type_std_wp table" id="std_wp__isosae21434__prj_management_652">
 <tbody>
 <tr class="head row-odd"><td class="head_left" colspan="2"><div class="needs_head_left line-block">
@@ -2391,7 +2405,7 @@ defined as references below, if those are relevant for the project.</p>
 </table>
 </div>
 </div>
-<div class="need_container docutils container" id="SNCB-c3edc7fe">
+<div class="need_container docutils container" id="SNCB-7c3a7d32">
 <div class="pst-scrollable-table-container"><table class="need needs_grid_complex needs_layout_score needs_style_none needs_type_std_wp table" id="std_wp__isosae21434__prj_management_653">
 <tbody>
 <tr class="head row-odd"><td class="head_left" colspan="2"><div class="needs_head_left line-block">
@@ -2434,7 +2448,7 @@ defined as references below, if those are relevant for the project.</p>
 </table>
 </div>
 </div>
-<div class="need_container docutils container" id="SNCB-f2b18c87">
+<div class="need_container docutils container" id="SNCB-a89ab14f">
 <div class="pst-scrollable-table-container"><table class="need needs_grid_complex needs_layout_score needs_style_none needs_type_std_wp table" id="std_wp__isosae21434__prj_management_654">
 <tbody>
 <tr class="head row-odd"><td class="head_left" colspan="2"><div class="needs_head_left line-block">
@@ -2486,7 +2500,7 @@ defined as references below, if those are relevant for the project.</p>
 <h2>Clause 8: Continual cybersecurity activities<a class="headerlink" href="#clause-8-continual-cybersecurity-activities" title="Link to this heading">#</a></h2>
 <ul>
 <li><dl>
-<dt>Requirements</dt><dd><div class="need_container docutils container" id="SNCB-5539495b">
+<dt>Requirements</dt><dd><div class="need_container docutils container" id="SNCB-31c7496a">
 <div class="pst-scrollable-table-container"><table class="need needs_grid_complex needs_layout_score needs_style_none needs_type_std_req table" id="std_req__isosae21434__continual_8321">
 <tbody>
 <tr class="head row-odd"><td class="head_left" colspan="2"><div class="needs_head_left line-block">
@@ -2529,7 +2543,7 @@ defined as references below, if those are relevant for the project.</p>
 </table>
 </div>
 </div>
-<div class="need_container docutils container" id="SNCB-3c2c79e8">
+<div class="need_container docutils container" id="SNCB-0c8e7f4e">
 <div class="pst-scrollable-table-container"><table class="need needs_grid_complex needs_layout_score needs_style_none needs_type_std_req table" id="std_req__isosae21434__continual_8322">
 <tbody>
 <tr class="head row-odd"><td class="head_left" colspan="2"><div class="needs_head_left line-block">
@@ -2572,7 +2586,7 @@ defined as references below, if those are relevant for the project.</p>
 </table>
 </div>
 </div>
-<div class="need_container docutils container" id="SNCB-d47a395b">
+<div class="need_container docutils container" id="SNCB-45468ad7">
 <div class="pst-scrollable-table-container"><table class="need needs_grid_complex needs_layout_score needs_style_none needs_type_std_req table" id="std_req__isosae21434__continual_8323">
 <tbody>
 <tr class="head row-odd"><td class="head_left" colspan="2"><div class="needs_head_left line-block">
@@ -2615,7 +2629,7 @@ defined as references below, if those are relevant for the project.</p>
 </table>
 </div>
 </div>
-<div class="need_container docutils container" id="SNCB-2fe528f5">
+<div class="need_container docutils container" id="SNCB-f7ecb5bd">
 <div class="pst-scrollable-table-container"><table class="need needs_grid_complex needs_layout_score needs_style_none needs_type_std_req table" id="std_req__isosae21434__continual_8421">
 <tbody>
 <tr class="head row-odd"><td class="head_left" colspan="2"><div class="needs_head_left line-block">
@@ -2658,7 +2672,7 @@ defined as references below, if those are relevant for the project.</p>
 </table>
 </div>
 </div>
-<div class="need_container docutils container" id="SNCB-b17d01ba">
+<div class="need_container docutils container" id="SNCB-eedc3c1e">
 <div class="pst-scrollable-table-container"><table class="need needs_grid_complex needs_layout_score needs_style_none needs_type_std_req table" id="std_req__isosae21434__continual_8521">
 <tbody>
 <tr class="head row-odd"><td class="head_left" colspan="2"><div class="needs_head_left line-block">
@@ -2701,7 +2715,7 @@ defined as references below, if those are relevant for the project.</p>
 </table>
 </div>
 </div>
-<div class="need_container docutils container" id="SNCB-91293bd2">
+<div class="need_container docutils container" id="SNCB-aecc7c50">
 <div class="pst-scrollable-table-container"><table class="need needs_grid_complex needs_layout_score needs_style_none needs_type_std_req table" id="std_req__isosae21434__continual_8522">
 <tbody>
 <tr class="head row-odd"><td class="head_left" colspan="2"><div class="needs_head_left line-block">
@@ -2744,7 +2758,7 @@ defined as references below, if those are relevant for the project.</p>
 </table>
 </div>
 </div>
-<div class="need_container docutils container" id="SNCB-8e229ecf">
+<div class="need_container docutils container" id="SNCB-a4f35b96">
 <div class="pst-scrollable-table-container"><table class="need needs_grid_complex needs_layout_score needs_style_none needs_type_std_req table" id="std_req__isosae21434__continual_8621">
 <tbody>
 <tr class="head row-odd"><td class="head_left" colspan="2"><div class="needs_head_left line-block">
@@ -2787,7 +2801,7 @@ defined as references below, if those are relevant for the project.</p>
 </table>
 </div>
 </div>
-<div class="need_container docutils container" id="SNCB-db30eb03">
+<div class="need_container docutils container" id="SNCB-e0d20e8a">
 <div class="pst-scrollable-table-container"><table class="need needs_grid_complex needs_layout_score needs_style_none needs_type_std_req table" id="std_req__isosae21434__continual_8622">
 <tbody>
 <tr class="head row-odd"><td class="head_left" colspan="2"><div class="needs_head_left line-block">
@@ -2834,7 +2848,7 @@ defined as references below, if those are relevant for the project.</p>
 </dl>
 </li>
 <li><dl>
-<dt>Work products</dt><dd><div class="need_container docutils container" id="SNCB-aba13c89">
+<dt>Work products</dt><dd><div class="need_container docutils container" id="SNCB-39079a25">
 <div class="pst-scrollable-table-container"><table class="need needs_grid_complex needs_layout_score needs_style_none needs_type_std_wp table" id="std_wp__isosae21434__continual_8331">
 <tbody>
 <tr class="head row-odd"><td class="head_left" colspan="2"><div class="needs_head_left line-block">
@@ -2877,7 +2891,7 @@ defined as references below, if those are relevant for the project.</p>
 </table>
 </div>
 </div>
-<div class="need_container docutils container" id="SNCB-ad49a231">
+<div class="need_container docutils container" id="SNCB-05fa81a4">
 <div class="pst-scrollable-table-container"><table class="need needs_grid_complex needs_layout_score needs_style_none needs_type_std_wp table" id="std_wp__isosae21434__continual_8332">
 <tbody>
 <tr class="head row-odd"><td class="head_left" colspan="2"><div class="needs_head_left line-block">
@@ -2920,7 +2934,7 @@ defined as references below, if those are relevant for the project.</p>
 </table>
 </div>
 </div>
-<div class="need_container docutils container" id="SNCB-73b307bf">
+<div class="need_container docutils container" id="SNCB-e80881a7">
 <div class="pst-scrollable-table-container"><table class="need needs_grid_complex needs_layout_score needs_style_none needs_type_std_wp table" id="std_wp__isosae21434__continual_8333">
 <tbody>
 <tr class="head row-odd"><td class="head_left" colspan="2"><div class="needs_head_left line-block">
@@ -2963,7 +2977,7 @@ defined as references below, if those are relevant for the project.</p>
 </table>
 </div>
 </div>
-<div class="need_container docutils container" id="SNCB-ba702c95">
+<div class="need_container docutils container" id="SNCB-8598ee39">
 <div class="pst-scrollable-table-container"><table class="need needs_grid_complex needs_layout_score needs_style_none needs_type_std_wp table" id="std_wp__isosae21434__continual_8431">
 <tbody>
 <tr class="head row-odd"><td class="head_left" colspan="2"><div class="needs_head_left line-block">
@@ -3006,7 +3020,7 @@ defined as references below, if those are relevant for the project.</p>
 </table>
 </div>
 </div>
-<div class="need_container docutils container" id="SNCB-bdd0179c">
+<div class="need_container docutils container" id="SNCB-5c368eb1">
 <div class="pst-scrollable-table-container"><table class="need needs_grid_complex needs_layout_score needs_style_none needs_type_std_wp table" id="std_wp__isosae21434__continual_8531">
 <tbody>
 <tr class="head row-odd"><td class="head_left" colspan="2"><div class="needs_head_left line-block">
@@ -3049,7 +3063,7 @@ defined as references below, if those are relevant for the project.</p>
 </table>
 </div>
 </div>
-<div class="need_container docutils container" id="SNCB-6d793c88">
+<div class="need_container docutils container" id="SNCB-050959a0">
 <div class="pst-scrollable-table-container"><table class="need needs_grid_complex needs_layout_score needs_style_none needs_type_std_wp table" id="std_wp__isosae21434__continual_8631">
 <tbody>
 <tr class="head row-odd"><td class="head_left" colspan="2"><div class="needs_head_left line-block">
@@ -3101,7 +3115,7 @@ defined as references below, if those are relevant for the project.</p>
 <h2>Clause 10: Product development<a class="headerlink" href="#clause-10-product-development" title="Link to this heading">#</a></h2>
 <ul>
 <li><dl>
-<dt>Requirements</dt><dd><div class="need_container docutils container" id="SNCB-e4fd13cd">
+<dt>Requirements</dt><dd><div class="need_container docutils container" id="SNCB-8b83038a">
 <div class="pst-scrollable-table-container"><table class="need needs_grid_complex needs_layout_score needs_style_none needs_type_std_req table" id="std_req__isosae21434__development_10411">
 <tbody>
 <tr class="head row-odd"><td class="head_left" colspan="2"><div class="needs_head_left line-block">
@@ -3143,7 +3157,7 @@ defined as references below, if those are relevant for the project.</p>
 </table>
 </div>
 </div>
-<div class="need_container docutils container" id="SNCB-0d91a2f8">
+<div class="need_container docutils container" id="SNCB-c548a457">
 <div class="pst-scrollable-table-container"><table class="need needs_grid_complex needs_layout_score needs_style_none needs_type_std_req table" id="std_req__isosae21434__development_10412">
 <tbody>
 <tr class="head row-odd"><td class="head_left" colspan="2"><div class="needs_head_left line-block">
@@ -3185,7 +3199,7 @@ defined as references below, if those are relevant for the project.</p>
 </table>
 </div>
 </div>
-<div class="need_container docutils container" id="SNCB-e9d0b4bd">
+<div class="need_container docutils container" id="SNCB-9a8953e1">
 <div class="pst-scrollable-table-container"><table class="need needs_grid_complex needs_layout_score needs_style_none needs_type_std_req table" id="std_req__isosae21434__development_10413">
 <tbody>
 <tr class="head row-odd"><td class="head_left" colspan="2"><div class="needs_head_left line-block">
@@ -3227,7 +3241,7 @@ defined as references below, if those are relevant for the project.</p>
 </table>
 </div>
 </div>
-<div class="need_container docutils container" id="SNCB-8a2d9654">
+<div class="need_container docutils container" id="SNCB-796c66aa">
 <div class="pst-scrollable-table-container"><table class="need needs_grid_complex needs_layout_score needs_style_none needs_type_std_req table" id="std_req__isosae21434__development_10414">
 <tbody>
 <tr class="head row-odd"><td class="head_left" colspan="2"><div class="needs_head_left line-block">
@@ -3269,7 +3283,7 @@ defined as references below, if those are relevant for the project.</p>
 </table>
 </div>
 </div>
-<div class="need_container docutils container" id="SNCB-4d0f5c15">
+<div class="need_container docutils container" id="SNCB-fe4aeeaf">
 <div class="pst-scrollable-table-container"><table class="need needs_grid_complex needs_layout_score needs_style_none needs_type_std_req table" id="std_req__isosae21434__development_10415">
 <tbody>
 <tr class="head row-odd"><td class="head_left" colspan="2"><div class="needs_head_left line-block">
@@ -3311,7 +3325,7 @@ defined as references below, if those are relevant for the project.</p>
 </table>
 </div>
 </div>
-<div class="need_container docutils container" id="SNCB-3f26b859">
+<div class="need_container docutils container" id="SNCB-df1afc88">
 <div class="pst-scrollable-table-container"><table class="need needs_grid_complex needs_layout_score needs_style_none needs_type_std_req table" id="std_req__isosae21434__development_10416">
 <tbody>
 <tr class="head row-odd"><td class="head_left" colspan="2"><div class="needs_head_left line-block">
@@ -3353,7 +3367,7 @@ defined as references below, if those are relevant for the project.</p>
 </table>
 </div>
 </div>
-<div class="need_container docutils container" id="SNCB-02daf49a">
+<div class="need_container docutils container" id="SNCB-2bdeeead">
 <div class="pst-scrollable-table-container"><table class="need needs_grid_complex needs_layout_score needs_style_none needs_type_std_req table" id="std_req__isosae21434__development_10417">
 <tbody>
 <tr class="head row-odd"><td class="head_left" colspan="2"><div class="needs_head_left line-block">
@@ -3395,7 +3409,7 @@ defined as references below, if those are relevant for the project.</p>
 </table>
 </div>
 </div>
-<div class="need_container docutils container" id="SNCB-f468f939">
+<div class="need_container docutils container" id="SNCB-23703045">
 <div class="pst-scrollable-table-container"><table class="need needs_grid_complex needs_layout_score needs_style_none needs_type_std_req table" id="std_req__isosae21434__development_10418">
 <tbody>
 <tr class="head row-odd"><td class="head_left" colspan="2"><div class="needs_head_left line-block">
@@ -3437,7 +3451,7 @@ defined as references below, if those are relevant for the project.</p>
 </table>
 </div>
 </div>
-<div class="need_container docutils container" id="SNCB-63fdff72">
+<div class="need_container docutils container" id="SNCB-6b350593">
 <div class="pst-scrollable-table-container"><table class="need needs_grid_complex needs_layout_score needs_style_none needs_type_std_req table" id="std_req__isosae21434__development_10421">
 <tbody>
 <tr class="head row-odd"><td class="head_left" colspan="2"><div class="needs_head_left line-block">
@@ -3480,7 +3494,7 @@ defined as references below, if those are relevant for the project.</p>
 </table>
 </div>
 </div>
-<div class="need_container docutils container" id="SNCB-e10fbefc">
+<div class="need_container docutils container" id="SNCB-86d505b0">
 <div class="pst-scrollable-table-container"><table class="need needs_grid_complex needs_layout_score needs_style_none needs_type_std_req table" id="std_req__isosae21434__development_10422">
 <tbody>
 <tr class="head row-odd"><td class="head_left" colspan="2"><div class="needs_head_left line-block">
@@ -3523,7 +3537,7 @@ defined as references below, if those are relevant for the project.</p>
 </table>
 </div>
 </div>
-<div class="need_container docutils container" id="SNCB-303b7634">
+<div class="need_container docutils container" id="SNCB-72130ac0">
 <div class="pst-scrollable-table-container"><table class="need needs_grid_complex needs_layout_score needs_style_none needs_type_std_req table" id="std_req__isosae21434__development_10423">
 <tbody>
 <tr class="head row-odd"><td class="head_left" colspan="2"><div class="needs_head_left line-block">
@@ -3565,7 +3579,7 @@ defined as references below, if those are relevant for the project.</p>
 </table>
 </div>
 </div>
-<div class="need_container docutils container" id="SNCB-785d48d6">
+<div class="need_container docutils container" id="SNCB-7ade96d3">
 <div class="pst-scrollable-table-container"><table class="need needs_grid_complex needs_layout_score needs_style_none needs_type_std_req table" id="std_req__isosae21434__development_10424">
 <tbody>
 <tr class="head row-odd"><td class="head_left" colspan="2"><div class="needs_head_left line-block">
@@ -3607,7 +3621,7 @@ defined as references below, if those are relevant for the project.</p>
 </table>
 </div>
 </div>
-<div class="need_container docutils container" id="SNCB-c40a6673">
+<div class="need_container docutils container" id="SNCB-926939d5">
 <div class="pst-scrollable-table-container"><table class="need needs_grid_complex needs_layout_score needs_style_none needs_type_std_req table" id="std_req__isosae21434__development_10425">
 <tbody>
 <tr class="head row-odd"><td class="head_left" colspan="2"><div class="needs_head_left line-block">
@@ -3653,7 +3667,7 @@ defined as references below, if those are relevant for the project.</p>
 </dl>
 </li>
 <li><dl>
-<dt>Work products</dt><dd><div class="need_container docutils container" id="SNCB-23a1e8b9">
+<dt>Work products</dt><dd><div class="need_container docutils container" id="SNCB-ce320377">
 <div class="pst-scrollable-table-container"><table class="need needs_grid_complex needs_layout_score needs_style_none needs_type_std_wp table" id="std_wp__isosae21434__development_1051">
 <tbody>
 <tr class="head row-odd"><td class="head_left" colspan="2"><div class="needs_head_left line-block">
@@ -3696,7 +3710,7 @@ defined as references below, if those are relevant for the project.</p>
 </table>
 </div>
 </div>
-<div class="need_container docutils container" id="SNCB-69d7fa8e">
+<div class="need_container docutils container" id="SNCB-ebc64548">
 <div class="pst-scrollable-table-container"><table class="need needs_grid_complex needs_layout_score needs_style_none needs_type_std_wp table" id="std_wp__isosae21434__development_1052">
 <tbody>
 <tr class="head row-odd"><td class="head_left" colspan="2"><div class="needs_head_left line-block">
@@ -3739,7 +3753,7 @@ defined as references below, if those are relevant for the project.</p>
 </table>
 </div>
 </div>
-<div class="need_container docutils container" id="SNCB-9362991c">
+<div class="need_container docutils container" id="SNCB-67a9f8ec">
 <div class="pst-scrollable-table-container"><table class="need needs_grid_complex needs_layout_score needs_style_none needs_type_std_wp table" id="std_wp__isosae21434__development_1053">
 <tbody>
 <tr class="head row-odd"><td class="head_left" colspan="2"><div class="needs_head_left line-block">
@@ -3782,7 +3796,7 @@ defined as references below, if those are relevant for the project.</p>
 </table>
 </div>
 </div>
-<div class="need_container docutils container" id="SNCB-07b61506">
+<div class="need_container docutils container" id="SNCB-b42b8c6e">
 <div class="pst-scrollable-table-container"><table class="need needs_grid_complex needs_layout_score needs_style_none needs_type_std_wp table" id="std_wp__isosae21434__development_1054">
 <tbody>
 <tr class="head row-odd"><td class="head_left" colspan="2"><div class="needs_head_left line-block">
@@ -3825,7 +3839,7 @@ defined as references below, if those are relevant for the project.</p>
 </table>
 </div>
 </div>
-<div class="need_container docutils container" id="SNCB-72a5350f">
+<div class="need_container docutils container" id="SNCB-ec8b0d70">
 <div class="pst-scrollable-table-container"><table class="need needs_grid_complex needs_layout_score needs_style_none needs_type_std_wp table" id="std_wp__isosae21434__development_1055">
 <tbody>
 <tr class="head row-odd"><td class="head_left" colspan="2"><div class="needs_head_left line-block">
@@ -3868,7 +3882,7 @@ defined as references below, if those are relevant for the project.</p>
 </table>
 </div>
 </div>
-<div class="need_container docutils container" id="SNCB-05dc1603">
+<div class="need_container docutils container" id="SNCB-dd2213db">
 <div class="pst-scrollable-table-container"><table class="need needs_grid_complex needs_layout_score needs_style_none needs_type_std_wp table" id="std_wp__isosae21434__development_1056">
 <tbody>
 <tr class="head row-odd"><td class="head_left" colspan="2"><div class="needs_head_left line-block">
@@ -3911,7 +3925,7 @@ defined as references below, if those are relevant for the project.</p>
 </table>
 </div>
 </div>
-<div class="need_container docutils container" id="SNCB-5b2256e4">
+<div class="need_container docutils container" id="SNCB-6327692a">
 <div class="pst-scrollable-table-container"><table class="need needs_grid_complex needs_layout_score needs_style_none needs_type_std_wp table" id="std_wp__isosae21434__development_1057">
 <tbody>
 <tr class="head row-odd"><td class="head_left" colspan="2"><div class="needs_head_left line-block">
@@ -3963,7 +3977,7 @@ defined as references below, if those are relevant for the project.</p>
 <h2>Clause 13: Operations and maintenance<a class="headerlink" href="#clause-13-operations-and-maintenance" title="Link to this heading">#</a></h2>
 <ul>
 <li><dl>
-<dt>Requirements</dt><dd><div class="need_container docutils container" id="SNCB-4af20cf2">
+<dt>Requirements</dt><dd><div class="need_container docutils container" id="SNCB-5acc4762">
 <div class="pst-scrollable-table-container"><table class="need needs_grid_complex needs_layout_score needs_style_none needs_type_std_req table" id="std_req__isosae21434__maintenance_13321">
 <tbody>
 <tr class="head row-odd"><td class="head_left" colspan="2"><div class="needs_head_left line-block">
@@ -4005,7 +4019,7 @@ defined as references below, if those are relevant for the project.</p>
 </table>
 </div>
 </div>
-<div class="need_container docutils container" id="SNCB-c9923c78">
+<div class="need_container docutils container" id="SNCB-1d2c3242">
 <div class="pst-scrollable-table-container"><table class="need needs_grid_complex needs_layout_score needs_style_none needs_type_std_req table" id="std_req__isosae21434__maintenance_13322">
 <tbody>
 <tr class="head row-odd"><td class="head_left" colspan="2"><div class="needs_head_left line-block">
@@ -4047,7 +4061,7 @@ defined as references below, if those are relevant for the project.</p>
 </table>
 </div>
 </div>
-<div class="need_container docutils container" id="SNCB-7d06a35d">
+<div class="need_container docutils container" id="SNCB-3abfc856">
 <div class="pst-scrollable-table-container"><table class="need needs_grid_complex needs_layout_score needs_style_none needs_type_std_req table" id="std_req__isosae21434__maintenance_13421">
 <tbody>
 <tr class="head row-odd"><td class="head_left" colspan="2"><div class="needs_head_left line-block">
@@ -4093,7 +4107,7 @@ defined as references below, if those are relevant for the project.</p>
 </dl>
 </li>
 <li><dl>
-<dt>Work products</dt><dd><div class="need_container docutils container" id="SNCB-c066132d">
+<dt>Work products</dt><dd><div class="need_container docutils container" id="SNCB-42638a90">
 <div class="pst-scrollable-table-container"><table class="need needs_grid_complex needs_layout_score needs_style_none needs_type_std_wp table" id="std_wp__isosae21434__maintenance_13331">
 <tbody>
 <tr class="head row-odd"><td class="head_left" colspan="2"><div class="needs_head_left line-block">
@@ -4146,7 +4160,7 @@ defined as references below, if those are relevant for the project.</p>
 <ul>
 <li><p>Requirements</p>
 <blockquote>
-<div><div class="need_container docutils container" id="SNCB-ffaa2c29">
+<div><div class="need_container docutils container" id="SNCB-6aedc99c">
 <div class="pst-scrollable-table-container"><table class="need needs_grid_complex needs_layout_score needs_style_none needs_type_std_req table" id="std_req__isosae21434__assessment_15621">
 <tbody>
 <tr class="head row-odd"><td class="head_left" colspan="2"><div class="needs_head_left line-block">
@@ -4189,7 +4203,7 @@ defined as references below, if those are relevant for the project.</p>
 </table>
 </div>
 </div>
-<div class="need_container docutils container" id="SNCB-ffe7ebb5">
+<div class="need_container docutils container" id="SNCB-1c802c1e">
 <div class="pst-scrollable-table-container"><table class="need needs_grid_complex needs_layout_score needs_style_none needs_type_std_req table" id="std_req__isosae21434__assessment_15622">
 <tbody>
 <tr class="head row-odd"><td class="head_left" colspan="2"><div class="needs_head_left line-block">
@@ -4232,7 +4246,7 @@ defined as references below, if those are relevant for the project.</p>
 </table>
 </div>
 </div>
-<div class="need_container docutils container" id="SNCB-5d7a1643">
+<div class="need_container docutils container" id="SNCB-8ffb1cd1">
 <div class="pst-scrollable-table-container"><table class="need needs_grid_complex needs_layout_score needs_style_none needs_type_std_req table" id="std_req__isosae21434__assessment_15721">
 <tbody>
 <tr class="head row-odd"><td class="head_left" colspan="2"><div class="needs_head_left line-block">
@@ -4275,7 +4289,7 @@ defined as references below, if those are relevant for the project.</p>
 </table>
 </div>
 </div>
-<div class="need_container docutils container" id="SNCB-013f094f">
+<div class="need_container docutils container" id="SNCB-cf0c1fde">
 <div class="pst-scrollable-table-container"><table class="need needs_grid_complex needs_layout_score needs_style_none needs_type_std_req table" id="std_req__isosae21434__assessment_15722">
 <tbody>
 <tr class="head row-odd"><td class="head_left" colspan="2"><div class="needs_head_left line-block">
@@ -4318,7 +4332,7 @@ defined as references below, if those are relevant for the project.</p>
 </table>
 </div>
 </div>
-<div class="need_container docutils container" id="SNCB-71aa0d01">
+<div class="need_container docutils container" id="SNCB-33faaf91">
 <div class="pst-scrollable-table-container"><table class="need needs_grid_complex needs_layout_score needs_style_none needs_type_std_req table" id="std_req__isosae21434__assessment_15723">
 <tbody>
 <tr class="head row-odd"><td class="head_left" colspan="2"><div class="needs_head_left line-block">
@@ -4361,7 +4375,7 @@ defined as references below, if those are relevant for the project.</p>
 </table>
 </div>
 </div>
-<div class="need_container docutils container" id="SNCB-1142e21c">
+<div class="need_container docutils container" id="SNCB-5ef24aa8">
 <div class="pst-scrollable-table-container"><table class="need needs_grid_complex needs_layout_score needs_style_none needs_type_std_req table" id="std_req__isosae21434__assessment_15724">
 <tbody>
 <tr class="head row-odd"><td class="head_left" colspan="2"><div class="needs_head_left line-block">
@@ -4404,7 +4418,7 @@ defined as references below, if those are relevant for the project.</p>
 </table>
 </div>
 </div>
-<div class="need_container docutils container" id="SNCB-16328269">
+<div class="need_container docutils container" id="SNCB-698c269a">
 <div class="pst-scrollable-table-container"><table class="need needs_grid_complex needs_layout_score needs_style_none needs_type_std_req table" id="std_req__isosae21434__assessment_15725">
 <tbody>
 <tr class="head row-odd"><td class="head_left" colspan="2"><div class="needs_head_left line-block">
@@ -4447,7 +4461,7 @@ defined as references below, if those are relevant for the project.</p>
 </table>
 </div>
 </div>
-<div class="need_container docutils container" id="SNCB-6df3cd76">
+<div class="need_container docutils container" id="SNCB-f60cca9c">
 <div class="pst-scrollable-table-container"><table class="need needs_grid_complex needs_layout_score needs_style_none needs_type_std_req table" id="std_req__isosae21434__assessment_15821">
 <tbody>
 <tr class="head row-odd"><td class="head_left" colspan="2"><div class="needs_head_left line-block">
@@ -4490,7 +4504,7 @@ defined as references below, if those are relevant for the project.</p>
 </table>
 </div>
 </div>
-<div class="need_container docutils container" id="SNCB-1b9056ed">
+<div class="need_container docutils container" id="SNCB-54156e16">
 <div class="pst-scrollable-table-container"><table class="need needs_grid_complex needs_layout_score needs_style_none needs_type_std_req table" id="std_req__isosae21434__assessment_15822">
 <tbody>
 <tr class="head row-odd"><td class="head_left" colspan="2"><div class="needs_head_left line-block">
@@ -4533,7 +4547,7 @@ defined as references below, if those are relevant for the project.</p>
 </table>
 </div>
 </div>
-<div class="need_container docutils container" id="SNCB-cc2ed236">
+<div class="need_container docutils container" id="SNCB-77219b60">
 <div class="pst-scrollable-table-container"><table class="need needs_grid_complex needs_layout_score needs_style_none needs_type_std_req table" id="std_req__isosae21434__assessment_15921">
 <tbody>
 <tr class="head row-odd"><td class="head_left" colspan="2"><div class="needs_head_left line-block">
@@ -4579,7 +4593,7 @@ defined as references below, if those are relevant for the project.</p>
 </div></blockquote>
 </li>
 <li><dl>
-<dt>Work products</dt><dd><div class="need_container docutils container" id="SNCB-68aca0c4">
+<dt>Work products</dt><dd><div class="need_container docutils container" id="SNCB-f3c4e02a">
 <div class="pst-scrollable-table-container"><table class="need needs_grid_complex needs_layout_score needs_style_none needs_type_std_wp table" id="std_wp__isosae21434__assessment_15331">
 <tbody>
 <tr class="head row-odd"><td class="head_left" colspan="2"><div class="needs_head_left line-block">
@@ -4622,7 +4636,7 @@ defined as references below, if those are relevant for the project.</p>
 </table>
 </div>
 </div>
-<div class="need_container docutils container" id="SNCB-85a46cd6">
+<div class="need_container docutils container" id="SNCB-07847213">
 <div class="pst-scrollable-table-container"><table class="need needs_grid_complex needs_layout_score needs_style_none needs_type_std_wp table" id="std_wp__isosae21434__assessment_15332">
 <tbody>
 <tr class="head row-odd"><td class="head_left" colspan="2"><div class="needs_head_left line-block">
@@ -4665,7 +4679,7 @@ defined as references below, if those are relevant for the project.</p>
 </table>
 </div>
 </div>
-<div class="need_container docutils container" id="SNCB-d6fe9a4c">
+<div class="need_container docutils container" id="SNCB-465b6db8">
 <div class="pst-scrollable-table-container"><table class="need needs_grid_complex needs_layout_score needs_style_none needs_type_std_wp table" id="std_wp__isosae21434__assessment_15431">
 <tbody>
 <tr class="head row-odd"><td class="head_left" colspan="2"><div class="needs_head_left line-block">
@@ -4708,7 +4722,7 @@ defined as references below, if those are relevant for the project.</p>
 </table>
 </div>
 </div>
-<div class="need_container docutils container" id="SNCB-2ee8f302">
+<div class="need_container docutils container" id="SNCB-172b40dc">
 <div class="pst-scrollable-table-container"><table class="need needs_grid_complex needs_layout_score needs_style_none needs_type_std_wp table" id="std_wp__isosae21434__assessment_15531">
 <tbody>
 <tr class="head row-odd"><td class="head_left" colspan="2"><div class="needs_head_left line-block">
@@ -4751,7 +4765,7 @@ defined as references below, if those are relevant for the project.</p>
 </table>
 </div>
 </div>
-<div class="need_container docutils container" id="SNCB-096bd02d">
+<div class="need_container docutils container" id="SNCB-a61eba83">
 <div class="pst-scrollable-table-container"><table class="need needs_grid_complex needs_layout_score needs_style_none needs_type_std_wp table" id="std_wp__isosae21434__assessment_15631">
 <tbody>
 <tr class="head row-odd"><td class="head_left" colspan="2"><div class="needs_head_left line-block">
@@ -4794,7 +4808,7 @@ defined as references below, if those are relevant for the project.</p>
 </table>
 </div>
 </div>
-<div class="need_container docutils container" id="SNCB-771eaf52">
+<div class="need_container docutils container" id="SNCB-4e5f1471">
 <div class="pst-scrollable-table-container"><table class="need needs_grid_complex needs_layout_score needs_style_none needs_type_std_wp table" id="std_wp__isosae21434__assessment_15731">
 <tbody>
 <tr class="head row-odd"><td class="head_left" colspan="2"><div class="needs_head_left line-block">
@@ -4837,7 +4851,7 @@ defined as references below, if those are relevant for the project.</p>
 </table>
 </div>
 </div>
-<div class="need_container docutils container" id="SNCB-72773d6b">
+<div class="need_container docutils container" id="SNCB-44f3466a">
 <div class="pst-scrollable-table-container"><table class="need needs_grid_complex needs_layout_score needs_style_none needs_type_std_wp table" id="std_wp__isosae21434__assessment_15831">
 <tbody>
 <tr class="head row-odd"><td class="head_left" colspan="2"><div class="needs_head_left line-block">
@@ -4880,7 +4894,7 @@ defined as references below, if those are relevant for the project.</p>
 </table>
 </div>
 </div>
-<div class="need_container docutils container" id="SNCB-f370d082">
+<div class="need_container docutils container" id="SNCB-cbf7defc">
 <div class="pst-scrollable-table-container"><table class="need needs_grid_complex needs_layout_score needs_style_none needs_type_std_wp table" id="std_wp__isosae21434__assessment_15931">
 <tbody>
 <tr class="head row-odd"><td class="head_left" colspan="2"><div class="needs_head_left line-block">
@@ -5022,8 +5036,8 @@ but the related requirements are not included as these are not needed to be cove
   </div>
   
   <!-- Scripts loaded after <body> so the DOM is not blocked -->
-  <script defer src="../../_static/scripts/bootstrap.js?digest=cb8930eaaf36d9849b67"></script>
-<script defer src="../../_static/scripts/pydata-sphinx-theme.js?digest=cb8930eaaf36d9849b67"></script>
+  <script defer src="../../_static/scripts/bootstrap.js?digest=18bd87630a240e9c25be"></script>
+<script defer src="../../_static/scripts/pydata-sphinx-theme.js?digest=18bd87630a240e9c25be"></script>
 
   <footer class="bd-footer">
 <div class="bd-footer__inner bd-page-width">
@@ -5033,8 +5047,7 @@ but the related requirements are not included as these are not needed to be cove
         <div class="footer-item">
 
   <p class="sphinx-version">
-    Created using <a href="https://www.sphinx-doc.org/">Sphinx</a> 9.1.0.
-    <br/>
+    Created using <a href="https://www.sphinx-doc.org/">Sphinx</a> 9.1.1.
   </p>
 </div>
       
@@ -5047,7 +5060,7 @@ but the related requirements are not included as these are not needed to be cove
         <div class="footer-item">
 <p class="theme-version">
   <!-- # L10n: Setting the PST URL as an argument as this does not need to be localized -->
-  Built with the <a href="https://pydata-sphinx-theme.readthedocs.io/en/stable/index.html">PyData Sphinx Theme</a> 0.21.0.
+  Built with the <a href="https://pydata-sphinx-theme.readthedocs.io/en/stable/index.html">PyData Sphinx Theme</a> 0.23.0.
 </p></div>
       
     </div>
