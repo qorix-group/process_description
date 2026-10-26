@@ -110,7 +110,7 @@ For a detailed explanation of workflows and their role within the process model,
    :version: 2
    :responsible: rl__release_team[version==1]
    :approved_by: rl__project_lead[version==1], rl__quality_manager[version==1]
-   :input: wp__module_sw_release_plan[version==1], wp__qms_report[version==1], wp__verification_module_ver_report[version==1]
+   :input: wp__module_sw_release_plan[version==1], wp__qms_report[version==1], wp__verification_module_ver_report[version==2]
    :output: wp__module_sw_release_note[version==1]
    :contains: gd_temp__rel_mod_rel_note[version==1], gd_guidl__rel_management[version==2]
    :has: doc_concept__rel_process[version==1], doc_getstrt__release_process[version==1],
@@ -129,7 +129,7 @@ For a detailed explanation of workflows and their role within the process model,
    :version: 2
    :responsible: rl__release_team[version==1]
    :approved_by: rl__project_lead[version==1], rl__quality_manager[version==1]
-   :input: wp__qms_plan[version==1], wp__platform_sw_release_plan[version==1], wp__qms_report[version==1], wp__verification_platform_ver_report[version==1]
+   :input: wp__qms_plan[version==1], wp__platform_sw_release_plan[version==1], wp__qms_report[version==1], wp__verification_platform_ver_report[version==2]
    :output: wp__platform_sw_release_note[version==1]
    :contains: gd_guidl__qlm_plan_definitions[version==1],
               gd_chklst__review_checklist[version==1],
