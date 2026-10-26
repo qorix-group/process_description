@@ -90,6 +90,7 @@ Security Management Work Products
    For the different review checklist see here:
      - Review checklist for Security Plans: :need:`doc__platform_name_security_plan_fdr` and `Module Security Plan Formal Review Checklist <https://eclipse-score.github.io/module_template/main/module/security_mgt/module_security_plan_fdr.html>`__
      - Review checklist for Security Packages: :need:`doc__platform_name_security_package_fdr` and `Module Security Package Formal Review Checklist <https://eclipse-score.github.io/module_template/main/module/security_mgt/module_security_package_fdr.html>`__
+     - Review checklist for Security Analyses: :need:`doc__platform_name_security_analysis_fdr`
 
 .. workproduct:: Process Security Audit Report
    :id: wp__audit_report_security

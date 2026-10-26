@@ -159,8 +159,8 @@ For a detailed explanation of workflows and their role within the process model,
            wp__platform_security_plan[version==1],
            wp__module_security_package[version==1],
            wp__platform_security_package[version==1],
-           wp__audit_report[version==1],
-           wp__fdr_reports[version==1],
+           wp__audit_report_security[version==1],
+           wp__fdr_reports_security[version==1],
            wp__sw_platform_sbom[version==1],
            wp__sw_module_sbom[version==1]
    :output: wp__issue_track_system[version==1], wp__module_sw_release_note[version==1], wp__platform_sw_release_note[version==1]
