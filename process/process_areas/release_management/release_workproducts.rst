@@ -57,6 +57,8 @@ Release Management Work Products
    :tags: doc_lifecycle_model_2
    :status: valid
    :version: 1
+   :complies: std_req__aspice_40__iic-18-06[version==1],
+              std_req__aspice_40__iic-08-56[version==1]
 
    The platform release plan is a high-level document that outlines which software modules
    will be included in the overall platform and what features can be expected within the platform.
@@ -69,6 +71,8 @@ Release Management Work Products
    :tags: doc_lifecycle_model_2
    :status: valid
    :version: 1
+   :complies: std_req__aspice_40__iic-18-06[version==1],
+              std_req__aspice_40__iic-08-56[version==1]
 
    The module release plan is a strategic document that outlines the features planned for upcoming
    module releases along with their estimated release dates. It provides a roadmap for the
@@ -100,6 +104,7 @@ Release Management Work Products
    :tags: doc_lifecycle_model_2
    :status: valid
    :version: 1
+   :complies: std_req__aspice_40__iic-11-04[version==1]
 
    The platform handbook is a tutorial to explain how the project works from a technical
    perspective. It explains the background of the project, but also what the project is

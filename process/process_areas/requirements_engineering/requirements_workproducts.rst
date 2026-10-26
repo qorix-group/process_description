@@ -81,6 +81,8 @@ Requirements Engineering Work Products
    :status: valid
    :version: 1
    :tags: doc_lifecycle_model_2
+   :complies: std_req__aspice_40__iic-17-00[version==1],
+              std_req__aspice_40__iic-17-05[version==1]
 
    Process and Tool requirements describe activities needed to be executed in the development process either manually or automated (i.e. tool supported).
    Tool requirements (if derived from process requirements) are more detailed as those are also the basis for tool (qualification) testing.
