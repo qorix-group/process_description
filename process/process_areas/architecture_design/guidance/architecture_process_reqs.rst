@@ -238,7 +238,7 @@ Traceability to Requirements and AoU
    :id: gd_req__arch_attr_fulfils_aou
    :status: valid
    :version: 1
-   :tags: manual_prio_1, attribute
+   :tags: manual_prio_1, attribute, optional
    :complies: std_req__iso26262__support_6425[version==1], std_req__aspice_40__SWE-2-BP4[version==1]
    :satisfies: wf__cr_mt_featarch[version==1], wf__cr_mt_comparch[version==1]
 

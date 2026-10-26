@@ -247,7 +247,7 @@ Security Analysis Linkage
    :id: gd_req__sec_attr_aou
    :status: valid
    :version: 1
-   :tags: prio_1_automation, attribute, automated
+   :tags: prio_1_automation, attribute, automated, optional
    :satisfies: wf__analyse_sec_platform_featarch[version==1], wf__analyse_sec_featarch[version==1], wf__analyse_sec_comparch[version==1]
    :complies:
 
