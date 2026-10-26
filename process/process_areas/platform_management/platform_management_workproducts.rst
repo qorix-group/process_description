@@ -20,7 +20,12 @@ Platform Management Work Products
    :status: valid
    :version: 1
    :tags: doc_lifecycle_model_2
-   :complies:
+   :complies: std_req__aspice_40__iic-08-53[version==1],
+              std_req__aspice_40__iic-08-56[version==1],
+              std_req__aspice_40__iic-08-62[version==1],
+              std_req__aspice_40__iic-10-52[version==1],
+              std_req__aspice_40__iic-14-10[version==1],
+              std_req__aspice_40__iic-14-50[version==1]
 
    The Platform Management Plan shall include the plans as defined by the
    :ref:`Platform Management Plan Template <platform_management_templates>`.
