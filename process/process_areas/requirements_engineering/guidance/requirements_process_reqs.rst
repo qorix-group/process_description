@@ -206,7 +206,7 @@ Process Requirement Attributes
    :id: gd_req__req_attr_valid_until
    :status: valid
    :version: 2
-   :tags: manual_prio_2, attribute
+   :tags: manual_prio_2, attribute, optional
    :satisfies: wf__req_stkh_req[version==1], wf__req_feat_req[version==1]
    :complies: std_req__aspice_40__SWE-1-BP2[version==1], std_req__aspice_40__iic-17-54[version==1]
 
@@ -245,7 +245,7 @@ Process Requirement Linkage
    :id: gd_req__req_linkage_aou
    :status: valid
    :version: 1
-   :tags: manual_prio_1, attribute
+   :tags: manual_prio_1, attribute, optional
    :complies: std_req__iso26262__support_6432[version==1], std_req__aspice_40__SWE-1-BP5[version==1]
    :satisfies: wf__req_feat_req[version==1], wf__req_comp_req[version==1]
 
@@ -293,7 +293,7 @@ Process Requirement Linkage
    :id: gd_req__req_attr_test_covered
    :status: valid
    :version: 1
-   :tags: manual_prio_1, attribute
+   :tags: manual_prio_1, attribute, optional
    :satisfies: wf__req_feat_req[version==1], wf__req_comp_req[version==1]
    :complies: std_req__iso26262__support_6433[version==1], std_req__iso26262__software_944[version==1], std_req__aspice_40__iic-13-51[version==1]
 

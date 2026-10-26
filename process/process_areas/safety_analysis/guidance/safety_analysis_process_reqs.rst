@@ -214,7 +214,7 @@ Safety Analysis Linkage
    :id: gd_req__saf_attr_aou
    :status: valid
    :version: 1
-   :tags: done_automation, attribute, automated
+   :tags: done_automation, attribute, automated, optional
    :satisfies: wf__analyse_platform_featarch[version==1], wf__analyse_featarch[version==1], wf__analyse_comparch[version==1]
    :complies: std_req__iso26262__analysis_845[version==1]
 
