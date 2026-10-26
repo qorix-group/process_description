@@ -48,18 +48,6 @@ Stakeholder Requirements
 
       The platform shall ...
 
-.. code-block:: rst
-
-   .. aou_req:: Some Other Title
-      :id: aou_req__platform__some_other_title
-      :reqtype: Interface
-      :security: YES
-      :safety: ASIL_B
-      :status: invalid
-      :version: 1
-
-      The Platform User shall do xyz to use the platform safely.
-
 .. attention::
     The above directives must be updated according to platform requirements.
 

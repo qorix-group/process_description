@@ -65,6 +65,7 @@ Templates
 
    See the Assumption of Use requirement snippets in the
    `module template documentation <https://eclipse-score.github.io/module_template/main/components/component_example/requirements/index.html>`__.
+   For the SW-platform Assumptions of Use see :need:`doc__platform_name_platform_aou`.
 
 
 .. gd_temp:: Tool Requirements Template
