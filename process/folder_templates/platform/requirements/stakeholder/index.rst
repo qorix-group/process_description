@@ -21,7 +21,7 @@ Stakeholder Requirements
    :version: 1
    :safety: ASIL_B
    :security: YES
-   :realizes: wp__requirements_feat[version==1]
+   :realizes: wp__requirements_stkh[version==1]
    :tags: template
 
 .. attention::
