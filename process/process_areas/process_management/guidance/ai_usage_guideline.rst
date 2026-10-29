@@ -33,10 +33,9 @@ AI Usage Guideline
 
    This guideline defines how the
    `Eclipse Generative AI Usage Guidelines <https://www.eclipse.org/projects/guidelines/genai/>`_,
-   made applicable by :need:`wp__policies`, are applied in *S-CORE*. It applies to every
-   contribution to any *S-CORE* repository (source code, documentation, process description,
-   tests, tooling and infrastructure) and to all GitHub content (issues, pull requests, review
-   comments).
+   made applicable by :need:`wp__policies`, are applied in the project. It applies to every
+   contribution to the project, independent of the repository and the kind of content,
+   including issues, pull requests and review comments.
 
    The Eclipse guidelines remain the governing document. This guideline only makes them
    concrete where the Eclipse guidelines leave a choice to the project.
@@ -50,10 +49,6 @@ Responsibility
    defend it in the review.
 #. The use of a generative AI tool shall not reduce the scope of the review, the acceptance
    criteria or the automated checks that apply to a contribution.
-#. The contributor shall follow the terms of use of the AI tool and the policy of their
-   employer on the use of generative AI.
-#. The contributor shall not enter confidential information, personally identifiable
-   information or other sensitive information into an AI tool.
 
 Disclosure
 ==========
@@ -65,15 +60,12 @@ Disclosure
    corrections, formatting, code completion of single statements or rote boilerplate that
    the contributor modifies and supplements.
 
-#. The disclosure shall be given in both of the following places:
+#. The disclosure shall be given where the AI-assisted content is created:
 
-   - in every affected commit, as ``Assisted-by:`` trailer in the commit message, and
-   - in the description of the pull request, in a section "AI disclosure" with a statement
-     that the contributor has reviewed every change and takes responsibility for it, followed
-     by the ``Assisted-by:`` line.
-
-   Disclosing in both places keeps the information in the history also when commits are
-   squashed during merge.
+   - for changes in a repository, as ``Assisted-by:`` trailer in the message of every affected
+     commit;
+   - for issues, pull request descriptions and comments whose text is AI-assisted, as
+     ``Assisted-by:`` line in that text.
 
 #. The AI tool shall be identified in the following format, as complete as possible:
 
@@ -91,7 +83,7 @@ Disclosure
    If several AI tools were used, one ``Assisted-by:`` line per tool shall be given.
 
 #. A file that is largely or entirely AI-generated shall carry, in addition to the standard
-   *S-CORE* copyright header, an AI disclosure block directly below it:
+   copyright header of the project, an AI disclosure block directly below it:
 
    .. code-block:: text
 
@@ -102,19 +94,19 @@ Disclosure
       SPDX-License-Identifier: Apache-2.0 AND CC0-1.0
       Assisted-by: <Provider> <Model> (<Version/ID>)
 
-   The standard copyright header shall stay unchanged, so that the automated copyright
+   The copyright header of the project shall stay unchanged, so that the automated copyright
    checks keep working.
 
 Review and Merge
 ================
 
-#. Every merge into an *S-CORE* repository shall be approved by a human committer
+#. Every merge into a repository of the project shall be approved by a human committer
    (:need:`Committer <rl__committer>`). AI agents or bots shall not push directly to protected
    branches or merge pull requests.
 #. A committer may reject an AI-assisted contribution that they do not understand or are not
    willing to maintain, or request that it is split into smaller pull requests.
-#. A committer may request the missing disclosure, if a contribution appears to be AI-assisted
-   and is not disclosed.
+#. A committer shall request the missing disclosure, if a contribution appears to be
+   AI-assisted and is not disclosed.
 
 Functional Safety and Security
 ==============================
@@ -122,6 +114,7 @@ Functional Safety and Security
 #. AI-assisted content in safety or security related work products shall follow the same
    process, review and verification requirements as any other content. No additional rules
    apply.
-#. The output of an AI tool shall not be used as verification evidence on its own. If AI
-   output becomes part of a work product without a complete human review, the AI tool shall be
-   handled by Tool Management (:need:`wf__tool_evaluate_tool`).
+#. AI tools used to create or verify work products shall be identified and evaluated like any
+   other tool according to Tool Management (:need:`wf__tool_evaluate_tool`). A qualification of
+   AI tools is not intended. Therefore the output of an AI tool shall not be used as work product
+   or verification evidence without human review.
