@@ -18,6 +18,7 @@ Guidance
 .. toctree::
    :maxdepth: 1
 
+   ai_usage_guideline
    process_management_guideline
    process_management_templates
    process_management_reqs

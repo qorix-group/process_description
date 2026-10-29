@@ -38,8 +38,9 @@ Here only project specific work products are listed, which are generic for the p
    `Eclipse Foundation Functional Safety Process <https://gitlab.eclipse.org/eclipsefdn/emo-team/policies/functional-safety-process/-/blob/main/source/fsp.adoc?ref_type=heads>`_)
    applies.
 
-   Concerning the use of Generative Artificial Intelligence
-   `Usage Guidelines <https://www.eclipse.org/projects/guidelines/genai/>`_ applies.
+   Concerning the use of Generative Artificial Intelligence the Eclipse Foundation
+   `Generative AI Usage Guidelines <https://www.eclipse.org/projects/guidelines/genai/>`_
+   apply. Their application in the project is defined in :need:`gd_guidl__ai_usage`.
 
    Project specific Policies for functional safety and cybersecurity may extend the
    ones from ECLIPSE.

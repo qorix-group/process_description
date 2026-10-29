@@ -28,7 +28,7 @@ For a detailed explanation of workflows and their role within the process model,
    :supported_by: rl__safety_external_auditor[version==1], rl__security_external_auditor[version==1], rl__project_lead[version==1]
    :input: wp__policies[version==1], wp__issue_track_system[version==1]
    :output: wp__process_strategy[version==1], wp__policies[version==1]
-   :contains: gd_guidl__process_management[version==1], gd_temp__process_workflow[version==1]
+   :contains: gd_guidl__process_management[version==1], gd_guidl__ai_usage[version==1], gd_temp__process_workflow[version==1]
    :has: doc_concept__process_management[version==1], doc_getstrt__process_management[version==1]
 
    The process management strategy is created and maintained. Policies are
