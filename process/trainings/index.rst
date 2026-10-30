@@ -23,54 +23,15 @@
 Trainings
 =========
 
-.. caution::
-   THE CONTENT IS CREATED BY AI AND MAY CONTAIN ERRORS.
-   THE CONTENT PURPOSE IS ONLY PROVIDED FOR VISUALIZATION AND DEMONSTRATION OF THE TRAINING PORTAL.
-   PLEASE VERIFY THE INFORMATION BEFORE USE.
-
-   Human verification has NOT been performed to ensure the accuracy of the content,
-   and the content may not be suitable for actual training purposes.
-
-Self-paced interactive training portals for the Eclipse S-CORE process areas.
-Each portal is built from editable Markdown source files and rendered as a
-standalone HTML site with progress tracking and embedded quizzes.
-
-.. note::
-   The portals open as self-contained HTML applications.
-   Progress is saved locally in your browser — no server or login required.
-
-Available Trainings (VISUALIZATION AND DEMONSTRATION PURPOSE ONLY)
-------------------------------------------------------------------
-
-.. grid:: 1 1 2 2
-   :class-container: score-grid
-
-   .. grid-item-card::
-      :class-card: card-ml2
-
-      Requirements Engineering (VISUALIZATION AND DEMONSTRATION PURPOSE ONLY)
-      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-      A focused 4-module training covering the S-CORE requirements engineering
-      process: concepts, requirement levels, attributes, and workflows.
-
-      | **Duration:** ~3.5 hours
-      | **Modules:** 4 + Checkpoint Quiz
-      | **Standards:** ISO 26262 · ASPICE SWE.1 · ISO/SAE 21434
-
-      .. raw:: html
-
-         <a href="../requirements_engineering/index.html"
-            class="sd-btn sd-btn-primary sd-text-wrap"
-            style="margin-top:12px;display:inline-block;">
-           Open Training Portal →
-         </a>
+S-CORE offers hands-on trainings, which you work through in a GitHub repository, and
+self-paced interactive training portals.
 
 Hands-on Trainings
 ------------------
 
-Unlike the portals above, a hands-on training is a GitHub repository: you copy it into your own
-account and work through task issues, defect branches and prepared pull requests in a fictive
-S-CORE module.
+Unlike the training portals below, a hands-on training is a GitHub repository: you copy it into
+your own account and work through task issues, defect branches and prepared pull requests in a
+fictive S-CORE module.
 
 .. grid:: 1 1 2 2
    :class-container: score-grid
@@ -97,8 +58,53 @@ S-CORE module.
            Open Training Repository →
          </a>
 
+Training Portals
+----------------
+
+.. caution::
+   THE CONTENT IS CREATED BY AI AND MAY CONTAIN ERRORS.
+   THE CONTENT PURPOSE IS ONLY PROVIDED FOR VISUALIZATION AND DEMONSTRATION OF THE TRAINING PORTAL.
+   PLEASE VERIFY THE INFORMATION BEFORE USE.
+
+   Human verification has NOT been performed to ensure the accuracy of the content,
+   and the content may not be suitable for actual training purposes.
+
+Self-paced interactive training portals for the Eclipse S-CORE process areas.
+Each portal is built from editable Markdown source files and rendered as a
+standalone HTML site with progress tracking and embedded quizzes.
+
+.. note::
+   The portals open as self-contained HTML applications.
+   Progress is saved locally in your browser — no server or login required.
+
+Available Trainings (VISUALIZATION AND DEMONSTRATION PURPOSE ONLY)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+.. grid:: 1 1 2 2
+   :class-container: score-grid
+
+   .. grid-item-card::
+      :class-card: card-ml2
+
+      Requirements Engineering (VISUALIZATION AND DEMONSTRATION PURPOSE ONLY)
+      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+      A focused 4-module training covering the S-CORE requirements engineering
+      process: concepts, requirement levels, attributes, and workflows.
+
+      | **Duration:** ~3.5 hours
+      | **Modules:** 4 + Checkpoint Quiz
+      | **Standards:** ISO 26262 · ASPICE SWE.1 · ISO/SAE 21434
+
+      .. raw:: html
+
+         <a href="../requirements_engineering/index.html"
+            class="sd-btn sd-btn-primary sd-text-wrap"
+            style="margin-top:12px;display:inline-block;">
+           Open Training Portal →
+         </a>
+
 Training Source and Build
--------------------------
+~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Each training is maintained under
 ``process/trainings/<training_name>/source/`` as editable Markdown files and
@@ -113,7 +119,7 @@ To rebuild a specific training manually:
    python build.py
 
 Adding a new training
----------------------
+~~~~~~~~~~~~~~~~~~~~~
 
 1. Copy the template from ``process/trainings/trainings_templates/content/``
    into a new ``trainings_<area>/source/content/`` directory.
