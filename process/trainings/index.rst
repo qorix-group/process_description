@@ -65,6 +65,38 @@ Available Trainings (VISUALIZATION AND DEMONSTRATION PURPOSE ONLY)
            Open Training Portal →
          </a>
 
+Hands-on Trainings
+------------------
+
+Unlike the portals above, a hands-on training is a GitHub repository: you copy it into your own
+account and work through task issues, defect branches and prepared pull requests in a fictive
+S-CORE module.
+
+.. grid:: 1 1 2 2
+   :class-container: score-grid
+
+   .. grid-item-card::
+      :class-card: card-ml2
+
+      Contributor Training
+      ^^^^^^^^^^^^^^^^^^^^
+      Build, review, fix and rebase in a module made from the S-CORE module template, with tracks
+      for the quality, safety and security roles. Self-organised, without a tutor; the solutions
+      are open. Ends with a certificate of completion, which is no Eclipse Foundation
+      certification. Further tracks are planned.
+
+      | **Duration:** about five working days
+      | **Stages:** 7 (environment to formal review)
+      | **Tracks:** quality · safety · security
+
+      .. raw:: html
+
+         <a href="https://github.com/eclipse-score/contributor_training"
+            class="sd-btn sd-btn-primary sd-text-wrap"
+            style="margin-top:12px;display:inline-block;">
+           Open Training Repository →
+         </a>
+
 Training Source and Build
 -------------------------
 
