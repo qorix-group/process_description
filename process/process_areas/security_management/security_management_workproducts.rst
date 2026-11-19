@@ -170,5 +170,13 @@ Security Management Work Products
 
    Evidence that the conditions for the release for post-development are fulfilled: the security case is convincing, the case is confirmed by the cybersecurity assessment if one is performed, and the cybersecurity requirements for post-development are accepted.
 
+.. workproduct:: Off-the-Shelf and Open-Source Component Assessment (Security)
+   :id: wp__sw_component_oss_assessment
+   :status: valid
+   :version: 1
+   :tags: doc_lifecycle_model_2
+
+   Assessment of each off-the-shelf or open-source component the platform uses, with three results: whether the allocated cybersecurity requirements can be fulfilled by the component, whether the component is suitable for the intended use, and whether its documentation is sufficient for the cybersecurity activities. Where the documentation is insufficient, the activities to close the gap are named (requirements RQ-06-21 and RQ-06-22 of the standard).
+
 .. needextend:: "c.this_doc()"
    :+tags: security_management
