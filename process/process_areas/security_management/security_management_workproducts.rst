@@ -29,7 +29,7 @@ Security Management Work Products
 
    This Platform Security Plan also takes into account the eclipse organization's rules relevant for security development.
 
-   Guidelines on how an change impact analysis shall be concluded on each item or element involved together with it's connected items or elements.
+   Changes to an item or component are analysed with the change impact analysis of the change management (template gd_temp__change_impact_analysis). The reuse analysis of the standard is part of that analysis.
 
    For the template see here: :need:`doc__platform_security_plan`
 
@@ -46,7 +46,7 @@ Security Management Work Products
 
    Plan to manage and guide the execution of the security activities of a project including dates, milestones, tasks, deliverables, responsibilities (including the Security Manager appointment) and resources.
 
-   Guidelines on how an impact analysis shall be concluded on each item or element involved together with it's connected items or elements.
+   Changes to an item or component are analysed with the change impact analysis of the change management (template gd_temp__change_impact_analysis). The reuse analysis of the standard is part of that analysis.
 
    For the template see here: `Module Security Plan Template <https://eclipse-score.github.io/module_template/main/module/security_mgt/module_security_plan.html>`__
 

@@ -60,7 +60,7 @@ As described in :need:`wf__p_formal_security_rv`, the formal document review is 
           - <Rationale for result>
 
         * - 2
-          - Is impact analysis planned in case of re-use of SW or a feature modification request?
+          - Is a reuse analysis planned and carried out in case of re-use of SW, a change in the operational environment, or a relevant change of cybersecurity information? (RQ-06-15 to RQ-06-17)
           - [YES | NO ]
           - <Rationale for result>
 
