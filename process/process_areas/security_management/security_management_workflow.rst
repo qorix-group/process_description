@@ -32,6 +32,7 @@ For a detailed explanation of workflows and their role within the process model,
    :has: doc_concept__security_management_process[version==1], doc_getstrt__security_management_process[version==1]
 
    | The Security Manager is responsible for the planning and coordination of the security activities for the platform/module.
+   | For each item or component the Security Manager determines whether it is cybersecurity relevant, and whether it is a new development or a reuse, using the method of the standard's relevance annex.
    | The Security Manager creates and maintains the Security Plan.
    | For this a template exists to guide the creator of the Security Plan.
 
@@ -162,7 +163,7 @@ For a detailed explanation of workflows and their role within the process model,
            wp__fdr_reports_security[version==1],
            wp__sw_platform_sbom[version==1],
            wp__sw_module_sbom[version==1]
-   :output: wp__issue_track_system[version==1], wp__module_sw_release_note[version==1], wp__platform_sw_release_note[version==1]
+   :output: wp__issue_track_system[version==1], wp__module_sw_release_note[version==1], wp__release_post_development_security[version==1], wp__platform_sw_release_note[version==1]
    :contains: gd_guidl__security_plan_definitions[version==1]
    :has: doc_concept__security_management_process[version==1], doc_getstrt__security_management_process[version==1]
 

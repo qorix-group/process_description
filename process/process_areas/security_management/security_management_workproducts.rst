@@ -81,7 +81,6 @@ Security Management Work Products
    :status: valid
    :version: 1
    :tags: doc_lifecycle_model_2
-   :complies: std_wp__isosae21434__prj_management_654[version==1]
 
    Review that a work product provides sufficient and convincing evidence of their contribution to the achievement of security considering the corresponding objectives and requirements of ISO SAE 21434.
 
@@ -107,7 +106,7 @@ Security Management Work Products
    :status: valid
    :version: 1
    :tags: doc_lifecycle_model_2
-   :complies: std_wp__isosae21434__prj_management_654[version==1]
+   :complies: std_wp__isosae21434__development_1052[version==1]
 
    The Security Manual describes:
 
@@ -127,7 +126,7 @@ Security Management Work Products
    :status: valid
    :version: 1
    :tags: doc_lifecycle_model_2
-   :complies: std_wp__isosae21434__prj_management_654[version==1]
+   :complies: std_wp__isosae21434__development_1052[version==1]
 
    The Security Manual describes:
 
@@ -161,6 +160,15 @@ Security Management Work Products
 
    Module Software Bill of Material
    - comprehensive inventory of software components to ensure security, integrity, and compliance.
+
+.. workproduct:: Release for Post-Development Report (Security)
+   :id: wp__release_post_development_security
+   :status: valid
+   :version: 1
+   :tags: doc_lifecycle_model_2
+   :complies: std_wp__isosae21434__prj_management_654[version==1]
+
+   Evidence that the conditions for the release for post-development are fulfilled: the security case is convincing, the case is confirmed by the cybersecurity assessment if one is performed, and the cybersecurity requirements for post-development are accepted.
 
 .. needextend:: "c.this_doc()"
    :+tags: security_management
