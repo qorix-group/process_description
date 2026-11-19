@@ -99,9 +99,9 @@ Apart from the security plans the main work products of security management are 
 Security Management Tooling
 ***************************
 
-For the security planning and security manual a “docs-as-code” approach is used and within that approach Id will be used for referencing.
+For the security planning and security manual the documentation approach of this process is used, and IDs are used for referencing.
 
-For the activities planning (who, when) we use :need:`wp__issue_track_system` to create and manage issues, and monitor progress through a project management dashboard.
+For the activities planning (who, when) we use :need:`wp__issue_track_system` to create and manage issues, and monitor progress through the status reporting of the project.
 
 Also, refer :need:`wf__mr_sec_analyses` for the monitoring of security analyses.
 

@@ -172,7 +172,7 @@ For a detailed explanation of workflows and their role within the process model,
    | The Security Manager is responsible to verify the correctness, completeness and consistency of the release notes.
    | The Security Manager is responsible for the monitoring of security information as defined in the Security Plan.
    | The Security Manager is responsible to identify weaknesses and vulnerabilities based on received information, and to analyse and manage the vulnerabilities until closure.
-   | Beside reporting vulnerabilities in the :need:`wp__issue_track_system`, also `Eclipse general vulnerability tracker <https://gitlab.eclipse.org/security>`_ may be used.
+   | Beside reporting vulnerabilities in the :need:`wp__issue_track_system`, they may also be reported through the `Eclipse Foundation security policy <https://www.eclipse.org/security/policy/>`_.
 
 .. workflow:: Consult and Execute Security Trainings
    :id: wf__consult_exe_sec_training
