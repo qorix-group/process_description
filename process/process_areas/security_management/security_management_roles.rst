@@ -55,7 +55,7 @@ Roles
    * Reports security weaknesses, vulnerabilities
    * Coaches the project team w.r.t all questions related to security
    * Plans and approves the security audit (tailored out for the current increment)
-   * Plans and approves the formal security reviews (tailored out for the current increment, ML 2 verification by internal inspection)
+   * Plans and approves the formal security reviews (performed by an independent reviewer)
    * Approval of security analyses
    * Checks that every person in his team has sufficient security skills for their role
 

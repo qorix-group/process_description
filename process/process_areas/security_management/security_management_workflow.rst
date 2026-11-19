@@ -94,7 +94,7 @@ For a detailed explanation of workflows and their role within the process model,
    | The Project Lead and and the Security Manager shall approve the formal reviews.
    | Therefore a checklists exist to guide the creator of the relevant security documents.
    |
-   | This is tailored out for the platform in the current increment. Verification for ML 2 is performed as internal inspection by a security manager, documented with the security FDR checklists. The external formal review is planned before the ML 3 assessment.
+   | The reviewer is independent of the reviewed work product: the reviewer did not create it. The independence is recorded in the review report.
 
 .. workflow:: Create/Maintain Security Manual
    :id: wf__cr_mt_security_manual
