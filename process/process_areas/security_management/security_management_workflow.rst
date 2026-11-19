@@ -147,6 +147,23 @@ For a detailed explanation of workflows and their role within the process model,
    | The Committer is responsible to create and the maintain the SBOM for the platform/module.
    | The Committer makes sure all components and dependencies are identified and made available.
 
+.. workflow:: Assess Off-the-Shelf and Open-Source Components
+   :id: wf__assess_oss_ots_components
+   :status: valid
+   :version: 1
+   :responsible: rl__security_engineer[version==1]
+   :approved_by: rl__security_manager[version==1]
+   :supported_by: rl__committer[version==1]
+   :input: wp__sw_platform_sbom[version==1], wp__issue_track_system[version==1]
+   :output: wp__sw_component_oss_assessment[version==1]
+   :contains: gd_guidl__security_plan_definitions[version==1]
+   :has: doc_concept__security_management_process[version==1], doc_getstrt__security_management_process[version==1]
+
+   | Proposal (E9): this workflow is not decided yet.
+   | The Security Engineer analyses each off-the-shelf or open-source component the platform uses against three results: whether the cybersecurity requirements allocated to it can be fulfilled, whether it is suitable for the intended use, and whether its documentation is sufficient for the cybersecurity activities.
+   | Where the documentation is insufficient, the activities that close the gap are identified and planned.
+   | The Security Manager approves the assessment.
+
 .. workflow:: Monitor/Verify Security
    :id: wf__mr_vy_security
    :status: valid
