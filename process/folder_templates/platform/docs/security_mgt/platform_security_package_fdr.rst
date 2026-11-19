@@ -62,7 +62,7 @@ As described in :need:`wf__p_formal_security_rv`, the formal document review is 
         * - 2
           - Is a cybersecurity case provided, or is its absence justified by a tailoring rationale that has been reviewed? (RQ-06-23, RQ-06-14)
           - [YES | NO ]
-          - The security package does not contain the argument (see wp__platform_security_package). Tailoring rationale: see the platform security plan.
+          - <Rationale for result>
 
         * - 3
           - Are the referenced work products available (e.g. security analyses, platform security manual, SBOM, cybersecurity requirements for post-development WP-10-02, and the assessment report if an assessment is performed)? (RQ-06-33)
@@ -72,7 +72,7 @@ As described in :need:`wf__p_formal_security_rv`, the formal document review is 
         * - 4
           - Are the referenced work products in released state, and is the cybersecurity case confirmed by an assessment if one is performed? (RQ-06-34)
           - [YES | NO ]
-          - The process security audit report is tailored out, see the platform security plan.
+          - <Rationale for result>
 
         * - 5
           - If security related deviations from the process or security concept are documented, are these argued understandably?
