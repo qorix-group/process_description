@@ -167,7 +167,7 @@ For a detailed explanation of workflows and their role within the process model,
    :has: doc_concept__security_management_process[version==1], doc_getstrt__security_management_process[version==1]
 
    | The Security Manager is responsible for the monitoring of the security activities against the Security Plan.
-   | The Security Manager is responsible to verify, that the preconditions for the "release for production", which are  part of the release notes, are fulfilled.
+   | The Security Manager is responsible to verify, that the preconditions for the "release for post-development", which are  part of the release notes, are fulfilled.
    | The Security Manager is responsible to verify the correctness, completeness and consistency of the release notes.
    | The Security Manager is responsible for the monitoring of security information as defined in the Security Plan.
    | The Security Manager is responsible to identify weaknesses and vulnerabilities based on received information, and to analyse and manage the vulnerabilities until closure.
