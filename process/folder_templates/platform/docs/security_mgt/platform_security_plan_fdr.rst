@@ -138,3 +138,8 @@ As described in :need:`wf__p_formal_security_rv`, the formal document review is 
           - If an assessment is performed, does its scope include the plan, the work products, the risk treatment and the rationales, and does its report recommend acceptance, conditional acceptance or rejection? (RQ-06-30, RQ-06-31, RQ-06-32)
           - [YES | NO ]
           - <Rationale for result>
+
+        * - 18
+          - For each off-the-shelf component, are the fulfilment of the allocated cybersecurity requirements, the suitability for the intended use, and the sufficiency of its documentation analysed? (RQ-06-21, RQ-06-22)
+          - [YES | NO ]
+          - <Rationale for result>
