@@ -40,9 +40,9 @@ The purpose of this security plan formal review checklist is to report status of
 
 **Conduct**
 
-As described in :need:`wf__p_formal_security_rv`, the formal document review is performed by an independent reviewer. The external security auditor is responsible for the review, the security manager supports it. The reviewer is named below:
+As described in :need:`wf__p_formal_security_rv`, the formal document review is performed by an "external" security manager from the pool of platform security managers, who did not create or approve the plan. The security engineer supports the review. The reviewer is named below:
 
-- reviewer: <committer with security manager skills explicitly named here, not the author of the plan>
+- reviewer: <security manager explicitly named here, not the author or approver of the plan>
 
 **Checklist**
 
@@ -141,5 +141,15 @@ As described in :need:`wf__p_formal_security_rv`, the formal document review is 
 
         * - 18
           - For each off-the-shelf component, are the fulfilment of the allocated cybersecurity requirements, the suitability for the intended use, and the sufficiency of its documentation analysed? (:need:`[[title]] <std_req__isosae21434__prj_management_6461>`, :need:`[[title]] <std_req__isosae21434__prj_management_6462>`)
+          - [YES | NO ]
+          - <Rationale for result>
+
+        * - 19
+          - Are the sources of cybersecurity information and the triggers for the cybersecurity monitoring defined? (:need:`[[title]] <std_req__isosae21434__continual_8321>`, :need:`[[title]] <std_req__isosae21434__continual_8322>`)
+          - [YES | NO ]
+          - <Rationale for result>
+
+        * - 20
+          - Is the cybersecurity interface with the integrator defined, incl. the activities the integrator performs (validation, production, end of support) and the tailoring of supplier selection? (:need:`[[title]] <std_req__isosae21434__distributed_7431>`)
           - [YES | NO ]
           - <Rationale for result>

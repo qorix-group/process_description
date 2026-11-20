@@ -54,8 +54,9 @@ Roles
    * Supports reporting of security related project status
    * Reports security weaknesses, vulnerabilities
    * Coaches the project team w.r.t all questions related to security
-   * Plans and approves the security audit (tailored out for ML 2, the gate for ML 3)
-   * Plans and approves the formal security reviews (performed by an independent reviewer)
+   * Plans and approves the security audit (before the assessment for maturity level 3)
+   * Plans the formal security reviews, and performs formal reviews of work products of other platforms or modules as "external" Security Manager
+   * Supports the cybersecurity assessment
    * Approval of security analyses
    * Checks that every person in his team has sufficient security skills for their role
 
@@ -80,10 +81,12 @@ Roles
    Responsibility
 
    * Performing and reporting of security audit
+   * Planning, performing and reporting of the cybersecurity assessment
 
    Authority
 
    * Decision on the passing or failing of an audit
+   * Recommendation for acceptance, conditional acceptance or rejection in the cybersecurity assessment
 
 .. needextend:: "c.this_doc()"
    :+tags: security_management

@@ -40,9 +40,9 @@ The purpose of this review checklist is to report status of the formal review fo
 
 **Conduct**
 
-As described in :need:`wf__p_formal_security_rv`, the formal document review is performed by an independent reviewer. The external security auditor is responsible for the review, the security manager supports it. The reviewer is named below:
+As described in :need:`wf__p_formal_security_rv`, the formal document review is performed by an "external" security manager from the pool of platform security managers, who did not create or approve the package. The security engineer supports the review. The reviewer is named below:
 
-- reviewer: <committer with security manager skills explicitly named here, not the author of the package>
+- reviewer: <security manager explicitly named here, not the author or approver of the package>
 
 **Checklist**
 
@@ -65,12 +65,12 @@ As described in :need:`wf__p_formal_security_rv`, the formal document review is 
           - <Rationale for result>
 
         * - 3
-          - Are the referenced work products available (e.g. security analyses, platform security manual, SBOM, cybersecurity requirements for post-development :need:`[[title]] <std_wp__isosae21434__development_1052>`, and the assessment report if an assessment is performed)? (:need:`[[title]] <std_req__isosae21434__prj_management_6491>`)
+          - Are the referenced work products available (e.g. security analyses, platform security manual, SBOM, cybersecurity requirements for post-development :need:`[[title]] <std_wp__isosae21434__development_1052>`, and the cybersecurity assessment report)? (:need:`[[title]] <std_req__isosae21434__prj_management_6491>`)
           - [YES | NO ]
           - <Rationale for result>
 
         * - 4
-          - Are the referenced work products in released state, and is the cybersecurity case confirmed by an assessment if one is performed? (:need:`[[title]] <std_req__isosae21434__prj_management_6492>`)
+          - Are the referenced work products in released state, and is the cybersecurity case confirmed by the cybersecurity assessment? (:need:`[[title]] <std_req__isosae21434__prj_management_6492>`)
           - [YES | NO ]
           - <Rationale for result>
 
@@ -85,6 +85,6 @@ As described in :need:`wf__p_formal_security_rv`, the formal document review is 
           - <Rationale for result>
 
         * - 7
-          - If an assessment report exists, does it recommend acceptance, conditional acceptance or rejection, and are the conditions stated for a conditional acceptance? (:need:`[[title]] <std_req__isosae21434__prj_management_6488>`, :need:`[[title]] <std_req__isosae21434__prj_management_6489>`)
+          - Does the cybersecurity assessment report recommend acceptance, conditional acceptance or rejection, and are the conditions stated for a conditional acceptance? (:need:`[[title]] <std_req__isosae21434__prj_management_6488>`, :need:`[[title]] <std_req__isosae21434__prj_management_6489>`)
           - [YES | NO ]
           - <Rationale for result>

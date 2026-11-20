@@ -26,26 +26,27 @@ Irrelevant clauses for the project process requirements and work products compli
 
 "Clause 9: Concept" - as this is in responsibility of system integrator
 
-"Clause 11: Cybersecurity validation" - performed by the system integrator; distributed through the cybersecurity interface (clause 7). The platform part is documented in the platform security plan.
-
-"Clause 12: Production" - performed by the system integrator; distributed through the cybersecurity interface (clause 7). The platform part is documented in the platform security plan.
-
-"Clause 14: End of cybersecurity support and decommissioning" - performed by the system integrator; distributed through the cybersecurity interface (clause 7). The platform part is documented in the platform security plan.
-
 "Annex A-H:" - as it contains no requirements and work products
 
+Clauses performed by the system integrator are distributed cybersecurity activities (see clause 7), not tailored activities.
+Their interface to the platform is the cybersecurity interface agreement; the platform part is documented in the platform security plan and the platform security manual:
 
-Clause 7 (distributed cybersecurity activities) is partly relevant: only for the cybersecurity
-interface with the system integrator. The requirements on the alignment of distributed activities
-and interfaces, the requirements on vulnerabilities across the parties, and the work product
-"cybersecurity interface agreement" apply to the platform. The requirements on supplier capability
-and on requests for quotation are tailored out: S-CORE is an open-source project and does not
-select suppliers. The rationale is reviewed under :need:`[[title]] <std_req__isosae21434__prj_management_6432>` and documented in the platform security plan.
+"Clause 11: Cybersecurity validation"
+
+"Clause 12: Production"
+
+"Clause 14: End of cybersecurity support and decommissioning"
+
+Partly relevant clauses are:
+
+"Clause 7: Distributed cybersecurity activities" - only the alignment of responsibilities with the system integrator (7.4.3) and the
+cybersecurity interface agreement are relevant. Supplier capability (7.4.1) and request for quotation (7.4.2) are tailored out,
+because S-CORE is an open-source project and does not select suppliers. The rationale is documented in the platform security plan
+and reviewed in its formal review (:need:`[[title]] <std_req__isosae21434__prj_management_6432>`).
+
+Tailoring rationales are documented in the platform security plan (score repository, tailoring section).
 
 Relevant clauses are:
-
-Tailoring rationales are documented in the platform security plan
-(score repository, tailoring section).
 
 
 Clause 5: Organizational cybersecurity management
@@ -318,6 +319,42 @@ Clause 6: Project dependent cybersecurity management
 
     .. std_wp:: prj_management_654
        :id: std_wp__isosae21434__prj_management_654
+       :status: valid
+       :version: 1
+
+
+Clause 7: Distributed cybersecurity activities
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+* Requirements
+   .. std_req:: distributed_7431
+       :id: std_req__isosae21434__distributed_7431
+       :status: valid
+       :version: 1
+
+   .. std_req:: distributed_7432
+       :id: std_req__isosae21434__distributed_7432
+       :status: valid
+       :version: 1
+
+   .. std_req:: distributed_7433
+       :id: std_req__isosae21434__distributed_7433
+       :status: valid
+       :version: 1
+
+   .. std_req:: distributed_7434
+       :id: std_req__isosae21434__distributed_7434
+       :status: valid
+       :version: 1
+
+   .. std_req:: distributed_7435
+       :id: std_req__isosae21434__distributed_7435
+       :status: valid
+       :version: 1
+
+* Work products
+   .. std_wp:: distributed_751
+       :id: std_wp__isosae21434__distributed_751
        :status: valid
        :version: 1
 
