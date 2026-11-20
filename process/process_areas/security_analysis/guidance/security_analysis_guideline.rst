@@ -21,7 +21,9 @@ Security Analysis Guidelines
    :id: gd_guidl__security_analysis
    :status: valid
    :version: 1
-   :complies: std_req__isosae21434__concept_9421[version==1],
+   :complies: std_req__isosae21434__concept_9321[version==1],
+              std_req__isosae21434__concept_9322[version==1],
+              std_req__isosae21434__concept_9421[version==1],
               std_req__isosae21434__concept_9422[version==1],
               std_req__isosae21434__concept_9423[version==1],
               std_req__isosae21434__concept_9424[version==1],
@@ -171,6 +173,10 @@ The security analysis shall be used to analyze whether the vulnerabilities withi
 
 Risk determination of the platform security analysis
 =====================================================
+
+The platform security analysis starts with the item definition of the platform: its boundary, its functions and its
+preliminary architecture (the platform feature architecture), and the assumed operational environment from the
+platform security manual.
 
 Each threat scenario of the platform security analysis is rated as follows. The ratings are recorded per
 threat scenario in the platform security analysis.
