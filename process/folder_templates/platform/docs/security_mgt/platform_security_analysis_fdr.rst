@@ -63,55 +63,55 @@ Mark each item "YES" or "NO" and state the reason in the comment. A "NO" needs a
       * - Sec 1
         - Is the item definition complete: the information on the item and its operational environment is identified?
         - [YES | NO ]
-        - RQ-09-01, RQ-09-02
+        - :need:`[[title]] <std_req__isosae21434__concept_9321>`, :need:`[[title]] <std_req__isosae21434__concept_9322>`
         - <Rationale for result>
 
       * - Sec 2
         - Is the analysis based on the item definition and performed with the defined method and templates?
         - [YES | NO ]
-        - RQ-09-03
+        - :need:`[[title]] <std_req__isosae21434__concept_9421>`
         - <Rationale for result>
 
       * - Sec 3
         - Are the threat scenarios, their impact and their risk values identified for the assets?
         - [YES | NO ]
-        - RQ-09-03, RQ-09-04
+        - :need:`[[title]] <std_req__isosae21434__concept_9421>`, :need:`[[title]] <std_req__isosae21434__concept_9422>`
         - <Rationale for result>
 
       * - Sec 4
         - Is a risk treatment decision taken for each threat scenario, and are the risks retained because of assumptions documented as such?
         - [YES | NO ]
-        - RQ-09-04, RQ-09-06
+        - :need:`[[title]] <std_req__isosae21434__concept_9422>`, :need:`[[title]] <std_req__isosae21434__concept_9424>`
         - <Rationale for result>
 
       * - Sec 5
         - Are the cybersecurity goals and claims consistent with the risk treatment decisions?
         - [YES | NO ]
-        - RQ-09-05, RQ-09-06
+        - :need:`[[title]] <std_req__isosae21434__concept_9423>`, :need:`[[title]] <std_req__isosae21434__concept_9424>`
         - <Rationale for result>
 
       * - Sec 6
         - Are the cybersecurity controls, requirements and their allocation to the item defined and consistent with the goals?
         - [YES | NO ]
-        - RQ-09-08, RQ-09-09, RQ-09-10
+        - :need:`[[title]] <std_req__isosae21434__concept_9521>`, :need:`[[title]] <std_req__isosae21434__concept_9522>`, :need:`[[title]] <std_req__isosae21434__concept_9523>`
         - <Rationale for result>
 
       * - Sec 7
         - Is the verification of the analysis result performed: correctness, completeness and consistency of the analysis, the treatment and the claims?
         - [YES | NO ]
-        - RQ-09-07, RQ-09-11
+        - :need:`[[title]] <std_req__isosae21434__concept_9425>`, :need:`[[title]] <std_req__isosae21434__concept_9524>`
         - <Rationale for result>
 
       * - Sec 8
         - Are the assumptions of use of the analysis the same as the assumptions in the security manual?
         - [YES | NO ]
-        - RQ-06-18 (assumptions of out-of-context components)
+        - :need:`[[title]] <std_req__isosae21434__prj_management_6451>`
         - <Rationale for result>
 
       * - Sec 9
         - Is the analysis updated when the item, its environment or the known threats change?
         - [YES | NO ]
-        - RQ-06-07, RQ-06-09
+        - :need:`[[title]] <std_req__isosae21434__prj_management_6426>`, :need:`[[title]] <std_req__isosae21434__prj_management_6428>`
         - <Rationale for result>
 
-Note: the standard's clause 9 requirements are not modelled as needs in the upstream needs files. The references in this checklist are therefore plain text and must be checked against the standard text by the security manager.
+Note: the references link to the requirements modelled on the standards page. The check against the standard text is part of the security manager's review of the analysis checklist.
