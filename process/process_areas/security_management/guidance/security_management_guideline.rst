@@ -54,8 +54,9 @@ Security Management Guideline
    The :need:`rl__security_manager` on SW platform level is responsible to define a competence
    management for the whole platform. Expectation is that the security competence of the persons
    nominated for the roles is already given and only has to be checked. The exception from this
-   are the committers. Their security competence is required (RQ-05-07) and defined by the project's committer
-   election criteria in the platform security plan.
+   are the committers. Their security competence is required
+   (:need:`std_req__isosae21434__org_management_5422`) and defined by the committer
+   election criteria in the :need:`wp__platform_security_plan`.
    So the Module Security Managers shall consult the :need:`wp__platform_security_plan` and
    perform accordingly in their module project.
 
@@ -68,7 +69,7 @@ Security Management Guideline
 
    **Security Weaknesses, Vulnerabilities:**
 
-   Reports of weaknesses and incidents from the field and from the community are triaged, analysed and managed in the monitor workflow; that is how the platform handles incidents (RQ-13-01, RQ-13-02).
+   Reports of weaknesses and incidents from the field and from the community are triaged, analysed and managed in the monitor workflow; that is how the platform handles incidents (:need:`std_req__isosae21434__maintenance_13321`, :need:`std_req__isosae21434__maintenance_13322`).
 
    As the SW platform organization does not have own vehicles in the field, it relies on feedback
    from OEMs and Distributors on bugs discovered in the field. The need for this feedback is part

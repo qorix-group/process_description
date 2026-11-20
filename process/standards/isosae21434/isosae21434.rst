@@ -40,7 +40,7 @@ interface with the system integrator. The requirements on the alignment of distr
 and interfaces, the requirements on vulnerabilities across the parties, and the work product
 "cybersecurity interface agreement" apply to the platform. The requirements on supplier capability
 and on requests for quotation are tailored out: S-CORE is an open-source project and does not
-select suppliers. The rationale is reviewed under RQ-06-14 and documented in the platform security plan.
+select suppliers. The rationale is reviewed under :need:`[[title]] <std_req__isosae21434__prj_management_6432>` and documented in the platform security plan.
 
 Relevant clauses are:
 

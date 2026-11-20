@@ -26,7 +26,7 @@ Security Management Work Products
 
    This Platform Security Plan also takes into account the eclipse organization's rules relevant for security development.
 
-   Changes to an item or component are analysed with the change impact analysis of the change management (template gd_temp__change_impact_analysis). The reuse analysis of the standard is part of that analysis.
+   Changes to an item or component are analysed with the change impact analysis of the change management (template :need:`gd_temp__change_impact_analysis`). The reuse analysis of the standard is part of that analysis.
 
    For the template see here: :need:`doc__platform_security_plan`
 
@@ -43,7 +43,7 @@ Security Management Work Products
 
    Plan to manage and guide the execution of the security activities of a project including dates, milestones, tasks, deliverables, responsibilities (including the Security Manager appointment) and resources.
 
-   Changes to an item or component are analysed with the change impact analysis of the change management (template gd_temp__change_impact_analysis). The reuse analysis of the standard is part of that analysis.
+   Changes to an item or component are analysed with the change impact analysis of the change management (template :need:`gd_temp__change_impact_analysis`). The reuse analysis of the standard is part of that analysis.
 
    For the template see here: `Module Security Plan Template <https://eclipse-score.github.io/module_template/main/module/security_mgt/module_security_plan.html>`__
 
@@ -171,7 +171,7 @@ Security Management Work Products
    :version: 1
    :tags: doc_lifecycle_model_2
 
-   Assessment of each off-the-shelf or open-source component the platform uses, with three results: whether the allocated cybersecurity requirements can be fulfilled by the component, whether the component is suitable for the intended use, and whether its documentation is sufficient for the cybersecurity activities. Where the documentation is insufficient, the activities to close the gap are named (requirements RQ-06-21 and RQ-06-22 of the standard).
+   Assessment of each off-the-shelf or open-source component the platform uses, with three results: whether the allocated cybersecurity requirements can be fulfilled by the component, whether the component is suitable for the intended use, and whether its documentation is sufficient for the cybersecurity activities. Where the documentation is insufficient, the activities to close the gap are named (requirements :need:`std_req__isosae21434__prj_management_6461` and :need:`std_req__isosae21434__prj_management_6462` of the standard).
 
 .. needextend:: "c.this_doc()"
    :+tags: security_management
