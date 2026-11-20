@@ -353,7 +353,7 @@ Clause 9: Concept
 Partly relevant: the concept requirements apply at platform level (item definition, threat analysis,
 cybersecurity goals, claims and cybersecurity concept of the platform). The item-level part belongs to the
 system integrator and is covered by the cybersecurity interface (see clause 7). Identifiers are
-modelled after the other clauses; the claims are made in the work products that produce the evidence.
+modelled after the other clauses; the claims are made where the process produces the evidence (work products and guidance).
 
 * Requirements
    .. std_req:: concept_9321
