@@ -35,10 +35,10 @@ This approach supports risk mitigation, regulatory compliance, and continuous im
 Inputs
 ******
 
-#. Stakeholders for the security management work products?
-#. Which security plans do we have?
-#. Which other work products of security management are important?
-#. What tooling do we need?
+#. Stakeholders: the roles listed below (security manager, security engineer, project lead, committer, security external auditor, and the safety, quality and process community roles they work with).
+#. Security plans: one platform security plan, which is part of the platform management plan, and one security plan per module.
+#. Other work products: the security package, the security manual, the formal review reports, the SBOM, and the security analyses of the security analysis area.
+#. Tooling: the issue tracking work product of the platform management plan and the tool management of the platform.
 
 
 Stakeholders for the Security Management

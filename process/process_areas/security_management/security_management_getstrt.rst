@@ -42,7 +42,7 @@ The following workflows shall be executed continuously:
 
 Additional to the continuous workflows the following workflows shall be executed according to the project needs:
 
-* Perform Security Audit (tailored out for the current increment, see workflow)
+* Perform Security Audit (tailored out for ML 2, see workflow)
 * Perform Formal Security Reviews
 * Assess Off-the-Shelf and Open-Source Components
 

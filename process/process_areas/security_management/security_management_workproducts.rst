@@ -20,7 +20,6 @@ Security Management Work Products
    :version: 1
    :tags: doc_lifecycle_model_2
    :complies: std_wp__isosae21434__prj_management_651[version==1],
-              std_wp__isosae21434__maintenance_13331[version==1],
               std_wp__isosae21434__continual_8331[version==1],
               std_wp__isosae21434__continual_8332[version==1],
               std_wp__isosae21434__prj_management_653[version==1]
@@ -99,7 +98,7 @@ Security Management Work Products
    :complies: std_wp__isosae21434__org_management_555[version==1]
 
    Examination of an implemented process with regard to the process objectives and that those match the ISO SAE 21434.
-   (Tailored out for the current increment, planned before the ML 3 assessment)
+   (Tailored out for ML 2, the gate for ML 3)
 
 .. workproduct:: Platform Security Manual
    :id: wp__platform_security_manual

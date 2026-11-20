@@ -73,7 +73,7 @@ For a detailed explanation of workflows and their role within the process model,
    | The Security Manager and the process community shall support the external auditor during this.
    | The Project Manager and and the Security Manager shall approve the audit report.
    |
-   | This is tailored out for the platform in the current increment (out-of-context development). The external security audit is planned before the ML 3 assessment and is then re-evaluated.
+   | This is tailored out for ML 2. The external security audit of the process is the gate for ML 3 and is planned before the ML 3 assessment, as the safety audits are.
 
 .. workflow:: Perform Formal Security Reviews
    :id: wf__p_formal_security_rv
