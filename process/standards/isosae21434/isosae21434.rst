@@ -677,6 +677,41 @@ Clause 15: Threat analysis and risk assessment methods
 
 * Requirements
 
+   .. std_req:: assessment_15321
+      :id: std_req__isosae21434__assessment_15321
+      :status: valid
+      :version: 1
+
+   .. std_req:: assessment_15322
+      :id: std_req__isosae21434__assessment_15322
+      :status: valid
+      :version: 1
+
+   .. std_req:: assessment_15421
+      :id: std_req__isosae21434__assessment_15421
+      :status: valid
+      :version: 1
+
+   .. std_req:: assessment_15521
+      :id: std_req__isosae21434__assessment_15521
+      :status: valid
+      :version: 1
+
+   .. std_req:: assessment_15522
+      :id: std_req__isosae21434__assessment_15522
+      :status: valid
+      :version: 1
+
+   .. std_req:: assessment_15523
+      :id: std_req__isosae21434__assessment_15523
+      :status: valid
+      :version: 1
+
+   .. std_req:: assessment_15524
+      :id: std_req__isosae21434__assessment_15524
+      :status: valid
+      :version: 1
+
    .. std_req:: assessment_15621
       :id: std_req__isosae21434__assessment_15621
       :status: valid

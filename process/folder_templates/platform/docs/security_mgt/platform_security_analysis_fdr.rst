@@ -37,14 +37,12 @@ Platform Security Analysis Checklist
 **Purpose**
 The purpose of this Security Analysis Checklist template is to collect the topics to be checked during verification of the Security Analysis.
 
-**Checklist**
-
 **Conduct**
 
-As described in :need:`wf__p_formal_security_rv`, the formal document review is performed by a reviewer who did not create the security analysis:
+As described in :need:`wf__p_formal_security_rv`, the formal document review is performed by an "external" security manager from the pool of platform security managers, who did not create or approve the security analysis. The security engineer supports the review. The reviewer and the scope are named below:
 
-- reviewer: **<reviewer with security manager skills, named here, not the author of the analysis>**
-- scope: **<the security analysis of the platform, feature or component and its results>**
+- reviewer: <security manager explicitly named here, not the author or approver of the analysis>
+- scope: <the security analysis of the platform, feature or component and its results>
 
 **Checklist**
 
@@ -73,9 +71,9 @@ Mark each item "YES" or "NO" and state the reason in the comment. A "NO" needs a
         - <Rationale for result>
 
       * - Sec 3
-        - Are the threat scenarios, their impact and their risk values identified for the assets?
+        - Are the damage scenarios, the threat scenarios, their impact per impact category and their risk values (1 to 5) identified for the assets?
         - [YES | NO ]
-        - :need:`[[title]] <std_req__isosae21434__concept_9421>`, :need:`[[title]] <std_req__isosae21434__concept_9422>`
+        - :need:`[[title]] <std_req__isosae21434__concept_9421>`, :need:`[[title]] <std_req__isosae21434__assessment_15521>`, :need:`[[title]] <std_req__isosae21434__assessment_15822>`
         - <Rationale for result>
 
       * - Sec 4
