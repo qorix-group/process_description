@@ -159,5 +159,18 @@ Examples for Security Analysis at component level
 
 The security analysis shall be used to analyze whether the vulnerabilities within the component can be exploited. This could be unintended privilege escalation between two sub-components, allowing unauthorized access to sensitive data or security-critical functions.
 
+Risk rating of the platform security analysis
+=============================================
+
+Each threat scenario of the platform security analysis is rated. The rating is recorded per threat scenario in the platform security analysis.
+
+* Impact: the effect of a successful attack on the platform's assets, rated per property (confidentiality, integrity, availability) as 1 negligible, 2 moderate, 3 major or 4 severe. The highest rating of the properties counts.
+* Attack feasibility: the effort the attack needs, from the time, the expertise, the knowledge of the platform, the access window and the equipment, rated as 1 very low, 2 low, 3 medium or 4 high. A higher feasibility is a higher risk.
+* Risk value: impact rating plus feasibility rating, mapped to 1 for a sum of 2 or 3, 2 for 4 or 5, 3 for 6, and 4 for 7 or 8.
+
+A risk value of 3 or 4 needs a risk treatment (reduce, avoid, share or retain with a documented assumption). The treatment is recorded per threat scenario as described above.
+
+The standard requires the rating and the risk value (clause 15); the scale and the mapping are the process's own.
+
 .. needextend:: "c.this_doc()"
    :+tags: security_analysis
