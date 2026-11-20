@@ -21,7 +21,7 @@ Security Analysis Guidelines
    :id: gd_guidl__security_analysis
    :status: valid
    :version: 1
-   :complies:
+   :complies: std_req__isosae21434__concept_9421[version==1]
 
 This document describes the general guidance for Security Analysis based on the concept
 which is defined :need:`Security Analysis Concept<doc_concept__security_analysis>`.
