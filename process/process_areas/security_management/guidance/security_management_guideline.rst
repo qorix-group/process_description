@@ -28,7 +28,11 @@ Security Management Guideline
               std_req__isosae21434__org_management_5451[version==1],
               std_req__isosae21434__org_management_5461[version==1],
               std_req__isosae21434__continual_8321[version==1],
+              std_req__isosae21434__org_management_5442[version==1],
+              std_req__isosae21434__continual_8321[version==1],
               std_req__isosae21434__continual_8322[version==1],
+              std_req__isosae21434__maintenance_13321[version==1],
+              std_req__isosae21434__maintenance_13322[version==1],
               std_req__aspice_40__iic-14-55[version==1]
 
    **Security Culture:**
@@ -65,6 +69,8 @@ Security Management Guideline
    are used (e.g. mailing lists)
 
    **Security Weaknesses, Vulnerabilities:**
+
+   Reports of weaknesses and incidents from the field and from the community are triaged, analysed and managed in the monitor workflow; that is how the platform handles incidents (RQ-13-01, RQ-13-02).
 
    As the SW platform organization does not have own vehicles in the field, it relies on feedback
    from OEMs and Distributors on bugs discovered in the field. The need for this feedback is part
