@@ -26,11 +26,11 @@ Irrelevant clauses for the project process requirements and work products compli
 
 "Clause 9: Concept" - as this is in responsibility of system integrator
 
-"Clause 11: Cybersecurity validation" - as this is in responsibility of system integrator
+"Clause 11: Cybersecurity validation" - performed by the system integrator; distributed through the cybersecurity interface (clause 7). The platform part is documented in the platform security plan.
 
-"Clause 12: Production" -  as this is in responsibility of system integrator
+"Clause 12: Production" - performed by the system integrator; distributed through the cybersecurity interface (clause 7). The platform part is documented in the platform security plan.
 
-"Clause 14: End of cybersecurity support and decommissioning" - as this is in responsibility of system integrator
+"Clause 14: End of cybersecurity support and decommissioning" - performed by the system integrator; distributed through the cybersecurity interface (clause 7). The platform part is documented in the platform security plan.
 
 "Annex A-H:" - as it contains no requirements and work products
 
@@ -40,13 +40,12 @@ interface with the system integrator. The requirements on the alignment of distr
 and interfaces, the requirements on vulnerabilities across the parties, and the work product
 "cybersecurity interface agreement" apply to the platform. The requirements on supplier capability
 and on requests for quotation are tailored out: S-CORE is an open-source project and does not
-select suppliers. This rationale is a proposal, to be reviewed (RQ-06-14); the decision is with the
-process community.
+select suppliers. The rationale is reviewed under RQ-06-14 and documented in the platform security plan.
 
 Relevant clauses are:
 
-Tailoring documentation is planned in
-https://github.com/eclipse-score/score/issues/696
+Tailoring rationales are documented in the platform security plan
+(score repository, tailoring section).
 
 
 Clause 5: Organizational cybersecurity management
