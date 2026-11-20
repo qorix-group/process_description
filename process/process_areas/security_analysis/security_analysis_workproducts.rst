@@ -22,7 +22,7 @@ Security Analysis Work Products
    :status: valid
    :version: 1
    :tags: doc_lifecycle_model_2
-   :complies: std_wp__isosae21434__development_1055[version==1], std_wp__isosae21434__assessment_15332[version==1], std_wp__isosae21434__assessment_15431[version==1], std_wp__isosae21434__concept_951[version==1], std_wp__isosae21434__concept_952[version==1]
+   :complies: std_wp__isosae21434__development_1055[version==1], std_wp__isosae21434__assessment_15332[version==1], std_wp__isosae21434__assessment_15431[version==1], std_wp__isosae21434__concept_9331[version==1], std_wp__isosae21434__concept_9431[version==1]
 
    Analyze the attack surfaces between features that references all platform feature
    static architecture diagrams, highlighting potential shared attack vectors.

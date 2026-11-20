@@ -81,7 +81,7 @@ Security Management Work Products
    :status: valid
    :version: 1
    :tags: doc_lifecycle_model_2
-   :complies: std_wp__isosae21434__concept_955[version==1], std_wp__isosae21434__concept_957[version==1]
+   :complies: std_wp__isosae21434__concept_9434[version==1], std_wp__isosae21434__concept_9532[version==1]
 
    Review that a work product provides sufficient and convincing evidence of their contribution to the achievement of security considering the corresponding objectives and requirements of ISO SAE 21434.
 
@@ -107,7 +107,7 @@ Security Management Work Products
    :status: valid
    :version: 1
    :tags: doc_lifecycle_model_2
-   :complies: std_wp__isosae21434__development_1052[version==1], std_wp__isosae21434__concept_953[version==1], std_wp__isosae21434__concept_954[version==1], std_wp__isosae21434__concept_956[version==1]
+   :complies: std_wp__isosae21434__development_1052[version==1], std_wp__isosae21434__concept_9432[version==1], std_wp__isosae21434__concept_9433[version==1], std_wp__isosae21434__concept_9531[version==1]
 
    The Security Manual describes:
 
