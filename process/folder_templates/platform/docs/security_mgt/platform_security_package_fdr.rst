@@ -60,17 +60,17 @@ As described in :need:`wf__p_formal_security_rv`, the formal document review is 
           - <Rationale for result>
 
         * - 2
-          - Is a cybersecurity case provided, or is its absence justified by a tailoring rationale that has been reviewed? (RQ-06-23, RQ-06-14)
+          - Is a cybersecurity case provided, or is its absence justified by a tailoring rationale that has been reviewed? (:need:`[[title]] <std_req__isosae21434__prj_management_6471>`, :need:`[[title]] <std_req__isosae21434__prj_management_6432>`)
           - [YES | NO ]
           - <Rationale for result>
 
         * - 3
-          - Are the referenced work products available (e.g. security analyses, platform security manual, SBOM, cybersecurity requirements for post-development WP-10-02, and the assessment report if an assessment is performed)? (RQ-06-33)
+          - Are the referenced work products available (e.g. security analyses, platform security manual, SBOM, cybersecurity requirements for post-development :need:`[[title]] <std_wp__isosae21434__development_1052>`, and the assessment report if an assessment is performed)? (:need:`[[title]] <std_req__isosae21434__prj_management_6491>`)
           - [YES | NO ]
           - <Rationale for result>
 
         * - 4
-          - Are the referenced work products in released state, and is the cybersecurity case confirmed by an assessment if one is performed? (RQ-06-34)
+          - Are the referenced work products in released state, and is the cybersecurity case confirmed by an assessment if one is performed? (:need:`[[title]] <std_req__isosae21434__prj_management_6492>`)
           - [YES | NO ]
           - <Rationale for result>
 
@@ -85,6 +85,6 @@ As described in :need:`wf__p_formal_security_rv`, the formal document review is 
           - <Rationale for result>
 
         * - 7
-          - If an assessment report exists, does it recommend acceptance, conditional acceptance or rejection, and are the conditions stated for a conditional acceptance? (RQ-06-31, RQ-06-32)
+          - If an assessment report exists, does it recommend acceptance, conditional acceptance or rejection, and are the conditions stated for a conditional acceptance? (:need:`[[title]] <std_req__isosae21434__prj_management_6488>`, :need:`[[title]] <std_req__isosae21434__prj_management_6489>`)
           - [YES | NO ]
           - <Rationale for result>
