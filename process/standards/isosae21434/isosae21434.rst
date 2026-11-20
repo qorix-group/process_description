@@ -26,8 +26,6 @@ Irrelevant clauses for the project process requirements and work products compli
 
 "Clause 7: Distributed cybersecurity activities" - as the project is organized as open source project
 
-"Clause 9: Concept" - as this is in responsibility of system integrator
-
 "Clause 11: Cybersecurity validation" - as this is in responsibility of system integrator
 
 "Clause 12: Production" -  as this is in responsibility of system integrator
@@ -345,6 +343,107 @@ Clause 8: Continual cybersecurity activities
 
     .. std_wp:: continual_8631
        :id: std_wp__isosae21434__continual_8631
+       :status: valid
+       :version: 1
+
+
+Clause 9: Concept
+~~~~~~~~~~~~~~~~~
+
+Partly relevant: the concept requirements apply at platform level (item definition, threat analysis,
+cybersecurity goals, claims and cybersecurity concept of the platform). The item-level part belongs to the
+system integrator and is covered by the cybersecurity interface (see clause 7). Identifiers are
+modelled after the other clauses; the claims are made in the work products that produce the evidence.
+
+* Requirements
+   .. std_req:: concept_9321
+       :id: std_req__isosae21434__concept_9321
+       :status: valid
+       :version: 1
+
+   .. std_req:: concept_9322
+       :id: std_req__isosae21434__concept_9322
+       :status: valid
+       :version: 1
+
+   .. std_req:: concept_9421
+       :id: std_req__isosae21434__concept_9421
+       :status: valid
+       :version: 1
+
+   .. std_req:: concept_9422
+       :id: std_req__isosae21434__concept_9422
+       :status: valid
+       :version: 1
+
+   .. std_req:: concept_9423
+       :id: std_req__isosae21434__concept_9423
+       :status: valid
+       :version: 1
+
+   .. std_req:: concept_9424
+       :id: std_req__isosae21434__concept_9424
+       :status: valid
+       :version: 1
+
+   .. std_req:: concept_9425
+       :id: std_req__isosae21434__concept_9425
+       :status: valid
+       :version: 1
+
+   .. std_req:: concept_9521
+       :id: std_req__isosae21434__concept_9521
+       :status: valid
+       :version: 1
+
+   .. std_req:: concept_9522
+       :id: std_req__isosae21434__concept_9522
+       :status: valid
+       :version: 1
+
+   .. std_req:: concept_9523
+       :id: std_req__isosae21434__concept_9523
+       :status: valid
+       :version: 1
+
+   .. std_req:: concept_9524
+       :id: std_req__isosae21434__concept_9524
+       :status: valid
+       :version: 1
+
+* Work products
+   .. std_wp:: concept_951
+       :id: std_wp__isosae21434__concept_951
+       :status: valid
+       :version: 1
+
+   .. std_wp:: concept_952
+       :id: std_wp__isosae21434__concept_952
+       :status: valid
+       :version: 1
+
+   .. std_wp:: concept_953
+       :id: std_wp__isosae21434__concept_953
+       :status: valid
+       :version: 1
+
+   .. std_wp:: concept_954
+       :id: std_wp__isosae21434__concept_954
+       :status: valid
+       :version: 1
+
+   .. std_wp:: concept_955
+       :id: std_wp__isosae21434__concept_955
+       :status: valid
+       :version: 1
+
+   .. std_wp:: concept_956
+       :id: std_wp__isosae21434__concept_956
+       :status: valid
+       :version: 1
+
+   .. std_wp:: concept_957
+       :id: std_wp__isosae21434__concept_957
        :status: valid
        :version: 1
 
