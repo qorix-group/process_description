@@ -145,7 +145,6 @@ Security Management Work Products
    :status: valid
    :version: 1
    :tags: doc_lifecycle_model_2
-   :complies: std_wp__isosae21434__continual_8631[version==1]
 
    Platform Software Bill of Material
    - comprehensive inventory of software components to ensure security, integrity, and compliance.
@@ -155,7 +154,6 @@ Security Management Work Products
    :status: valid
    :version: 1
    :tags: doc_lifecycle_model_2
-   :complies: std_wp__isosae21434__continual_8631[version==1]
 
    Module Software Bill of Material
    - comprehensive inventory of software components to ensure security, integrity, and compliance.
