@@ -24,8 +24,6 @@ Irrelevant clauses for the project process requirements and work products compli
 
 "Clause 1-4:" - as it contains no requirements and work products
 
-"Clause 7: Distributed cybersecurity activities" - as the project is organized as open source project
-
 "Clause 9: Concept" - as this is in responsibility of system integrator
 
 "Clause 11: Cybersecurity validation" - as this is in responsibility of system integrator
@@ -36,6 +34,14 @@ Irrelevant clauses for the project process requirements and work products compli
 
 "Annex A-H:" - as it contains no requirements and work products
 
+
+Clause 7 (distributed cybersecurity activities) is partly relevant: only for the cybersecurity
+interface with the system integrator. The requirements on the alignment of distributed activities
+and interfaces, the requirements on vulnerabilities across the parties, and the work product
+"cybersecurity interface agreement" apply to the platform. The requirements on supplier capability
+and on requests for quotation are tailored out: S-CORE is an open-source project and does not
+select suppliers. This rationale is a proposal, to be reviewed (RQ-06-14); the decision is with the
+process community.
 
 Relevant clauses are:
 
