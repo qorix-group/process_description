@@ -44,7 +44,7 @@ Additional to the continuous workflows the following workflows shall be executed
 
 * Perform Security Audit (tailored out for the current increment, see workflow)
 * Perform Formal Security Reviews
-* Assess Off-the-Shelf and Open-Source Components (proposal, E9)
+* Assess Off-the-Shelf and Open-Source Components
 
 Some of the workproducts are currently either tailored out or not in scope of this project (due to Out-of-Context development).
 Refer :need:`wp__tailoring_work_products` section for the details about tailoring.

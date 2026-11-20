@@ -159,7 +159,7 @@ For a detailed explanation of workflows and their role within the process model,
    :contains: gd_guidl__security_plan_definitions[version==1]
    :has: doc_concept__security_management_process[version==1], doc_getstrt__security_management_process[version==1]
 
-   | Proposal (E9): this workflow is not decided yet.
+   | Decided: the security engineer performs the assessment and the security manager approves it. The component classification of the safety area is not used for this.
    | The Security Engineer analyses each off-the-shelf or open-source component the platform uses against three results: whether the cybersecurity requirements allocated to it can be fulfilled, whether it is suitable for the intended use, and whether its documentation is sufficient for the cybersecurity activities.
    | Where the documentation is insufficient, the activities that close the gap are identified and planned.
    | The Security Manager approves the assessment.
